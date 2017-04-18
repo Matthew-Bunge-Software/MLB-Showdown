@@ -1,0 +1,1476 @@
+ 	1 	1st 	Garret Anderson
+Angels 	250 	'00 	7 	B 	CF+3
+LF-RF+2 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	- 	5-14 	- 	15-17 	- 	18-20
+	3 	1st 	Gary DiSarcina
+Angels 	40 	'00 	5 	B 	SS+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3- 	4-20 	- 	- 	- 	-
+	4 	1st 	Darin Erstad
+Angels 	140 	'00 	6 	B 	LF-RF+2
+1B+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-5 	6-15 	16- 	17- 	18- 	19-20
+	6 	1st 	Troy Glaus
+Angels 	240 	'00 	7 	B 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-4 	5-11 	12-14 	- 	15-16 	- 	17-20
+	7 	1st 	Todd Greene
+Angels 	180 	'00 	5 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	- 	1-2 	- 	3-8 	- 	9-13 	- 	14-20
+	8 	1st 	Jeff Huson
+Angels 	160 	'00 	7 	A 	2B-SS+4
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	- 	6-7 	8-18 	19-20 	- 	- 	-
+	9 	1st 	Orlando Palmeiro
+Angels 	150 	'00 	8 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-9 	10-18 	19- 	20- 	- 	-
+	12 	1st 	Tim Salmon
+Angels 	290 	'00 	8 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-3 	4-11 	12-15 	- 	16-17 	- 	18-20
+	14 	1st 	Mo Vaughn
+Angels 	300 	'00 	8 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5- 	6-9 	10-15 	- 	16- 	- 	17-20
+	15 	1st 	Matt Walbeck
+Angels 	100 	'00 	6 	B 	C+7
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3-6 	7-19 	- 	- 	- 	20+
+	16 	1st 	Jay Bell
+Diamondbacks 	410 	'00 	9 	B 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-10 	11-14 	- 	15-16 	17- 	18-20
+	19 	1st 	Steve Finley
+Diamondbacks 	350 	'00 	7 	B 	OF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-7 	8-10 	11- 	12-13 	14-15 	16-20
+	20 	1st 	Andy Fox
+Diamondbacks 	190 	'00 	7 	B 	SS+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	4-9 	10-15 	16- 	17- 	18- 	19-20
+	21 	1st 	Hanley Frias
+Diamondbacks 	290 	'00 	10 	B 	SS+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-11 	12-18 	19- 	- 	20- 	-
+	22 	1st 	Bernard Gilkey
+Diamondbacks 	330 	'00 	9 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-5 	6-10 	11-15 	- 	16-18 	- 	19-20
+	23 	1st 	Luis Gonzalez
+Diamondbacks 	450 	'00 	10 	B 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-8 	9-15 	- 	16-18 	- 	19-20
+	25 	1st 	Travis Lee
+Diamondbacks 	200 	'00 	7 	A 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-11 	12-15 	16-17 	18- 	- 	19-20
+	28 	1st 	Kelly Stinnett
+Diamondbacks 	230 	'00 	6 	B 	C+6
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4- 	5-8 	9-12 	- 	13-14 	- 	15-20
+	30 	1st 	Matt Williams
+Diamondbacks 	330 	'00 	7 	B 	3B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	- 	4-12 	- 	13-15 	- 	16-20
+	31 	1st 	Tony Womack
+Diamondbacks 	210 	'00 	7 	A 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-6 	7-12 	13-17 	18- 	19- 	20+
+	32 	1st 	Bret Boone
+Braves 	190 	'00 	6 	B 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3-5 	6-11 	12- 	13-16 	- 	17-20
+	34 	1st 	Jose Hernandez
+Braves 	230 	'00 	7 	B 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	- 	4-7 	8-15 	16- 	17- 	- 	18-20
+	35 	1st 	Brian Hunter
+Braves 	220 	'00 	8 	C 	1B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-4 	5-12 	13-15 	- 	16-18 	- 	19-20
+	36 	1st 	Andruw Jones
+Braves 	390 	'00 	8 	A 	CF+3
+LF-RF+2 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-9 	10-13 	14- 	15-16 	17- 	18-20
+	37 	1st 	Chipper Jones
+Braves 	610 	'00 	10 	A 	3B+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-11 	12-14 	15- 	16-17 	- 	18-20
+ 	38 	1st 	Brian Jordan
+Braves 	300 	'00 	8 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-8 	9-14 	15- 	16- 	17- 	18-20
+	39 	1st 	Ryan Klesko
+Braves 	410 	'00 	9 	B 	LF-RF+0
+1B+0 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-9 	10-14 	- 	15-17 	- 	18-20
+	40 	1st 	Keith Lockhart
+Braves 	120 	'00 	7 	B 	2B+4
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-9 	10-18 	19- 	- 	20- 	-
+	43 	1st 	Eddie Perez
+Braves 	110 	'00 	6 	C 	C+6
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6- 	7-15 	- 	16-18 	- 	19-20
+	47 	1st 	Walt Weiss
+Braves 	80 	'00 	6 	B 	SS+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3-10 	11-15 	16- 	17-18 	19-20 	-
+	48 	1st 	Gerald Williams
+Braves 	260 	'00 	7 	A 	LF+2
+RF+2 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-7 	8-13 	14-15 	16-17 	- 	18-20
+	49 	1st 	Rich Amaral
+Orioles 	220 	'00 	8 	A 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	- 	6-9 	10-15 	16-17 	18-19 	20- 	-
+	50 	1st 	Brady Anderson
+Orioles 	500 	'00 	10 	A 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-5 	6-12 	13-16 	17- 	18- 	- 	19-20
+	51 	1st 	Albert Belle
+Orioles 	390 	'00 	9 	B 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-10 	11-14 	15- 	16-17 	- 	18-20
+	52 	1st 	Mike Bordick
+Orioles 	190 	'00 	7 	B 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-7 	8-15 	16- 	17-18 	19- 	20+
+	53 	1st 	Jeff Conine
+Orioles 	180 	'00 	7 	C 	1B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-5 	6-14 	- 	15-18 	- 	19-20
+	54 	1st 	Delino Deshields
+Orioles 	230 	'00 	8 	A 	2B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-10 	11-18 	19- 	- 	- 	20+
+	56 	1st 	Charles Johnson
+Orioles 	220 	'00 	8 	C 	C+8
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5- 	6-11 	12-17 	- 	18- 	- 	19-20
+	60 	1st 	Jeff Reboulet
+Orioles 	80 	'00 	7 	B 	2B+5
+3B+3 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-17 	18-20 	- 	- 	- 	-
+	61 	1st 	Cal Ripken Jr.
+Orioles 	350 	'00 	8 	C 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	- 	5-12 	- 	13-16 	- 	17-20
+	62 	1st 	B. J. Surhoff
+Orioles 	300 	'00 	8 	B 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6- 	7-15 	- 	16-17 	- 	18-20
+	65 	1st 	Damon Buford
+Red Sox 	150 	'00 	6 	A 	OF
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	- 	8-13 	- 	16-18 	- 	-
+	67 	1st 	Nomar Garciaparra
+Red Sox 	470 	'00 	10 	B 	SS+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-7 	8-14 	15- 	16-18 	- 	19-20
+	68 	1st 	Butch Huskey
+Red Sox 	290 	'00 	7 	B 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-6 	7-14 	- 	15- 	- 	16-20
+	69 	1st 	Darren Lewis
+Red Sox 	140 	'00 	7 	A 	CF+3
+LF-RF+2 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5- 	6-10 	11-17 	18-19 	- 	20- 	-
+	72 	1st 	Trot Nixon
+Red Sox 	260 	'00 	8 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-10 	11-15 	- 	16-17 	18- 	19-20
+	73 	1st 	Jose Offerman
+Red Sox 	320 	'00 	9 	B 	2B+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-10 	11-15 	16- 	17-18 	19- 	20+
+	74 	1st 	Troy OLeary
+Red Sox 	270 	'00 	8 	C 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-8 	9-14 	- 	15-16 	17- 	18-20
+	77 	1st 	Mike Stanley
+Red Sox 	290 	'00 	9 	C 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-4 	5-11 	12-16 	- 	17-18 	- 	19-20
+	78 	1st 	John Valentin
+Red Sox 	140 	'00 	6 	C 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	- 	1-2 	3-6 	7-14 	- 	15-17 	- 	18-20
+ 	79 	1st 	Jason Varitek
+Red Sox 	230 	'00 	7 	C 	C+5
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-7 	8-12 	- 	13-17 	- 	18-20
+	82 	1st 	Jeff Blauser
+Cubs 	320 	'00 	8 	B 	2B-SS+2
+3B+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5- 	6-12 	13-16 	- 	- 	17- 	18-20
+	84 	1st 	Gary Gaetti
+Cubs 	100 	'00 	5 	C 	3B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-9 	10-15 	- 	- 	- 	16-20
+	85 	1st 	Mark Grace
+Cubs 	300 	'00 	9 	B 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-9 	10-15 	- 	16-18 	19- 	20+
+	86 	1st 	Lance Johnson
+Cubs 	180 	'00 	7 	A 	OF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	- 	4-8 	9-16 	17-18 	- 	19-20 	-
+	88 	1st 	Mickey Morandini
+Cubs 	110 	'00 	7 	B 	2B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-10 	11-17 	18- 	19- 	20- 	-
+	89 	1st 	Jose Nieves
+Cubs 	70 	'00 	6 	C 	SS+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5- 	6-17 	- 	18-19 	- 	20+
+	90 	1st 	Jeff Reed
+Cubs 	180 	'00 	9 	C 	C+4
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	6-12 	13-17 	- 	18-19 	20- 	-
+	91 	1st 	Henry Rodriguez
+Cubs 	390 	'00 	9 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4-5 	6-9 	10-15 	- 	16-17 	- 	18-20
+	93 	1st 	Benito Santiago
+Cubs 	140 	'00 	6 	B 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	4-6 	7-15 	- 	16-17 	18- 	19-20
+	94 	1st 	Sammy Sosa
+Cubs 	480 	'00 	8 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-4 	5-8 	9-12 	- 	13- 	- 	14-20
+	97 	1st 	Mike Caruso
+White Sox 	50 	'00 	5 	B 	SS+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	- 	- 	3-17 	18-19 	- 	20- 	-
+	98 	1st 	Ray Durham
+White Sox 	370 	'00 	9 	A 	2B+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5- 	6-9 	10-15 	16-17 	18- 	19- 	20+
+	99 	1st 	Brook Fordyce
+White Sox 	230 	'00 	8 	B 	C+6
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-7 	8-15 	- 	16-19 	- 	20+
+	101 	1st 	Paul Konerko
+White Sox 	270 	'00 	8 	C 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-8 	9-14 	- 	15-16 	17- 	18-20
+	102 	1st 	Carlos Lee
+White Sox 	220 	'00 	7 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	- 	6-14 	- 	15-17 	- 	18-20
+	103 	1st 	Greg Norton
+White Sox 	240 	'00 	8 	B 	3B+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-11 	12-16 	- 	17-18 	- 	19-20
+	104 	1st 	Magglio Ordonez
+White Sox 	320 	'00 	8 	B 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6- 	7-13 	14- 	15-16 	17- 	18-20
+	107 	1st 	Chris Singleton
+White Sox 	310 	'00 	7 	A 	CF+3
+LF-RF+2 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	- 	5-11 	12-13 	14-16 	17- 	18-20
+	109 	1st 	Frank Thomas
+White Sox 	340 	'00 	10 	B 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-11 	12-17 	- 	18-19 	- 	20+
+	110 	1st 	Craig Wilson
+White Sox 	100 	'00 	6 	B 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-7 	8-18 	- 	- 	- 	19-20
+	111 	1st 	Aaron Boone
+Reds 	240 	'00 	7 	A 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-6 	7-13 	14-15 	16-17 	18- 	19-20
+	112 	1st 	Mike Cameron
+Reds 	340 	'00 	8 	A 	OF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4- 	5-11 	12- 	13-14 	15-17 	18- 	19-20
+	113 	1st 	Sean Casey
+Reds 	320 	'00 	9 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-7 	8-15 	- 	16-18 	- 	19-20
+	116 	1st 	Barry Larkin
+Reds 	360 	'00 	9 	A 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-10 	11-15 	16-17 	18-19 	- 	20+
+ 	117 	1st 	Pokey Reese
+Reds 	240 	'00 	7 	A 	2B+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5- 	6-12 	13-15 	16-18 	19- 	20+
+	119 	1st 	Eddie Taubensee
+Reds 	330 	'00 	8 	C 	C+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5- 	6-14 	- 	15-16 	- 	17-20
+	121 	1st 	Michael Tucker
+Reds 	260 	'00 	7 	A 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3- 	4-9 	10-14 	15-16 	- 	17- 	18-20
+	122 	1st 	Greg Vaughn
+Reds 	410 	'00 	8 	A 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-12 	13- 	14- 	15- 	- 	16-20
+	125 	1st 	Dmitri Young
+Reds 	330 	'00 	8 	B 	LF-RF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	- 	5-6 	7-13 	- 	14-17 	- 	18-20
+	126 	1st 	Roberto Alomar
+Indians 	560 	'00 	10 	A 	2B+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-10 	11-14 	15-16 	17-18 	- 	19-20
+	127 	1st 	Harold Baines
+Indians 	340 	'00 	9 	C 	DH
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-8 	9-16 	- 	17- 	- 	18-20
+	130 	1st 	Einar Diaz
+Indians 	160 	'00 	7 	B 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-6 	7-16 	17- 	18-19 	- 	20+
+	131 	1st 	Travis Fryman
+Indians 	150 	'00 	6 	B 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-6 	7-14 	- 	15-17 	- 	18-20
+	133 	1st 	David Justice
+Indians 	350 	'00 	10 	C 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	6-12 	13-17 	- 	18- 	- 	19-20
+	134 	1st 	Kenny Lofton
+Indians 	440 	'00 	10 	A 	CF+2
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	6-11 	12-16 	17- 	18-19 	- 	20+
+	136 	1st 	Manny Ramirez
+Indians 	560 	'00 	10 	C 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3- 	4-9 	10-14 	- 	15-16 	- 	17-20
+	137 	1st 	Richie Sexson
+Indians 	290 	'00 	6 	B 	LF-RF+0
+1B+0 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	- 	3-5 	6-10 	- 	11- 	12-13 	14-20
+	139 	1st 	Jim Thome
+Indians 	430 	'00 	10 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	- 	5-13 	14-16 	- 	17- 	- 	18-20
+	140 	1st 	Omar Vizquel
+Indians 	410 	'00 	10 	A 	SS+5
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-9 	10-16 	17-18 	19-20 	- 	-
+	141 	1st 	Enrique Wilson
+Indians 	130 	'00 	7 	B 	2B-SS-3B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-7 	8-15 	16- 	17-20 	- 	-
+	142 	1st 	Kurt Abbott
+Rockies 	220 	'00 	7 	B 	2B+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5- 	- 	6-14 	- 	15-17 	18- 	19-20
+	144 	1st 	Jeff Barry
+Rockies 	190 	'00 	7 	C 	CF+0
+LF-RF+1 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	- 	1-3 	4-9 	10-13 	- 	14-18 	- 	19-20
+	145 	1st 	Dante Bichette
+Rockies 	350 	'00 	8 	B 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-7 	8-13 	- 	14-16 	- 	17-20
+	146 	1st 	Henry Blanco
+Rockies 	190 	'00 	7 	B 	C+8
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	- 	1-5 	6-11 	12-16 	- 	17- 	18- 	19-20
+	148 	1st 	Vinny Castilla
+Rockies 	290 	'00 	7 	B 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-6 	7-14 	- 	15- 	- 	16-20
+	150 	1st 	Todd Helton
+Rockies 	420 	'00 	9 	B 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-8 	9-14 	- 	15-16 	17- 	18-20
+	153 	1st 	Neifi Perez
+Rockies 	180 	'00 	6 	B 	SS+5
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	- 	3-14 	15- 	16- 	17-18 	19-20
+	154 	1st 	Terry Shumpert
+Rockies 	560 	'00 	10 	A 	2B+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-5 	6-8 	9-13 	14- 	15-18 	- 	19-20
+	156 	1st 	Larry Walker
+Rockies 	620 	'00 	10 	B 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3-7 	8-13 	14- 	15-16 	- 	17-20
+ 	157 	1st 	Brad Ausmus
+Tigers 	240 	'00 	8 	B 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-9 	10-15 	16- 	17-18 	19- 	20+
+	158 	1st 	Frank Catalanotto
+Tigers 	250 	'00 	7 	B 	2B-1B-3B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-6 	7-14 	- 	15-17 	- 	18-20
+	159 	1st 	Tony Clark
+Tigers 	300 	'00 	8 	B 	1B+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	5-9 	10-15 	- 	16-17 	- 	18-20
+	160 	1st 	Deivi Cruz
+Tigers 	140 	'00 	6 	C 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	- 	4-14 	- 	15-18 	- 	19-20
+	161 	1st 	Damion Easley
+Tigers 	240 	'00 	8 	B 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	6-10 	11-15 	16- 	17-18 	- 	19-20
+	162 	1st 	Juan Encarnacion
+Tigers 	220 	'00 	6 	A 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	- 	6-7 	8-11 	12-15 	16- 	17-20
+	163 	1st 	Karim Garcia
+Tigers 	200 	'00 	5 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2- 	3- 	4-10 	- 	- 	11-12 	13-20
+	164 	1st 	Bobby Higginson
+Tigers 	210 	'00 	8 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-5 	6-13 	14-17 	- 	18- 	- 	19-20
+	166 	1st 	Gabe Kapler
+Tigers 	310 	'00 	7 	A 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-9 	10-12 	13- 	14-15 	16- 	17-20
+	170 	1st 	Dean Palmer
+Tigers 	320 	'00 	7 	B 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3- 	4-8 	9-13 	- 	14- 	- 	15-20
+	173 	1st 	Bruce Aven
+Marlins 	320 	'00 	9 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-10 	11-17 	- 	18- 	- 	19-20
+	174 	1st 	Dave Berg
+Marlins 	260 	'00 	8 	B 	2B-SS+3
+3B+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	5-7 	8-17 	- 	18-19 	- 	20+
+	175 	1st 	Luis Castillo
+Marlins 	330 	'00 	9 	A 	2B+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	- 	5-9 	10-15 	16-18 	19- 	20- 	-
+	178 	1st 	Alex Gonzalez
+Marlins 	190 	'00 	6 	B 	SS+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2- 	- 	3-13 	- 	14-15 	16-17 	18-20
+	179 	1st 	Mark Kotsay
+Marlins 	150 	'00 	6 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	- 	4-13 	14- 	15-16 	17-18 	19-20
+	180 	1st 	Derrek Lee
+Marlins 	100 	'00 	5 	B 	1B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	- 	4-6 	7-13 	14- 	15-16 	- 	17-20
+	182 	1st 	Mike Lowell
+Marlins 	200 	'00 	7 	C 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-4 	5-8 	9-15 	- 	16-17 	- 	18-20
+	184 	1st 	Mike Redmond
+Marlins 	200 	'00 	9 	C 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-8 	9-19 	- 	20- 	- 	-
+	186 	1st 	Preston Wilson
+Marlins 	350 	'00 	8 	B 	OF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5- 	6-9 	10-14 	15- 	16- 	- 	17-20
+	187 	1st 	Jeff Bagwell
+Astros 	570 	'00 	10 	A 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-3 	4-12 	13-15 	16- 	17- 	- 	18-20
+	188 	1st 	Derek Bell
+Astros 	140 	'00 	6 	A 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	- 	3-8 	9-15 	16-17 	18- 	- 	19-20
+	189 	1st 	Craig Biggio
+Astros 	350 	'00 	9 	A 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5- 	6-10 	11-15 	16- 	17-19 	- 	20+
+	190 	1st 	Tim Bogar
+Astros 	160 	'00 	7 	B 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	6-10 	11-16 	- 	17-18 	19- 	20+
+	191 	1st 	Ken Caminiti
+Astros 	330 	'00 	9 	B 	3B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-11 	12-16 	17- 	18- 	- 	19-20
+	193 	1st 	Tony Eusebio
+Astros 	170 	'00 	8 	C 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	- 	6-9 	10-18 	- 	19- 	- 	20+
+ 	194 	1st 	Carl Everett
+Astros 	540 	'00 	9 	A 	OF+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-8 	9-12 	13-14 	15-17 	- 	18-20
+	196 	1st 	Richard Hidalgo
+Astros 	200 	'00 	7 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-4 	5-12 	13- 	14- 	15-17 	- 	18-20
+	197 	1st 	Stan Javier
+Astros 	200 	'00 	8 	A 	LF-RF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5- 	6-8 	9-17 	18-19 	20- 	- 	-
+	201 	1st 	Bill Spiers
+Astros 	220 	'00 	8 	B 	3B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-8 	9-16 	17- 	18- 	19- 	20+
+	203 	1st 	Carlos Beltran
+Royals 	320 	'00 	7 	A 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	4- 	5-13 	14-15 	16- 	17- 	18-20
+	204 	1st 	Johnny Damon
+Royals 	360 	'00 	9 	A 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-9 	10-14 	15-16 	17-18 	19- 	20+
+	205 	1st 	Jermaine Dye
+Royals 	310 	'00 	8 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-8 	9-13 	- 	14-16 	17- 	18-20
+	206 	1st 	Carlos Febles
+Royals 	270 	'00 	8 	A 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	- 	6-10 	11-14 	15-16 	17-18 	19- 	20+
+	207 	1st 	Jeremy Giambi
+Royals 	170 	'00 	8 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	- 	4-9 	10-18 	- 	19- 	- 	20+
+	208 	1st 	Chad Kreuter
+Royals 	90 	'00 	6 	C 	C+7
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	- 	3-9 	10-17 	- 	18-19 	- 	20+
+	210 	1st 	Joe Randa
+Royals 	290 	'00 	8 	B 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-5 	6-15 	- 	16-17 	18- 	19-20
+	212 	1st 	Rey Sanchez
+Royals 	150 	'00 	7 	B 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	- 	- 	5-17 	18- 	19- 	20- 	-
+	214 	1st 	Tim Spehr
+Royals 	260 	'00 	7 	B 	C+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-4 	5-14 	- 	- 	15- 	- 	16-20
+	216 	1st 	Mike Sweeney
+Royals 	340 	'00 	9 	B 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-8 	9-15 	- 	16-18 	- 	19-20
+	218 	1st 	Adrian Beltre
+Dodgers 	310 	'00 	8 	A 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-9 	10-15 	16- 	17- 	18- 	19-20
+	221 	1st 	Mark Grudzielanek
+Dodgers 	300 	'00 	9 	B 	SS+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5- 	6-7 	8-17 	- 	18- 	19- 	20+
+	222 	1st 	Dave Hansen
+Dodgers 	290 	'00 	10 	C 	1B-3B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-14 	15-17 	- 	18-19 	- 	20+
+	223 	1st 	Todd Hundley
+Dodgers 	240 	'00 	6 	B 	C+4
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-4 	5-11 	12- 	- 	13- 	- 	14-20
+	224 	1st 	Eric Karros
+Dodgers 	360 	'00 	8 	B 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-7 	8-12 	13- 	14-16 	- 	17-20
+	225 	1st 	Raul Mondesi
+Dodgers 	340 	'00 	7 	A 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-9 	10- 	11-13 	14- 	15- 	16-20
+	228 	1st 	Gary Sheffield
+Dodgers 	460 	'00 	10 	B 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-11 	12-17 	- 	- 	- 	18-20
+	230 	1st 	Jose Vizcaino
+Dodgers 	80 	'00 	6 	B 	2B-SS+4
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	- 	4-6 	7-20 	- 	- 	- 	-
+	231 	1st 	Devon White
+Dodgers 	290 	'00 	7 	A 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	4-7 	8-14 	15-16 	17- 	- 	18-20
+	232 	1st 	Eric Young
+Dodgers 	270 	'00 	9 	A 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-11 	12-16 	17-19 	20- 	- 	-
+	233 	1st 	Ron Belliard
+Brewers 	270 	'00 	9 	B 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-10 	11-17 	- 	18-19 	- 	20+
+ 	234 	1st 	Sean Berry
+Brewers 	30 	'00 	5 	C 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3-5 	6-17 	- 	18-19 	- 	20+
+	235 	1st 	Jeromy Burnitz
+Brewers 	470 	'00 	10 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4-5 	6-13 	14-15 	- 	16-17 	- 	18-20
+	236 	1st 	Jeff Cirillo
+Brewers 	370 	'00 	10 	B 	3B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-9 	10-17 	- 	18-19 	- 	20+
+	237 	1st 	Marquis Grissom
+Brewers 	260 	'00 	7 	A 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-7 	8-14 	15-16 	17- 	- 	18-20
+	238 	1st 	Geoff Jenkins
+Brewers 	360 	'00 	8 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	4-5 	6-11 	- 	12-16 	17- 	18-20
+	240 	1st 	Mark Loretta
+Brewers 	190 	'00 	8 	B 	SS+1
+1B+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-8 	9-17 	- 	18-19 	20- 	-
+	242 	1st 	David Nilsson
+Brewers 	450 	'00 	10 	C 	C+4
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-5 	6-10 	11-16 	- 	17- 	- 	18-20
+	244 	1st 	Alex Ochoa
+Brewers 	340 	'00 	10 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-11 	12-16 	17- 	18-19 	- 	20+
+	245 	1st 	Jose Valentin
+Brewers 	210 	'00 	7 	B 	SS+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-4 	5-13 	14-16 	- 	- 	17- 	18-20
+	248 	1st 	Chad Allen
+Twins 	240 	'00 	7 	A 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	- 	4-5 	6-15 	16- 	17- 	18- 	19-20
+	249 	1st 	Ron Coomer
+Twins 	200 	'00 	6 	B 	1B+1
+3B+3 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3- 	4-13 	- 	14-16 	- 	17-20
+	250 	1st 	Cristian Guzman
+Twins 	20 	'00 	5 	B 	SS+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	- 	3- 	4-18 	19-20 	- 	- 	-
+	251 	1st 	Denny Hocking
+Twins 	200 	'00 	6 	A 	2B-SS+2
+OF+1 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4- 	5-14 	15-16 	17-18 	- 	19-20
+	252 	1st 	Torii Hunter
+Twins 	160 	'00 	6 	B 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	- 	3-5 	6-14 	15-16 	17- 	- 	18-20
+	253 	1st 	Corey Koskie
+Twins 	350 	'00 	9 	B 	3B+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	5-8 	9-16 	- 	17-18 	- 	19-20
+	254 	1st 	Matt Lawton
+Twins 	220 	'00 	8 	A 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5- 	6-11 	12-16 	17-18 	19- 	- 	20+
+	256 	1st 	Doug Mientkiewicz
+Twins 	90 	'00 	7 	C 	1B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-4 	5-11 	12-16 	- 	17-19 	20- 	-
+	259 	1st 	Terry Steinbach
+Twins 	220 	'00 	8 	B 	C+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-8 	9-17 	- 	18- 	19- 	20+
+	261 	1st 	Todd Walker
+Twins 	220 	'00 	7 	A 	2B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-6 	7-12 	13-14 	15-18 	19- 	20+
+	263 	1st 	Shane Andrews
+Expos 	140 	'00 	6 	C 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5- 	6-14 	15- 	- 	- 	- 	16-20
+	264 	1st 	Michael Barrett
+Expos 	170 	'00 	7 	C 	C+4
+3B+0 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-5 	6-14 	- 	15-18 	19- 	20+
+	265 	1st 	Orlando Cabrera
+Expos 	150 	'00 	6 	B 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	- 	6-13 	- 	14-17 	18- 	19-20
+	266 	1st 	Brad Fullmer
+Expos 	180 	'00 	6 	B 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	- 	3-9 	- 	10-17 	- 	18-20
+	267 	1st 	Vladimir Guerrero
+Expos 	370 	'00 	8 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-6 	7-12 	13- 	14-15 	16- 	17-20
+	268 	1st 	Wilton Guerrero
+Expos 	150 	'00 	7 	B 	2B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	- 	- 	5-15 	16- 	17-18 	19-20 	-
+
+ 	271 	1st 	Manny Martinez
+Expos 	90 	'00 	5 	A 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	- 	3-10 	11-15 	16- 	17-20 	-
+	275 	1st 	Jose Vidro
+Expos 	260 	'00 	8 	C 	2B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6- 	7-13 	- 	14-18 	- 	19-20
+	276 	1st 	Rondell White
+Expos 	340 	'00 	8 	B 	OF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-6 	7-14 	15- 	16- 	17- 	18-20
+	277 	1st 	Chris Widger
+Expos 	210 	'00 	7 	C 	C+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	5-7 	8-14 	- 	15-17 	- 	18-20
+	278 	1st 	Edgardo Alfonzo
+Mets 	350 	'00 	9 	B 	2B+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-5 	6-10 	11-16 	- 	17-18 	- 	19-20
+	280 	1st 	Roger Cedeno
+Mets 	400 	'00 	10 	A 	LF-RF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	- 	6-10 	11-14 	15-18 	19- 	20- 	-
+	282 	1st 	Shawon Dunston
+Mets 	270 	'00 	7 	A 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	- 	4-14 	15-16 	17- 	18- 	19-20
+	283 	1st 	Matt Franco
+Mets 	210 	'00 	8 	C 	1B-3B+0
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-12 	13-17 	- 	18- 	- 	19-20
+	284 	1st 	Darryl Hamilton
+Mets 	290 	'00 	9 	B 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-8 	9-18 	- 	19- 	- 	20+
+	285 	1st 	Rickey Henderson
+Mets 	450 	'00 	10 	A 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	4-10 	11-15 	16-17 	18-19 	- 	20+
+	288 	1st 	John Olerud
+Mets 	290 	'00 	10 	C 	1B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-12 	13-17 	- 	18-19 	- 	20+
+	289 	1st 	Rey Ordonez
+Mets 	90 	'00 	6 	B 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4- 	5-17 	18- 	19-20 	- 	-
+	290 	1st 	Mike Piazza
+Mets 	410 	'00 	8 	B 	C+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-6 	7-13 	- 	14-15 	- 	16-20
+	292 	1st 	Robin Ventura
+Mets 	370 	'00 	9 	C 	3B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-5 	6-9 	10-15 	- 	16-17 	- 	18-20
+	295 	1st 	Scott Brosius
+Yankees 	190 	'00 	6 	B 	3B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-7 	8-12 	13- 	14-16 	- 	17-20
+	298 	1st 	Chad Curtis
+Yankees 	310 	'00 	10 	B 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-13 	14-18 	19- 	- 	- 	20+
+	299 	1st 	Chili Davis
+Yankees 	230 	'00 	8 	B 	DH
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-10 	11-16 	- 	17-18 	- 	19-20
+	301 	1st 	Derek Jeter
+Yankees 	490 	'00 	10 	B 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	- 	4-8 	9-15 	16- 	17- 	18- 	19-20
+	302 	1st 	Chuck Knoblauch
+Yankees 	330 	'00 	9 	A 	2B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-4 	5-11 	12-16 	17- 	18-19 	- 	20+
+	303 	1st 	Ricky Ledee
+Yankees 	240 	'00 	7 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3- 	4-7 	8-13 	14- 	15-16 	17- 	18-20
+	304 	1st 	Tino Martinez
+Yankees 	250 	'00 	7 	B 	1B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-8 	9-14 	- 	15-16 	- 	17-20
+	306 	1st 	Paul O'Neill
+Yankees 	260 	'00 	8 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-8 	9-14 	15- 	16-18 	- 	19-20
+	308 	1st 	Jorge Posada
+Yankees 	160 	'00 	7 	C 	C+5
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	- 	4-11 	12-16 	- 	17-18 	- 	19-20
+	311 	1st 	Bernie Williams
+Yankees 	510 	'00 	10 	B 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-8 	9-16 	- 	17- 	18- 	19-20
+	313 	1st 	Eric Chavez
+Athletics 	210 	'00 	7 	C 	3B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-9 	10-14 	- 	15-16 	17- 	18-20
+ 	314 	1st 	Ryan Christenson
+Athletics 	70 	'00 	6 	B 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-13 	14-17 	18- 	19- 	- 	20+
+	315 	1st 	Jason Giambi
+Athletics 	460 	'00 	10 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-10 	11-15 	- 	16-17 	- 	18-20
+	316 	1st 	Ben Grieve
+Athletics 	320 	'00 	8 	B 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-10 	11-15 	- 	16- 	- 	17-20
+	319 	1st 	A. J. Hinch
+Athletics 	180 	'00 	5 	A 	C+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4- 	5-11 	12-14 	- 	- 	15-20
+	320 	1st 	John Jaha
+Athletics 	400 	'00 	10 	C 	DH
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	5-13 	14-16 	- 	17- 	- 	18-20
+	323 	1st 	Tony Phillips
+Athletics 	300 	'00 	8 	B 	2B+2
+OF+1 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-12 	13-14 	15- 	16-17 	18- 	19-20
+	324 	1st 	Matt Stairs
+Athletics 	360 	'00 	8 	B 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-11 	12-14 	- 	15- 	- 	16-20
+	325 	1st 	Miguel Tejada
+Athletics 	220 	'00 	7 	B 	SS+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-10 	11-13 	14- 	15-16 	17- 	18-20
+	326 	1st 	Randy Velarde
+Athletics 	380 	'00 	9 	A 	2B+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-8 	9-16 	17- 	18- 	19- 	20+
+	327 	1st 	Bobby Abreu
+Phillies 	550 	'00 	10 	A 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	- 	4-9 	10-14 	15- 	16-17 	18- 	19-20
+	328 	1st 	Marlon Anderson
+Phillies 	150 	'00 	6 	A 	2B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	- 	5-12 	13-14 	15-18 	19- 	20+
+	329 	1st 	Alex Arias
+Phillies 	220 	'00 	8 	B 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-7 	8-17 	- 	18-19 	- 	20+
+	330 	1st 	Rico Brogna
+Phillies 	240 	'00 	7 	B 	1B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	5-6 	7-13 	14- 	15-16 	17- 	18-20
+	332 	1st 	Ron Gant
+Phillies 	330 	'00 	9 	B 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-12 	13-15 	16- 	17- 	18- 	19-20
+	333 	1st 	Doug Glanville
+Phillies 	390 	'00 	9 	A 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5- 	6-7 	8-14 	15-16 	17-18 	19- 	20+
+	335 	1st 	Kevin Jordan
+Phillies 	150 	'00 	7 	C 	2B+1
+3B+2 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-6 	7-17 	- 	18- 	19- 	20+
+	336 	1st 	Mike Lieberthal
+Phillies 	340 	'00 	8 	C 	C+6
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-7 	8-13 	- 	14-16 	- 	17-20
+	339 	1st 	Scott Rolen
+Phillies 	460 	'00 	9 	B 	3B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4-5 	6-11 	12-13 	14- 	15-16 	- 	17-20
+	341 	1st 	Kevin Sefcik
+Phillies 	310 	'00 	9 	A 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5- 	6-10 	11-15 	16- 	17-19 	20- 	-
+	342 	1st 	Mike Benjamin
+Pirates 	110 	'00 	5 	A 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2- 	- 	3-8 	9-11 	12-17 	18-20 	-
+	344 	1st 	Adrian Brown
+Pirates 	210 	'00 	8 	B 	OF+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	- 	5-10 	11-17 	18- 	- 	19- 	20+
+	345 	1st 	Brant Brown
+Pirates 	220 	'00 	5 	B 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	- 	3- 	4-5 	6- 	7-11 	12- 	13-20
+	347 	1st 	Brian Giles
+Pirates 	610 	'00 	10 	B 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-4 	5-10 	11-14 	- 	15-16 	- 	17-20
+	348 	1st 	Jason Kendall
+Pirates 	460 	'00 	10 	A 	C+9
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-10 	11-15 	16-17 	18-19 	- 	20+
+	349 	1st 	Al Martin
+Pirates 	320 	'00 	7 	A 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3- 	4-6 	7-10 	11-12 	13-15 	16- 	17-20
+ 	350 	1st 	Warren Morris
+Pirates 	260 	'00 	8 	B 	2B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-8 	9-17 	- 	18- 	- 	19-20
+	354 	1st 	Ed Sprague
+Pirates 	280 	'00 	8 	B 	3B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-5 	6-10 	11-15 	- 	16-17 	- 	18-20
+	356 	1st 	Kevin Young
+Pirates 	440 	'00 	9 	A 	1B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-4 	5-9 	10-13 	14- 	15-17 	18- 	19-20
+	358 	1st 	Ben Davis
+Padres 	150 	'00 	6 	B 	C+9
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	- 	4-6 	7-15 	- 	16-18 	- 	19-20
+	359 	1st 	Tony Gwynn
+Padres 	290 	'00 	9 	B 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6- 	7-16 	17- 	18-19 	- 	20+
+	362 	1st 	Damian Jackson
+Padres 	210 	'00 	7 	A 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4-5 	6-12 	- 	13-16 	17-18 	- 	19-20
+	363 	1st 	Wally Joyner
+Padres 	140 	'00 	8 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-12 	13-18 	- 	19- 	- 	20+
+	364 	1st 	Phil Nevin
+Padres 	350 	'00 	8 	C 	C+5
+3B+3 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-10 	11-13 	- 	14-16 	- 	17-20
+	365 	1st 	Eric Owens
+Padres 	210 	'00 	7 	A 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-7 	8-13 	14-16 	17-18 	19- 	20+
+	366 	1st 	Ruben Rivera
+Padres 	210 	'00 	6 	A 	OF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5- 	6-14 	- 	- 	15- 	- 	16-20
+	367 	1st 	Reggie Sanders
+Padres 	470 	'00 	9 	A 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-10 	11-13 	14-15 	16- 	17- 	18-20
+	368 	1st 	John Vander Wal
+Padres 	280 	'00 	9 	B 	LF-RF+1
+1B+0 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	- 	6-11 	12-16 	- 	17-19 	- 	20+
+	369 	1st 	Quilvio Veras
+Padres 	360 	'00 	9 	A 	2B+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	- 	6-10 	11-15 	16-17 	18-19 	- 	20+
+	372 	1st 	Rich Aurilia
+Giants 	230 	'00 	7 	B 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-6 	7-16 	- 	17- 	- 	18-20
+	373 	1st 	Marvin Benard
+Giants 	340 	'00 	8 	A 	CF+1
+LF-RF+0 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-8 	9-13 	14-15 	16-17 	18- 	19-20
+	374 	1st 	Barry Bonds
+Giants 	560 	'00 	9 	A 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-5 	6-12 	- 	13- 	14-15 	- 	16-20
+	375 	1st 	Ellis Burks
+Giants 	440 	'00 	9 	B 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-11 	12-14 	15- 	16- 	- 	17-20
+	379 	1st 	Jeff Kent
+Giants 	340 	'00 	8 	B 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-3 	4-8 	9-12 	13- 	14-17 	- 	18-20
+	380 	1st 	Brent Mayne
+Giants 	250 	'00 	9 	B 	C+6
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4- 	5-9 	10-16 	- 	17-20 	- 	-
+	381 	1st 	Bill Mueller
+Giants 	220 	'00 	9 	B 	3B+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-11 	12-19 	- 	20- 	- 	-
+	385 	1st 	F. P. Santangelo
+Giants 	350 	'00 	10 	A 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-14 	15-17 	18- 	19-20 	- 	-
+	386 	1st 	J. T. Snow
+Giants 	260 	'00 	8 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-3 	4-10 	11-16 	- 	17- 	- 	18-20
+	387 	1st 	David Bell
+Mariners 	220 	'00 	7 	B 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-8 	9-14 	15- 	16-17 	- 	18-20
+	388 	1st 	Jay Buhner
+Mariners 	260 	'00 	9 	C 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	- 	5-15 	16-17 	- 	18- 	- 	19-20
+	389 	1st 	Russ Davis
+Mariners 	220 	'00 	6 	B 	3B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	- 	2-3 	4-6 	7-13 	- 	14- 	- 	15-20
+ 	391 	1st 	Ken Griffey Jr.
+Mariners 	590 	'00 	9 	A 	CF+2
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-5 	6-10 	11-13 	14- 	15- 	- 	16-20
+	393 	1st 	Brian L. Hunter
+Mariners 	90 	'00 	5 	A 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	- 	3- 	4-10 	11-17 	- 	18-19 	20+
+	394 	1st 	Raul Ibanez
+Mariners 	190 	'00 	6 	B 	LF-RF+2
+1B+0 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2- 	3-4 	5-13 	14-15 	16- 	- 	17-20
+	395 	1st 	Tom Lampkin
+Mariners 	340 	'00 	8 	B 	C+9
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-7 	8-14 	- 	15-16 	17- 	18-20
+	396 	1st 	Edgar Martinez
+Mariners 	430 	'00 	10 	B 	DH
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	- 	3-9 	10-16 	- 	17-18 	- 	19-20
+	400 	1st 	Alex Rodriguez
+Mariners 	510 	'00 	8 	A 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-9 	10-12 	13- 	14- 	- 	15-20
+	401 	1st 	Dan Wilson
+Mariners 	170 	'00 	7 	B 	C+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6- 	7-15 	16- 	17-18 	19- 	20+
+	405 	1st 	Darren Bragg
+Cardinals 	260 	'00 	9 	B 	OF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	- 	6-12 	13-18 	- 	19- 	- 	20+
+	406 	1st 	Alberto Castillo
+Cardinals 	130 	'00 	7 	C 	C+10
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	- 	5-8 	9-19 	- 	- 	- 	20+
+	407 	1st 	J. D. Drew
+Cardinals 	310 	'00 	8 	A 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-5 	6-12 	13-14 	15-16 	17- 	18- 	19-20
+	409 	1st 	Ray Lankford
+Cardinals 	410 	'00 	9 	A 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5- 	6-9 	10-14 	15- 	16-18 	- 	19-20
+	410 	1st 	Joe Mcewing
+Cardinals 	190 	'00 	7 	B 	2B+3
+OF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	- 	5-6 	7-15 	16- 	17-18 	19- 	20+
+	411 	1st 	Willie Mcgee
+Cardinals 	50 	'00 	6 	B 	OF+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	- 	- 	6-18 	19-20 	- 	- 	-
+	412 	1st 	Mark Mcgwire
+Cardinals 	570 	'00 	10 	C 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-5 	6-13 	14- 	- 	15- 	- 	16-20
+	415 	1st 	Edgar Renteria
+Cardinals 	210 	'00 	7 	A 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-3 	4-7 	8-13 	14-16 	17-19 	- 	20+
+	416 	1st 	Fernando Tatis
+Cardinals 	570 	'00 	10 	A 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4-5 	6-11 	12-14 	15- 	16-17 	- 	18-20
+	419 	1st 	Wade Boggs
+Devil Rays 	220 	'00 	9 	C 	3B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5- 	6-9 	10-18 	- 	19- 	- 	20+
+	420 	1st 	Miguel Cairo
+Devil Rays 	240 	'00 	8 	A 	2B+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6- 	7-16 	17-18 	19- 	20- 	-
+	421 	1st 	Jose Canseco
+Devil Rays 	350 	'00 	8 	B 	DH
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4- 	5-10 	11-14 	- 	15- 	- 	16-20
+	422 	1st 	John Flaherty
+Devil Rays 	210 	'00 	7 	C 	C+8
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	- 	6-16 	- 	17- 	- 	18-20
+	424 	1st 	Dave Martinez
+Devil Rays 	230 	'00 	8 	B 	CF+0
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-4 	5-8 	9-16 	17- 	18- 	19- 	20+
+	425 	1st 	Fred Mcgriff
+Devil Rays 	430 	'00 	10 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	6-10 	11-16 	- 	17- 	- 	18-20
+	426 	1st 	Paul Sorrento
+Devil Rays 	190 	'00 	8 	C 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	- 	5-13 	14-17 	- 	18- 	- 	19-20
+	427 	1st 	Kevin Stocker
+Devil Rays 	300 	'00 	9 	A 	SS+4
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-9 	10-18 	19- 	20- 	- 	-
+	428 	1st 	Bubba Trammell
+Devil Rays 	370 	'00 	9 	C 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-4 	5-9 	10-15 	- 	16-17 	- 	18-20
+ 	430 	1st 	Randy Winn
+Devil Rays 	140 	'00 	6 	A 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	- 	- 	4-13 	14-15 	16-18 	19-20 	-
+	432 	1st 	Royce Clayton
+Rangers 	280 	'00 	8 	B 	SS+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	- 	6-8 	9-15 	16- 	17- 	18- 	19-20
+	434 	1st 	Juan Gonzalez
+Rangers 	460 	'00 	9 	B 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-5 	6-7 	8-14 	- 	15-16 	- 	17-20
+	435 	1st 	Tom Goodwin
+Rangers 	170 	'00 	7 	A 	CF+2
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-8 	9-14 	15-18 	- 	19-20 	-
+	436 	1st 	Rusty Greer
+Rangers 	360 	'00 	10 	C 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-11 	12-16 	- 	17-18 	- 	19-20
+	438 	1st 	Mark Mclemore
+Rangers 	240 	'00 	8 	B 	2B+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3- 	4-9 	10-17 	18- 	- 	19- 	20+
+	440 	1st 	Rafael Palmeiro
+Rangers 	520 	'00 	10 	C 	DH
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	- 	1-4 	5-9 	10-14 	- 	15-16 	- 	17-20
+	441 	1st 	Ivan Rodriguez
+Rangers 	450 	'00 	8 	A 	C+11
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	- 	5-12 	13-14 	15-16 	- 	17-20
+	443 	1st 	Lee Stevens
+Rangers 	270 	'00 	7 	B 	1B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	- 	4-6 	7-13 	- 	14-16 	- 	17-20
+	446 	1st 	Todd Zeile
+Rangers 	280 	'00 	8 	C 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-4 	5-7 	8-14 	- 	15-17 	- 	18-20
+	448 	1st 	Tony Batista
+Blue Jays 	310 	'00 	7 	B 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	- 	1-4 	5-6 	7-12 	- 	13-15 	- 	16-20
+	449 	1st 	Homer Bush
+Blue Jays 	290 	'00 	8 	A 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	- 	- 	6-13 	14-16 	17-18 	19- 	20+
+	450 	1st 	Jose Cruz Jr.
+Blue Jays 	320 	'00 	8 	A 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5- 	6-12 	13-14 	15- 	16-17 	18- 	19-20
+	451 	1st 	Carlos Delgado
+Blue Jays 	410 	'00 	9 	C 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	- 	3-5 	6-11 	12-14 	- 	15-16 	- 	17-20
+	453 	1st 	Tony Fernandez
+Blue Jays 	390 	'00 	10 	B 	3B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4- 	5-9 	10-16 	- 	17-19 	- 	20+
+	454 	1st 	Darrin Fletcher
+Blue Jays 	290 	'00 	8 	C 	C+5
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-5 	6-7 	8-14 	- 	15-17 	- 	18-20
+	455 	1st 	Shawn Green
+Blue Jays 	540 	'00 	9 	A 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-8 	9-12 	13- 	14-16 	- 	17-20
+	459 	1st 	Brian Mcrae
+Blue Jays 	160 	'00 	7 	B 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4- 	5-13 	14-17 	- 	18- 	- 	19-20
+	460 	1st 	David Segui
+Blue Jays 	250 	'00 	8 	C 	1B+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-7 	8-15 	- 	16-17 	18- 	19-20
+	461 	1st 	Shannon Stewart
+Blue Jays 	320 	'00 	9 	A 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5- 	6-9 	10-16 	17-18 	19- 	- 	20+

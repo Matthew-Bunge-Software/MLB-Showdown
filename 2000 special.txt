@@ -1,0 +1,107 @@
+1 	Bad Call 	Off 	'00 	Play on an Out (SO) Result. 	Discard a card. Reroll the swing.(Use the same chart as before.)  
+	
+	2 	Big Inning 	Off 	'00 	Play After the Third Out. 	If your team scored 2 or more runs this inning, draw 2 cards.  
+	
+	3 	Bobbled in the Outfield 	Off 	'00 	Play After a Single. 	If any outfielder has +0 Fielding and second is open, you're batter takes second.  
+	
+	4 	Clutch Hitting 	Off 	'00 	Play Before the Pitch. 	"Discard a card. If you have any runners in scoring position, add +2 to the swing."  
+	
+	5 	Do or Die 	Off 	'00 	Play Before the Pitch. 	"If your batter is a pinch hitter and he gets the advantage, add +5 to the swing. If he doesn't get the advantage subtract 4 from the swing."  
+	
+	6 	Down the Middle 	Off 	'00 	Play on a Double Result. 	"If the pitcher is tired, change the result to a homer."  
+	
+	7 	Ducks on the Pond 	Off 	'00 	Play Before the Pitch. 	Discard a card. Add +1 to the swing for each runner.  
+	
+	8 	Favorable Matchup 	Off 	'00 	Play Before the Pitch. 	If the pitcher is RHP and you batter bats L or S add +2 to the swing.  
+	
+	9 	Free Steal 	Off 	'00 	Play After a Walk. 	"If your batter has speed A and second is open, he steals second without a throw."  
+	
+	10 	Get Under It 	Off 	'00 	Play Before the Pitch. 	"If your batter rolls an Out (PU) or an Out (GB), change the result to an Out (FB)."  
+	
+	11 	Great Lead 	Off 	'00 	Play During a Stolen Base Attempt. 	Subtract 5 from the catcher's roll.  
+	
+	12 	Hard Slide 	Off 	'00 	Play During a Double Play Attempt. 	Discard a card. The infield rerolls its double-play attempt.  
+	
+	13 	High Fives 	Off 	'00 	Play Before the Pitch. 	"If your last batter hit a homer, add +3 to the swing."  
+	
+	14 	Last Chance 	Off 	'00 	Play Before the Pitch. 	"If there are 2 outs, add +2 to the swing."  
+	
+	15 	Long Single 	Off 	'00 	Play After a Single or Single+. 	"Discard a card. If you have a runner on second with Speed A or Speed B, advance him to third if it's open."  
+	
+	16 	Out of Gas 	Off 	'00 	Play Before the Pitch. 	"If the pitcher is tired, add +3 to the swing."  
+	
+	17 	Out of Position 	Off 	'00 	Play on an Out (GB) Result. 	"If the infielder playing first doesn't qualify there, change the result to a double."  
+	
+	18 	Play the Percentages 	Off 	'00 	Play Before the Pitch. 	"If the pitcher is LHP and your batter bats R or S, add +2 to the swing."  
+	
+	19 	Rally Cap 	Off 	'00 	Play Before the Pitch. 	Add +1 to every swing this inning until someone gets out.  
+	
+	20 	Rattled 	Off 	'00 	Play After the Third Out. 	"If your team scored 2 or more runs off the pitcher this inning, his IP goes down by 1."  
+	
+	21 	Runner Not Held 	Off 	'00 	Play Before the Pitch. 	Make a stolen-base attempt using a runner of first or second. (You can steal a base only if it's open.)  
+	
+	22 	Slow Roller 	Off 	'00 	Play on an Out (GB) Result. 	"If there's a double-play attempt on this ground ball, subtract 3 from the defenses roll."  
+	
+	23 	Stick a Fork in Him 	Off 	'00 	Play on any Out Result. 	"If the pitcher is tired, reroll the swing. (Use the same chart as before.)"  
+	
+	24 	Swing for the Fences 	Off 	'00 	Play Before the Pitch. 	"Add +2 to the swing. If your batter rolls a walk, change the result to an Out (SO)."  
+	
+	25 	To the Warning Track 	Off 	'00 	Play After an Out(FB). 	"If you have a runner with Speed C on third, he scores. If you have a runner with Speed B on second he advances to third."  
+ 	26 	Whiplash 	Off 	'00 	Play after a Homer. 	Your opponent discards 2 cards (1 if he or she only has 1).  
+	
+	27 	Wide Throw 	Off 	'00 	Play After a Failed Double Play Attempt. 	"The infield makes another Fielding check. If it fails, your batter and all your runners advance 1 base. (The runner on first is still out.)"  
+	
+	28 	Wild Pitch 	Off 	'00 	Play Before the Pitch. 	"Roll on the pitcher's chart. If your roll would be a walk result, all your runners advance 1 base.(This doesn't replace your batter's swing.)"  
+	
+	29 	By the Book 	Def 	'00 	Play Before the Pitch. 	"If your pitcher is RHP and the batter bats R, add +2 to the pitch."  
+	
+	30 	Dominating 	Def 	'00 	Play Before the Pitch. 	"If you have a closer on the mound and the batter rolls any Out, change the result to an Out (SO)."  
+	
+	31 	Full Windup 	Def 	'00 	Play Before the Pitch. 	"If there aren't any runners on base, add +2 to the pitch."  
+	
+	32 	Good Fielding 	Def 	'00 	Play Before a Double Play Attempt. 	Double 1 infielder's Fielding for this attempt.  
+	
+	33 	Gun 'Em Down! 	Def 	'00 	Play During a Stolen Base Attempt. 	Add +5 to your catcher's roll.  
+	
+	34 	He's Got a Gun 	Def 	'00 	Play on an Out(FB) or Hit Result. 	"Discard a card. If a runner would score by taking an extra base, your outfield makes a Fielding check. If it passes, the runner is out. (If it fails, he's safe.)"  
+	
+	35 	In the Groove 	Def 	'00 	Play Before the Pitch. 	Add +1 to every pitch this inning until a batter reaches base on a hit or a walk.  
+	
+	36 	In the Zone 	Def 	'00 	Play After the Third Out. 	"If your pitcher got 3 strikeouts this inning, he gets +2 to each of his pitches next inning."  
+	
+	37 	Infield In 	Def 	'00 	Play Before the Pitch. 	"If first base if open and the batter rolls an Out (GB), runners on second and third stay there."  
+	
+	38 	Intimidation 	Def 	'00 	Play Before the Pitch. 	"If the last batter struck out, add +2 to the pitch."  
+	
+	39 	Just over the Wall 	Def 	'00 	Play on a Homer Result. 	"If the batter rolled a 20 for the swing, your outfield makes a Fielding check. If it passes, change the result to an Out (FB). (If it doesn't, it's still a homer.)"  
+	
+	40 	Knock the Ball Down 	Def 	'00 	Play on a Single or Single+ Result. 	Discard a card. Runners can't take extra bases.  
+	
+	41 	Lefty Specialist 	Def 	'00 	Play Before the Pitch. 	"If your pitcher is LHP and the batter bats L, add +2 to the pitch."  
+	
+	42 	Nerves of Steel 	Def 	'00 	Play Before the Pitch. 	"If you have a closer on the mound, add +3 to the pitch."  
+	
+	43 	Nothing but Heat 	Def 	'00 	Play Before the Pitch. 	"Subtract 1 from the pitch. If the batter rolls any Out, change the result to an Out (SO)."  
+	
+	44 	Pitchout 	Def 	'00 	Play on a Single+ Result or other Attempt to Steal without a Throw. 	Your catcher tries to throw the stealing player out. (Use the normal rules for stolen-base attempts.)  
+	
+	45 	Pumped Up 	Def 	'00 	Play After the Third Out. 	Draw a card for every batter your pitchers struck out this inning.  
+	
+	46 	Quick Pitch 	Def 	'00 	Play Before the Pitch. 	Runners can't take extra bases this at-bat.  
+	
+	47 	Rally Killer 	Def 	'00 	Play After a Successful Double Play Attempt. 	Your opponent discards 2 cards (1 if he or she only has 1).  
+	
+	48 	Short Fly 	Def 	'00 	Play on an Out(FB) Result. 	Change the result to an Out (PU).  
+	
+	49 	"Three Up, Three Down" 	Def 	'00 	Play After the Third Out. 	"Discard a card. If this inning went 1-2-3 and your starter is still in the game, he gets +1 IP."  
+	
+	50 	Trick Pitch 	Def 	'00 	Play Before the Pitch. 	The pitch and the swing each get -1.  
+ 	51 	Belt-High 	Util 	'00 	Play Before the Pitch. 	Add +2 to the pitch and +1 to the swing.  
+	
+	52 	Change in Strategy 	Util 	'00 	Play at Any Time. 	"Draw 3 cards, then discard 3 cards."  
+	
+	53 	Grounder to Second 	Util 	'00 	Play Before the Pitch. 	"If the batter rolls an Out (FB) or an Out (PU), change the result to an Out(GB)."  
+	
+	54 	Stealing Signals 	Util 	'00 	Play at Any Time. 	"Look at your opponent's hand. If you want, you can discard a card and draw 1 card."  
+	
+	55 	Swing at Anything 	Util 	'00 	Play on a Walk Result. 	Reroll the swing. (Use the same chart as before.)  

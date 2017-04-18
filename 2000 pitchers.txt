@@ -1,0 +1,835 @@
+ 	2 	1st 	Tim Belcher
+Angels 	110 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+3-5 	1-2 	6-12 	13-18 	- 	19- 	- 	20- 	- 	-
+	5 	1st 	Chuck Finley
+Angels 	470 	'00 	5 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-15 	16-17 	18-19 	- 	20- 	- 	-
+	10 	1st 	Troy Percival
+Angels 	180 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-11 	12-18 	19- 	- 	- 	20- 	- 	-
+	11 	1st 	Mark Petkovsek
+Angels 	130 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-13 	14-17 	- 	18-19 	- 	20- 	- 	-
+	13 	1st 	Steve Sparks
+Angels 	150 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-7 	1-3 	8-12 	13-18 	19- 	20- 	- 	- 	- 	-
+	17 	1st 	Andy Benes
+Diamondbacks 	350 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-15 	16-17 	18-19 	- 	20- 	- 	-
+	18 	1st 	Omar Daal
+Diamondbacks 	510 	'00 	5 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-15 	16-17 	18-19 	- 	20- 	- 	-
+	24 	1st 	Randy Johnson
+Diamondbacks 	630 	'00 	3 	08 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+11-12 	1-10 	13-15 	16-18 	19- 	20- 	- 	- 	- 	-
+	26 	1st 	Matt Mantei
+Diamondbacks 	150 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+11- 	1-10 	12-13 	14-16 	17-20 	- 	- 	- 	- 	-
+	27 	1st 	Dan Plesac
+Diamondbacks 	90 	'00 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+8-9 	1-7 	10-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	29 	1st 	Greg Swindell
+Diamondbacks 	140 	'00 	3 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-17 	18- 	19-20 	- 	- 	- 	-
+	33 	1st 	Tom Glavine
+Braves 	450 	'00 	4 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-15 	16- 	17-20 	- 	- 	- 	-
+	41 	1st 	Greg Maddux
+Braves 	480 	'00 	5 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-13 	14-15 	- 	16-19 	- 	20- 	- 	-
+	42 	1st 	Kevin Millwood
+Braves 	550 	'00 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-9 	1-6 	10-13 	14-18 	- 	19- 	- 	20- 	- 	-
+	44 	1st 	Mike Remlinger
+Braves 	170 	'00 	6 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-12 	13-15 	16-17 	18-20 	- 	- 	- 	-
+	45 	1st 	John Rocker
+Braves 	200 	'00 	5 	1 	Closer
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+10-11 	1-9 	12-13 	14-16 	17-18 	19-20 	- 	- 	- 	-
+	46 	1st 	John Smoltz
+Braves 	550 	'00 	6 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-15 	16- 	17-19 	- 	20- 	- 	-
+	55 	1st 	Scott Erickson
+Orioles 	400 	'00 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+3-4 	1-2 	5-12 	13-15 	16- 	17-19 	- 	20- 	- 	-
+	57 	1st 	Mike Mussina
+Orioles 	470 	'00 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-13 	14-17 	- 	18-19 	- 	20- 	- 	-
+	58 	1st 	Jesse Orosco
+Orioles 	110 	'00 	3 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7- 	1-6 	8-12 	13-16 	17-18 	19- 	- 	20- 	- 	-
+	59 	1st 	Sidney Ponson
+Orioles 	370 	'00 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	63 	1st 	Mike Timlin
+Orioles 	190 	'00 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-15 	16-17 	18-19 	- 	20- 	- 	-
+	64 	1st 	Rod Beck
+Red Sox 	80 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-16 	- 	17-18 	- 	19-20 	- 	-
+	66 	1st 	Rheal Cormier
+Red Sox 	150 	'00 	6 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-15 	16- 	17-19 	- 	20- 	- 	-
+	70 	1st 	Derek Lowe
+Red Sox 	180 	'00 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-14 	15-16 	17- 	18-19 	- 	20- 	- 	-
+71 	1st 	Pedro Martinez
+Red Sox 	660 	'00 	5 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+10-11 	1-9 	12-14 	15-17 	- 	18-19 	- 	20- 	- 	-
+	75 	1st 	Mark Portugal
+Red Sox 	120 	'00 	3 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-11 	12-16 	- 	17-18 	- 	19- 	- 	20+
+	76 	1st 	Pat Rapp
+Red Sox 	370 	'00 	4 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-12 	13-15 	16-17 	18-20 	- 	- 	- 	-
+	80 	1st 	Tim Wakefield
+Red Sox 	220 	'00 	4 	2 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-10 	11-15 	16-17 	18-19 	- 	20- 	- 	-
+	81 	1st 	Rick Aguilera
+Cubs 	170 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-18 	- 	19- 	- 	20- 	- 	-
+	83 	1st 	Kyle Farnsworth
+Cubs 	170 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-10 	11-15 	16- 	17-18 	- 	19- 	- 	20+
+	87 	1st 	Jon Lieber
+Cubs 	420 	'00 	5 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-12 	13-15 	- 	16-19 	- 	20- 	- 	-
+	92 	1st 	Scott Sanders
+Cubs 	70 	'00 	0 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-13 	14-18 	19- 	20- 	- 	- 	- 	-
+	95 	1st 	Steve Trachsel
+Cubs 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	96 	1st 	James Baldwin
+White Sox 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	100 	1st 	Bob Howry
+White Sox 	180 	'00 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-11 	12-15 	16-18 	19-20 	- 	- 	- 	-
+	105 	1st 	Jim Parque
+White Sox 	160 	'00 	0 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-13 	14-18 	19- 	20- 	- 	- 	- 	-
+	106 	1st 	Bill Simas
+White Sox 	100 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	108 	1st 	Mike Sirotka
+White Sox 	490 	'00 	5 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	114 	1st 	Danny Graves
+Reds 	180 	'00 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-13 	14-16 	17-18 	19-20 	- 	- 	- 	-
+	115 	1st 	Pete Harnisch
+Reds 	450 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	118 	1st 	Scott Sullivan
+Reds 	150 	'00 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-10 	11-15 	16-17 	18-19 	- 	20- 	- 	-
+	120 	1st 	Brett Tomko
+Reds 	230 	'00 	5 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-10 	11-15 	16- 	17- 	- 	18-19 	- 	20+
+	123 	1st 	Ron Villone
+Reds 	340 	'00 	3 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-8 	1-4 	9-12 	13-16 	17-18 	19- 	- 	20- 	- 	-
+	124 	1st 	Scott Williamson
+Reds 	190 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+9- 	1-8 	10-13 	14-18 	19-20 	- 	- 	- 	- 	-
+	128 	1st 	Dave Burba
+Indians 	370 	'00 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	129 	1st 	Bartolo Colon
+Indians 	440 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-13 	14-17 	18- 	19- 	- 	20- 	- 	-
+	132 	1st 	Mike Jackson
+Indians 	200 	'00 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-12 	13-15 	16-17 	18-20 	- 	- 	- 	-
+	135 	1st 	Charles Nagy
+Indians 	320 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-16 	- 	17-19 	- 	20- 	- 	-
+	138 	1st 	Paul Shuey
+Indians 	160 	'00 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-13 	14-15 	16-17 	18-19 	- 	20- 	- 	-
+143 	1st 	Pedro Astacio
+Rockies 	220 	'00 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-15 	16- 	17-18 	- 	19- 	- 	20+
+	147 	1st 	Brian Bohanon
+Rockies 	10 	'00 	0 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-12 	13-17 	18- 	19- 	- 	20- 	- 	-
+	149 	1st 	Jerry Dipoto
+Rockies 	70 	'00 	0 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7- 	1-6 	8-13 	14-18 	19- 	20- 	- 	- 	- 	-
+	151 	1st 	Darryl Kile
+Rockies 	10 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-17 	18- 	19- 	- 	20- 	- 	-
+	152 	1st 	Curtis Leskanic
+Rockies 	60 	'00 	0 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+8-9 	1-7 	10-16 	17-18 	19- 	- 	- 	20- 	- 	-
+	155 	1st 	Dave Veres
+Rockies 	60 	'00 	0 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+8-10 	1-7 	11-15 	16-18 	- 	19- 	- 	- 	- 	20+
+	165 	1st 	Todd Jones
+Tigers 	150 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-13 	14-16 	17-18 	19-20 	- 	- 	- 	-
+	167 	1st 	Dave Mlicki
+Tigers 	340 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	168 	1st 	Brian Moehler
+Tigers 	320 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-16 	- 	17-19 	- 	20- 	- 	-
+	169 	1st 	C. J. Nitkowski
+Tigers 	150 	'00 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-12 	13-16 	17-19 	20- 	- 	- 	- 	-
+	171 	1st 	Jeff Weaver
+Tigers 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	172 	1st 	Antonio Alfonseca
+Marlins 	150 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-13 	14-16 	17- 	18-20 	- 	- 	- 	-
+	176 	1st 	Ryan Dempster
+Marlins 	220 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-14 	15-17 	18-19 	- 	20- 	- 	-
+	177 	1st 	Brian Edmondson
+Marlins 	60 	'00 	0 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-13 	14-18 	19- 	- 	- 	20- 	- 	-
+	181 	1st 	Braden Looper
+Marlins 	120 	'00 	4 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-15 	16- 	17-20 	- 	- 	- 	-
+	183 	1st 	Brian Meadows
+Marlins 	100 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-18 	- 	19- 	- 	20- 	- 	-
+	185 	1st 	Dennis Springer
+Marlins 	210 	'00 	0 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-18 	- 	19-20 	- 	- 	- 	-
+	192 	1st 	Scott Elarton
+Astros 	440 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-9 	1-6 	10-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	195 	1st 	Mike Hampton
+Astros 	470 	'00 	3 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-14 	15-16 	17-18 	19-20 	- 	- 	- 	-
+	198 	1st 	Jose Lima
+Astros 	460 	'00 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-9 	1-5 	10-13 	14-17 	- 	18-19 	- 	20- 	- 	-
+	199 	1st 	Jay Powell
+Astros 	70 	'00 	4 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-9 	1-6 	10-12 	13-14 	15-16 	17-19 	- 	20- 	- 	-
+	200 	1st 	Shane Reynolds
+Astros 	470 	'00 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-14 	15-17 	- 	18-19 	- 	20- 	- 	-
+	202 	1st 	Billy Wagner
+Astros 	230 	'00 	5 	1 	Closer
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+12-13 	1-11 	14-15 	16-18 	19- 	20- 	- 	- 	- 	-
+	209 	1st 	Jeff Montgomery
+Royals 	100 	'00 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+3-5 	1-2 	6-11 	12-14 	15- 	16-19 	- 	20- 	- 	-
+	211 	1st 	Jose Rosado
+Royals 	450 	'00 	4 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+213 	1st 	Scott Service
+Royals 	70 	'00 	0 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-13 	14-18 	19- 	20- 	- 	- 	- 	-
+	215 	1st 	Jeff Suppan
+Royals 	460 	'00 	5 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+3-4 	1-2 	5-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	217 	1st 	Jay Witasick
+Royals 	280 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-11 	12-15 	16-17 	18-20 	- 	- 	- 	-
+	219 	1st 	Pedro Borbon
+Dodgers 	140 	'00 	5 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-9 	10-15 	16-18 	19- 	- 	20- 	- 	-
+	220 	1st 	Kevin Brown
+Dodgers 	600 	'00 	5 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-8 	1-5 	9-13 	14-16 	17- 	18-19 	- 	20- 	- 	-
+	226 	1st 	Chan Ho Park
+Dodgers 	200 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-8 	1-5 	9-11 	12-14 	15-17 	18-19 	- 	20- 	- 	-
+	227 	1st 	Jeff Shaw
+Dodgers 	200 	'00 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-10 	11-15 	16- 	17-20 	- 	- 	- 	-
+	229 	1st 	Ismael Valdes
+Dodgers 	180 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-16 	- 	17-18 	- 	19- 	- 	20+
+	239 	1st 	Scott Karl
+Brewers 	220 	'00 	3 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+3-4 	1-2 	5-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	241 	1st 	Mike Myers
+Brewers 	40 	'00 	0 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-14 	15-18 	- 	19- 	- 	- 	- 	20+
+	243 	1st 	Hideo Nomo
+Brewers 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-11 	12-16 	17-18 	19- 	- 	20- 	- 	-
+	246 	1st 	Bob Wickman
+Brewers 	150 	'00 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-13 	14-15 	16-17 	18-20 	- 	- 	- 	-
+	247 	1st 	Steve Woodard
+Brewers 	310 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-12 	13-16 	- 	17-19 	- 	20- 	- 	-
+	255 	1st 	Joe Mays
+Twins 	390 	'00 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	257 	1st 	Eric Milton
+Twins 	530 	'00 	6 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-9 	10-15 	16- 	17-19 	- 	20- 	- 	-
+	258 	1st 	Brad Radke
+Twins 	480 	'00 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-16 	- 	17-19 	- 	20- 	- 	-
+	260 	1st 	Mike Trombley
+Twins 	160 	'00 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	262 	1st 	Bob Wells
+Twins 	150 	'00 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-9 	10-15 	16- 	17-19 	- 	20- 	- 	-
+	269 	1st 	Dustin Hermanson
+Expos 	320 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	270 	1st 	Steve Kline
+Expos 	160 	'00 	6 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7- 	1-6 	8-13 	14-15 	16-17 	18-19 	- 	20- 	- 	-
+	272 	1st 	Mike Thurman
+Expos 	410 	'00 	5 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-15 	16-17 	18-19 	- 	20- 	- 	-
+	273 	1st 	Ugueth Urbina
+Expos 	200 	'00 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+9-10 	1-8 	11-12 	13-15 	16-17 	18-20 	- 	- 	- 	-
+	274 	1st 	Javier Vazquez
+Expos 	390 	'00 	5 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-15 	16- 	17-18 	- 	19-20 	- 	-
+	279 	1st 	Armando Benitez
+Mets 	190 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+13- 	1-12 	14- 	15-18 	19-20 	- 	- 	- 	- 	-
+	281 	1st 	Dennis Cook
+Mets 	90 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+8-9 	1-7 	10-12 	13-17 	18- 	- 	- 	19- 	- 	20+
+ 	286 	1st 	Orel Hershiser
+Mets 	360 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-15 	16-17 	18-19 	- 	20- 	- 	-
+	287 	1st 	Al Leiter
+Mets 	350 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6- 	1-5 	7-11 	12-15 	16-17 	18-19 	- 	20- 	- 	-
+	291 	1st 	Kenny Rogers
+Mets 	190 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-14 	15-18 	19- 	20- 	- 	- 	- 	-
+	293 	1st 	Turk Wendell
+Mets 	100 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	294 	1st 	Masato Yoshii
+Mets 	270 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5- 	1-4 	6-10 	11-16 	17- 	18- 	- 	19-20 	- 	-
+	296 	1st 	Roger Clemens
+Yankees 	400 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-16 	17-18 	19-20 	- 	- 	- 	-
+	297 	1st 	David Cone
+Yankees 	460 	'00 	5 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-15 	16-17 	18-19 	- 	20- 	- 	-
+	300 	1st 	Orlando Hernandez
+Yankees 	430 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-11 	12-17 	18- 	19- 	- 	20- 	- 	-
+	305 	1st 	Ramiro Mendoza
+Yankees 	270 	'00 	4 	2 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-13 	14-16 	- 	17-19 	- 	20- 	- 	-
+	307 	1st 	Andy Pettitte
+Yankees 	350 	'00 	4 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-12 	13-15 	16- 	17-19 	- 	20- 	- 	-
+	309 	1st 	Mariano Rivera
+Yankees 	210 	'00 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-14 	15-18 	19- 	20- 	- 	- 	- 	-
+	310 	1st 	Mike Stanton
+Yankees 	120 	'00 	5 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-8 	1-5 	9-11 	12-15 	- 	16-19 	- 	20- 	- 	-
+	312 	1st 	Kevin Appier
+Athletics 	340 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	317 	1st 	Buddy Groom
+Athletics 	120 	'00 	3 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-13 	14-16 	17- 	18-20 	- 	- 	- 	-
+	318 	1st 	Gil Heredia
+Athletics 	440 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-16 	- 	17-19 	- 	20- 	- 	-
+	321 	1st 	Doug Jones
+Athletics 	120 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-17 	- 	18-19 	- 	20- 	- 	-
+	322 	1st 	Omar Olivares
+Athletics 	340 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+3-4 	1-2 	5-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	331 	1st 	Paul Byrd
+Phillies 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	334 	1st 	Wayne Gomes
+Phillies 	130 	'00 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-14 	15-18 	19-20 	- 	- 	- 	-
+	337 	1st 	Steve Montgomery
+Phillies 	130 	'00 	5 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6- 	1-5 	7-10 	11-15 	16-17 	18-19 	- 	20- 	- 	-
+	338 	1st 	Chad Ogea
+Phillies 	10 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-18 	- 	- 	- 	19- 	- 	20+
+	340 	1st 	Curt Schilling
+Phillies 	600 	'00 	6 	08 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	343 	1st 	Kris Benson
+Pirates 	340 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-13 	14-16 	17- 	18-19 	- 	20- 	- 	-
+	346 	1st 	Brad Clontz
+Pirates 	120 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-16 	17-18 	19-20 	- 	- 	- 	-
+	351 	1st 	Todd Ritchie
+Pirates 	500 	'00 	5 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-15 	16- 	17-19 	- 	20- 	- 	-
+ 	352 	1st 	Scott Sauerbeck
+Pirates 	110 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-13 	14-16 	17-18 	19- 	- 	20- 	- 	-
+	353 	1st 	Jason Schmidt
+Pirates 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	355 	1st 	Mike Williams
+Pirates 	90 	'00 	0 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+10-12 	1-9 	13-15 	16-18 	19- 	20- 	- 	- 	- 	-
+	357 	1st 	Andy Ashby
+Padres 	500 	'00 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-13 	14-16 	17- 	18-19 	- 	20- 	- 	-
+	360 	1st 	Sterling Hitchcock
+Padres 	430 	'00 	5 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	361 	1st 	Trevor Hoffman
+Padres 	200 	'00 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+9- 	1-8 	10-14 	15-18 	- 	19- 	- 	20- 	- 	-
+	370 	1st 	Matt Whisenant
+Padres 	80 	'00 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-14 	15-17 	18-19 	- 	20- 	- 	-
+	371 	1st 	Woody Williams
+Padres 	190 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-11 	12-16 	17- 	18- 	- 	19- 	- 	20+
+	376 	1st 	Alan Embree
+Giants 	170 	'00 	6 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6- 	1-5 	7-9 	10-15 	16-18 	19-20 	- 	- 	- 	-
+	377 	1st 	Shawn Estes
+Giants 	150 	'00 	0 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-9 	1-6 	10-14 	15-18 	19- 	20- 	- 	- 	- 	-
+	378 	1st 	John Johnstone
+Giants 	170 	'00 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-10 	11-16 	17- 	18-19 	- 	20- 	- 	-
+	382 	1st 	Robb Nen
+Giants 	140 	'00 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+8-9 	1-7 	10-13 	14-16 	17- 	18-20 	- 	- 	- 	-
+	383 	1st 	Russ Ortiz
+Giants 	170 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-13 	14-18 	19-20 	- 	- 	- 	- 	-
+	384 	1st 	Kirk Rueter
+Giants 	330 	'00 	4 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	6-10 	11-15 	16- 	17-19 	- 	20- 	- 	-
+	390 	1st 	Freddy Garcia
+Mariners 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-16 	17- 	18-19 	- 	20- 	- 	-
+	392 	1st 	John Halama
+Mariners 	490 	'00 	5 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	397 	1st 	Jose Mesa
+Mariners 	120 	'00 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-10 	11-14 	15-16 	17-20 	- 	- 	- 	-
+	398 	1st 	Jamie Moyer
+Mariners 	470 	'00 	3 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-12 	13-17 	- 	18-19 	- 	20- 	- 	-
+	399 	1st 	Jose Paniagua
+Mariners 	100 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6- 	1-5 	7-12 	13-15 	16-18 	19-20 	- 	- 	- 	-
+	402 	1st 	Manny Aybar
+Cardinals 	100 	'00 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	403 	1st 	Ricky Bottalico
+Cardinals 	70 	'00 	2 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-8 	1-5 	9-12 	13-15 	16-17 	18-19 	- 	20- 	- 	-
+	404 	1st 	Kent Bottenfield
+Cardinals 	140 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-8 	1-5 	9-12 	13-18 	19- 	20- 	- 	- 	- 	-
+	408 	1st 	Jose Jimenez
+Cardinals 	180 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-8 	1-5 	9-15 	16-18 	19- 	20- 	- 	- 	- 	-
+	413 	1st 	Darren Oliver
+Cardinals 	380 	'00 	4 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	414 	1st 	Lance Painter
+Cardinals 	100 	'00 	3 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+7-8 	1-6 	9-13 	14-16 	17- 	18-19 	- 	20- 	- 	-
+417 	1st 	Wilson Alvarez
+Devil Rays 	360 	'00 	3 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-16 	17-18 	19- 	- 	20- 	- 	-
+	418 	1st 	Rolando Arrojo
+Devil Rays 	170 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-8 	1-5 	9-14 	15-18 	19- 	20- 	- 	- 	- 	-
+	423 	1st 	Roberto Hernandez
+Devil Rays 	180 	'00 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-15 	16-17 	18-20 	- 	- 	- 	-
+	429 	1st 	Rick White
+Devil Rays 	230 	'00 	4 	2 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-15 	16- 	17-19 	- 	20- 	- 	-
+	431 	1st 	Bobby Witt
+Devil Rays 	230 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5- 	1-4 	6-11 	12-15 	16-17 	18-19 	- 	20- 	- 	-
+	433 	1st 	Tim Crabtree
+Rangers 	150 	'00 	5 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-6 	1-4 	7-12 	13-15 	16- 	17-20 	- 	- 	- 	-
+	437 	1st 	Rick Helling
+Rangers 	190 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-10 	11-16 	17- 	18- 	- 	19- 	- 	20+
+	439 	1st 	Mike Morgan
+Rangers 	40 	'00 	0 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+3-5 	1-2 	6-14 	15-18 	- 	19- 	- 	20- 	- 	-
+	442 	1st 	Aaron Sele
+Rangers 	330 	'00 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-15 	16- 	17-19 	- 	20- 	- 	-
+	444 	1st 	Mike Venafro
+Rangers 	150 	'00 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-14 	15-16 	17- 	18-20 	- 	- 	- 	-
+	445 	1st 	John Wetteland
+Rangers 	180 	'00 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-9 	10-15 	16- 	17-19 	- 	20- 	- 	-
+	447 	1st 	Jeff Zimmerman
+Rangers 	180 	'00 	4 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6-7 	1-5 	8-12 	13-18 	19- 	20- 	- 	- 	- 	-
+	452 	1st 	Kelvim Escobar
+Blue Jays 	160 	'00 	0 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-13 	14-18 	19- 	20- 	- 	- 	- 	-
+	456 	1st 	Pat Hentgen
+Blue Jays 	330 	'00 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-6 	1-3 	7-11 	12-16 	17- 	18-19 	- 	20- 	- 	-
+	457 	1st 	Billy Koch
+Blue Jays 	170 	'00 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+6- 	1-5 	7-12 	13-15 	16-17 	18-19 	- 	20- 	- 	-
+	458 	1st 	Graeme Lloyd
+Blue Jays 	150 	'00 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+4-5 	1-3 	6-11 	12-15 	16- 	17-19 	- 	20- 	- 	-
+	462 	1st 	David Wells
+Blue Jays 	490 	'00 	4 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+5-7 	1-4 	8-12 	13-16 	17- 	18-19 	- 	20- 	- 	-

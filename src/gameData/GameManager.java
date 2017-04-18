@@ -1,0 +1,120 @@
+package gameData;
+
+import java.io.FileNotFoundException;
+import java.util.*;
+import players.*;
+
+public class GameManager {
+	Field grass;
+	LineupManager homeTeam;
+	LineupManager awayTeam;
+	LineupManager defense;
+	LineupManager offense;
+	GameStat gamestat;
+	StrategyCard scMan;
+	Random dice;
+	private int swingMod;
+	private int pitchMod;
+
+	public GameManager(LineupManager home, LineupManager away) {
+		try {
+			scMan = new StrategyCard();
+		} catch (FileNotFoundException e) {
+			throw new IllegalArgumentException("Specified file does not exist");
+		}
+		grass = new Field();
+		dice = new Random();
+		gamestat = new GameStat();
+		homeTeam = home;
+		awayTeam = away;
+		offense = away;
+		defense = home;
+		swingMod = 0;
+		pitchMod = 0;
+	}
+
+	public void pitch() {
+		swingMod = 0;
+		pitchMod = 0;
+		StrategyCard.emit("BP");
+		String oCard = offense.useCard();
+		if (oCard != null) {
+			this.parsePostcondition(oCard, offense, defense);
+		}
+		PitcherData pitcher = defense.getCurrentPitcher();
+		HitterData hitter = offense.getCurrentBatter();
+		int pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
+		if (pitch >= hitter.getBaseMod()) {
+			StrategyCard.emit("PC");
+			pitcher.checkCard(grass, roll() + swingMod, offense.getCurrentBatter(), gamestat, defense);
+		} else {
+			StrategyCard.emit("HC");
+			hitter.checkCard(grass, roll() + swingMod, gamestat, defense);
+		}
+		offense.nextBatter();
+		gamestat.update();
+		if (gamestat.inningEnd()) {
+			grass.clear();
+			LineupManager temp = offense;
+			offense = defense;
+			defense = temp;
+		}
+
+	}
+
+	private int roll() {
+		return dice.nextInt(20) + 1;
+	}
+
+	public int getInning() {
+		return gamestat.inning;
+	}
+
+	public void printScore() {
+		System.out.println("Home: " + gamestat.homeRuns);
+		System.out.println("Away: " + gamestat.awayRuns);
+	}
+
+	public void parsePostcondition(String s, LineupManager user, LineupManager enemy) {
+		String[] all = s.split(" ");
+		for (int i = 0; i < all.length; i++) {
+			String[] pre = all[i].split("\\+");
+			switch (pre[0]) {
+			case "SW": // Change swingMod
+				swingMod += parseIntCondition(pre[1]);
+				break;
+			case "DI": // Discard a card
+				if (pre[1].equals("SE")) {
+					user.discardCard(1);
+				} else {
+					enemy.discardCard(1);
+				}
+				break;
+			case "DR": // Draw a card
+				break;
+			default:
+				throw new IllegalArgumentException(pre[0] + ": not a valid postcondition");
+			}
+		}
+	}
+
+	private int parseIntCondition(String s) {
+		switch (s) {
+		case "AR": // All runners
+			return grass.getState();
+		default:
+			return Integer.parseInt(s);
+		}
+	}
+	
+	/*
+	 * Mostly a debugging method to run a bunch of real games without pitcher substitution
+	 */
+	public void resetGameTrack() {
+		gamestat = new GameStat();
+	}
+	
+	public int getTotalRuns() {
+		return gamestat.awayRuns + gamestat.homeRuns;
+	}
+}

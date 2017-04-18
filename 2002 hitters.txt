@@ -1,0 +1,1126 @@
+ 	1 	UL 	Garret Anderson
+Angels 	220 	'02 	9 	15 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	- 	7-14 	15- 	16-17 	- 	18+
+	2 	UL 	David Eckstein
+Angels 	160 	'02 	11 	18 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-6 	7- 	8-11 	12-18 	19- 	20-25 	- 	26+
+	3 	UL 	Darin Erstad
+Angels 	160 	'02 	10 	16 	CF+3
+LF-RF+2 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7- 	8-11 	12-17 	18- 	19-23 	- 	24+
+	4 	UL 	Troy Glaus
+Angels 	330 	'02 	11 	14 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5-6 	7-13 	14-15 	- 	16-17 	- 	18+
+	5 	UL 	Adam Kennedy
+Angels 	130 	'02 	9 	16 	2B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-6 	7-9 	10-17 	18- 	19-23 	- 	24+
+	6 	UL 	Ben Molina
+Angels 	30 	'02 	9 	10 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-7 	8-9 	10-19 	- 	20-21 	- 	22+
+	9 	UL 	Tim Salmon
+Angels 	170 	'02 	11 	14 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4-6 	7-14 	15-18 	- 	19- 	- 	20+
+	11 	UL 	Scott Spiezio
+Angels 	220 	'02 	10 	15 	1B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-7 	8-9 	10-15 	- 	16-18 	19- 	20+
+	14 	UL 	Jay Bell
+Diamondbacks 	180 	'02 	11 	11 	2B+3
+3B+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-7 	8-13 	14-17 	- 	18-19 	- 	20+
+	15 	UL 	Craig Counsell
+Diamondbacks 	210 	'02 	11 	16 	2B+5
+SS+3 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7- 	8-12 	13-19 	- 	20-24 	- 	25+
+	16 	UL 	David Delucci
+Diamondbacks 	220 	'02 	10 	15 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	- 	7-9 	10-16 	- 	17- 	18- 	19+
+	17 	UL 	Erubiel Durazo
+Diamondbacks 	280 	'02 	11 	10 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5- 	6- 	7-12 	13-15 	- 	16-17 	- 	18+
+	18 	UL 	Steve Finley
+Diamondbacks 	180 	'02 	10 	17 	CF+2
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-7 	8-10 	11-16 	17- 	18-19 	- 	20+
+	19 	UL 	Luis Gonzalez
+Diamondbacks 	600 	'02 	12 	14 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-10 	11-14 	- 	15-16 	- 	17+
+	20 	UL 	Mark Grace
+Diamondbacks 	210 	'02 	12 	12 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-11 	12-17 	- 	18-19 	- 	20+
+	25 	UL 	Matt Williams
+Diamondbacks 	200 	'02 	9 	12 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-6 	7- 	8-14 	- 	15-18 	- 	19+
+	26 	UL 	Tony Womack
+Diamondbacks 	150 	'02 	9 	22 	SS+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6-7 	8- 	9-16 	17-18 	19- 	20-25 	26+
+	27 	UL 	Marcus Giles
+Braves 	210 	'02 	10 	16 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-11 	12-17 	- 	18- 	- 	19+
+	29 	UL 	Andruw Jones
+Braves 	260 	'02 	9 	16 	CF+3
+LF-RF+2 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-10 	11-15 	16- 	17- 	- 	18+
+	30 	UL 	Chipper Jones
+Braves 	550 	'02 	12 	15 	3B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5- 	6-9 	10-15 	- 	16-17 	- 	18+
+	31 	UL 	Brian Jordan
+Braves 	200 	'02 	10 	14 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	7-8 	9-16 	- 	17-18 	- 	19+
+	33 	UL 	Javy Lopez
+Braves 	150 	'02 	10 	11 	C+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7- 	8-10 	11-17 	- 	18- 	- 	19+
+	37 	UL 	Rey Sanchez
+Braves 	190 	'02 	9 	20 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-7 	- 	- 	8-17 	18- 	19- 	20-26 	27+
+	38 	UL 	B.J. Surhoff
+Braves 	150 	'02 	9 	15 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	7-8 	9-15 	16- 	17-19 	- 	20+
+	39 	UL 	Brady Anderson
+Orioles 	60 	'02 	9 	19 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-7 	8-14 	15-18 	19- 	- 	20-22 	23+
+ 	40 	UL 	Tony Batista
+Orioles 	170 	'02 	8 	17 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-6 	7-8 	9-14 	- 	15-16 	17- 	18+
+	41 	UL 	Mike Bordick
+Orioles 	190 	'02 	9 	15 	SS+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	7-10 	11-15 	16- 	17-18 	- 	19+
+	42 	UL 	Jeff Conine
+Orioles 	220 	'02 	12 	15 	LF-RF+2
+1B+0 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-7 	8-11 	12-18 	- 	19- 	- 	20+
+	44 	UL 	Jerry Hairston Jr.
+Orioles 	190 	'02 	9 	20 	2B+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-11 	12-15 	16-17 	18-19 	20-22 	23+
+	46 	UL 	Melvin Mora
+Orioles 	190 	'02 	10 	14 	SS+4
+OF+2 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	- 	4-7 	8-12 	13-17 	18- 	19-22 	- 	23+
+	47 	UL 	Chris Richard
+Orioles 	140 	'02 	10 	16 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-11 	12-16 	17- 	18-19 	- 	20+
+	52 	UL 	Dante Bichette
+Red Sox 	170 	'02 	10 	12 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8- 	9-15 	- 	16-18 	- 	19+
+	54 	UL 	Carl Everett
+Red Sox 	220 	'02 	9 	18 	OF+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-6 	- 	7-9 	10-14 	15- 	16-17 	18- 	19+
+	57 	UL 	Trot Nixon
+Red Sox 	340 	'02 	12 	16 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5-7 	8-12 	13-16 	- 	17-18 	- 	19+
+	59 	UL 	Jose Offerman
+Red Sox 	120 	'02 	10 	16 	2B-1B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-11 	12-19 	- 	20-22 	- 	23+
+	60 	UL 	Troy O'Leary
+Red Sox 	180 	'02 	8 	17 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	6-8 	9-14 	- 	15-16 	17- 	18+
+	61 	UL 	Manny Ramirez
+Red Sox 	360 	'02 	12 	11 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6- 	7- 	8-11 	12-15 	- 	16-17 	- 	18+
+	62 	UL 	Delino DeShields
+Cubs 	170 	'02 	10 	22 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	- 	7-13 	14-16 	17-18 	19- 	20-23 	24+
+	65 	UL 	Ricky Gutierrez
+Cubs 	170 	'02 	11 	15 	SS+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-6 	7- 	8-10 	11-18 	- 	19- 	- 	20+
+	66 	UL 	Todd Hundley
+Cubs 	40 	'02 	7 	09 	C+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	- 	6-12 	13-14 	- 	15-16 	- 	17+
+	68 	UL 	Fred McGriff
+Cubs 	240 	'02 	12 	11 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-11 	12-17 	- 	18- 	- 	19+
+	69 	UL 	Bill Mueller
+Cubs 	240 	'02 	12 	13 	3B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-12 	13-18 	- 	19- 	- 	20+
+	70 	UL 	Corey Patterson
+Cubs 	70 	'02 	8 	18 	CF+1
+LF-RF+0 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	8-10 	11-17 	- 	18-19 	- 	20+
+	71 	UL 	Sammy Sosa
+Cubs 	580 	'02 	12 	13 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5- 	6-10 	11-14 	- 	15-16 	- 	17+
+	74 	UL 	Eric Young
+Cubs 	180 	'02 	10 	19 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-9 	10-16 	17- 	18-24 	- 	25+
+	76 	UL 	Royce Clayton
+White Sox 	240 	'02 	9 	18 	SS+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6- 	7-9 	10-16 	17- 	18-19 	- 	20+
+	77 	UL 	Joe Crede
+White Sox 	150 	'02 	10 	09 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-7 	8-10 	11-16 	- 	17-18 	- 	19+
+	78 	UL 	Ray Durham
+White Sox 	340 	'02 	10 	20 	2B+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-6 	7-10 	11-14 	15- 	16-17 	18- 	19+
+	81 	UL 	Mark Johnson
+White Sox 	150 	'02 	10 	15 	C+4
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-12 	13-18 	- 	19- 	- 	20+
+	82 	UL 	Paul Konerko
+White Sox 	210 	'02 	10 	11 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	7-9 	10-15 	- 	16-17 	- 	18+
+ 	83 	UL 	Carlos Lee
+White Sox 	190 	'02 	10 	16 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-7 	8-10 	11-15 	16- 	17-18 	- 	19+
+	85 	UL 	Magglio Ordonez
+White Sox 	360 	'02 	12 	16 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6-7 	8-10 	11-15 	16- 	17-18 	- 	19+
+	86 	UL 	Jose Valentin
+White Sox 	340 	'02 	10 	16 	SS+3
+3B-OF+1 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5-6 	7-11 	12-14 	15- 	16-17 	- 	18+
+	87 	UL 	Aaron Boone
+Reds 	260 	'02 	11 	15 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-7 	8-10 	11-16 	- 	17-18 	- 	19+
+	89 	UL 	Sean Casey
+Reds 	220 	'02 	11 	12 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6- 	7-8 	9-16 	- 	17-19 	- 	20+
+	90 	UL 	Brady Clark
+Reds 	210 	'02 	11 	13 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	7-12 	13-17 	18- 	- 	- 	19+
+	91 	UL 	Adam Dunn
+Reds 	370 	'02 	11 	15 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	6- 	7-12 	13-14 	- 	15-17 	- 	18+
+	93 	UL 	Ken Griffey Jr.
+Reds 	270 	'02 	11 	14 	OF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-7 	8-11 	12-16 	- 	17- 	- 	18+
+	94 	UL 	Pokey Reese
+Reds 	120 	'02 	8 	19 	2B+3
+SS+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-7 	8-10 	11-15 	16-17 	18-19 	- 	20+
+	96 	UL 	Kelly Stinnett
+Reds 	160 	'02 	10 	12 	C+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-6 	- 	7- 	8-11 	12-16 	- 	17-18 	- 	19+
+	97 	UL 	Dmitri Young
+Reds 	240 	'02 	10 	15 	LF-RF+1
+3B+1 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7- 	8-16 	- 	17-18 	- 	19+
+	98 	UL 	Roberto Alomar
+Indians 	520 	'02 	12 	21 	2B+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-5 	6-9 	10-15 	16- 	17-18 	19- 	20+
+	100 	UL 	Russell Branyan
+Indians 	240 	'02 	9 	14 	3B+1
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-6 	- 	- 	7-11 	12-14 	- 	15-16 	- 	17+
+	101 	UL 	Ellis Burks
+Indians 	280 	'02 	12 	14 	---
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	8-12 	13-16 	- 	17-18 	- 	19+
+	103 	UL 	Marty Cordova
+Indians 	220 	'02 	11 	12 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-9 	10-16 	- 	17-18 	- 	19+
+	104 	UL 	Einar Diaz
+Indians 	110 	'02 	10 	12 	C+8
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6-7 	8-10 	11-17 	- 	18-24 	- 	25+
+	105 	UL 	Juan Gonzalez
+Indians 	380 	'02 	12 	12 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-7 	8-9 	10-15 	- 	16-17 	- 	18+
+	109 	UL 	Jim Thome
+Indians 	360 	'02 	12 	10 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-6 	- 	- 	7-12 	13-16 	- 	17- 	- 	18+
+	110 	UL 	Omar Vizquel
+Indians 	150 	'02 	10 	19 	SS+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6-7 	8-11 	12-17 	18- 	19- 	20-26 	27+
+	113 	UL 	Jeff Cirillo
+Rockies 	320 	'02 	11 	17 	3B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-8 	9-16 	17- 	18-19 	- 	20+
+	115 	UL 	Todd Helton
+Rockies 	580 	'02 	12 	14 	1B+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-10 	11-14 	- 	15-17 	- 	18+
+	116 	UL 	Greg Norton
+Rockies 	200 	'02 	9 	14 	---
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6- 	- 	7-9 	10-14 	- 	15-16 	17- 	18+
+	117 	UL 	Ben Petrick
+Rockies 	220 	'02 	10 	17 	C+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6- 	7- 	8-12 	13-15 	- 	16-17 	18- 	19+
+	118 	UL 	Juan Pierre
+Rockies 	310 	'02 	12 	22 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-6 	7- 	8-9 	10-16 	17-18 	19- 	20-26 	27+
+	119 	UL 	Terry Shumpert
+Rockies 	160 	'02 	10 	22 	---
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-9 	10-15 	16-17 	18-19 	20-22 	23+
+ 	
+	120 	UL 	Larry Walker
+Rockies 	650 	'02 	13 	16 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	- 	6-10 	11-15 	- 	16-17 	- 	18+
+	122 	UL 	Roger Cedeno
+Tigers 	210 	'02 	10 	23 	OF+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	- 	7-8 	9-15 	16-18 	19- 	20-23 	24+
+	123 	UL 	Tony Clark
+Tigers 	250 	'02 	11 	12 	1B+0
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	- 	7-10 	11-16 	- 	17-18 	- 	19+
+	124 	UL 	Deivi Cruz
+Tigers 	20 	'02 	8 	13 	SS+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7- 	8-16 	- 	17-22 	- 	23+
+	125 	UL 	Damion Easley
+Tigers 	170 	'02 	10 	18 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-11 	12-17 	- 	18-19 	20-21 	22+
+	126 	UL 	Shane Halter
+Tigers 	250 	'02 	10 	15 	3B+2
+SS+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5-6 	7-9 	10-15 	- 	16-18 	19- 	20+
+	127 	UL 	Bobby Higginson
+Tigers 	280 	'02 	11 	18 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-6 	7-11 	12-16 	17- 	18- 	19- 	20+
+	128 	UL 	Jose Macias
+Tigers 	240 	'02 	9 	20 	3B+3
+OF+2 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6- 	7-8 	9-16 	17- 	18-19 	20-22 	23+
+	134 	UL 	Luis Castillo
+Marlins 	160 	'02 	10 	21 	2B+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6- 	7-11 	12-17 	18-19 	- 	20-26 	27+
+	136 	UL 	Cliff Floyd
+Marlins 	420 	'02 	12 	18 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-7 	8-10 	11-14 	15- 	16-18 	- 	19+
+	137 	UL 	Alex Gonzalez
+Marlins 	90 	'02 	8 	12 	SS+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-7 	8-15 	- 	16-19 	- 	20+
+	139 	UL 	Mike Lowell
+Marlins 	190 	'02 	10 	10 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-6 	7-9 	10-16 	- 	17-18 	- 	19+
+	140 	UL 	Eric Owens
+Marlins 	40 	'02 	8 	15 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	- 	6-8 	9-18 	19- 	20-23 	- 	24+
+	142 	UL 	Preston Wilson
+Marlins 	270 	'02 	10 	17 	OF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-6 	7- 	8-10 	11-14 	15- 	16-18 	- 	19+
+	143 	UL 	Moises Alou
+Astros 	360 	'02 	12 	13 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	7-9 	10-16 	- 	17-18 	- 	19+
+	144 	UL 	Brad Ausmus
+Astros 	120 	'02 	8 	16 	C+9
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-7 	8-9 	10-16 	- 	17-19 	20-23 	24+
+	145 	UL 	Jeff Bagwell
+Astros 	410 	'02 	12 	16 	1B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-12 	13-16 	- 	17-18 	- 	19+
+	146 	UL 	Lance Berkman
+Astros 	520 	'02 	13 	14 	LF-RF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-11 	12-15 	- 	16-18 	- 	19+
+	147 	UL 	Craig Biggio
+Astros 	230 	'02 	12 	15 	2B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-12 	13-18 	- 	19- 	- 	20+
+	149 	UL 	Richard Hidalgo
+Astros 	280 	'02 	11 	13 	OF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5-7 	8-11 	12-16 	- 	17-18 	- 	19+
+	150 	UL 	Julio Lugo
+Astros 	130 	'02 	10 	18 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-7 	8-11 	12-18 	19- 	20-21 	- 	22+
+	154 	UL 	Jose Vizcaino
+Astros 	120 	'02 	10 	19 	SS+2
+2B+1 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6-7 	8-9 	10-19 	- 	- 	20-26 	27+
+	155 	UL 	Daryle Ward
+Astros 	120 	'02 	9 	09 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-9 	10-15 	- 	16-18 	- 	19+
+	156 	UL 	Carlos Beltran
+Royals 	470 	'02 	11 	22 	CF+3
+LF-RF+2 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-9 	10-15 	16- 	17- 	18- 	19+
+	157 	UL 	Dee Brown
+Royals 	50 	'02 	8 	13 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	- 	8- 	9-16 	17- 	18-19 	- 	20+
+ 	159 	UL 	Mark Quinn
+Royals 	180 	'02 	8 	15 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5- 	- 	6-12 	13- 	14-17 	- 	18+
+	160 	UL 	Joe Randa
+Royals 	120 	'02 	9 	13 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-9 	10-16 	- 	17-19 	- 	20+
+	163 	UL 	Mike Sweeney
+Royals 	310 	'02 	11 	14 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	7-9 	10-15 	- 	16-18 	- 	19+
+	166 	UL 	Adrian Beltre
+Dodgers 	200 	'02 	9 	18 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-8 	9-15 	16- 	17-18 	- 	19+
+	167 	UL 	Alex Cora
+Dodgers 	10 	'02 	8 	13 	SS+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6-7 	8-10 	11-17 	- 	18-19 	20-24 	25+
+	168 	UL 	Tom Goodwin
+Dodgers 	110 	'02 	8 	24 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6- 	7-10 	11-16 	17-19 	- 	20-23 	24+
+	169 	UL 	Shawn Green
+Dodgers 	400 	'02 	11 	18 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6- 	7-10 	11-14 	15- 	16-17 	- 	18+
+	170 	UL 	Marquis Grissom
+Dodgers 	110 	'02 	7 	15 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	- 	- 	8-13 	14- 	15-16 	- 	17+
+	171 	UL 	Mark Grudzielanek
+Dodgers 	150 	'02 	10 	16 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-9 	10-18 	- 	19- 	- 	20+
+	172 	UL 	Eric Karros
+Dodgers 	120 	'02 	9 	11 	1B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-6 	7- 	8-11 	12-16 	- 	17-18 	- 	19+
+	173 	UL 	Paul Lo Duca
+Dodgers 	340 	'02 	12 	11 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-10 	11-16 	- 	17-18 	- 	19+
+	176 	UL 	Gary Sheffield
+Dodgers 	420 	'02 	12 	15 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	7-11 	12-16 	- 	17- 	- 	18+
+	177 	UL 	Ronnie Belliard
+Brewers 	230 	'02 	10 	17 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7- 	8-11 	12-15 	- 	16-18 	19- 	20+
+	178 	UL 	Henry Blanco
+Brewers 	100 	'02 	8 	16 	C+8
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5-7 	8-12 	13-16 	- 	17-19 	20-21 	22+
+	179 	UL 	Jeromy Burnitz
+Brewers 	220 	'02 	10 	13 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5- 	6- 	7-12 	13-15 	- 	16-17 	- 	18+
+	182 	UL 	Jose Hernandez
+Brewers 	160 	'02 	8 	14 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-6 	- 	- 	7-8 	9-15 	- 	16-17 	- 	18+
+	183 	UL 	Geoff Jenkins
+Brewers 	220 	'02 	10 	14 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-6 	- 	7- 	8-10 	11-15 	- 	16-17 	- 	18+
+	184 	UL 	Mark Loretta
+Brewers 	100 	'02 	11 	13 	2B+1
+3B+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-10 	11-19 	- 	20-25 	- 	26+
+	186 	UL 	Richie Sexson
+Brewers 	260 	'02 	10 	13 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6- 	- 	7-10 	11-15 	- 	16- 	- 	17+
+	188 	UL 	Devon White
+Brewers 	240 	'02 	10 	17 	CF+1
+LF-RF+0 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-10 	11-15 	16- 	17-18 	- 	19+
+	189 	UL 	Christian Guzman
+Twins 	360 	'02 	10 	22 	SS+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6- 	7- 	8-14 	15- 	16-17 	18-19 	20+
+	190 	UL 	Torii Hunter
+Twins 	250 	'02 	9 	17 	CF+3
+LF-RF+2 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-9 	10-15 	- 	16-17 	- 	18+
+	191 	UL 	Jacque Jones
+Twins 	120 	'02 	10 	12 	LF-RF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	- 	8-10 	11-16 	17- 	18-19 	- 	20+
+	192 	UL 	Corey Koskie
+Twins 	300 	'02 	11 	17 	3B+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-11 	12-15 	16- 	17-18 	- 	19+
+	194 	UL 	Doug Mientkiewicz
+Twins 	210 	'02 	12 	11 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	8-11 	12-17 	- 	18-19 	- 	20+
+ 	196 	UL 	David Ortiz
+Twins 	130 	'02 	9 	12 	---
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-6 	7-11 	12-15 	- 	16-17 	- 	18+
+	197 	UL 	A.J. Pierzynski
+Twins 	220 	'02 	9 	13 	C+7
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	- 	7-14 	- 	15-19 	- 	20+
+	199 	UL 	Luis Rivas
+Twins 	110 	'02 	10 	21 	2B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7- 	8-10 	11-17 	18- 	19- 	20-23 	24+
+	201 	UL 	Michael Barrett
+Expos 	50 	'02 	8 	12 	C+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-6 	- 	7- 	8-15 	- 	16-19 	20-23 	24+
+	202 	UL 	Peter Bergeron
+Expos 	40 	'02 	7 	21 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	- 	6-9 	10-17 	18- 	19- 	20-25 	26+
+	203 	UL 	Orlando Cabrera
+Expos 	280 	'02 	10 	17 	SS+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-9 	10-15 	16- 	17-19 	- 	20+
+	204 	UL 	Vladimir Guerrero
+Expos 	400 	'02 	11 	18 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-9 	10-13 	14- 	15-17 	- 	18+
+	207 	UL 	Fernando Tatis
+Expos 	20 	'02 	10 	10 	3B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	6- 	7-12 	13-18 	- 	19-23 	- 	24+
+	210 	UL 	Jose Vidro
+Expos 	270 	'02 	11 	14 	2B+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-8 	9-16 	- 	17-19 	- 	20+
+	211 	UL 	Brad Wilkerson
+Expos 	160 	'02 	11 	13 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5-6 	7-13 	14-18 	- 	19- 	- 	20+
+	212 	UL 	Edgardo Alfonzo
+Mets 	160 	'02 	10 	13 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1- 	2-7 	8-12 	13-17 	- 	18- 	- 	19+
+	215 	UL 	Alex Escobar
+Mets 	180 	'02 	9 	12 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	6- 	7-9 	10-16 	- 	17-18 	- 	19+
+	218 	UL 	Rey Ordonez
+Mets 	110 	'02 	8 	14 	SS+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-6 	7- 	- 	8-17 	- 	18-19 	20-25 	26+
+	219 	UL 	Mike Piazza
+Mets 	300 	'02 	11 	09 	C+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	7-9 	10-15 	- 	16-17 	- 	18+
+	221 	UL 	Tsuyoshi Shinjo
+Mets 	170 	'02 	9 	13 	OF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-9 	10-17 	- 	18-19 	- 	20+
+	223 	UL 	Todd Zeile
+Mets 	80 	'02 	11 	11 	1B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	8-12 	13-19 	- 	20-22 	- 	23+
+	225 	UL 	Derek Jeter
+Yankees 	310 	'02 	12 	19 	SS+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7- 	8-10 	11-16 	17- 	18-19 	- 	20+
+	226 	UL 	Nick Johnson
+Yankees 	200 	'02 	12 	08 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-14 	15-17 	- 	18- 	- 	19+
+	227 	UL 	David Justice
+Yankees 	90 	'02 	10 	12 	---
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7- 	8-12 	13-17 	- 	18- 	- 	19+
+	228 	UL 	Tino Martinez
+Yankees 	170 	'02 	10 	13 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-9 	10-16 	- 	17- 	- 	18+
+	232 	UL 	Jorge Posada
+Yankees 	250 	'02 	11 	11 	C+5
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5- 	6-7 	8-11 	12-16 	- 	17-18 	- 	19+
+	234 	UL 	Alfonso Soriano
+Yankees 	200 	'02 	9 	19 	2B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5-7 	8- 	9-13 	14-15 	16-18 	- 	19+
+	236 	UL 	Bernie Williams
+Yankees 	400 	'02 	12 	16 	OF+1
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-10 	11-16 	- 	17-18 	- 	19+
+	237 	UL 	Eric Chavez
+Athletics 	270 	'02 	10 	14 	3B+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7- 	8-9 	10-14 	- 	15-17 	- 	18+
+	238 	UL 	Johnny Damon
+Athletics 	160 	'02 	10 	19 	OF+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6-7 	8-11 	12-17 	18- 	19-23 	- 	24+
+ 	239 	UL 	Jermaine Dye
+Athletics 	210 	'02 	10 	15 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6- 	7-9 	10-16 	- 	17-18 	- 	19+
+	240 	UL 	Jason Giambi
+Athletics 	530 	'02 	14 	12 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-12 	13-16 	- 	17-18 	- 	19+
+	241 	UL 	Jeremy Giambi
+Athletics 	240 	'02 	12 	10 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-12 	13-17 	- 	18-19 	- 	20+
+	242 	UL 	Ramon Hernandez
+Athletics 	170 	'02 	9 	11 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6- 	7-9 	10-16 	- 	17-18 	- 	19+
+	245 	UL 	Terrance Long
+Athletics 	180 	'02 	10 	16 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-9 	10-17 	- 	18-19 	- 	20+
+	247 	UL 	Olmedo Saenz
+Athletics 	50 	'02 	8 	11 	---
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-6 	7-11 	12-15 	- 	16-18 	- 	19+
+	248 	UL 	Miguel Tejada
+Athletics 	250 	'02 	10 	17 	SS+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-10 	11-16 	- 	17- 	- 	18+
+	250 	UL 	Bobby Abreu
+Phillies 	450 	'02 	12 	18 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-11 	12-14 	15- 	16-18 	- 	19+
+	251 	UL 	Marlon Anderson
+Phillies 	260 	'02 	10 	15 	2B+5
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6- 	7-8 	9-17 	- 	18-19 	- 	20+
+	253 	UL 	Pat Burrell
+Phillies 	170 	'02 	10 	12 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	6- 	7-11 	12-16 	- 	17-18 	- 	19+
+	255 	UL 	Johnny Estrada
+Phillies 	30 	'02 	7 	09 	C+7
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	- 	7-15 	- 	16-18 	- 	19+
+	257 	UL 	Travis Lee
+Phillies 	170 	'02 	10 	12 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-11 	12-16 	- 	17-18 	- 	19+
+	259 	UL 	Scott Rolen
+Phillies 	410 	'02 	12 	15 	3B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5-7 	8-11 	12-15 	16- 	17-18 	- 	19+
+	260 	UL 	Jimmy Rollins
+Phillies 	270 	'02 	10 	23 	SS+2
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-7 	8-9 	10-15 	16-17 	18- 	19- 	20+
+	262 	UL 	Brian Giles
+Pirates 	430 	'02 	12 	18 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	7-11 	12-16 	- 	17-18 	- 	19+
+	263 	UL 	Jason Kendall
+Pirates 	70 	'02 	10 	15 	C+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-11 	12-18 	19- 	20-22 	- 	23+
+	265 	UL 	Warren Morris
+Pirates 	80 	'02 	8 	11 	2B+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7- 	8-15 	- 	16-19 	- 	20+
+	266 	UL 	Aramis Ramirez
+Pirates 	310 	'02 	11 	12 	3B+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-7 	8-9 	10-15 	- 	16-17 	- 	18+
+	268 	UL 	Craig Wilson
+Pirates 	380 	'02 	12 	17 	---
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6- 	- 	7-11 	12-17 	- 	- 	- 	18+
+	269 	UL 	Jack Wilson
+Pirates 	10 	'02 	7 	13 	SS+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	- 	8-18 	- 	19-25 	- 	26+
+	270 	UL 	Kevin Young
+Pirates 	170 	'02 	9 	14 	1B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	- 	5-6 	7-11 	12-14 	15- 	16-18 	- 	19+
+	271 	UL 	Ben Davis
+Padres 	130 	'02 	10 	11 	C+6
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-12 	13-18 	- 	19- 	- 	20+
+	272 	UL 	Wiki Gonzalez
+Padres 	190 	'02 	10 	11 	C+6
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7- 	8-10 	11-17 	- 	- 	- 	18+
+	273 	UL 	Rickey Henderson
+Padres 	220 	'02 	11 	20 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-14 	15-17 	18- 	19- 	- 	20+
+	276 	UL 	Damian Jackson
+Padres 	190 	'02 	9 	22 	2B+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	6- 	7-11 	12-16 	17-18 	19- 	20-24 	25+
+ 	277 	UL 	D'Angelo Jimenez
+Padres 	120 	'02 	11 	12 	SS+3
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-7 	8-11 	12-18 	- 	19-24 	- 	25+
+	278 	UL 	Mark Kotsay
+Padres 	310 	'02 	11 	16 	CF+2
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	7-10 	11-15 	16- 	17-19 	- 	20+
+	279 	UL 	Phil Nevin
+Padres 	360 	'02 	12 	12 	3B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6- 	7- 	8-11 	12-16 	- 	17- 	- 	18+
+	280 	UL 	Bubba Trammell
+Padres 	190 	'02 	10 	14 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	8-11 	12-16 	- 	17- 	- 	18+
+	281 	UL 	Rich Aurilia
+Giants 	450 	'02 	11 	14 	SS+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-6 	7-8 	9-15 	- 	16-17 	- 	18+
+	282 	UL 	Marvin Benard
+Giants 	220 	'02 	9 	18 	OF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	7-9 	10-15 	16- 	17-18 	- 	19+
+	283 	UL 	Barry Bonds
+Giants 	860 	'02 	14 	14 	LF-RF+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-13 	14- 	- 	15-16 	- 	17+
+	285 	UL 	Pedro Feliz
+Giants 	60 	'02 	7 	14 	3B+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	- 	7-14 	- 	15-16 	17- 	18+
+	286 	UL 	Jeff Kent
+Giants 	390 	'02 	11 	14 	2B+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-6 	7-10 	11-15 	- 	16-18 	- 	19+
+	291 	UL 	Benito Santiago
+Giants 	120 	'02 	8 	15 	C+6
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5- 	6- 	7-16 	- 	17-19 	20-23 	24+
+	292 	UL 	J.T. Snow
+Giants 	120 	'02 	11 	12 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-6 	7- 	8-13 	14-18 	- 	19- 	- 	20+
+	293 	UL 	John Vander Wal
+Giants 	180 	'02 	11 	15 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5- 	6-7 	8-12 	13-17 	- 	18-19 	- 	20+
+	294 	UL 	Bret Boone
+Mariners 	440 	'02 	12 	14 	2B+5
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	8-9 	10-16 	- 	17-18 	- 	19+
+	295 	UL 	Mike Cameron
+Mariners 	340 	'02 	11 	20 	OF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	6-7 	8-12 	13-15 	16- 	17-18 	- 	19+
+	297 	UL 	Carlos Guillen
+Mariners 	210 	'02 	10 	17 	SS+4
+	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-11 	12-18 	- 	19- 	20-24 	25+
+	298 	UL 	Edgar Martinez
+Mariners 	390 	'02 	12 	12 	---
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3- 	4-5 	6-11 	12-15 	- 	16-18 	- 	19+
+	299 	UL 	Mark McLemore
+Mariners 	350 	'02 	12 	23 	LF-RF+1
+3B+1 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-12 	13-16 	17-18 	19- 	20-24 	25+
+	302 	UL 	John Olerud
+Mariners 	260 	'02 	12 	12 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-3 	4-6 	7-11 	12-17 	- 	18-19 	- 	20+
+	306 	UL 	Ichiro
+Mariners 	300 	'02 	12 	22 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-6 	7- 	8- 	9-16 	17-18 	19- 	20-23 	24+
+	307 	UL 	Dan Wilson
+Mariners 	180 	'02 	9 	13 	C+7
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-7 	8- 	9-16 	- 	17-18 	- 	19+
+	308 	UL 	J.D. Drew
+Cardinals 	540 	'02 	12 	20 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5- 	6-10 	11-15 	16- 	17- 	- 	18+
+	309 	UL 	Jim Edmonds
+Cardinals 	360 	'02 	12 	12 	CF+2
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5- 	6- 	7-12 	13-16 	- 	17-18 	- 	19+
+	313 	UL 	Mike Matheny
+Cardinals 	20 	'02 	7 	10 	C+8
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-5 	6-8 	9-18 	- 	19- 	- 	20+
+	315 	UL 	Craig Paquette
+Cardinals 	160 	'02 	10 	12 	LF-RF+1
+3B+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-7 	8-9 	10-16 	- 	17-18 	- 	19+
+	316 	UL 	Placido Polanco
+Cardinals 	240 	'02 	10 	18 	SS+4
+3B+3 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6- 	7- 	8-17 	18- 	19-25 	- 	26+
+ 	317 	UL 	Albert Pujols
+Cardinals 	410 	'02 	12 	12 	3B+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-6 	7-10 	11-15 	- 	16-18 	- 	19+
+	318 	UL 	Edgar Renteria
+Cardinals 	170 	'02 	9 	18 	SS+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-9 	10-17 	18- 	19- 	- 	20+
+	321 	UL 	Fernando Vina
+Cardinals 	230 	'02 	11 	20 	2B+3
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-9 	10-17 	18- 	19- 	20-23 	24+
+	322 	UL 	Brent Abernathy
+Devil Rays 	170 	'02 	10 	16 	2B+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-10 	11-18 	- 	19-22 	- 	23+
+	323 	UL 	Steve Cox
+Devil Rays 	120 	'02 	10 	11 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	- 	8-11 	12-16 	- 	17-18 	- 	19+
+	324 	UL 	Ben Grieve
+Devil Rays 	130 	'02 	11 	14 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-6 	- 	7-12 	13-18 	- 	19-21 	- 	22+
+	325 	UL 	Aubrey Huff
+Devil Rays 	80 	'02 	8 	12 	3B+2
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	- 	7- 	8-16 	- 	17-19 	- 	20+
+	328 	UL 	Jason Tyner
+Devil Rays 	170 	'02 	9 	23 	CF+2
+LF-RF+1 	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-5 	6- 	7- 	8-17 	18-19 	- 	20-26 	27+
+	329 	UL 	Greg Vaughn
+Devil Rays 	160 	'02 	10 	14 	LF-RF+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	- 	6-7 	8-12 	13-15 	16- 	17-18 	- 	19+
+	332 	UL 	Frank Catalanotto
+Rangers 	370 	'02 	12 	18 	LF-RF+1
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-9 	10-16 	17- 	18-19 	- 	20+
+	333 	UL 	Chad Curtis
+Rangers 	170 	'02 	10 	17 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-6 	7-11 	12-17 	18-19 	- 	- 	20+
+	335 	UL 	Gabe Kapler
+Rangers 	240 	'02 	11 	17 	CF+2
+LF-RF+1 	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-7 	8-12 	13-16 	17- 	18-19 	- 	20+
+	336 	UL 	Mike Lamb
+Rangers 	80 	'02 	11 	12 	3B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-7 	8-9 	10-18 	- 	19-23 	- 	24+
+	338 	UL 	Rafael Palmeiro
+Rangers 	300 	'02 	12 	10 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-7 	8-13 	14-16 	- 	17- 	- 	18+
+	339 	UL 	Alex Rodriguez
+Rangers 	540 	'02 	12 	16 	SS+3
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-10 	11-14 	15- 	16-17 	- 	18+
+	340 	UL 	Ivan Rodriguez
+Rangers 	420 	'02 	10 	16 	C+12
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-6 	7- 	8-14 	15- 	16-17 	- 	18+
+	342 	UL 	Michael Young
+Rangers 	200 	'02 	9 	18 	2B+2
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-7 	8-9 	10-16 	- 	17- 	18- 	19+
+	345 	UL 	Jose Cruz
+Blue Jays 	300 	'02 	10 	19 	CF+1
+LF-RF+0 	S 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-6 	7- 	8-9 	10-13 	14- 	15-17 	- 	18+
+	346 	UL 	Carlos Delgado
+Blue Jays 	330 	'02 	12 	12 	1B+0
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6- 	7-12 	13-16 	- 	17-18 	- 	19+
+	348 	UL 	Darrin Fletcher
+Blue Jays 	20 	'02 	7 	09 	C+6
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-2 	3-5 	6-7 	8-16 	- 	17-18 	- 	19+
+	349 	UL 	Brad Fullmer
+Blue Jays 	140 	'02 	10 	14 	---
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-7 	8-9 	10-16 	- 	17-18 	- 	19+
+	350 	UL 	Alex S. Gonzalez
+Blue Jays 	240 	'02 	9 	18 	SS+4
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	- 	7-9 	10-16 	17- 	18- 	19- 	20+
+	353 	UL 	Raul Mondesi
+Blue Jays 	210 	'02 	10 	19 	LF-RF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4- 	5-6 	7-12 	13-16 	17- 	18- 	- 	19+
+	355 	UL 	Shannon Stewart
+Blue Jays 	240 	'02 	11 	19 	LF-RF+0
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+- 	1-4 	5-6 	7-9 	10-16 	17- 	18-19 	20-21 	22+
+	356 	UL 	Vernon Wells
+Blue Jays 	180 	'02 	10 	16 	OF+1
+	R 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-7 	8-9 	10-16 	- 	17-19 	- 	20+

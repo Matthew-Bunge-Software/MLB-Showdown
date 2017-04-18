@@ -1,0 +1,17 @@
+6 	Ducks on the Pond 	Off 	'04 	Play before the pitch. 	Discard a card. Add +1 to the swing for each runner.  
+
+Num: 	6
+Name: 	Ducks on the Pond
+Use: 	Offense
+Year:	'04
+Pre:	BP
+Post:	DI+SE SW+AR
+
+12 	Play the Percentages 	Off 	'04 	Play before the pitch. 	If the pitcher is LHP and your batter bats R or S add +2 to the swing.  
+
+Num:	12
+Name: 	Play the Percentages
+Use:	Offense
+Year:	'04
+Pre:	BP	P+L	B+R^S
+Post:	SW+2

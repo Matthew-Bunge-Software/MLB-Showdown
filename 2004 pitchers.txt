@@ -1,0 +1,550 @@
+6 	UL 	Ramon Ortiz
+Angels 	40 	'04 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-12 	13-16 	17- 	18-19 	- 	20-23 	- 	24+
+	9 	UL 	Scot Shields
+Angels 	320 	'04 	4 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-14 	15-16 	17- 	18-19 	- 	20-25 	- 	26+
+	11 	UL 	Jarrod Washburn
+Angels 	200 	'04 	4 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-12 	13-16 	- 	17-18 	- 	19-22 	- 	23+
+	14 	UL 	Elmer Dessens
+Diamondbacks 	10 	'04 	1 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	21 	UL 	Curt Schilling
+Diamondbacks 	650 	'04 	4 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-7 	8-12 	13-17 	18- 	19-20 	- 	21-24 	- 	25+
+	28 	UL 	Ray King
+Braves 	190 	'04 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-15 	16-17 	18- 	19-23 	- 	24-26 	- 	27+
+	30 	UL 	Greg Maddux
+Braves 	350 	'04 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-13 	14-17 	- 	18-19 	- 	20-24 	- 	25+
+	31 	UL 	Russ Ortiz
+Braves 	290 	'04 	3 	6 	Starter
+	R 	20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-14 	15-16 	17- 	18-19 	- 	20-25 	- 	26+
+	35 	UL 	Travis Driskill
+Orioles 	60 	'04 	2 	2 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-13 	14-16 	17- 	18-19 	- 	20-23 	- 	24+
+	38 	UL 	Pat Hentgen
+Orioles 	210 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-10 	11-15 	16-17 	18-19 	- 	20-23 	- 	24+
+	39 	UL 	Jorge Julio
+Orioles 	70 	'04 	2 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-13 	14-18 	19-20 	21-22 	- 	23- 	- 	24+
+	40 	UL 	Rodrigo Lopez
+Orioles 	10 	'04 	1 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	46 	UL 	Alan Embree
+Red Sox 	150 	'04 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-13 	14-16 	17- 	18-19 	- 	20-24 	- 	25+
+	48 	UL 	Byung-Hyun Kim
+Red Sox 	190 	'04 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-15 	16-17 	18- 	19-22 	- 	23-25 	- 	26+
+	49 	UL 	Derek Lowe
+Red Sox 	110 	'04 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-15 	16- 	17- 	18-19 	- 	20-25 	- 	26+
+	50 	UL 	Pedro Martinez
+Red Sox 	510 	'04 	5 	7 	Starter
+	R 	K 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-14 	15-17 	- 	18-19 	- 	20-26 	- 	27+
+	56 	UL 	Tim Wakefield
+Red Sox 	250 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-14 	15-16 	17- 	18-19 	- 	20-24 	- 	25+
+	58 	UL 	Antonio Alfonseca
+Cubs 	40 	'04 	1 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-14 	15-16 	17-18 	19-22 	- 	23-24 	- 	25+
+	68 	UL 	Mark Prior
+Cubs 	670 	'04 	5 	7 	Starter
+	R 	K 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-10 	11-14 	15-18 	19- 	20- 	- 	21-25 	- 	26+
+	70 	UL 	Mike Remlinger
+Cubs 	140 	'04 	3 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-9 	10-14 	15-16 	17-18 	19-21 	- 	22-23 	- 	24+
+	72 	UL 	Kerry Wood
+Cubs 	410 	'04 	4 	7 	Starter
+	R 	K 	
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-7 	8-12 	13-16 	17-18 	19- 	- 	20-23 	- 	24+
+	73 	UL 	Carlos Zambrano
+Cubs 	330 	'04 	3 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-0 	2-5 	6-13 	14-16 	17- 	18-19 	- 	20-26 	- 	27+
+	74 	UL 	Mark Buehrle
+White Sox 	410 	'04 	3 	7 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-13 	14-16 	17- 	18-19 	- 	20-24 	- 	25+
+	75 	UL 	Bartolo Colon
+White Sox 	380 	'04 	4 	8 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	77 	UL 	Tom Gordon
+White Sox 	200 	'04 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-10 	11-16 	17- 	18- 	19-23 	- 	24-26 	- 	27+
+ 	80 	UL 	Damaso Marte
+White Sox 	200 	'04 	5 	1 	Reliever
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-6 	7-10 	11-15 	16-17 	18-19 	- 	20-26 	- 	27+
+	88 	UL 	Danny Graves
+Reds 	10 	'04 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2- 	3-10 	11-15 	16- 	17-18 	- 	19-22 	- 	23+
+	94 	UL 	Chris Reitsma
+Reds 	30 	'04 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-15 	16- 	17-18 	- 	19-22 	- 	23+
+	96 	UL 	Paul Wilson
+Reds 	50 	'04 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-11 	12-16 	17- 	18-19 	- 	20-23 	- 	24+
+	97 	UL 	Danys Baez
+Indians 	190 	'04 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-9 	10-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	100 	UL 	Jason Boyd
+Indians 	160 	'04 	4 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-13 	14-15 	16-17 	18-19 	- 	20-25 	- 	26+
+	108 	UL 	Terry Mulholland
+Indians 	80 	'04 	2 	2 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-12 	13-16 	17- 	18-19 	- 	20-23 	- 	24+
+	109 	UL 	C. C. Sabathia
+Indians 	270 	'04 	3 	7 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-12 	13-15 	16-17 	18-19 	- 	20-24 	- 	25+
+	112 	UL 	Shawn Chacon
+Rockies 	260 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-12 	13-17 	18- 	19-22 	- 	23-25 	- 	26+
+	115 	UL 	Darren Oliver
+Rockies 	50 	'04 	2 	5 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-13 	14-16 	17- 	18-19 	- 	20-24 	- 	25+
+	117 	UL 	Justin Speier
+Rockies 	110 	'04 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-11 	12-16 	17- 	18-19 	- 	20-23 	- 	24+
+	121 	UL 	Jeremy Bonderman
+Tigers 	10 	'04 	1 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	- 	17-19 	- 	20-23 	- 	24+
+	125 	UL 	Wilfredo Ledezma
+Tigers 	40 	'04 	1 	2 	Reliever
+	L 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-10 	11-16 	17- 	18-19 	- 	20-23 	- 	24+
+	126 	UL 	Chris Mears
+Tigers 	10 	'04 	1 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	132 	UL 	Josh Beckett
+Marlins 	440 	'04 	5 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-9 	10-15 	16- 	17- 	18-19 	- 	20-26 	- 	27+
+	138 	UL 	Braden Looper
+Marlins 	120 	'04 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-14 	15-16 	17- 	18-19 	- 	20-26 	- 	27+
+	141 	UL 	Mark Redman
+Marlins 	420 	'04 	4 	7 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-12 	13-16 	17- 	18-19 	- 	20-25 	- 	26+
+	143 	UL 	Tim Spooneybarger
+Marlins 	270 	'04 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-16 	17- 	18- 	19-23 	- 	24-27 	- 	28+
+	144 	UL 	Dontrelle Willis
+Marlins 	240 	'04 	3 	6 	Starter
+	L 	RY R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-12 	13-16 	17- 	18-19 	- 	20-25 	- 	26+
+	150 	UL 	Octavio Dotel
+Astros 	300 	'04 	6 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-10 	11-15 	16-18 	19- 	20-21 	- 	22-23 	- 	24+
+	155 	UL 	Brad Lidge
+Astros 	180 	'04 	5 	1 	Reliever
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-7 	8-11 	12-16 	17- 	18-19 	- 	20-25 	- 	26+
+	156 	UL 	Roy Oswalt
+Astros 	340 	'04 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-15 	16-18 	19- 	20- 	- 	21-23 	- 	24+
+	157 	UL 	Jeriome Robertson
+Astros 	10 	'04 	5 	5 	Starter
+	L 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-0 	11-12 	13-14 	15-17 	- 	18- 	- 	19+
+	158 	UL 	Billy Wagner
+Astros 	270 	'04 	6 	1 	Closer
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-8 	9-13 	14-17 	18- 	19-22 	- 	23-24 	- 	25+
+	161 	UL 	Jason Grimsley
+Royals 	10 	'04 	1 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-15 	16- 	17- 	18-19 	- 	20-25 	- 	26+
+163 	UL 	Runelvys Hernandez
+Royals 	220 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-13 	14-16 	17- 	18-19 	- 	20-24 	- 	25+
+	165 	UL 	Curtis Leskanic
+Royals 	220 	'04 	5 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-13 	14-17 	18- 	19- 	- 	20-26 	- 	27+
+	166 	UL 	Jose Lima
+Royals 	60 	'04 	2 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-11 	12-15 	16-17 	18-19 	- 	20-24 	- 	25+
+	167 	UL 	Mike MacDougal
+Royals 	90 	'04 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-11 	12-14 	15-17 	18-20 	- 	21-26 	- 	27+
+	174 	UL 	Kevin Brown
+Dodgers 	630 	'04 	5 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-15 	16-17 	18- 	19-23 	- 	24-26 	- 	27+
+	177 	UL 	Eric Gagne
+Dodgers 	310 	'04 	6 	1 	Closer
+	R 	CY RP 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-11 	12-16 	17-18 	19- 	20-24 	- 	25-27 	- 	28+
+	183 	UL 	Hideo Nomo
+Dodgers 	370 	'04 	2 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-9 	10-15 	16-18 	19- 	20-21 	- 	22-23 	- 	24+
+	184 	UL 	Paul Quantrill
+Dodgers 	210 	'04 	5 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-15 	16- 	17- 	18-19 	- 	20-27 	- 	28+
+	190 	UL 	Brooks Kieschnick
+Brewers 	10 	'04 	1 	1 	Reliever
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-14 	15-16 	17- 	18-19 	- 	20-25 	- 	26+
+	194 	UL 	Ben Sheets
+Brewers 	310 	'04 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-13 	14-16 	17- 	18-19 	- 	20-23 	- 	24+
+	198 	UL 	LaTroy Hawkins
+Twins 	200 	'04 	5 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-12 	13-16 	17- 	18-19 	- 	20-26 	- 	27+
+	204 	UL 	Brad Radke
+Twins 	200 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-13 	14-17 	- 	18-19 	- 	20-23 	- 	24+
+	209 	UL 	Zach Day
+Expos 	90 	'04 	2 	6 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-13 	14-16 	17- 	18-19 	- 	20-26 	- 	27+
+	212 	UL 	Javier Vazquez
+Expos 	560 	'04 	5 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-7 	8-12 	13-16 	17- 	18-19 	- 	20-23 	- 	24+
+	217 	UL 	John Franco
+Mets 	90 	'04 	2 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-15 	16-17 	18- 	19-21 	- 	22-23 	- 	24+
+	223 	UL 	Steve Trachsel
+Mets 	190 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-10 	11-16 	17- 	18-19 	- 	20-23 	- 	24+
+	224 	UL 	Dave Weathers
+Mets 	80 	'04 	2 	1 	Closer+0
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-13 	14-16 	17- 	18-19 	- 	20-25 	- 	26+
+	226 	UL 	Roger Clemens
+Yankees 	520 	'04 	5 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-14 	15-17 	18- 	19-21 	- 	22-23 	- 	24+
+	227 	UL 	Chris Hammond
+Yankees 	150 	'04 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-13 	14-16 	17- 	18-19 	- 	20-25 	- 	26+
+	231 	UL 	Mike Mussina
+Yankees 	510 	'04 	5 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	232 	UL 	Andy Pettitte
+Yankees 	330 	'04 	5 	7 	Starter
+	L 	20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-14 	15- 	16-17 	18-19 	- 	20-24 	- 	25+
+	234 	UL 	Mariano Rivera
+Yankees 	220 	'04 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-15 	16- 	17- 	18-23 	- 	24-26 	- 	27+
+	236 	UL 	Jeff Weaver
+Yankees 	10 	'04 	1 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-14 	15-16 	17- 	18-19 	- 	20-25 	- 	26+
+	239 	UL 	Chad Bradford
+Athletics 	120 	'04 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-15 	16- 	17- 	18-19 	- 	20-24 	- 	25+
+	242 	UL 	Keith Foulke
+Athletics 	240 	'04 	6 	1 	Closer
+	R 	RP 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-9 	10-13 	14-17 	- 	18-19 	- 	20-23 	- 	24+
+245 	UL 	Tim Hudson
+Athletics 	640 	'04 	5 	8 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-14 	15-17 	18- 	19-22 	- 	23-25 	- 	26+
+	247 	UL 	Mark Mulder
+Athletics 	390 	'04 	4 	7 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-13 	14-16 	17- 	18-19 	- 	20-25 	- 	26+
+	248 	UL 	Ricardo Rincon
+Athletics 	80 	'04 	2 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-11 	12-15 	16-17 	18-19 	- 	20-25 	- 	26+
+	251 	UL 	Barry Zito
+Athletics 	530 	'04 	4 	7 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-12 	13-17 	18- 	19-22 	- 	23-25 	- 	26+
+	256 	UL 	Rheal Cormier
+Phillies 	250 	'04 	6 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-14 	15-16 	17- 	18-19 	- 	20-26 	- 	27+
+	257 	UL 	Vicente Padilla
+Phillies 	270 	'04 	3 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	261 	UL 	Carlos Silva
+Phillies 	70 	'04 	4 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-11 	12-13 	14-16 	17-19 	- 	20-25 	- 	26+
+	263 	UL 	Randy Wolf
+Phillies 	390 	'04 	4 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	264 	UL 	Kris Benson
+Pirates 	240 	'04 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-13 	14-18 	19- 	20-21 	- 	22-23 	- 	24+
+	265 	UL 	Jeff D’Amico
+Pirates 	50 	'04 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-11 	12-16 	17- 	18-19 	- 	20-23 	- 	24+
+	268 	UL 	Brian Meadows
+Pirates 	110 	'04 	3 	2 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-0 	2-4 	5-12 	13-16 	- 	17-19 	- 	20-24 	- 	25+
+	275 	UL 	Adam Eaton
+Padres 	230 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	276 	UL 	Luther Hackman
+Padres 	10 	'04 	1 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-9 	10-14 	15-16 	17-18 	19- 	- 	20-21 	- 	22+
+	278 	UL 	Brian Lawrence
+Padres 	240 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-16 	17- 	18-19 	- 	20-23 	- 	24+
+	284 	UL 	Jim Brower
+Giants 	130 	'04 	3 	2 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-13 	14-16 	17- 	18-19 	- 	20-25 	- 	26+
+	290 	UL 	Felix Rodriguez
+Giants 	70 	'04 	2 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-12 	13-16 	17- 	18-19 	- 	20-25 	- 	26+
+	292 	UL 	Jason Schmidt
+Giants 	670 	'04 	6 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-13 	14-16 	17- 	18-19 	- 	20-25 	- 	26+
+	294 	UL 	Tim Worrell
+Giants 	200 	'04 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-14 	15- 	16-17 	18-22 	- 	23-25 	- 	26+
+	297 	UL 	Ryan Franklin
+Mariners 	350 	'04 	4 	7 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-13 	14-17 	- 	18-19 	- 	20-22 	- 	23+
+	299 	UL 	Shigetoshi Hasegawa
+Mariners 	200 	'04 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-16 	17- 	18-19 	- 	20-25 	- 	26+
+	302 	UL 	Jamie Moyer
+Mariners 	410 	'04 	4 	7 	Starter
+	L 	20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	308 	UL 	Jeff Fassero
+Cardinals 	50 	'04 	2 	2 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-11 	12-14 	15- 	16-18 	- 	19-22 	- 	23+
+	310 	UL 	Jason Isringhausen
+Cardinals 	230 	'04 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-7 	8-14 	15-17 	18- 	19-23 	- 	24-26 	- 	27+
+	316 	UL 	Garrett Stephenson
+Cardinals 	30 	'04 	3 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-10 	11-15 	16- 	17-18 	- 	19-22 	- 	23+
+	317 	UL 	Woody Williams
+Cardinals 	350 	'04 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-14 	15-17 	- 	18-19 	- 	20-24 	- 	25+
+ 	319 	UL 	Lance Carter
+Devil Rays 	140 	'04 	2 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-9 	10-18 	19- 	20- 	- 	21-23 	- 	24+
+	322 	UL 	Travis Harper
+Devil Rays 	160 	'04 	3 	2 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-13 	14-16 	17-18 	19-22 	- 	23-24 	- 	25+
+	327 	UL 	Jorge Sosa
+Devil Rays 	10 	'04 	1 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	329 	UL 	Francisco Cordero
+Rangers 	140 	'04 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-15 	16-17 	18- 	19-23 	- 	24-26 	- 	27+
+	330 	UL 	Aaron Fultz
+Rangers 	10 	'04 	1 	1 	Reliever
+	L 		
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-11 	12-15 	16-17 	18-19 	- 	20-23 	- 	24+
+	335 	UL 	John Thomson
+Rangers 	180 	'04 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-11 	12-16 	17- 	18-19 	- 	20-23 	- 	24+
+	336 	UL 	Ismael Valdes
+Rangers 	10 	'04 	1 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-4 	5-11 	12-15 	16- 	17-18 	- 	19-22 	- 	23+
+	340 	UL 	Kelvim Escobar
+Blue Jays 	80 	'04 	2 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-15 	16- 	17- 	18-19 	- 	20-21 	- 	22+
+	341 	UL 	Roy Halladay
+Blue Jays 	500 	'04 	5 	8 	Starter
+	R 	20 CY 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-15 	16-17 	- 	18-20 	- 	21-23 	- 	24+
+	346 	UL 	Cliff Politte
+Blue Jays 	100 	'04 	3 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-11 	12-15 	16- 	17-18 	- 	19-24 	- 	25+

@@ -1,0 +1,147 @@
+1 	Change sides 	Off 	'01 	Play Before the Pitch. 	 
+	
+	2 	Clutch Hitter 	Off 	'01 	Play Before the Pitch. 	 
+	
+	3 	Clutch Hitting 	Off 	'01 	Play Before the Pitch. 	 
+	
+	4 	Contact Hitter 	Off 	'01 	Play Before the Pitch. 	 
+	
+	5 	Deep in the Gap 	Off 	'01 	Play on an Out(FB) Result. 	 
+	
+	6 	Dog Meat 	Off 	'01 	Play Before the Pitch. 	 
+	
+	7 	Double Steal 	Off 	'01 	Play After a Single+. 	 
+	
+	8 	Down the Middle 	Off 	'01 	Play on a Double Result. 	 
+	
+	9 	Drag Bunt 	Off 	'01 	Play Before the Pitch. 	 
+	
+	10 	Drained 	Off 	'01 	Play Before the Pitch. 	 
+	
+	11 	Ducks on the Pond 	Off 	'01 	Play Before the Pitch. 	 
+	
+	12 	Favorable Matchup 	Off 	'01 	Play Before the Pitch. 	 
+	
+	13 	Fight it Off 	Off 	'01 	Play Before the Pitch. 	 
+	
+	14 	Free Swinger 	Off 	'01 	Play Before the Pitch. 	 
+	
+	15 	Fuel on the Fire 	Off 	'01 	Play Before the Pitch. 	 
+	
+	16 	Hiding an Injury 	Off 	'01 	Play After a Hit or a Walk. 	 
+	
+	17 	In Motion 	Off 	'01 	Play on Any Die Roll 	 
+	
+	18 	Last Chance 	Off 	'01 	Play Before the Pitch. 	 
+	
+	19 	Lean Into It 	Off 	'01 	Play Before the Pitch. 	 
+	
+	20 	Nuisance 	Off 	'01 	Play Before the Pitch. 	 
+	
+	21 	Off-Balance 	Off 	'01 	Play on an Out(GB) Result. 	 
+	
+	22 	Out of Gas 	Off 	'01 	Play Before the Pitch. 	 
+	
+	23 	Overthrow 	Off 	'01 	Play When an Extra-Base Attempt Succeeds. 	 
+	
+	24 	Play the Percentages 	Off 	'01 	Play Before the Pitch. 	 
+	
+	25 	Power Hitter 	Off 	'01 	Play Before the Pitch. 	 
+26 	Protect the Runner 	Off 	'01 	Play Before the Pitch. 	 
+	
+	27 	Pull the Ball 	Off 	'01 	Play on Any Out Result. 	 
+	
+	28 	Rally Cap 	Off 	'01 	Play Before the Pitch. 	 
+	
+	29 	Rough Outing 	Off 	'01 	Play Before the Pitch. 	 
+	
+	30 	Runner Not Held 	Off 	'01 	Play Before the Pitch. 	 
+	
+	31 	Running on Fumes 	Off 	'01 	Play on an Out(SO) Result. 	 
+	
+	32 	Ruptured Duck 	Off 	'01 	Play on an Out(PU) Result. 	 
+	
+	33 	Sail Into Center 	Off 	'01 	Play After a Successful Stolen-Base Attempt. 	 
+	
+	34 	Say the Magic Word 	Off 	'01 	Play After an Out(SO). 	 
+	
+	35 	Shell Shocked 	Off 	'01 	Play After a Homer 	 
+	
+	36 	Singles Hitter 	Off 	'01 	Play Before the Pitch. 	 
+	
+	37 	Smash up the Middle 	Off 	'01 	Play on an Out(GB) Result. 	 
+	
+	38 	Stick a Fork in Him 	Off 	'01 	Play on Any Out Result. 	 
+	
+	39 	Take What's Given 	Off 	'01 	Play Before the Pitch. 	 
+	
+	40 	To the Warning Track 	Off 	'01 	Play on an Out(FB) Result. 	 
+	
+	41 	Turn On It 	Off 	'01 	Play on Any Out Result. 	 
+	
+	42 	Anointed Closer 	Def 	'01 	Play Before Your First Pitch of an Inning. 	 
+	
+	43 	By the Book 	Def 	'01 	Play Before the Pitch. 	 
+	
+	44 	Cannon 	Def 	'01 	Play Before the Pitch. 	 
+	
+	45 	Choke 	Def 	'01 	Play After the Third Out. 	 
+	
+	46 	Fast Worker 	Def 	'01 	Play Before Your First Pitch of an Inning. 	 
+	
+	47 	Flamethrower 	Def 	'01 	Play Before the Pitch. 	 
+	
+	48 	Full Windup 	Def 	'01 	Play Before the Pitch. 	 
+	
+	49 	Goose Egg 	Def 	'01 	Play After the Third Out. 	 
+	
+	50 	Great Start 	Def 	'01 	Play After the Third Out.
+51 	Great Throw 	Def 	'01 	Play On an Extra-Base Attempt. 	 
+	
+	52 	Gutsy Play 	Def 	'01 	Play On a Double-Play Attempt. 	 
+	
+	53 	Highlight Reel 	Def 	'01 	Play On Any Die Roll 	 
+	
+	54 	Insult to Injury 	Def 	'01 	Play After an Out(SO). 	 
+	
+	55 	In the Groove 	Def 	'01 	Play Before the Pitch. 	 
+	
+	56 	Job Well Done 	Def 	'01 	Play After the Third Out. 	 
+	
+	57 	Just Foul 	Def 	'01 	Play Before the Pitch. 	 
+	
+	58 	Just Over the wall 	Def 	'01 	Play On a Homer. 	 
+	
+	59 	Leaping Catch 	Def 	'01 	Play On a Single or Single+ Result. 	 
+	
+	60 	Lefty Specialist 	Def 	'01 	Play Before the Pitch. 	 
+	
+	61 	Low and Away 	Def 	'01 	Play Before the Pitch. 	 
+	
+	62 	Mound Conference 	Def 	'01 	Play After a Hit or a Walk. 	 
+	
+	63 	Nerves of Steel 	Def 	'01 	Play Before the Pitch. 	 
+	
+	64 	Pitchout 	Def 	'01 	Play On a Single+ Result or Other Attempt to Steal without a Throw. 	 
+	
+	65 	Scuff the Ball 	Def 	'01 	Play Before the Pitch. 	 
+	
+	66 	Sloppy Bunt 	Def 	'01 	Play on a Scarifice Bunt 	 
+	
+	67 	Soft Hands 	Def 	'01 	Play Before the Pitch. 	 
+	
+	68 	Submarine Pitch 	Def 	'01 	Play Before the Pitch. 	 
+	
+	69 	Visibly Upset 	Def 	'01 	Play After an Out(SO). 	 
+	
+	70 	What Were You Thinking??? 	Def 	'01 	Play When An Extra-Base Attempt Fails. 	 
+	
+	71 	Air It Out 	Util 	'01 	Play Before the Pitch. 	 
+	
+	72 	Bear Down 	Util 	'01 	Play Before the Pitch. 	 
+	
+	73 	Brainstorm 	Util 	'01 	Play at Any Time. 	 
+	
+	74 	Game of Inches 	Util 	'01 	Play Before Any Die Roll. 	 
+	
+	75 	Second Look 	Util 	'01 	Play After an Extra-Base Attempt.

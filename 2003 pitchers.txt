@@ -1,0 +1,465 @@
+ 	8 	UL 	Ramon Ortiz
+Angels 	230 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-14 	15- 	16- 	17-18 	- 	19- 	- 	20+
+	10 	UL 	Troy Percival
+Angels 	240 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-10 	11-13 	14-16 	17-19 	20-22 	- 	23-25 	- 	26+
+	12 	UL 	Jarrod Washburn
+Angels 	560 	'03 	5 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-12 	13-17 	- 	18-19 	- 	20-22 	- 	23+
+	13 	UL 	Miguel Batista
+Diamondbacks 	380 	'03 	4 	5 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-16 	17- 	18-19 	- 	20-24 	- 	25+
+	19 	UL 	Randy Johnson
+Diamondbacks 	550 	'03 	5 	07 	Starter
+	L 	CY,K,20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-8 	9-13 	14-16 	17- 	18-19 	- 	20-22 	- 	23+
+	20 	UL 	Byung-Hyun Kim
+Diamondbacks 	230 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-14 	15-16 	17-19 	20-22 	- 	23-24 	- 	25+
+	22 	UL 	Curt Schilling
+Diamondbacks 	680 	'03 	6 	07 	Starter
+	R 	20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-9 	10-14 	15-17 	- 	18-19 	- 	20-22 	- 	23+
+	29 	UL 	Tom Glavine
+Braves 	310 	'03 	3 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-11 	12-16 	17- 	18-19 	- 	20-23 	- 	24+
+	33 	UL 	Greg Maddux
+Braves 	410 	'03 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-14 	15-16 	17- 	18-19 	- 	20-24 	- 	25+
+	34 	UL 	Kevin Millwood
+Braves 	440 	'03 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-12 	13-16 	17- 	18-19 	- 	20-23 	- 	24+
+	36 	UL 	John Smoltz
+Braves 	210 	'03 	5 	1 	Closer
+	R 	RP 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-14 	15-16 	17- 	18-19 	- 	20-25 	- 	26+
+	44 	UL 	Jorge Julio
+Orioles 	180 	'03 	4 	1 	Reliever
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-12 	13-16 	17- 	18-19 	- 	20-23 	- 	24+
+	45 	UL 	Rodrigo Lopez
+Orioles 	420 	'03 	4 	6 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-13 	14-16 	17- 	18-19 	- 	20-22 	- 	23+
+	48 	UL 	Sidney Ponson
+Orioles 	270 	'03 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-14 	15-16 	17- 	18-19 	- 	20- 	- 	21+
+	50 	UL 	John Burkett
+Red Sox 	30 	'03 	1 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	17- 	18-19 	- 	20-21 	- 	22+
+	53 	UL 	Alan Embree
+Red Sox 	260 	'03 	5 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-13 	14-17 	18- 	19- 	- 	20-23 	- 	24+
+	56 	UL 	Derek Lowe
+Red Sox 	580 	'03 	5 	07 	Starter
+	R 	20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-15 	16- 	17- 	18-20 	- 	21-25 	- 	26+
+	57 	UL 	Pedro Martinez
+Red Sox 	660 	'03 	6 	07 	Starter
+	R 	K,20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-7 	8-12 	13-16 	17- 	18-20 	- 	21-23 	- 	24+
+	61 	UL 	Ugueth Urbina
+Red Sox 	210 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-10 	11-13 	14-17 	18- 	19- 	- 	20-21 	- 	22+
+	66 	UL 	Matt Clement
+Cubs 	470 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-9 	10-15 	16- 	17- 	18-19 	- 	20-24 	- 	25+
+	70 	UL 	Jon Lieber
+Cubs 	350 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-14 	15-16 	- 	17-19 	- 	20-22 	- 	23+
+	74 	UL 	Mark Prior
+Cubs 	440 	'03 	4 	6 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-12 	13-16 	17- 	18-19 	- 	20-21 	- 	22+
+	76 	UL 	Mark Buehrle
+White Sox 	400 	'03 	4 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-13 	14-16 	17- 	18-19 	- 	20-22 	- 	23+
+	77 	UL 	Jon Garland
+White Sox 	190 	'03 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	17- 	18-19 	- 	20-22 	- 	23+
+	83 	UL 	Dan Wright
+White Sox 	150 	'03 	2 	6 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-12 	13-16 	17- 	18-19 	- 	20- 	- 	21+
+86 	UL 	Elmer Dessens
+Reds 	290 	'03 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-13 	14-16 	17- 	18-19 	- 	20- 	- 	21+
+	88 	UL 	Danny Graves
+Reds 	170 	'03 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-15 	16- 	17-19 	20-22 	- 	23-24 	- 	25+
+	89 	UL 	Joey Hamilton
+Reds 	180 	'03 	1 	3 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-13 	14-16 	17- 	18-19 	- 	20-24 	- 	25+
+	90 	UL 	Jimmy Haynes
+Reds 	170 	'03 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-12 	13-16 	17- 	18-19 	- 	20-22 	- 	23+
+	96 	UL 	Danys Baez
+Indians 	210 	'03 	2 	5 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-11 	12-16 	17- 	18-20 	- 	21-23 	- 	24+
+	103 	UL 	C. C. Sabathia
+Indians 	290 	'03 	3 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	107 	UL 	Bob Wickman
+Indians 	90 	'03 	2 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-14 	15-16 	17- 	18-19 	- 	20-24 	- 	25+
+	109 	UL 	Mike Hampton
+Rockies 	10 	'03 	1 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-5 	6-13 	14-15 	16- 	17-19 	- 	20-22 	- 	23+
+	111 	UL 	Jose Jimenez
+Rockies 	170 	'03 	4 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-14 	15-17 	- 	18-19 	- 	20-22 	- 	23+
+	112 	UL 	Denny Neagle
+Rockies 	260 	'03 	3 	5 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6-8 	9-14 	15-16 	17- 	18-19 	- 	20- 	- 	21+
+	118 	UL 	Juan Acevedo
+Tigers 	130 	'03 	4 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-12 	13-15 	16-17 	18-19 	- 	20-25 	- 	26+
+	124 	UL 	Mark Redman
+Tigers 	300 	'03 	3 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-3 	4-10 	11-16 	17- 	18-19 	- 	20-24 	- 	25+
+	126 	UL 	Steve Sparks
+Tigers 	30 	'03 	1 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-13 	14-16 	17- 	18-19 	- 	20-22 	- 	23+
+	128 	UL 	A. J. Burnett
+Marlins 	480 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-13 	14-16 	17- 	18-20 	- 	21-24 	- 	25+
+	135 	UL 	Vladimir Nunez
+Marlins 	170 	'03 	4 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-13 	14-16 	17- 	18-19 	- 	20-23 	- 	24+
+	145 	UL 	Billy Wagner
+Astros 	260 	'03 	5 	1 	Closer
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-8 	9-13 	14-17 	18-19 	20-21 	- 	22- 	- 	23+
+	147 	UL 	Paul Byrd
+Royals 	420 	'03 	5 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-10 	11-16 	17- 	18-19 	- 	20-21 	- 	22+
+	155 	UL 	Eric Gagne
+Dodgers 	260 	'03 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-10 	11-14 	15-17 	18- 	19- 	- 	20-23 	- 	24+
+	159 	UL 	Kazuhisha Ishii
+Dodgers 	160 	'03 	1 	6 	Starter
+	L 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-14 	15-16 	17-19 	20-21 	- 	22- 	- 	23+
+	164 	UL 	Hideo Nomo
+Dodgers 	310 	'03 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-11 	12-16 	17- 	18-19 	- 	20-22 	- 	23+
+	165 	UL 	Jesse Orosco
+Dodgers 	160 	'03 	4 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6-9 	10-14 	15-16 	17- 	18-19 	- 	20- 	- 	21+
+	166 	UL 	Odalis Perez
+Dodgers 	590 	'03 	5 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-8 	9-15 	16-17 	18- 	19- 	- 	20-22 	- 	23+
+	167 	UL 	Mike Dejean
+Brewers 	120 	'03 	2 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-13 	14-16 	17-19 	20-21 	- 	22-23 	- 	24+
+	172 	UL 	Ben Sheets
+Brewers 	150 	'03 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	17- 	18-19 	- 	20-23 	- 	24+
+	174 	UL 	Eddie Guardado
+Twins 	200 	'03 	5 	1 	Closer
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-9 	10-13 	14-16 	17- 	18-19 	- 	20-21 	- 	22+
+180 	UL 	Eric Milton
+Twins 	350 	'03 	4 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-10 	11-16 	17- 	18-19 	- 	20- 	- 	21+
+	186 	UL 	Tomo Ohka
+Expos 	380 	'03 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-14 	15-16 	17- 	18-19 	- 	20-22 	- 	23+
+	188 	UL 	Javier Vazquez
+Expos 	360 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-11 	12-16 	17- 	18-19 	- 	20-22 	- 	23+
+	193 	UL 	Pedro Astacio
+Mets 	280 	'03 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-13 	14-16 	17- 	18-19 	- 	20- 	- 	21+
+	194 	UL 	Armando Benitez
+Mets 	210 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-12 	13-16 	17- 	18-19 	- 	20- 	- 	21+
+	196 	UL 	Al Leiter
+Mets 	410 	'03 	4 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-14 	15-16 	17- 	18-19 	- 	20-22 	- 	23+
+	200 	UL 	Steve Trachsel
+Mets 	320 	'03 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-11 	12-16 	17-19 	20-21 	- 	22-23 	- 	24+
+	202 	UL 	Roger Clemens
+Yankees 	300 	'03 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-7 	8-13 	14-16 	17- 	18-19 	- 	20-23 	- 	24+
+	206 	UL 	Steve Karsay
+Yankees 	170 	'03 	3 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-13 	14-16 	17- 	18-19 	- 	20-24 	- 	25+
+	207 	UL 	Mike Mussina
+Yankees 	390 	'03 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-11 	12-16 	17- 	18-19 	- 	20- 	- 	21+
+	209 	UL 	Mariano Rivera
+Yankees 	230 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-6 	7-13 	14-16 	17-19 	20-22 	- 	23-25 	- 	26+
+	211 	UL 	Mike Stanton
+Yankees 	140 	'03 	3 	1 	Reliever
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-12 	13-16 	17- 	18-19 	- 	20-25 	- 	26+
+	213 	UL 	Jeff Weaver
+Yankees 	400 	'03 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	219 	UL 	Tim Hudson
+Athletics 	330 	'03 	3 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-14 	15-16 	17- 	18-20 	- 	21-23 	- 	24+
+	220 	UL 	Billy Koch
+Athletics 	200 	'03 	4 	1 	Closer
+	R 	RP 	
+SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6-11 	12-16 	17-19 	20-21 	- 	22-23 	- 	24+
+	222 	UL 	Mark Mulder
+Athletics 	500 	'03 	5 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	17- 	18-19 	- 	20-22 	- 	23+
+	224 	UL 	Barry Zito
+Athletics 	610 	'03 	5 	07 	Starter
+	L 	CY,20 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-11 	12-17 	18-19 	20-21 	- 	22- 	- 	23+
+	228 	UL 	Brandon Duckworth
+Phillies 	170 	'03 	2 	5 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-8 	9-13 	14-16 	17- 	18-19 	- 	20- 	- 	21+
+	232 	UL 	Jose Mesa
+Phillies 	110 	'03 	2 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-8 	9-14 	15-16 	17- 	18-19 	- 	20-24 	- 	25+
+	233 	UL 	Vincente Padilla
+Phillies 	440 	'03 	4 	07 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-6 	7-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	236 	UL 	Josh Fogg
+Pirates 	160 	'03 	2 	6 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-14 	15-16 	17- 	18-19 	- 	20-21 	- 	22+
+	240 	UL 	Kip Wells
+Pirates 	200 	'03 	2 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-14 	15-16 	17- 	18-19 	- 	20-22 	- 	23+
+	241 	UL 	Mike Williams
+Pirates 	220 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-14 	15-16 	17- 	18-19 	- 	20-23 	- 	24+
+	245 	UL 	Trevor Hoffman
+Padres 	230 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-10 	11-14 	15-16 	17- 	18-22 	- 	23-25 	- 	26+
+	248 	UL 	Brian Lawrence
+Padres 	210 	'03 	3 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-15 	16- 	17-19 	- 	20-24 	- 	25+
+250 	UL 	Kurt Ainsworth
+Giants 	250 	'03 	2 	5 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-12 	13-16 	17- 	18-21 	- 	22-25 	- 	26+
+	253 	UL 	Ryan Jensen
+Giants 	160 	'03 	2 	5 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-11 	12-16 	17- 	18-19 	- 	20-22 	- 	23+
+	255 	UL 	Robb Nen
+Giants 	230 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-7 	8-13 	14-16 	17- 	18-22 	- 	23-26 	- 	27+
+	263 	UL 	Freddy Garcia
+Mariners 	250 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-12 	13-15 	16- 	17-19 	- 	20-21 	- 	22+
+	266 	UL 	Jamie Moyer
+Mariners 	540 	'03 	5 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-11 	12-16 	17- 	18-19 	- 	20-21 	- 	22+
+	268 	UL 	Joel Pineiro
+Mariners 	300 	'03 	4 	5 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-5 	6-12 	13-16 	17- 	18-19 	- 	20-22 	- 	23+
+	269 	UL 	Kazuhiro Sasaki
+Mariners 	270 	'03 	6 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-9 	10-14 	15-17 	18-19 	20-21 	- 	22- 	- 	23+
+	275 	UL 	Jason Isringhausen
+Cardinals 	230 	'03 	5 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-7 	8-14 	15-16 	17- 	18-22 	- 	23-27 	- 	28+
+	276 	UL 	Matt Morris
+Cardinals 	420 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-7 	8-15 	16- 	17- 	18-20 	- 	21-24 	- 	25+
+	280 	UL 	Jason Simontacchi
+Cardinals 	160 	'03 	2 	6 	Starter
+	R 	R 	
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-13 	14-16 	17- 	18-19 	- 	20-22 	- 	23+
+	286 	UL 	Joe Kennedy
+Devil Rays 	190 	'03 	2 	07 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-4 	5-7 	8-13 	14-16 	17- 	18-19 	- 	20-22 	- 	23+
+	287 	UL 	Tanyon Sturtze
+Devil Rays 	10 	'03 	1 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-5 	6-8 	9-14 	15-16 	17- 	18-19 	- 	20-21 	- 	22+
+	288 	UL 	Paul Wilson
+Devil Rays 	120 	'03 	2 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-12 	13-16 	17- 	18-19 	- 	20- 	- 	21+
+	291 	UL 	Hideki Irabu
+Rangers 	10 	'03 	2 	1 	Reliever
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-12 	13-15 	16- 	17-18 	- 	19- 	- 	20+
+	296 	UL 	Kenny Rogers
+Rangers 	270 	'03 	3 	6 	Starter
+	L 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-5 	6-13 	14-16 	17- 	18-19 	- 	20-22 	- 	23+
+	297 	UL 	Ismael Valdes
+Rangers 	380 	'03 	4 	6 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1- 	2-4 	5-10 	11-16 	17- 	18-19 	- 	20-21 	- 	22+
+	301 	UL 	Kelvim Escobar
+Blue Jays 	80 	'03 	1 	1 	Closer
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-3 	4-9 	10-14 	15-16 	17-19 	20-21 	- 	22- 	- 	23+
+	302 	UL 	Roy Halladay
+Blue Jays 	460 	'03 	4 	07 	Starter
+	R 		
+PU 	SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR
+1-2 	3-6 	7-15 	16- 	17- 	18-21 	- 	22-25 	- 	26+

@@ -1,0 +1,3 @@
+PlayerData uses Range
+HitterData extends PlayerData
+PitcherData extends PlayerData

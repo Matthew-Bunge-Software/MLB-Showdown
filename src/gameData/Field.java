@@ -13,8 +13,13 @@ import players.HitterData;
  * Ideally in the future, it will also process strategy cards, and basically be
  * the main engine of strategy on the field.
  * 
+ * Updates:
+ * 
+ * .2:
+ * -Now contains a List of Tokens to be processed if a strategy card halts play on the field 
+ * 
  * @author Matthew Bunge
- * @version .1
+ * @version .2
  */
 
 public class Field {
@@ -36,10 +41,20 @@ public class Field {
 		problems = new ArrayList<String>();
 	}
 	
+	/**
+	 * Returns a list of problems resulting from a strategy card interrupt
+	 * 
+	 * @return List of String tokens representing problems
+	 */
 	public List<String> getProblems() {
 		return problems;
 	}
 	
+	/**
+	 * Informs on whether there are existing problems that halted execution of Field methods
+	 * 
+	 * @return True if there are any existing problems, False otherwise
+	 */
 	public boolean hasProblems() {
 		return !problems.isEmpty();
 	}
@@ -276,7 +291,12 @@ public class Field {
 		track.yerOut();
 		return track;
 	}
-
+	
+	/**
+	 * Gets number of runners on the basepaths
+	 * 
+	 * @return Integer representing the number of runners on base
+	 */
 	public int getState() {
 		int runners = 0;
 		if (first.onBase != null) {

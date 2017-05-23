@@ -8,6 +8,13 @@ package gameData;
  * version .1. This is certain to be expanded in the future to contain game status in respect
  * to 2 separate teams.
  * 
+ * Updates:
+ * 
+ * .2:
+ * -Reworked the class to track runs individually for both teams
+ * -Also tracks the current inning frame, and which team is up to bat
+ * -Has method calls to internally flip over the inning
+ * 
  * @author Matthew
  * @version .1
  */
@@ -29,14 +36,25 @@ public class GameStat {
       inning = 1;
    }
    
+   /**
+    * Gets the number of outs in the current frame
+    * 
+    * @return The number of outs in the current frame
+    */
    public int getOuts() {
 	   return outs;
    }
    
+   /**
+    * Increments the number of outs
+    */
    public void yerOut() {
 	   outs++;
    }
    
+   /**
+    * Flips over the inning if a third out has been recorded
+    */
    public void update() {
 	   if (outs == 3) {
 		   if (top) {
@@ -50,6 +68,9 @@ public class GameStat {
 	   }
    }
    
+   /**
+    * Increments runs of the current team batting
+    */
    public void score() {
 	   if (top) {
 		   awayRuns++;
@@ -58,6 +79,12 @@ public class GameStat {
 	   }
    }
    
+   /**
+    * Indcates whether it's time to turn over the ending
+    * Turns over the inning internally if it is time
+    * 
+    * @return True if the ending is over, False otherwise
+    */
    public boolean inningEnd() {
 	   if (inningEnd) {
 		   inningEnd = false;

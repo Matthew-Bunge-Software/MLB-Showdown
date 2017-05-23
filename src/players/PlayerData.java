@@ -13,8 +13,14 @@ import gameData.LineupManager;
  * PitcherData, which are the actual classes that should be used for the creation of Hitters
  * and Pitchers respectively.
  * 
+ * Updates:
+ * 
+ * .2:
+ * -Now implements an overwritable method to create a string representation of a player card
+ * -Also converts the int value of a position into a String representation
+ * 
  * @author	Matthew Bunge
- * @version	.1
+ * @version	.2
  */
 
 public class PlayerData {
@@ -283,10 +289,24 @@ public class PlayerData {
       return track;
    }
    
+   /**
+    * Returns a string representation to be printed on the final GUI.
+    * Should be overwritten by a child class.
+    * 
+    * @throws UnsupportedOperationException if method not overwritten
+    */
    public String getCard() {
 	   throw new UnsupportedOperationException();
    }
    
+   /**
+    * Produces the String representation of some baseball position.
+    * Used for projecting the String reperesntation of a card onto the GUI.
+    * 
+    * @param	n	Integer representing a position on the field
+    * @return	The string representation of n
+    * @throws 	IllegalArgumentException	if n isn't an int between 0 and 9
+    */
    protected String translatePosition(int n) {
 	   switch (n) {
 	   case 0:

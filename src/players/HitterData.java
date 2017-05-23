@@ -199,6 +199,11 @@ public class HitterData extends PlayerData {
 
 	}
 
+	/**
+	 * Creates a String representation of the Hitter, mirroring what a card looks like in real life
+	 * 
+	 * @return	A String representing the stats of the Hitter Card
+	 */
 	public String getCard() {
 		String card = "";
 		card += "Name:\t" + this + "\n";

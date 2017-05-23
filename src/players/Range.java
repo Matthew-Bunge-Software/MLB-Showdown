@@ -6,8 +6,15 @@ package players;
  * this class exists to expedite the process of generating those results and simplifying
  * the construction of virtual player card result boxes.
  * 
+ * Updates:
+ * 
+ * .2:
+ * -In conjunction with using textual input straight from the web, created a new
+ * 		static factory method to generate Ranges for player creation
+ * 
+ * 
  * @author Matthew Bunge
- * @version .1
+ * @version .2
  */
 
 public class Range {
@@ -60,6 +67,11 @@ public class Range {
 	   }
    }
    
+   /**
+    * 
+    * @param 	s	The String input from the players text file
+    * @return	A Range representing the valid results for some play
+    */
    public static Range parseRange(String s) {
 	   if (s.equals("-")) {
 		   return new Range(0, 0);

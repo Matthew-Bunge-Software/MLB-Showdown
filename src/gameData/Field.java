@@ -199,7 +199,7 @@ public class Field {
 	 */
 	public GameStat singlePlus(HitterData onCard, GameStat track) {
 		track = single(onCard, track);
-		StrategyCard.emit("1B+");
+		StrategyCard.emit("1BP");
 		if (second.isEmpty()) {
 			second.onBase = first.onBase;
 			first.onBase = null;
@@ -228,7 +228,7 @@ public class Field {
 		if (first.onBase != null) {
 			StrategyCard.emit("BDP");
 			boolean iC = infieldCheck(fielder, atBat);
-			StrategyCard.emit("ADP" + iC);
+			StrategyCard.emit("ADP");
 			if (iC) {
 				track.yerOut();
 				if (checkOuts(track)) {

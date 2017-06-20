@@ -83,14 +83,28 @@ public class GameManager {
 			case "SW": // Change swingMod
 				swingMod += parseIntCondition(pre[1]);
 				break;
+			case "PI": // Change pitchMod
+				pitchMod += parseIntCondition(pre[1]);
+				break;
+			case "P": // Status related to the pitcher
+				if (pre[1].equals("TI")) { // Pitcher is tired
+					
+				} else if (pre[1].equals("CL")) { // Pitcher is a closer
+					
+				}
+				break;
 			case "DI": // Discard a card
-				if (pre[1].equals("SE")) {
-					user.discardCard(1);
-				} else {
-					enemy.discardCard(1);
+				for (int j = 0; j < Integer.parseInt(pre[2]); j++) {
+					if (pre[1].equals("SE")) {
+						user.discardCard(1);
+					} else {
+						enemy.discardCard(1);
+					}
 				}
 				break;
 			case "DR": // Draw a card
+				break;
+			case "BB": // Change result to walk
 				break;
 			default:
 				throw new IllegalArgumentException(pre[0] + ": not a valid postcondition");
@@ -106,14 +120,15 @@ public class GameManager {
 			return Integer.parseInt(s);
 		}
 	}
-	
+
 	/*
-	 * Mostly a debugging method to run a bunch of real games without pitcher substitution
+	 * Mostly a debugging method to run a bunch of real games without pitcher
+	 * substitution
 	 */
 	public void resetGameTrack() {
 		gamestat = new GameStat();
 	}
-	
+
 	public int getTotalRuns() {
 		return gamestat.awayRuns + gamestat.homeRuns;
 	}

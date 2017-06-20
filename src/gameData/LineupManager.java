@@ -148,7 +148,7 @@ public class LineupManager {
 			s.useDelimiter("\\n");
 			while(s.hasNext()) {
 				String player = s.next();
-				String discarded = s.next();
+				/*String discarded = s.next();
 				if (!discarded.equals("D")) {
 					loaded.addPlayer(pool.get(player));
 					if (s.hasNextLine()) {
@@ -156,7 +156,7 @@ public class LineupManager {
 					}
 				} else {
 					loaded.insertTrash(pool.get(player));
-				}
+				} */
 			}
 			s.close();
 			return loaded;

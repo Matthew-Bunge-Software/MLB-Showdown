@@ -5,6 +5,7 @@ import java.util.*;
 import gameData.Field;
 import gameData.GameStat;
 import gameData.LineupManager;
+import gameData.StrategyCard;
 
 /**
  * Implementation of the Hitter type in MLB Showdown
@@ -132,14 +133,13 @@ public class HitterData extends PlayerData {
 	 *            The lineup of the team currently on the field
 	 * @return The updated GameStat from the selected card result
 	 */
-	public GameStat checkCard(Field grass, int dice, GameStat track, LineupManager enemy) {
-		track = super.checkCard(grass, dice, this, track, enemy);
+	public void checkCard(int dice) {
+		super.checkCard(dice);
 		if (singlePlus.inRange(dice)) {
-			track = grass.singlePlus(this, track);
+			StrategyCard.emit("1B+");
 		} else if (triple.inRange(dice)) {
-			track = grass.triple(this, track);
+			StrategyCard.emit("3B");
 		}
-		return track;
 	}
 
 	private void modifyPositions(String s) {

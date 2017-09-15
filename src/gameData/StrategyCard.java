@@ -34,6 +34,10 @@ public class StrategyCard {
 	public static StrategyCard getRandomCard() {
 		return allCards.iterator().next();
 	}
+	
+	public static List<String> getTokens() {
+		return tokens;
+	}
 
 	public StrategyCard(String f) throws FileNotFoundException {
 		Scanner file = new Scanner(new File(f));

@@ -60,7 +60,11 @@ public class Range {
 		   if (low == high) {
 			   return "" + high;
 		   } else {
-			   return low + " - " + high;
+			   if (high == Integer.MAX_VALUE) {
+				   return low + "+";
+			   } else {
+				   return low + " - " + high;
+			   }
 		   }
 	   } else {
 		   return "-";
@@ -80,7 +84,7 @@ public class Range {
 	   int endVal;
 	   if(s.endsWith("+")) {
 		   startVal = Integer.parseInt(s.substring(0, s.length() - 1));
-		   return new Range(startVal, startVal);
+		   return new Range(startVal, Integer.MAX_VALUE);
 	   } else {
 		   String[] ends = s.split("-");
 		   startVal = Integer.parseInt(ends[0]);

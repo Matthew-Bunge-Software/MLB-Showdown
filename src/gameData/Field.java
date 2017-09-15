@@ -69,7 +69,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat single(HitterData onCard, GameStat track) {
-		StrategyCard.emit("1B");
 		if (!third.isEmpty()) {
 			third.onBase = null;
 			track.score();
@@ -95,7 +94,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat twoBase(HitterData onCard, GameStat track) {
-		StrategyCard.emit("2B");
 		if (!third.isEmpty()) {
 			third.onBase = null;
 			track.score();
@@ -122,7 +120,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat triple(HitterData onCard, GameStat track) {
-		StrategyCard.emit("3B");
 		if (!third.isEmpty()) {
 			third.onBase = null;
 			track.score();
@@ -147,7 +144,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat homer(GameStat track) {
-		StrategyCard.emit("HR");
 		track.score();
 		if (!third.isEmpty()) {
 			third.onBase = null;
@@ -174,7 +170,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat walk(HitterData onCard, GameStat track) {
-		StrategyCard.emit("BB");
 		if (!first.isEmpty()) {
 			if (!second.isEmpty()) {
 				if (!third.isEmpty()) {
@@ -199,7 +194,6 @@ public class Field {
 	 */
 	public GameStat singlePlus(HitterData onCard, GameStat track) {
 		track = single(onCard, track);
-		StrategyCard.emit("1B+");
 		if (second.isEmpty()) {
 			second.onBase = first.onBase;
 			first.onBase = null;
@@ -220,7 +214,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat groundout(LineupManager fielder, HitterData atBat, GameStat track) {
-		StrategyCard.emit("GO");
 		track.yerOut();
 		if (checkOuts(track)) {
 			return track;
@@ -261,7 +254,6 @@ public class Field {
 		/*
 		 * emit SO if card used return card used throw error?
 		 */
-		StrategyCard.emit("SO");
 		track.yerOut();
 		return track;
 	}
@@ -274,7 +266,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat flyout(GameStat track) {
-		StrategyCard.emit("FO");
 		track.yerOut();
 		return track;
 	}
@@ -287,7 +278,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat popout(GameStat track) {
-		StrategyCard.emit("PU");
 		track.yerOut();
 		return track;
 	}

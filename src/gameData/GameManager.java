@@ -51,11 +51,12 @@ public class GameManager {
 		int pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
 		if (pitch >= hitter.getBaseMod()) {
 			StrategyCard.emit("PC");
-			pitcher.checkCard(grass, roll() + swingMod, offense.getCurrentBatter(), gamestat, defense);
+			pitcher.checkCard(roll() + swingMod);
 		} else {
 			StrategyCard.emit("HC");
-			hitter.checkCard(grass, roll() + swingMod, gamestat, defense);
+			hitter.checkCard(roll() + swingMod);
 		}
+		processResult();
 		offense.nextBatter();
 		gamestat.update();
 		if (gamestat.inningEnd()) {
@@ -79,6 +80,36 @@ public class GameManager {
 	public void printScore() {
 		System.out.println("Home: " + gamestat.homeRuns);
 		System.out.println("Away: " + gamestat.awayRuns);
+	}
+	
+	public GameStat processResult() {
+		List<String> tokens = StrategyCard.getTokens();
+		String token = tokens.get(tokens.size() - 1);
+		switch (token) {
+		case "PU":
+			return grass.popout(gamestat);
+		case "SO":
+			return grass.strikeout(gamestat);
+		case "GO":
+			return grass.groundout(defense, offense.getCurrentBatter(), gamestat);
+		case "FO":
+			return grass.flyout(gamestat);
+		case "BB":
+			return grass.walk(offense.getCurrentBatter(), gamestat);
+		case "1B":
+			return grass.single(offense.getCurrentBatter(), gamestat);
+		case "1B+":
+			return grass.singlePlus(offense.getCurrentBatter(), gamestat);
+		case "2B":
+			return grass.twoBase(offense.getCurrentBatter(), gamestat);
+		case "3B":
+			return grass.triple(offense.getCurrentBatter(), gamestat);
+		case "HR":
+			return grass.homer(gamestat);
+		default:
+			StrategyCard.printLog();
+			throw new IllegalArgumentException("This method was called at a bad time");
+		}
 	}
 
 	public void parsePostcondition(String s, LineupManager offense, LineupManager defense, String team) {

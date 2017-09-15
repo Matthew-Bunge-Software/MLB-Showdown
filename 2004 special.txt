@@ -1,98 +1,99 @@
-1 	Bad Call 	Off 	'04 	Play on a SO result. 	Discard a card. Reroll the swing. (Use the same chart as before.)  
+	1 	Bad Call 					Off 	'04 	Play on a SO result. 	Discard a card. Reroll the swing. (Use the same chart as before.)  
 	
-	2 	Burned 	Off 	'04 	Play after an intentional walk. 	Add +4 to your next batter’s swing.  
+	2 	Burned 						Off 	'04 	Play after an intentional walk. 	Add +4 to your next batter’s swing.  
 	
-	3 	Check Swing 	Off 	'04 	Play on a SO result on the batter’s chart. 	Discard 2 cards. Change the result to a BB. If your batter has the V icon you may play Check Swing on a SO result on the pitcher’s chart.  
+	3 	Check Swing 				Off 	'04 	Play on a SO result on the batter’s chart. 	Discard 2 cards. Change the result to a BB. If your batter has the V icon you may play Check Swing on a SO result on the pitcher’s chart.  
 	
-	4 	Deep in the Gap 	Off 	'04 	Play on a FB result. 	Discard a card. Roll a die. If your roll ties or beats the center fielder’s Speed change the result to a 2B.  
+	4 	Deep in the Gap 			Off 	'04 	Play on a FB result. 	Discard a card. Roll a die. If your roll ties or beats the center fielder’s Speed change the result to a 2B.  
 	
-	5 	Drained 	Off 	'04 	Play before the pitch. 	If the pitcher is tired and there’s a runner on first with Speed A or Speed B he steals second without a throw. (You can steal a base only if it’s open.)  
+	5 	Drained 					Off 	'04 	Play before the pitch. 	If the pitcher is tired and there’s a runner on first with Speed A or Speed B he steals second without a throw. (You can steal a base only if it’s open.)  
 	
-	6 	Ducks on the Pond 	Off 	'04 	Play before the pitch. 	Discard a card. Add +1 to the swing for each runner.  
+	6 	Ducks on the Pond 			Off 	'04 	Play before the pitch. 	Discard a card. Add +1 to the swing for each runner.  
 	
-	7 	Great Addition 	Off 	'04 	Play at any time. 	Discard a card. Add +1 to any roll. If your player has the RY icon instead add +2 to any roll. (You can use Great Addition to change a roll that has been made already.)  
+	7 	Great Addition 				Off 	'04 	Play at any time. 	Discard a card. Add +1 to any roll. If your player has the RY icon instead add +2 to any roll. (You can use Great Addition to change a roll that has been made already.)  
 	
-	8 	Hard Slide 	Off 	'04 	Play after a double-play attempt. 	Discard a card. The defense rerolls the double-play attempt.  
+	8 	Hard Slide 					Off 	'04 	Play after a double-play attempt. 	Discard a card. The defense rerolls the double-play attempt.  
 	
 	9 	Inside the Park Home Run 	Off 	'04 	Play on a 1B+ or 3B result. 	If your batter is Speed A the defense makes an outfield Fielding check at +8. If it succeeds your batter is out and each runner scores. If it fails your batter and each runner scores. If your batter has the SB icon instead make the check at +3.  
 	
-	10 	Options 	Off 	'04 	Play before the pitch. 	Choose one: Add +1 to the swing subtract 1 from the pitch or draw a card and then discard a card.  
+	10 	Options 					Off 	'04 	Play before the pitch. 	Choose one: Add +1 to the swing subtract 1 from the pitch or draw a card and then discard a card.  
 	
-	11 	Out of the Frying Pan 	Off 	'04 	Play after a HR result. 	Discard any number of cards. Look at your opponent’s hand and choose that many cards. Your opponent discards the chosen cards.  
+	11 	Out of the Frying Pan 		Off 	'04 	Play after a HR result. 	Discard any number of cards. Look at your opponent’s hand and choose that many cards. Your opponent discards the chosen cards.  
 	
-	12 	Play the Percentages 	Off 	'04 	Play before the pitch. 	If the pitcher is LHP and your batter bats R or S add +2 to the swing.  
+	12 	Play the Percentages 		Off 	'04 	Play before the pitch. 	If the pitcher is LHP and your batter bats R or S add +2 to the swing.  
 	
-	13 	Pointers 	Off 	'04 	Play before your batter’s swing is rerolled. 	Add +3 to the reroll.  
+	13 	Pointers 					Off 	'04 	Play before your batter’s swing is rerolled. 	Add +3 to the reroll.  
 	
-	14 	Poor Positioning 	Off 	'04 	Play before the pitch. 	Add +1 to the swing. If the defense has any players with the R icon on defense instead add +3 to the swing.  
+	14 	Poor Positioning 			Off 	'04 	Play before the pitch. 	Add +1 to the swing. If the defense has any players with the R icon on defense instead add +3 to the swing.  
 	
-	15 	Pull the Ball 	Off 	'04 	Play on any out result. 	If the pitcher is RHP and your batter bats L or S reroll the swing. (Use the same chart as before.)  
+	15 	Pull the Ball 				Off 	'04 	Play on any out result. 	If the pitcher is RHP and your batter bats L or S reroll the swing. (Use the same chart as before.)  
 	
-	16 	Rough Outing 	Off 	'04 	Play before the pitch. 	If at least 4 runs have been charged to your opponent’s pitcher he gets –1 IP.  
+	16 	Rough Outing 				Off 	'04 	Play before the pitch. 	If at least 4 runs have been charged to your opponent’s pitcher he gets –1 IP.  
 	
-	17 	Slow Roller 	Off 	'04 	Play before a double-play attempt. 	Subtract 3 from the defense’s roll.  
+	17 	Slow Roller 				Off 	'04 	Play before a double-play attempt. 	Subtract 3 from the defense’s roll.  
 	
-	18 	Stick a Fork in Him 	Off 	'04 	Play on any out result. 	If the pitcher is tired reroll the swing. (Use the same chart as before.)  
+	18 	Stick a Fork in Him 		Off 	'04 	Play on any out result. 	If the pitcher is tired reroll the swing. (Use the same chart as before.)  
 	
-	19 	Sweet Swing 	Off 	'04 	Play before the pitch. 	If the pitcher is RHP and your batter bats L or S add +2 to the swing.  
+	19 	Sweet Swing 				Off 	'04 	Play before the pitch. 	If the pitcher is RHP and your batter bats L or S add +2 to the swing.  
 	
-	20 	Take What’s Given 	Off 	'04 	Play before the pitch. 	Add +2 to the swing. If your batter gets a HR result change the result to a 1B.  
+	20 	Take What’s Given 			Off 	'04 	Play before the pitch. 	Add +2 to the swing. If your batter gets a HR result change the result to a 1B.  
 	
-	21 	Think Again 	Off 	'04 	Play at any time. 	If your opponent just played a card that made you discard Think Again return Think Again to your hand and draw a card.  
+	21 	Think Again 				Off 	'04 	Play at any time. 	If your opponent just played a card that made you discard Think Again return Think Again to your hand and draw a card.  
 	
-	22 	Turn on It 	Off 	'04 	Play on any out result. 	If the pitcher is LHP and your batter bats R or S reroll the swing. (Use the same chart as before.)  
+	22 	Turn on It 					Off 	'04 	Play on any out result. 	If the pitcher is LHP and your batter bats R or S reroll the swing. (Use the same chart as before.)  
 	
-	23 	Aces Up 	Def 	'04 	Play on a 1B result on the pitcher’s chart. 	Reroll the pitch and the swing. If your pitcher has the CY icon you may instead reroll the pitch and swing for any result (on the pitcher’s chart).  
+	23 	Aces Up 					Def 	'04 	Play on a 1B result on the pitcher’s chart. 	Reroll the pitch and the swing. If your pitcher has the CY icon you may instead reroll the pitch and swing for any result (on the pitcher’s chart).  
 	
-	24 	Caught Him Leaning 	Def 	'04 	Play before the pitch. 	If there is a runner on first with Speed A and second base is open roll a die. 1-17: No effect. 18-20: The runner on first is out.  
+	24 	Caught Him Leaning 			Def 	'04 	Play before the pitch. 	If there is a runner on first with Speed A and second base is open roll a die. 1-17: No effect. 18-20: The runner on first is out.  
 	
-	25 	Caught the Corner 	Def 	'04 	Play before the pitch. 	Subtract 1 from the batter’s swing. If the batter gets a SO result draw a card. If your pitcher has the K icon and the batter gets a SO result your opponent also chooses a card from his or her hand and discards it.  
-26 	Choke 	Def 	'04 	Play after the third out of an inning. 	If the bases were loaded your opponent chooses and discards 3 cards from his or her hand. (If your opponent has only 1 or 2 cards discard all of them.)  
+	25 	Caught the Corner 			Def 	'04 	Play before the pitch. 	Subtract 1 from the batter’s swing. If the batter gets a SO result draw a card. If your pitcher has the K icon and the batter gets a SO result your opponent also chooses a card from his or her hand and discards it.  
 	
-	27 	Cover Second 	Def 	'04 	Play before a stolen-base attempt. 	Choose either your second baseman or shortstop. Add that player’s Fielding to the defense’s total roll. If the chosen player has the G icon and the stolen-base attempt fails your opponent discards 2 cards.  
+	26 	Choke 						Def 	'04 	Play after the third out of an inning. 	If the bases were loaded your opponent chooses and discards 3 cards from his or her hand. (If your opponent has only 1 or 2 cards discard all of them.)  
 	
-	28 	Dominating 	Def 	'04 	Play before the pitch. 	If your pitcher is a closer and the batter gets an out result change the result to a SO.  
+	27 	Cover Second 				Def 	'04 	Play before a stolen-base attempt. 	Choose either your second baseman or shortstop. Add that player’s Fielding to the defense’s total roll. If the chosen player has the G icon and the stolen-base attempt fails your opponent discards 2 cards.  
 	
-	29 	Foul Ball 	Def 	'04 	Play on a 1B or 1B+ result. 	Discard a card. Reroll the swing. (Use the same chart as before.) If your pitcher has the 20 icon your opponent also chooses a card from his or her hand and discards it.  
+	28 	Dominating 					Def 	'04 	Play before the pitch. 	If your pitcher is a closer and the batter gets an out result change the result to a SO.  
 	
-	30 	Good Leather 	Def 	'04 	Play at any time. 	Add +2 to a player’s Fielding for any roll. If that player has the G icon instead add +6 to his Fielding for any roll.  
+	29 	Foul Ball 					Def 	'04 	Play on a 1B or 1B+ result. 	Discard a card. Reroll the swing. (Use the same chart as before.) If your pitcher has the 20 icon your opponent also chooses a card from his or her hand and discards it.  
 	
-	31 	Hooking Foul 	Def 	'04 	Play on a 1B or 2B result on the pitcher’s chart. 	If your pitcher is LHP and the batter bats L reroll the swing. (Use the same chart as before.)  
+	30 	Good Leather 				Def 	'04 	Play at any time. 	Add +2 to a player’s Fielding for any roll. If that player has the G icon instead add +6 to his Fielding for any roll.  
 	
-	32 	In the Zone 	Def 	'04 	Play after the third out of an inning. 	If your pitcher got 3 SO results this inning add +2 to each of his pitches next inning.  
+	31 	Hooking Foul 				Def 	'04 	Play on a 1B or 2B result on the pitcher’s chart. 	If your pitcher is LHP and the batter bats L reroll the swing. (Use the same chart as before.)  
 	
-	33 	Infield In 	Def 	'04 	Play before the pitch. 	If first base is open and the batter gets a GB result runners on second and third don’t advance.  
+	32 	In the Zone 				Def 	'04 	Play after the third out of an inning. 	If your pitcher got 3 SO results this inning add +2 to each of his pitches next inning.  
 	
-	34 	Lined Out of Play 	Def 	'04 	Play on a 1B or 2B result on the pitcher’s chart. 	If your pitcher is RHP and the batter bats R reroll the swing. (Use the same chart as before.)  
+	33 	Infield In 					Def 	'04 	Play before the pitch. 	If first base is open and the batter gets a GB result runners on second and third don’t advance.  
 	
-	35 	Locate 	Def 	'04 	Play before the pitch. 	Leave this card on your pitcher until the end of the inning. If your pitcher gets a natural 20 on a pitch roll you may discard Locate to draw 4 cards.  
+	34 	Lined Out of Play 			Def 	'04 	Play on a 1B or 2B result on the pitcher’s chart. 	If your pitcher is RHP and the batter bats R reroll the swing. (Use the same chart as before.)  
 	
-	36 	Locked In 	Def 	'04 	Play before the pitch. 	Your opponent chooses one: Subtract 2 from the swing; or you draw 2 cards.  
+	35 	Locate 						Def 	'04 	Play before the pitch. 	Leave this card on your pitcher until the end of the inning. If your pitcher gets a natural 20 on a pitch roll you may discard Locate to draw 4 cards.  
 	
-	37 	Nerves of Steel 	Def 	'04 	Play before the pitch. 	If your pitcher is a closer add +3 to the pitch.  
+	36 	Locked In 					Def 	'04 	Play before the pitch. 	Your opponent chooses one: Subtract 2 from the swing; or you draw 2 cards.  
 	
-	38 	Paint the Corner 	Def 	'04 	Play before the pitch. 	Discard a card. Subtract 2 from the swing. If your pitcher has the 20 icon draw a card.  
+	37 	Nerves of Steel 			Def 	'04 	Play before the pitch. 	If your pitcher is a closer add +3 to the pitch.  
 	
-	39 	Power Pitching 	Def 	'04 	Play before the pitch. 	Subtract 3 from the swing. If the batter gets a FB result change the result to a HR. If your pitcher has the CY icon and the batter gets an out result draw 2 cards.  
+	38 	Paint the Corner 			Def 	'04 	Play before the pitch. 	Discard a card. Subtract 2 from the swing. If your pitcher has the 20 icon draw a card.  
 	
-	40 	Short Fly 	Def 	'04 	Play on a FB result. 	Change the result to a PU.  
+	39 	Power Pitching 				Def 	'04 	Play before the pitch. 	Subtract 3 from the swing. If the batter gets a FB result change the result to a HR. If your pitcher has the CY icon and the batter gets an out result draw 2 cards.  
 	
-	41 	Sloppy Bunt 	Def 	'04 	Play on a sacrifice bunt. 	If the batter is a pitcher the lead runner is out. The batter and each other runner is safe.  
+	40 	Short Fly 					Def 	'04 	Play on a FB result. 	Change the result to a PU.  
 	
-	42 	Split-Finger Fastball 	Def 	'04 	Play before the batter’s swing is rerolled. 	Subtract 3 from the reroll.  
+	41 	Sloppy Bunt 				Def 	'04 	Play on a sacrifice bunt. 	If the batter is a pitcher the lead runner is out. The batter and each other runner is safe.  
 	
-	43 	Top-Level Strategy 	Def 	'04 	Play before the pitch. 	If the batter is a pinch hitter and gets an out result your opponent reveals his or her hand. You choose 3 cards from his or her hand and discard them. (If your opponent has only 1 or 2 cards discard all of them.)  
+	42 	Split-Finger Fastball 		Def 	'04 	Play before the batter’s swing is rerolled. 	Subtract 3 from the reroll.  
 	
-	44 	Tough as Nails 	Def 	'04 	Play before the pitch. 	If there is a runner in scoring position with less than 2 outs subtract 2 from the swing. If your pitcher has the RP icon draw a card.  
+	43 	Top-Level Strategy 			Def 	'04 	Play before the pitch. 	If the batter is a pinch hitter and gets an out result your opponent reveals his or her hand. You choose 3 cards from his or her hand and discard them. (If your opponent has only 1 or 2 cards discard all of them.)  
 	
-	45 	Change in Strategy 	Util 	'04 	Play at any time. 	Draw 3 cards and then discard 3 cards.  
+	44 	Tough as Nails 				Def 	'04 	Play before the pitch. 	If there is a runner in scoring position with less than 2 outs subtract 2 from the swing. If your pitcher has the RP icon draw a card.  
 	
-	46 	Close Call 	Util 	'04 	Play before any die roll. 	Discard a card. If the roll isn’t for a pitch or a swing add +2 to it or subtract 2 from it.  
+	45 	Change in Strategy 			Util 	'04 	Play at any time. 	Draw 3 cards and then discard 3 cards.  
 	
-	47 	New Strategies 	Util 	'04 	Play after any substitution. 	Reveal the top 3 cards of your deck. Your opponent chooses 2 of those cards. Put the chosen cards into your hand and the remaining card on the bottom of your deck.  
+	46 	Close Call 					Util 	'04 	Play before any die roll. 	Discard a card. If the roll isn’t for a pitch or a swing add +2 to it or subtract 2 from it.  
 	
-	48 	Second Look 	Util 	'04 	Play after an extra-base attempt. 	Reroll the attempt.  
+	47 	New Strategies 				Util 	'04 	Play after any substitution. 	Reveal the top 3 cards of your deck. Your opponent chooses 2 of those cards. Put the chosen cards into your hand and the remaining card on the bottom of your deck.  
 	
-	49 	Swing at Anything 	Util 	'04 	Play on a BB result. 	Reroll the swing. (Use the same chart as before.)  
+	48 	Second Look 				Util 	'04 	Play after an extra-base attempt. 	Reroll the attempt.  
 	
-	50 	Think Twice 	Util 	'04 	Play on a reroll of a pitch or a swing. 	Draw 2 cards.  
+	49 	Swing at Anything 			Util 	'04 	Play on a BB result. 	Reroll the swing. (Use the same chart as before.)  
+	
+	50 	Think Twice 				Util 	'04 	Play on a reroll of a pitch or a swing. 	Draw 2 cards.  

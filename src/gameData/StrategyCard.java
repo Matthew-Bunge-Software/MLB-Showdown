@@ -46,6 +46,10 @@ public class StrategyCard {
 		}
 		file.close();
 	}
+	
+	public String getUID() {
+		return year + "#" + num;
+	}
 
 	public String getPre() {
 		return preCondition;
@@ -75,33 +79,40 @@ public class StrategyCard {
 	public static boolean parsePrecondition(String s) {
 		String[] pre = s.split("\\+");
 		if (pre.length > 1) {
-			if (pre[1] == "HC") {
-				if (tokens.get(tokens.size() - 2) != "HC") {
+			if (pre[1].equals("HC")) {
+				if (!tokens.get(tokens.size() - 2).equals("HC")) {
 					return false;
 				}
-			} else if (pre[1] == "PC") {
-				if (tokens.get(tokens.size() - 2)!= "PC") {
+			} else if (pre[1].equals("PC")) {
+				if (!tokens.get(tokens.size() - 2).equals("PC")) {
 					return false;
 				}
 			}
 		}
 		switch (pre[0]) {
 		case "SO": // Strikeout result
-			return tokens.get(tokens.size() - 1) == "SO";
+			return tokens.get(tokens.size() - 1).equals("SO");
 		case "BP": // Before the Pitch
-			return tokens.get(tokens.size() - 1) == "BP";
+			return tokens.get(tokens.size() - 1).equals("BP");
 		case "IBB": // After intentional walk
-			return tokens.get(tokens.size() - 1) == "IBB";
+			return tokens.get(tokens.size() - 1).equals("IBB");
+		case "BB": // After a normal walk
+			return tokens.get(tokens.size() - 1).equals("BB");
 		case "BDP": // Before double play attempt
-			return tokens.get(tokens.size() - 1) == "BDP";
+			return tokens.get(tokens.size() - 1).equals("BDP");
 		case "ADP":	// After double play attempt
-			return tokens.get(tokens.size() - 1) == "ADP";
+			return tokens.get(tokens.size() - 1).equals("ADP");
 		case "1B+": // After 1B+
-			return tokens.get(tokens.size() - 1) == "1BP";
+			return tokens.get(tokens.size() - 1).equals("1BP");
 		case "3B": // After 3B
-			return tokens.get(tokens.size() - 1) == "3B";
+			return tokens.get(tokens.size() - 1).equals("3B");
 		case "HR": // After HR
-			return tokens.get(tokens.size() - 1) == "HR";
+			return tokens.get(tokens.size() - 1).equals("HR");
+		case "A": // Any
+			return true;
+		case "AO": // Any out
+			String token = tokens.get(tokens.size() - 1);
+			return token.equals("PU") || token.equals("FO") || token.equals("SO") || token.equals("GO");
 		}
 		throw new IllegalArgumentException("Thing passed that wasn't a token");
 	}

@@ -199,7 +199,7 @@ public class Field {
 	 */
 	public GameStat singlePlus(HitterData onCard, GameStat track) {
 		track = single(onCard, track);
-		StrategyCard.emit("1BP");
+		StrategyCard.emit("1B+");
 		if (second.isEmpty()) {
 			second.onBase = first.onBase;
 			first.onBase = null;

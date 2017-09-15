@@ -96,6 +96,7 @@ public class LineupManager {
 	public String useCard() {
 		StrategyCard s = selectCard(0);
 		if (StrategyCard.parsePrecondition(s.getPre())) {
+			StrategyCard.emit(s.getUID());
 			return s.getPost();
 		}
 		return null;

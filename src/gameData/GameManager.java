@@ -38,9 +38,14 @@ public class GameManager {
 		pitchMod = 0;
 		StrategyCard.emit("BP");
 		String oCard = offense.useCard();
+		String dCard = defense.useCard();
 		if (oCard != null) {
-			this.parsePostcondition(oCard, offense, defense);
+			this.parsePostcondition(oCard, offense, defense, "offense");
 		}
+		if (dCard != null) {
+			this.parsePostcondition(dCard, offense, defense, "defense");
+		}
+		oCard= dCard = null;
 		PitcherData pitcher = defense.getCurrentPitcher();
 		HitterData hitter = offense.getCurrentBatter();
 		int pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
@@ -54,6 +59,7 @@ public class GameManager {
 		offense.nextBatter();
 		gamestat.update();
 		if (gamestat.inningEnd()) {
+			StrategyCard.emit("IO");
 			grass.clear();
 			LineupManager temp = offense;
 			offense = defense;
@@ -75,7 +81,16 @@ public class GameManager {
 		System.out.println("Away: " + gamestat.awayRuns);
 	}
 
-	public void parsePostcondition(String s, LineupManager user, LineupManager enemy) {
+	public void parsePostcondition(String s, LineupManager offense, LineupManager defense, String team) {
+		LineupManager user;
+		LineupManager enemy;
+		if (team.equals("offense")) {
+			user = offense;
+			enemy = defense;
+		} else {
+			user = defense;
+			enemy = offense;
+		}
 		String[] all = s.split(" ");
 		for (int i = 0; i < all.length; i++) {
 			String[] pre = all[i].split("\\+");
@@ -88,9 +103,11 @@ public class GameManager {
 				break;
 			case "P": // Status related to the pitcher
 				if (pre[1].equals("TI")) { // Pitcher is tired
-					
+					//defense.getCurrentPitcher().checkInnings(defense.g)
 				} else if (pre[1].equals("CL")) { // Pitcher is a closer
-					
+					if (!defense.getCurrentPitcher().getRole().equals("Closer")) {
+						throw new IllegalArgumentException(defense.getCurrentPitcher() + " is not a closer.");
+					}
 				}
 				break;
 			case "DI": // Discard a card
@@ -103,6 +120,13 @@ public class GameManager {
 				}
 				break;
 			case "DR": // Draw a card
+				for (int j = 0; j < Integer.parseInt(pre[2]); j++) {
+					if (pre[1].equals("SE")) {
+						user.discardCard(1);
+					} else {
+						enemy.discardCard(1);
+					}
+				}
 				break;
 			case "BB": // Change result to walk
 				break;

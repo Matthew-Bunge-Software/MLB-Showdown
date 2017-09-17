@@ -121,7 +121,7 @@ public class GameManager {
 		}
 	}
 
-	public void parsePostcondition(String s, LineupManager offense, LineupManager defense, String team) {
+	public boolean parsePostcondition(String s, LineupManager offense, LineupManager defense, String team) {
 		LineupManager user;
 		LineupManager enemy;
 		if (team.equals("offense")) {
@@ -134,6 +134,16 @@ public class GameManager {
 		String[] all = s.split(" ");
 		for (int i = 0; i < all.length; i++) {
 			String[] pre = all[i].split("\\+");
+			if (pre.length > 1) {
+				String[] post = pre[1].split("\\^");
+				if (post.length > 1) {
+					for (String p : post) {
+						if (parsePostcondition(pre[0] + "+" + p, offense, defense, team)) {
+							break;
+						}
+					}
+				}
+			}
 			switch (pre[0]) {
 			case "SW": // Change swingMod
 				swingMod += parseIntCondition(pre[1]);
@@ -145,29 +155,19 @@ public class GameManager {
 				PitcherData pitcher = defense.getCurrentPitcher();
 				if (pre[1].equals("TI")) { // Pitcher is tired
 					//defense.getCurrentPitcher().checkInnings(defense.g)
-				} else if (pre[1].equals("CL")) { // Pitcher is a closer
-					if (!pitcher.getRole().equals("Closer")) {
-						throw new IllegalArgumentException(pitcher + " is not a closer.");
-					}
-				} else if (pre[1].equals("L")) {
-					if (!pitcher.getHand().equals("L")) {
-						throw new IllegalArgumentException(pitcher + " is not left handed");
-					}
+				} else if (pre[1].equals("CL") && !pitcher.getRole().equals("Closer")) { // Pitcher is a closer
+					return false;
+				} else if (pre[1].equals("L") && !pitcher.getHand().equals("L")) {
+					return false;
 				}
 				break;
 			case "B":	// Status related to the batter
 				HitterData batter = offense.getCurrentBatter();
-				String[] conditions = pre[1].split("\\^");
-				boolean found = false;
-				for (String condition : conditions) {
-					if (condition.equals("R") && batter.getBattingSide().equals("R") || 
-							condition.equals("S") && batter.getBattingSide().equals("S")) { // Verifiy handedness of the batter
-						found = true;
-					} 
-				}
-				if (!found) {
-					throw new IllegalArgumentException(batter + " does not meet the qualifications");
-				}
+				if (pre[1].equals("R") && !batter.getBattingSide().equals("R")) {
+					return false;
+				} else if (pre[1].equals("S") && batter.getBattingSide().equals("S")) {
+					return false;
+				} 
 				break;
 			case "DI": // Discard a card
 				for (int j = 0; j < Integer.parseInt(pre[2]); j++) {
@@ -197,6 +197,7 @@ public class GameManager {
 				throw new IllegalArgumentException(pre[0] + ": not a valid postcondition");
 			}
 		}
+		return true;
 	}
 
 	private int parseIntCondition(String s) {

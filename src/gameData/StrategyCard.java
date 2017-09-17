@@ -96,6 +96,15 @@ public class StrategyCard {
 				}
 			}
 		}
+		String[] alternates = pre[0].split("\\^");
+		if (alternates.length > 1) {
+			for (String alternate : alternates) {
+				if (StrategyCard.parsePrecondition(alternate)) {
+					return true;
+				}
+			}
+			return false;
+		}
 		switch (pre[0]) {
 		case "SO": // Strikeout result
 			return tokens.get(tokens.size() - 1).equals("SO");
@@ -123,7 +132,7 @@ public class StrategyCard {
 			String token = tokens.get(tokens.size() - 1);
 			return token.equals("PU") || token.equals("FO") || token.equals("SO") || token.equals("GO");
 		}
-		throw new IllegalArgumentException("Thing passed that wasn't a token");
+		throw new IllegalArgumentException("Thing passed that wasn't a legal token");
 	}
 
 	public static void printLog() {

@@ -56,6 +56,15 @@ public class GameManager {
 			StrategyCard.emit("HC");
 			hitter.checkCard(roll() + swingMod);
 		}
+		oCard = offense.useCard();
+		dCard = defense.useCard();
+		if (oCard != null) {
+			this.parsePostcondition(oCard, offense, defense, "offense");
+		}
+		if (dCard != null) {
+			this.parsePostcondition(dCard, offense, defense, "defense");
+		}
+		oCard= dCard = null;
 		processResult();
 		offense.nextBatter();
 		gamestat.update();
@@ -133,12 +142,31 @@ public class GameManager {
 				pitchMod += parseIntCondition(pre[1]);
 				break;
 			case "P": // Status related to the pitcher
+				PitcherData pitcher = defense.getCurrentPitcher();
 				if (pre[1].equals("TI")) { // Pitcher is tired
 					//defense.getCurrentPitcher().checkInnings(defense.g)
 				} else if (pre[1].equals("CL")) { // Pitcher is a closer
-					if (!defense.getCurrentPitcher().getRole().equals("Closer")) {
-						throw new IllegalArgumentException(defense.getCurrentPitcher() + " is not a closer.");
+					if (!pitcher.getRole().equals("Closer")) {
+						throw new IllegalArgumentException(pitcher + " is not a closer.");
 					}
+				} else if (pre[1].equals("L")) {
+					if (!pitcher.getHand().equals("L")) {
+						throw new IllegalArgumentException(pitcher + " is not left handed");
+					}
+				}
+				break;
+			case "B":	// Status related to the batter
+				HitterData batter = offense.getCurrentBatter();
+				String[] conditions = pre[1].split("\\^");
+				boolean found = false;
+				for (String condition : conditions) {
+					if (condition.equals("R") && batter.getBattingSide().equals("R") || 
+							condition.equals("S") && batter.getBattingSide().equals("S")) { // Verifiy handedness of the batter
+						found = true;
+					} 
+				}
+				if (!found) {
+					throw new IllegalArgumentException(batter + " does not meet the qualifications");
 				}
 				break;
 			case "DI": // Discard a card
@@ -159,7 +187,11 @@ public class GameManager {
 					}
 				}
 				break;
-			case "BB": // Change result to walk
+			case "PU":	// Change result to pop out
+				StrategyCard.emit("PU");
+				break;
+			case "BB":	// Change result to walk
+				StrategyCard.emit("BB");
 				break;
 			default:
 				throw new IllegalArgumentException(pre[0] + ": not a valid postcondition");

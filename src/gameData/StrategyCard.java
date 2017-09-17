@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.io.*;
 import java.util.*;
 import java.util.List;
+import java.util.regex.Pattern;
 
 /* Effects to be tracked:
  * 		Card Result				SO
@@ -18,7 +19,7 @@ import java.util.List;
 public class StrategyCard {
 
 	private static List<String> tokens;
-	private static Set<StrategyCard> allCards;
+	private static List<StrategyCard> allCards;
 
 	private String name;
 	private int num;
@@ -32,7 +33,9 @@ public class StrategyCard {
 	}
 
 	public static StrategyCard getRandomCard() {
-		return allCards.iterator().next();
+		Random r = new Random();
+		int rand = r.nextInt(allCards.size());
+		return allCards.get(rand);
 	}
 	
 	public static List<String> getTokens() {
@@ -42,8 +45,8 @@ public class StrategyCard {
 	public StrategyCard(String f) throws FileNotFoundException {
 		Scanner file = new Scanner(new File(f));
 		tokens = new ArrayList<String>();
-		allCards = new HashSet<StrategyCard>();
-		file.useDelimiter("\\t|\\n");
+		allCards = new ArrayList<StrategyCard>();
+		file.useDelimiter(Pattern.compile("\\t|\\r\\n"));
 		while (file.hasNext()) {
 			allCards.add(StrategyCard.maker(file.nextInt(), file.next(), file.next(), file.next(), file.next(),
 					file.next()));
@@ -96,6 +99,8 @@ public class StrategyCard {
 		switch (pre[0]) {
 		case "SO": // Strikeout result
 			return tokens.get(tokens.size() - 1).equals("SO");
+		case "FO": // Flyout result
+			return tokens.get(tokens.size() - 1).equals("FO");
 		case "BP": // Before the Pitch
 			return tokens.get(tokens.size() - 1).equals("BP");
 		case "IBB": // After intentional walk

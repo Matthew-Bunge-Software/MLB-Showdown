@@ -8,7 +8,7 @@ import java.util.List;
 public class EngineFunctionalTest {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		String[] team1 = {"Frank Thomas", "Tim Hudson", "Jorge Posada", "Todd Helton", "Jose Vidro", "Morgan Ensberg", "Nomar Garciaparra", "Manny Ramirez", "Scott Podsednik", "Reggie Sanders"};
+		String[] team1 = {"Frank Thomas", "Randy Wolf", "Jorge Posada", "Todd Helton", "Jose Vidro", "Morgan Ensberg", "Nomar Garciaparra", "Manny Ramirez", "Scott Podsednik", "Reggie Sanders"};
 		String[] team2 = {"Edgar Martinez", "Roy Halladay", "Mike Piazza", "Albert Pujols", "Bret Boone", "Bill Mueller", "Alex Rodriguez", "Vladimir Guerrero", "Carlos Beltran", "Aubrey Huff"};
 		File hitters = new File("2004 hitters.txt");
 		File pitchers = new File("2004 pitchers.txt");

@@ -9,13 +9,15 @@ import players.*;
 public class DraftManager {
 	
 	private Map<String, PlayerData> pool;
+	private Map<String, PlayerData> drafted;
 	
 	public DraftManager(Map<String, PlayerData> pool) {
 		this.pool = pool;
+		this.drafted = new TreeMap<String, PlayerData>();
 	}
 
 	public static DraftManager initializePool(File pitchers, File hitters) throws FileNotFoundException {
-		Map<String, PlayerData> pool = new HashMap<String, PlayerData>();
+		Map<String, PlayerData> pool = new TreeMap<String, PlayerData>();
 		Scanner processor = null;
 		PlayerData player;
 		if (pitchers != null) {
@@ -53,11 +55,20 @@ public class DraftManager {
 		if (!pool.containsKey(playerName)) {
 			throw new IllegalArgumentException("Player not in pool");
 		}
-		soFar.addPlayer(pool.remove(playerName));
+		PlayerData draftee = pool.remove(playerName);
+		soFar.addPlayer(draftee);
+		drafted.put(playerName, draftee);
 		return soFar;
 	}
 	
 	public Map<String, PlayerData> getPool() {
-		return pool;
+		Map<String, PlayerData> copy = new HashMap<String, PlayerData>();
+		copy.putAll(pool);
+		return copy;
+	}
+	
+	public void reset() {
+		pool.putAll(drafted);
+		drafted.clear();
 	}
 }

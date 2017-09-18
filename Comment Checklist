@@ -1,12 +1,12 @@
-Field			:	DONE
-GameStat		:	DONE
+Field			:	
+GameStat		:	
 HitterData		:	
 LineupManager	:
 LineupSlot		:	
 MLBTestClient	:
 PitcherData		:
-PlayerData		:	DONE
-Range			:	DONE
+PlayerData		:	
+Range			:	
 DraftManager	:
 GameManager		:
 StrategyCard	:

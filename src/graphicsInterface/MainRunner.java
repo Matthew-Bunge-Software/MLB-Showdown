@@ -20,14 +20,17 @@ import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
+import org.jdesktop.swingx.JXList;
+
 import gameData.*;
+import players.PlayerComparator;
 import players.PlayerData;
 
 public class MainRunner {
 	
 	private static LineupManager teamOne;
 	private static LineupManager teamTwo;
-
+	
 	public static void main(String[] args) throws FileNotFoundException {
 		DraftManager mainPool = DraftManager.initializePool(new File("2004 pitchers.txt"), new File("2004 hitters.txt"));
 		Map<String, PlayerData> pool = mainPool.getPool();
@@ -76,6 +79,148 @@ public class MainRunner {
 		mainWindow.setVisible(true);
 	}
 
+	/**
+	 * Creates the overall bottom level container uses in the rest of the interface
+	 * 
+	 * @return The JFrame containing the overall base of the interface
+	 */
+	private static JFrame createMainFrame() {
+		JFrame mainWindow = new JFrame("MLB Showdown");
+		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		mainWindow.setSize(screenSize);
+		return mainWindow;
+	}
+
+	private static JFrame createDraftFrame(DraftManager pool, Font f) {
+		teamOne = new LineupManager();
+		teamTwo = new LineupManager();
+		JFrame draftWindow = new JFrame("Draft");
+		JTextArea cardInfo = generateCardInfo(f);
+		JXList poolList = generatePoolList(pool.getPool(), f);
+		poolList.setComparator(new PlayerComparator());
+		poolList.setAutoCreateRowSorter(true);
+		poolList.setSortOrder(SortOrder.ASCENDING);
+		JPanel draftPanel = createDraftPanel(pool.getPool(), f, cardInfo, poolList);
+		JPanel homeTeam = createDraftTeamPanel(pool, teamOne, f, cardInfo, poolList);
+		JPanel awayTeam = createDraftTeamPanel(pool, teamTwo, f, cardInfo, poolList);
+		homeTeam.setFont(f);
+		awayTeam.setFont(f);
+		draftWindow.add(draftPanel, BorderLayout.CENTER);
+		draftWindow.add(homeTeam, BorderLayout.WEST);
+		draftWindow.add(awayTeam, BorderLayout.EAST);
+		draftWindow.setSize(2000, 1000);
+		return draftWindow;
+	}
+
+	private static JTextArea generateCardInfo(Font f) {
+		JTextArea cardInfo = new JTextArea();
+		cardInfo = new JTextArea();
+		cardInfo.setFont(f);
+		cardInfo.setEditable(false);
+		return cardInfo;
+	}
+
+	private static JXList generatePoolList(Map<String, PlayerData> pool, Font f) {
+		JXList poolList = new JXList();
+		DefaultListModel<PlayerData> lm = new DefaultListModel<PlayerData>();
+		for (String s : pool.keySet()) {
+			lm.addElement(pool.get(s));
+		}
+		poolList.setModel(lm);
+		poolList.setFont(f);
+		return poolList;
+	}
+
+	private static JPanel createDraftPanel(Map<String, PlayerData> pool, Font f, JTextArea cardInfo, JXList poolList) {
+		JPanel draftPanel = new JPanel();
+		cardInfo.setFont(f);
+		cardInfo.setEditable(false);
+		poolList.addListSelectionListener(new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent arg0) {
+				try {
+					cardInfo.setText(((PlayerData) poolList.getSelectedValue()).getCard());
+				} catch (Exception e) {
+					
+				}
+			}	
+		});
+		JScrollPane poolScroller = new JScrollPane(poolList);
+		poolScroller.setViewportView(poolList);
+		draftPanel.add(poolScroller);
+		draftPanel.add(cardInfo, BorderLayout.EAST);
+		return draftPanel;
+	}
+
+	private static JPanel createDraftTeamPanel(DraftManager pool, LineupManager myTeam, Font f, JTextArea cardInfo, JXList poolList) {
+		Map<String, PlayerData> cloned = pool.getPool();
+		JPanel draftPanel = new JPanel();
+		JPanel buttonPanel = new JPanel();
+		JXList myTeamStuff = new JXList();
+		myTeamStuff.setComparator(new PlayerComparator());
+		myTeamStuff.setAutoCreateRowSorter(true);
+		myTeamStuff.setSortOrder(SortOrder.ASCENDING);
+		myTeamStuff.addListSelectionListener(new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent arg0) {
+				try {
+					cardInfo.setText(myTeam.getTeam().get(myTeamStuff.getSelectedValue()).getCard());
+				} catch (Exception e) {
+					
+				}
+			}	
+		});
+		JScrollPane poolScroller = new JScrollPane(myTeamStuff);
+		poolScroller.setViewportView(myTeamStuff);
+		JButton draftButton = new JButton("Draft Player");
+		draftButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				pool.draftPlayer(myTeam, poolList.getSelectedValue().toString());
+				DefaultListModel<PlayerData> model = (DefaultListModel<PlayerData>) poolList.getModel();
+				model.remove(model.indexOf(poolList.getSelectedValue()));
+				poolList.setModel(model);
+				poolList.setAutoCreateRowSorter(true);
+				poolList.setSortOrder(SortOrder.ASCENDING);
+				myTeamStuff.setListData(myTeam.getTeam().keySet().toArray(new String[25]));
+			}
+		});
+		JButton otherButton = new JButton("Export Team");
+		otherButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Map<String, PlayerData> teamPool = new HashMap<String, PlayerData>();
+				int len = myTeamStuff.getModel().getSize();
+				for (int i = 0; i < len; i++) {
+					String s = (String) myTeamStuff.getModel().getElementAt(i);
+					if (s != null) {
+						teamPool.put(s, cloned.get(s));
+					}
+				}
+				LineupManager lm = new LineupManager(teamPool);
+				lm.export("Text area entry");
+			}
+		});
+		draftButton.setFont(f);
+		otherButton.setFont(f);
+	    buttonPanel.add(draftButton, BorderLayout.SOUTH);
+	    buttonPanel.add(otherButton, BorderLayout.NORTH);
+	    draftPanel.add(poolScroller, BorderLayout.NORTH);
+		draftPanel.add(buttonPanel, BorderLayout.SOUTH);
+		return draftPanel;
+	}
+
+	private static JFrame createListFrame(Map<String, PlayerData> pool, Font f) {
+		JFrame poolWindow = new JFrame("Draft Pool");
+		JTextArea cardInfo = generateCardInfo(f);
+		JXList poolList = generatePoolList(pool, f);
+		poolList.setComparator(new PlayerComparator());
+		poolList.setAutoCreateRowSorter(true);
+		poolList.setSortOrder(SortOrder.ASCENDING);
+		JPanel draftPanel = createDraftPanel(pool, f, cardInfo, poolList);
+		poolWindow.add(draftPanel);
+		draftPanel.setVisible(true);
+		poolWindow.setSize(1000, 1000); // Arbitrary
+		return poolWindow;
+	}
+
 	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
 		JPanel panel = new JPanel();
@@ -104,134 +249,5 @@ public class MainRunner {
 		panel.add(export);
 		mainWindow.add(panel);
 		return mainWindow;
-	}
-
-	private static JFrame createMainFrame() {
-		JFrame mainWindow = new JFrame("MLB Showdown");
-		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		mainWindow.setSize(screenSize);
-		return mainWindow;
-	}
-	
-	private static JFrame createListFrame(Map<String, PlayerData> pool, Font f) {
-		JFrame poolWindow = new JFrame("Draft Pool");
-		JTextArea cardInfo = generateCardInfo(f);
-		JList<String> poolList = generatePoolList(pool, f);
-		JPanel draftPanel = createDraftPanel(pool, f, cardInfo, poolList);
-		poolWindow.add(draftPanel);
-		draftPanel.setVisible(true);
-		poolWindow.setSize(1000, 1000); // Arbitrary
-		return poolWindow;
-	}
-	
-	private static JPanel createDraftPanel(Map<String, PlayerData> pool, Font f, JTextArea cardInfo, JList<String> poolList) {
-		JPanel draftPanel = new JPanel();
-		cardInfo.setFont(f);
-		cardInfo.setEditable(false);
-		poolList.addListSelectionListener(new ListSelectionListener() {
-			public void valueChanged(ListSelectionEvent arg0) {
-				try {
-					cardInfo.setText(pool.get(poolList.getSelectedValue()).getCard());
-				} catch (Exception e) {
-					
-				}
-			}	
-		});
-		JScrollPane poolScroller = new JScrollPane(poolList);
-		poolScroller.setViewportView(poolList);
-		draftPanel.add(poolScroller);
-		draftPanel.add(cardInfo, BorderLayout.EAST);
-		return draftPanel;
-	}
-	
-	private static JPanel createDraftTeamPanel(DraftManager pool, LineupManager myTeam, Font f, JTextArea cardInfo, JList<String> poolList) {
-		Map<String, PlayerData> cloned = pool.getPool();
-		JPanel draftPanel = new JPanel();
-		JPanel buttonPanel = new JPanel();
-		JList<String> myTeamStuff = new JList<String>();
-		myTeamStuff.addListSelectionListener(new ListSelectionListener() {
-			public void valueChanged(ListSelectionEvent arg0) {
-				try {
-					cardInfo.setText(myTeam.getTeam().get(myTeamStuff.getSelectedValue()).getCard());
-				} catch (Exception e) {
-					
-				}
-			}	
-		});
-		JScrollPane poolScroller = new JScrollPane(myTeamStuff);
-		poolScroller.setViewportView(myTeamStuff);
-		JButton draftButton = new JButton("Draft Player");
-		draftButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				pool.draftPlayer(myTeam, poolList.getSelectedValue());
-				DefaultListModel<String> model = (DefaultListModel<String>) (poolList.getModel());
-				int selectedIndex = poolList.getSelectedIndex();
-				if (selectedIndex != -1) {
-				    model.remove(selectedIndex);
-				}
-				poolList.setModel(model);
-				myTeamStuff.setListData(myTeam.getTeam().keySet().toArray(new String[25]));
-			}
-		});
-		JButton otherButton = new JButton("Export Team");
-		otherButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				Map<String, PlayerData> teamPool = new HashMap<String, PlayerData>();
-				int len = myTeamStuff.getModel().getSize();
-				for (int i = 0; i < len; i++) {
-					String s = myTeamStuff.getModel().getElementAt(i);
-					if (s != null) {
-						teamPool.put(s, cloned.get(s));
-					}
-				}
-				LineupManager lm = new LineupManager(teamPool);
-				lm.export("Text area entry");
-			}
-		});
-		draftButton.setFont(f);
-		otherButton.setFont(f);
-	    buttonPanel.add(draftButton, BorderLayout.SOUTH);
-	    buttonPanel.add(otherButton, BorderLayout.NORTH);
-	    draftPanel.add(poolScroller, BorderLayout.NORTH);
-		draftPanel.add(buttonPanel, BorderLayout.SOUTH);
-		return draftPanel;
-	}
-	
-	private static JFrame createDraftFrame(DraftManager pool, Font f) {
-		teamOne = new LineupManager();
-		teamTwo = new LineupManager();
-		JFrame draftWindow = new JFrame("Draft");
-		JTextArea cardInfo = generateCardInfo(f);
-		JList<String> poolList = generatePoolList(pool.getPool(), f);
-		JPanel draftPanel = createDraftPanel(pool.getPool(), f, cardInfo, poolList);
-		JPanel homeTeam = createDraftTeamPanel(pool, teamOne, f, cardInfo, poolList);
-		JPanel awayTeam = createDraftTeamPanel(pool, teamTwo, f, cardInfo, poolList);
-		homeTeam.setFont(f);
-		awayTeam.setFont(f);
-		draftWindow.add(draftPanel, BorderLayout.CENTER);
-		draftWindow.add(homeTeam, BorderLayout.WEST);
-		draftWindow.add(awayTeam, BorderLayout.EAST);
-		draftWindow.setSize(2000, 1000);
-		return draftWindow;
-	}
-	
-	private static JList<String> generatePoolList(Map<String, PlayerData> pool, Font f) {
-		JList<String> poolList = new JList<String>();
-		DefaultListModel<String> lm = new DefaultListModel<String>();
-		for (String s : pool.keySet()) {
-			lm.addElement(s);
-		}
-		poolList.setModel(lm);
-		poolList.setFont(f);
-		return poolList;
-	}
-	
-	private static JTextArea generateCardInfo(Font f) {
-		JTextArea cardInfo = new JTextArea();
-		cardInfo = new JTextArea();
-		cardInfo.setFont(f);
-		cardInfo.setEditable(false);
-		return cardInfo;
 	}
 }

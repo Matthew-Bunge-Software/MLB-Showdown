@@ -25,7 +25,7 @@ import gameData.StrategyCard;
  * @version .2
  */
 
-public class PlayerData {
+public class PlayerData implements Comparable<PlayerData> {
 
 	protected int setNum;
 	protected String edition;
@@ -350,5 +350,9 @@ public class PlayerData {
 		default:
 			throw new IllegalArgumentException("Not a position");
 		}
+	}
+
+	public int compareTo(PlayerData p) {
+		return this.setNum - p.setNum;
 	}
 }

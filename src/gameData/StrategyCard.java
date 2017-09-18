@@ -108,6 +108,8 @@ public class StrategyCard {
 		switch (pre[0]) {
 		case "SO": // Strikeout result
 			return tokens.get(tokens.size() - 1).equals("SO");
+		case "RRS": // Before a reroll of a swing
+			return tokens.get(tokens.size() - 1).equals("RRS");
 		case "FO": // Flyout result
 			return tokens.get(tokens.size() - 1).equals("FO");
 		case "BP": // Before the Pitch

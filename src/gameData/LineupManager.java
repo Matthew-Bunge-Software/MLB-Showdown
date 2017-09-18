@@ -85,6 +85,11 @@ public class LineupManager {
 		return false;
 	}
 	
+	public boolean drawCard() {
+		sCards.add(StrategyCard.getRandomCard());
+		return true;
+	}
+	
 	public void insertTrash(PlayerData p) {
 		discarded.add(p);
 	}

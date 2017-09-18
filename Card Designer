@@ -63,6 +63,41 @@ Year:	'04
 Pre:	BP
 Post:	P+L	B+R^S SW+2
 
+13 	Pointers 					Off 	'04 	Play before your batter’s swing is rerolled. 	Add +3 to the reroll.
+Num:	13
+Name:	Pointers
+Use:	O
+Year:	'04
+Pre:	RRS
+Post:	SW+3
+
+15 	Pull the Ball 				Off 	'04 	Play on any out result. 	If the pitcher is RHP and your batter bats L or S reroll the swing. (Use the same chart as before.)  
+
+Num:	15
+Name:	Pull the Ball
+Use:	O
+Year:	'04
+Pre:	AO
+Post:	P+R B+L^S
+
+19 	Sweet Swing 				Off 	'04 	Play before the pitch. 	If the pitcher is RHP and your batter bats L or S add +2 to the swing.  
+
+Num:	19
+Name:	Sweet Swing
+Use:	O
+Year:	'04
+Pre:	BP
+Post:	P+R B+L^S SW+2
+
+22 	Turn on It 					Off 	'04 	Play on any out result. 	If the pitcher is LHP and your batter bats R or S reroll the swing. (Use the same chart as before.)  
+
+Num:	22
+Name:	Turn on It
+Use:	O
+Year:	'04
+Pre:	AO
+Post:	P+L B+R^S RRS
+
 31 	Hooking Foul 				Def 	'04 	Play on a 1B or 2B result on the pitcher’s chart. 	If your pitcher is LHP and the batter bats L reroll the swing. (Use the same chart as before.) 
 
 Num:	31
@@ -72,6 +107,15 @@ Year:	'04
 Pre:	1B^2B+PC
 Post:	P+L B+L RRS
 
+34 	Lined Out of Play 			Def 	'04 	Play on a 1B or 2B result on the pitcher’s chart. 	If your pitcher is RHP and the batter bats R reroll the swing. (Use the same chart as before.) 
+
+Num:	34
+Name:	Lined out of Play
+Use:	D
+Year:	'04
+Pre:	1B^2B+PC
+Post:	P+R B+R RRS
+
 37 	Nerves of Steel 	Def 	'04 	Play before the pitch. 	If your pitcher is a closer add +3 to the pitch.  
 
 Num:	37
@@ -80,8 +124,6 @@ Use:	D
 Year:	'04
 Pre:	BP
 Post:	P+CL	PI+3
-
-37	Nerves of Steel	D	'04	BP	P+CL PI+3
 
 38 	Paint the Corner 	Def 	'04 	Play before the pitch. 	Discard a card. Subtract 2 from the swing. If your pitcher has the 20 icon draw a card.
 
@@ -94,6 +136,15 @@ Year:	'04
 Pre:	FO
 Post:	PU
 
+42 	Split-Finger Fastball 		Def 	'04 	Play before the batter’s swing is rerolled. 	Subtract 3 from the reroll.  
+
+Num:	42
+Name:	Split-Finger Fastball
+Use:	D
+Year:	'04
+Pre:	RRS
+Post:	SW+-3
+
 45 	Change in Strategy 	Util 	'04 	Play at any time. 	Draw 3 cards and then discard 3 cards.
 
 Num:	45
@@ -101,5 +152,13 @@ Name:	Change in Strategy
 Use:	U
 Year:	'04
 Pre:	A
-Post:	
+Post:	DR+SE+3	DI+SE+3
 
+49 	Swing at Anything 			Util 	'04 	Play on a BB result. 	Reroll the swing. (Use the same chart as before.)  
+
+Num:	49
+Name:	Swing at Anything
+Use:	U
+Year:	'04
+Pre:	BB
+Post:	RRS

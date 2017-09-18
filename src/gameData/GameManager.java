@@ -47,6 +47,8 @@ public class GameManager {
 		useStrategy(defense);
 		List<String> tokens = StrategyCard.getTokens();
 		while (tokens.get(tokens.size() - 1).equals("RRS")) {
+			useStrategy(offense);
+			useStrategy(defense);
 			swing(pitch, hitter, pitcher);
 			useStrategy(offense);
 			useStrategy(defense);
@@ -72,6 +74,7 @@ public class GameManager {
 			StrategyCard.emit("HC");
 			hitter.checkCard(roll() + swingMod);
 		}
+		swingMod = 0;
 	}
 	
 	public void useStrategy(LineupManager user) {
@@ -162,6 +165,8 @@ public class GameManager {
 					return false;
 				} else if (pre[1].equals("L") && !pitcher.getHand().equals("L")) {
 					return false;
+				} else if (pre[1].equals("R") && !pitcher.getHand().equals("R")) {
+					return false;
 				}
 				break;
 			case "B":	// Status related to the batter
@@ -170,7 +175,9 @@ public class GameManager {
 					return false;
 				} else if (pre[1].equals("S") && batter.getBattingSide().equals("S")) {
 					return false;
-				} 
+				} else if (pre[1].equals("L") && batter.getBattingSide().equals("L")) {
+					return false;
+				}
 				break;
 			case "DI": // Discard a card
 				for (int j = 0; j < Integer.parseInt(pre[2]); j++) {
@@ -184,9 +191,9 @@ public class GameManager {
 			case "DR": // Draw a card
 				for (int j = 0; j < Integer.parseInt(pre[2]); j++) {
 					if (pre[1].equals("SE")) {
-						user.discardCard(1);
+						user.drawCard();
 					} else {
-						enemy.discardCard(1);
+						enemy.drawCard();
 					}
 				}
 				break;

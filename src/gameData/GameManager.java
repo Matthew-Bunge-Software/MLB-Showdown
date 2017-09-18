@@ -37,34 +37,20 @@ public class GameManager {
 		swingMod = 0;
 		pitchMod = 0;
 		StrategyCard.emit("BP");
-		String oCard = offense.useCard();
-		String dCard = defense.useCard();
-		if (oCard != null) {
-			this.parsePostcondition(oCard, offense, defense, "offense");
-		}
-		if (dCard != null) {
-			this.parsePostcondition(dCard, offense, defense, "defense");
-		}
-		oCard= dCard = null;
+		useStrategy(offense);
+		useStrategy(defense);
 		PitcherData pitcher = defense.getCurrentPitcher();
 		HitterData hitter = offense.getCurrentBatter();
 		int pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
-		if (pitch >= hitter.getBaseMod()) {
-			StrategyCard.emit("PC");
-			pitcher.checkCard(roll() + swingMod);
-		} else {
-			StrategyCard.emit("HC");
-			hitter.checkCard(roll() + swingMod);
+		swing(pitch, hitter, pitcher);
+		useStrategy(offense);
+		useStrategy(defense);
+		List<String> tokens = StrategyCard.getTokens();
+		while (tokens.get(tokens.size() - 1).equals("RRS")) {
+			swing(pitch, hitter, pitcher);
+			useStrategy(offense);
+			useStrategy(defense);
 		}
-		oCard = offense.useCard();
-		dCard = defense.useCard();
-		if (oCard != null) {
-			this.parsePostcondition(oCard, offense, defense, "offense");
-		}
-		if (dCard != null) {
-			this.parsePostcondition(dCard, offense, defense, "defense");
-		}
-		oCard= dCard = null;
 		processResult();
 		offense.nextBatter();
 		gamestat.update();
@@ -76,6 +62,23 @@ public class GameManager {
 			defense = temp;
 		}
 
+	}
+	
+	public void swing(int pitch, HitterData hitter, PitcherData pitcher) {
+		if (pitch >= hitter.getBaseMod()) {
+			StrategyCard.emit("PC");
+			pitcher.checkCard(roll() + swingMod);
+		} else {
+			StrategyCard.emit("HC");
+			hitter.checkCard(roll() + swingMod);
+		}
+	}
+	
+	public void useStrategy(LineupManager user) {
+		String s = user.useCard();
+		if (s != null) {
+			this.parsePostcondition(s, offense, defense, "offense");
+		}
 	}
 
 	private int roll() {
@@ -192,6 +195,9 @@ public class GameManager {
 				break;
 			case "BB":	// Change result to walk
 				StrategyCard.emit("BB");
+				break;
+			case "RRS": // Reroll a swing
+				StrategyCard.emit("RRS");
 				break;
 			default:
 				throw new IllegalArgumentException(pre[0] + ": not a valid postcondition");

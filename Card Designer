@@ -7,7 +7,7 @@ Name:	Bad Call
 Use:	O
 Year:	'04
 Pre:	SO
-Post:	DI+SE+1	RR+SW
+Post:	DI+SE+1	RRS
 
 2 	Burned 	Off 	'04 	Play after an intentional walk. 	Add +4 to your next batter’s swing.
 
@@ -67,10 +67,10 @@ Post:	P+L	B+R^S SW+2
 
 Num:	31
 Name:	Hooking Foul
-Use:	O
+Use:	D
 Year:	'04
 Pre:	1B^2B+PC
-Post:	
+Post:	P+L B+L RRS
 
 37 	Nerves of Steel 	Def 	'04 	Play before the pitch. 	If your pitcher is a closer add +3 to the pitch.  
 

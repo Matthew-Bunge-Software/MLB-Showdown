@@ -1,17 +1,105 @@
+2004 Strategy
+
+1 	Bad Call 	Off 	'04 	Play on a SO result. 	Discard a card. Reroll the swing. (Use the same chart as before.)
+
+Num:	1
+Name:	Bad Call
+Use:	O
+Year:	'04
+Pre:	SO
+Post:	DI+SE+1	RR+SW
+
+2 	Burned 	Off 	'04 	Play after an intentional walk. 	Add +4 to your next batter’s swing.
+
+Num:	2
+Name:	Burned
+Use:	O
+Year:	'04
+Pre:	IBB
+Post:	SW+4
+
+3 	Check Swing 	Off 	'04 	Play on a SO result on the batter’s chart. 	Discard 2 cards. Change the result to a BB. If your batter has the V icon you may play Check Swing on a SO result on the pitcher’s chart.
+
+Num:	3
+Name:	Check Swing
+Use:	O
+Year:	'04
+Pre:	SO+HI
+Post:	DI+SE+2	BB
+
+4 	Deep in the Gap 			Off 	'04 	Play on a FB result. 	Discard a card. Roll a die. If your roll ties or beats the center fielder’s Speed change the result to a 2B.  
+
+Num:	4
+Name:	Deep in the Gap
+Use:	O
+Year:	'04
+Pre:	FB
+Post:	DI+SE+1 RGE+8+SP 2B
+
+5 	Drained 					Off 	'04 	Play before the pitch. 	If the pitcher is tired and there’s a runner on first with Speed A or Speed B he steals second without a throw. (You can steal a base only if it’s open.)   
+
+Num:
+Name:
+Use:
+Year:
+Pre:
+Post:
+
 6 	Ducks on the Pond 	Off 	'04 	Play before the pitch. 	Discard a card. Add +1 to the swing for each runner.  
 
 Num: 	6
 Name: 	Ducks on the Pond
-Use: 	Offense
+Use: 	O
 Year:	'04
 Pre:	BP
-Post:	DI+SE SW+AR
+Post:	DI+SE+1 SW+AR
 
 12 	Play the Percentages 	Off 	'04 	Play before the pitch. 	If the pitcher is LHP and your batter bats R or S add +2 to the swing.  
 
 Num:	12
 Name: 	Play the Percentages
-Use:	Offense
+Use:	O
 Year:	'04
-Pre:	BP	P+L	B+R^S
-Post:	SW+2
+Pre:	BP
+Post:	P+L	B+R^S SW+2
+
+31 	Hooking Foul 				Def 	'04 	Play on a 1B or 2B result on the pitcher’s chart. 	If your pitcher is LHP and the batter bats L reroll the swing. (Use the same chart as before.) 
+
+Num:	31
+Name:	Hooking Foul
+Use:	O
+Year:	'04
+Pre:	1B^2B+PC
+Post:	
+
+37 	Nerves of Steel 	Def 	'04 	Play before the pitch. 	If your pitcher is a closer add +3 to the pitch.  
+
+Num:	37
+Name:	Nerves of Steel
+Use:	D
+Year:	'04
+Pre:	BP
+Post:	P+CL	PI+3
+
+37	Nerves of Steel	D	'04	BP	P+CL PI+3
+
+38 	Paint the Corner 	Def 	'04 	Play before the pitch. 	Discard a card. Subtract 2 from the swing. If your pitcher has the 20 icon draw a card.
+
+40 	Short Fly 					Def 	'04 	Play on a FB result. 	Change the result to a PU.
+
+Num:	40
+Name:	Short Fly
+Use:	D
+Year:	'04
+Pre:	FO
+Post:	PU
+
+45 	Change in Strategy 	Util 	'04 	Play at any time. 	Draw 3 cards and then discard 3 cards.
+
+Num:	45
+Name:	Change in Strategy
+Use:	U
+Year:	'04
+Pre:	A
+Post:	
+

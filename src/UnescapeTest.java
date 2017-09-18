@@ -37,7 +37,6 @@ public class UnescapeTest {
 				"	L 	S 	\r\n" + 
 				"SO 	GB 	FB 	W 	S 	S+ 	DB 	TR 	HR\r\n" + 
 				"1- 	2-4 	5-6 	7-8 	9-15 	- 	16-18 	- 	19+"));
-
 	}
 	
 	public static String unEscapeString(String s){

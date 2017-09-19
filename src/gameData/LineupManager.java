@@ -20,6 +20,7 @@ public class LineupManager {
 		field = new PlayerData[10];
 		lineup = new HitterData[9];
 		currentPitcher = null;
+		discarded = new HashSet<PlayerData>();
 		sCards = new ArrayList<StrategyCard>();
 	}
 	
@@ -125,17 +126,17 @@ public class LineupManager {
 				String field = "_";
 				String lineup = "_";
 				for (int i = 0; i < 10; i++) {
-					if (this.field[i].equals(s)) {
+					/*if (this.field[i].equals(s)) {
 						field = Integer.toString(i);
 					}
 					if (i < 9) {
 						if (this.lineup[i].equals(s)) {
 							lineup = Integer.toString(i);
 						}
-					}
+					} */
 				}
-				writer.write(field);
-				writer.write(lineup);
+				//writer.write(field);
+				//writer.write(lineup);
 				writer.write("\n");
 			}
 			for (PlayerData p : discarded) {
@@ -154,6 +155,7 @@ public class LineupManager {
 			s.useDelimiter("\\n");
 			while(s.hasNext()) {
 				String player = s.next();
+				loaded.addPlayer(pool.get(player));
 				/*String discarded = s.next();
 				if (!discarded.equals("D")) {
 					loaded.addPlayer(pool.get(player));

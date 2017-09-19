@@ -123,6 +123,7 @@ public class MainRunner {
 
 	private static JXList generatePoolList(Map<String, PlayerData> pool, Font f) {
 		JXList poolList = new JXList();
+		poolList.setSize(500, 500);
 		DefaultListModel<PlayerData> lm = new DefaultListModel<PlayerData>();
 		for (String s : pool.keySet()) {
 			lm.addElement(pool.get(s));
@@ -134,8 +135,6 @@ public class MainRunner {
 
 	private static JPanel createDraftPanel(Map<String, PlayerData> pool, Font f, JTextArea cardInfo, JXList poolList) {
 		JPanel draftPanel = new JPanel();
-		cardInfo.setFont(f);
-		cardInfo.setEditable(false);
 		poolList.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent arg0) {
 				try {
@@ -200,6 +199,7 @@ public class MainRunner {
 		});
 		draftButton.setFont(f);
 		otherButton.setFont(f);
+		myTeamStuff.setFont(f);
 	    buttonPanel.add(draftButton, BorderLayout.SOUTH);
 	    buttonPanel.add(otherButton, BorderLayout.NORTH);
 	    draftPanel.add(poolScroller, BorderLayout.NORTH);
@@ -224,16 +224,35 @@ public class MainRunner {
 	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
 		JPanel panel = new JPanel();
-		String[] columns = {"Name", "Lineup Position", "Field Position"};
+		String[] columns = {"Lineup Position", "Name", "Field Position"};
 		List<Object[]> playersL = new ArrayList<Object[]>();
 		LineupManager lm = LineupManager.teamImport("K", pool);
 		for (String s : lm.getTeam().keySet()) {
 			System.out.println(s);
-			Object[] player = {s, null, null};
+			Object[] player = {null, s, null};
 			playersL.add(player);
 		}
 		Object[][] players = playersL.toArray(new Object[playersL.size()][3]);
-		JTable table = new JTable(players, columns);
+		for (int i = 0; i < Math.min(9, players.length); i++) {
+			players[i][0] = i + 1;
+		}
+		JTable table = new JTable(players, columns) {
+			public boolean isCellEditable(int row, int column) {
+		        if (column != 2) {
+		        	return false;
+		        }
+		        return true;
+		    }
+		};
+		JTextArea cardInfo = generateCardInfo(f);
+		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
+		   public void valueChanged(ListSelectionEvent event) {
+		        if (table.getSelectedColumn() == 1) {
+		            cardInfo.setText(pool.get(table.getValueAt(table.getSelectedRow(), table.getSelectedColumn())).getCard());
+		        }
+		    }
+		});
+		table.setRowHeight(f.getSize());
 		JButton export = new JButton("Export");
 		export.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -247,6 +266,7 @@ public class MainRunner {
 		mainWindow.setSize(1000, 1000);
 		panel.add(scrollPane);
 		panel.add(export);
+		panel.add(cardInfo, BorderLayout.EAST);
 		mainWindow.add(panel);
 		return mainWindow;
 	}

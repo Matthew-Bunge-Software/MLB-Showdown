@@ -86,6 +86,10 @@ public class PitcherData extends PlayerData {
 		}
 		return 0;
 	}
+	
+	public boolean isPitcher() {
+		return true;
+	}
 
 	public String getCard() {
 		String card = "";

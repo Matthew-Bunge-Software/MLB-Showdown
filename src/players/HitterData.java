@@ -76,6 +76,17 @@ public class HitterData extends PlayerData {
 			input.nextLine();
 		}
 	}
+	
+	public HitterData(PitcherData p) {
+		name = p.toString();
+		setNum = p.getSetNum();
+		baseMod = Integer.MIN_VALUE;
+		battingSide = p.getHand();
+	}
+	
+	public boolean isPitcher() {
+		return (baseMod == Integer.MIN_VALUE);
+	}
 
 	/**
 	 * Returns the numeric range of a single+ result

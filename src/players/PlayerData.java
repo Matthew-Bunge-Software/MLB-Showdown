@@ -54,6 +54,10 @@ public class PlayerData implements Comparable<PlayerData> {
 		return baseMod;
 	}
 
+	public int getSetNum() {
+		return setNum;
+	}
+
 	/**
 	 * Returns the numeric range of a strikeout result
 	 * 
@@ -315,6 +319,10 @@ public class PlayerData implements Comparable<PlayerData> {
 		throw new UnsupportedOperationException();
 	}
 
+	public boolean isPitcher() {
+		return false;
+	}
+
 	/**
 	 * Produces the String representation of some baseball position. Used for
 	 * projecting the String reperesntation of a card onto the GUI.
@@ -355,4 +363,19 @@ public class PlayerData implements Comparable<PlayerData> {
 	public int compareTo(PlayerData p) {
 		return this.setNum - p.setNum;
 	}
+
+	@Override
+	// Format used in Effective Java
+	public boolean equals(Object o) {
+		if (o == this)
+			return true;
+		if (!(o instanceof PlayerData)) {
+			return false;
+		}
+
+		PlayerData p = (PlayerData) o;
+
+		return p.getSetNum() == setNum && p.toString() == name;
+	}
+
 }

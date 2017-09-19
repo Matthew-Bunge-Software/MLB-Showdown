@@ -163,7 +163,11 @@ public class LineupManager {
 				}
 				str = s.next();
 				if (!str.equals("_")) {
-					loaded.lineup[Integer.parseInt(str)] = (HitterData) playerD;
+					if (!playerD.isPitcher()) {
+						loaded.lineup[Integer.parseInt(str)] = (HitterData) playerD;
+					} else {
+						loaded.lineup[Integer.parseInt(str)] = new HitterData((PitcherData) playerD);
+					}
 				}
 				/*String discarded = s.next();
 				if (!discarded.equals("D")) {

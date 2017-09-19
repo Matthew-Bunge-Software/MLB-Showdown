@@ -19,6 +19,8 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
 
 import org.jdesktop.swingx.JXList;
 
@@ -27,12 +29,13 @@ import players.PlayerComparator;
 import players.PlayerData;
 
 public class MainRunner {
-	
+
 	private static LineupManager teamOne;
 	private static LineupManager teamTwo;
-	
+
 	public static void main(String[] args) throws FileNotFoundException {
-		DraftManager mainPool = DraftManager.initializePool(new File("2004 pitchers.txt"), new File("2004 hitters.txt"));
+		DraftManager mainPool = DraftManager.initializePool(new File("2004 pitchers.txt"),
+				new File("2004 hitters.txt"));
 		Map<String, PlayerData> pool = mainPool.getPool();
 		JFrame mainWindow = createMainFrame();
 		Font standardF = new Font(Font.SANS_SERIF, Font.PLAIN, (mainWindow.getWidth() + mainWindow.getHeight()) / 200); // Arbitrary
@@ -42,7 +45,7 @@ public class MainRunner {
 		JMenuBar menuBar = new JMenuBar();
 		JMenu mainMenu = new JMenu("Main");
 		JMenuItem newGame = new JMenuItem("New Game");
-		newGame.addActionListener(new ActionListener()	{
+		newGame.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				draftWindow.setVisible(true);
 			}
@@ -80,7 +83,8 @@ public class MainRunner {
 	}
 
 	/**
-	 * Creates the overall bottom level container uses in the rest of the interface
+	 * Creates the overall bottom level container uses in the rest of the
+	 * interface
 	 * 
 	 * @return The JFrame containing the overall base of the interface
 	 */
@@ -140,9 +144,9 @@ public class MainRunner {
 				try {
 					cardInfo.setText(((PlayerData) poolList.getSelectedValue()).getCard());
 				} catch (Exception e) {
-					
+
 				}
-			}	
+			}
 		});
 		JScrollPane poolScroller = new JScrollPane(poolList);
 		poolScroller.setViewportView(poolList);
@@ -151,7 +155,8 @@ public class MainRunner {
 		return draftPanel;
 	}
 
-	private static JPanel createDraftTeamPanel(DraftManager pool, LineupManager myTeam, Font f, JTextArea cardInfo, JXList poolList) {
+	private static JPanel createDraftTeamPanel(DraftManager pool, LineupManager myTeam, Font f, JTextArea cardInfo,
+			JXList poolList) {
 		Map<String, PlayerData> cloned = pool.getPool();
 		JPanel draftPanel = new JPanel();
 		JPanel buttonPanel = new JPanel();
@@ -164,9 +169,9 @@ public class MainRunner {
 				try {
 					cardInfo.setText(myTeam.getTeam().get(myTeamStuff.getSelectedValue()).getCard());
 				} catch (Exception e) {
-					
+
 				}
-			}	
+			}
 		});
 		JScrollPane poolScroller = new JScrollPane(myTeamStuff);
 		poolScroller.setViewportView(myTeamStuff);
@@ -200,9 +205,9 @@ public class MainRunner {
 		draftButton.setFont(f);
 		otherButton.setFont(f);
 		myTeamStuff.setFont(f);
-	    buttonPanel.add(draftButton, BorderLayout.SOUTH);
-	    buttonPanel.add(otherButton, BorderLayout.NORTH);
-	    draftPanel.add(poolScroller, BorderLayout.NORTH);
+		buttonPanel.add(draftButton, BorderLayout.SOUTH);
+		buttonPanel.add(otherButton, BorderLayout.NORTH);
+		draftPanel.add(poolScroller, BorderLayout.NORTH);
 		draftPanel.add(buttonPanel, BorderLayout.SOUTH);
 		return draftPanel;
 	}
@@ -224,12 +229,12 @@ public class MainRunner {
 	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
 		JPanel panel = new JPanel();
-		String[] columns = {"Lineup Position", "Name", "Field Position"};
+		String[] columns = { "Lineup Position", "Name", "Field Position" };
 		List<Object[]> playersL = new ArrayList<Object[]>();
 		LineupManager lm = LineupManager.teamImport("K", pool);
 		for (String s : lm.getTeam().keySet()) {
 			System.out.println(s);
-			Object[] player = {null, s, null};
+			Object[] player = { null, s, null };
 			playersL.add(player);
 		}
 		Object[][] players = playersL.toArray(new Object[playersL.size()][3]);
@@ -238,25 +243,59 @@ public class MainRunner {
 		}
 		JTable table = new JTable(players, columns) {
 			public boolean isCellEditable(int row, int column) {
-		        if (column != 2) {
-		        	return false;
-		        }
-		        return true;
-		    }
+				if (column != 1) {
+					return true;
+				}
+				return true;
+			}
 		};
+		table.setRowSelectionAllowed(false);
 		JTextArea cardInfo = generateCardInfo(f);
 		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
-		   public void valueChanged(ListSelectionEvent event) {
-		        if (table.getSelectedColumn() == 1) {
-		            cardInfo.setText(pool.get(table.getValueAt(table.getSelectedRow(), table.getSelectedColumn())).getCard());
-		        }
-		    }
+			public void valueChanged(ListSelectionEvent event) {
+				if (table.getSelectedColumn() == 1) {
+					cardInfo.setText(
+							pool.get(table.getValueAt(table.getSelectedRow(), table.getSelectedColumn())).getCard());
+				}
+			}
 		});
+		table.getModel().addTableModelListener(new TableModelListener() {
+			@Override
+			public void tableChanged(TableModelEvent e) {
+				table.getModel().removeTableModelListener(this);
+				int column = table.getSelectedColumn();
+				int row = table.getSelectedRow();
+				int cellValue;
+				if (column == 0) {
+					try {
+						cellValue = Integer.parseInt((String) table.getValueAt(row, column));
+					} catch (NumberFormatException n) {
+						cellValue = -1;
+					}
+					if (cellValue > 0 && cellValue < 10) {
+						if (cellValue != row + 1) {
+							Object temp = table.getValueAt(cellValue - 1, 1);
+							table.setValueAt(table.getValueAt(row, 1), cellValue - 1, 1);
+							table.setValueAt(temp, row, 1);
+						}
+					} 
+					if (row < 9) {
+						table.setValueAt("" + (row + 1), row, column);
+					} else {
+						table.setValueAt("", row, column);
+					}
+				} else if (column == 2) {
+
+				}
+				table.getModel().addTableModelListener(this);
+			}
+		});
+
 		table.setRowHeight(f.getSize());
 		JButton export = new JButton("Export");
 		export.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				lm.export("K");
+				lm.export("J");
 			}
 		});
 		table.setFont(f);

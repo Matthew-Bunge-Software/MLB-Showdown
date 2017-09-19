@@ -123,20 +123,20 @@ public class LineupManager {
 			FileWriter writer = new FileWriter("SaveData/K");
 			for (String s : team.keySet()) {
 				writer.write(s);
-				String field = "_";
-				String lineup = "_";
+				String field = "\t_";
+				String lineup = "\t_";
 				for (int i = 0; i < 10; i++) {
-					/*if (this.field[i].equals(s)) {
+					if (this.field[i] != null && this.field[i].equals(team.get(s))) {
 						field = Integer.toString(i);
 					}
 					if (i < 9) {
-						if (this.lineup[i].equals(s)) {
+						if (this.lineup[i] != null && this.lineup[i].equals(s)) {
 							lineup = Integer.toString(i);
 						}
-					} */
+					}
 				}
-				//writer.write(field);
-				//writer.write(lineup);
+				writer.write(field);
+				writer.write(lineup);
 				writer.write("\n");
 			}
 			for (PlayerData p : discarded) {
@@ -152,10 +152,19 @@ public class LineupManager {
 		try {
 			Scanner s = new Scanner(new File("SaveData/" + fileName));
 			LineupManager loaded = new LineupManager(new HashMap<String, PlayerData>());
-			s.useDelimiter("\\n");
+			s.useDelimiter("\\n|\\r\\n|\\t");
 			while(s.hasNext()) {
 				String player = s.next();
-				loaded.addPlayer(pool.get(player));
+				PlayerData playerD = pool.get(player);
+				loaded.addPlayer(playerD);
+				String str = s.next();
+				if (!str.equals("_")) {
+					loaded.field[Integer.parseInt(str)] = playerD;
+				}
+				str = s.next();
+				if (!str.equals("_")) {
+					loaded.lineup[Integer.parseInt(str)] = (HitterData) playerD;
+				}
 				/*String discarded = s.next();
 				if (!discarded.equals("D")) {
 					loaded.addPlayer(pool.get(player));

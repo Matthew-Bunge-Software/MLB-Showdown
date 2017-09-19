@@ -86,14 +86,18 @@ public class StrategyCard {
 	public static boolean parsePrecondition(String s) {
 		String[] pre = s.split("\\+");
 		if (pre.length > 1) {
-			if (pre[1].equals("HC")) {
-				if (!tokens.get(tokens.size() - 2).equals("HC")) {
-					return false;
+			if (tokens.size() > 1) {
+				if (pre[1].equals("HC")) {
+					if (!tokens.get(tokens.size() - 2).equals("HC")) {
+						return false;
+					}
+				} else if (pre[1].equals("PC")) {
+					if (!tokens.get(tokens.size() - 2).equals("PC")) {
+						return false;
+					} 
 				}
-			} else if (pre[1].equals("PC")) {
-				if (!tokens.get(tokens.size() - 2).equals("PC")) {
-					return false;
-				}
+			} else {
+				return false;
 			}
 		}
 		String[] alternates = pre[0].split("\\^");
@@ -122,8 +126,12 @@ public class StrategyCard {
 			return tokens.get(tokens.size() - 1).equals("BDP");
 		case "ADP":	// After double play attempt
 			return tokens.get(tokens.size() - 1).equals("ADP");
+		case "1B": // After a single
+			return tokens.get(tokens.size() - 1).equals("1B");
 		case "1B+": // After 1B+
 			return tokens.get(tokens.size() - 1).equals("1BP");
+		case "2B": // After a double
+			return tokens.get(tokens.size() - 1).equals("2B");
 		case "3B": // After 3B
 			return tokens.get(tokens.size() - 1).equals("3B");
 		case "HR": // After HR
@@ -134,11 +142,10 @@ public class StrategyCard {
 			String token = tokens.get(tokens.size() - 1);
 			return token.equals("PU") || token.equals("FO") || token.equals("SO") || token.equals("GO");
 		}
-		throw new IllegalArgumentException("Thing passed that wasn't a legal token");
+		throw new IllegalArgumentException(s + "isn't a legal token");
 	}
 
 	public static void printLog() {
 		System.out.println(tokens);
 	}
-
 }

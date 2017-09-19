@@ -118,6 +118,13 @@ public class LineupManager {
 		}
 	}
 	
+	/**
+	 * Testing Method
+	 */
+	public StrategyCard getSCard() {
+		return sCards.get(0);
+	}
+	
 	public void export(String fileName) {
 		try {
 			FileWriter writer = new FileWriter("SaveData/K");

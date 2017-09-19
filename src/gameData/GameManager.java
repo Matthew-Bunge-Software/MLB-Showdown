@@ -37,21 +37,21 @@ public class GameManager {
 		swingMod = 0;
 		pitchMod = 0;
 		StrategyCard.emit("BP");
-		useStrategy(offense);
-		useStrategy(defense);
+		useStrategy(offense, "offense");
+		useStrategy(defense, "defense");
 		PitcherData pitcher = defense.getCurrentPitcher();
 		HitterData hitter = offense.getCurrentBatter();
 		int pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
 		swing(pitch, hitter, pitcher);
-		useStrategy(offense);
-		useStrategy(defense);
+		useStrategy(offense, "offense");
+		useStrategy(defense, "defense");
 		List<String> tokens = StrategyCard.getTokens();
 		while (tokens.get(tokens.size() - 1).equals("RRS")) {
-			useStrategy(offense);
-			useStrategy(defense);
+			useStrategy(offense, "offense");
+			useStrategy(defense, "defense");
 			swing(pitch, hitter, pitcher);
-			useStrategy(offense);
-			useStrategy(defense);
+			useStrategy(offense, "offense");
+			useStrategy(defense, "defense");
 		}
 		processResult();
 		offense.nextBatter();
@@ -77,10 +77,10 @@ public class GameManager {
 		swingMod = 0;
 	}
 	
-	public void useStrategy(LineupManager user) {
+	public void useStrategy(LineupManager user, String team) {
 		String s = user.useCard();
 		if (s != null) {
-			this.parsePostcondition(s, offense, defense, "offense");
+			this.parsePostcondition(s, offense, defense, team);
 		}
 	}
 
@@ -100,6 +100,11 @@ public class GameManager {
 	public GameStat processResult() {
 		List<String> tokens = StrategyCard.getTokens();
 		String token = tokens.get(tokens.size() - 1);
+		int i = 1;
+		while (token.startsWith("'")) {
+			i++;
+			token = tokens.get(tokens.size() - i);
+		}
 		switch (token) {
 		case "PU":
 			return grass.popout(gamestat);

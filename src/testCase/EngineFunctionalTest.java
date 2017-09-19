@@ -34,7 +34,9 @@ public class EngineFunctionalTest {
 		int i = 0;
 		List<Integer> scores = new ArrayList<Integer>();
 		teamOne.populateSCards();
+		System.out.println(teamOne.getSCard().getUID());
 		teamTwo.populateSCards();
+		System.out.println(teamTwo.getSCard().getUID());
 		while (i < 1) {
 			gm.pitch();
 			if (gm.getInning() % 10 == 0) {

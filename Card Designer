@@ -78,7 +78,7 @@ Name:	Pull the Ball
 Use:	O
 Year:	'04
 Pre:	AO
-Post:	P+R B+L^S
+Post:	P+R B+L^S RRS
 
 19 	Sweet Swing 				Off 	'04 	Play before the pitch. 	If the pitcher is RHP and your batter bats L or S add +2 to the swing.  
 

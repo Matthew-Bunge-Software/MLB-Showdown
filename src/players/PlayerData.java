@@ -1,10 +1,6 @@
 package players;
 
 import java.util.Set;
-
-import gameData.Field;
-import gameData.GameStat;
-import gameData.LineupManager;
 import gameData.StrategyCard;
 
 /**
@@ -44,7 +40,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	protected int[] positions = new int[10]; // Follow scorecard format, 1=P,
 												// 2=C, 3=1B, etc, 0=DH
 	protected int baseMod; // On-Base/Control
-
+	
 	/**
 	 * Returns the value of the base at-bat/pitching value of a given player
 	 * 
@@ -321,43 +317,6 @@ public class PlayerData implements Comparable<PlayerData> {
 
 	public boolean isPitcher() {
 		return false;
-	}
-
-	/**
-	 * Produces the String representation of some baseball position. Used for
-	 * projecting the String reperesntation of a card onto the GUI.
-	 * 
-	 * @param n
-	 *            Integer representing a position on the field
-	 * @return The string representation of n
-	 * @throws IllegalArgumentException
-	 *             if n isn't an int between 0 and 9
-	 */
-	protected String translatePosition(int n) {
-		switch (n) {
-		case 0:
-			return "DH";
-		case 1:
-			return "P";
-		case 2:
-			return "C";
-		case 3:
-			return "1B";
-		case 4:
-			return "2B";
-		case 5:
-			return "3B";
-		case 6:
-			return "SS";
-		case 7:
-			return "LF";
-		case 8:
-			return "CF";
-		case 9:
-			return "RF";
-		default:
-			throw new IllegalArgumentException("Not a position");
-		}
 	}
 
 	public int compareTo(PlayerData p) {

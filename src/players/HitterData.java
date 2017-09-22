@@ -1,10 +1,6 @@
 package players;
 
 import java.util.*;
-
-import gameData.Field;
-import gameData.GameStat;
-import gameData.LineupManager;
 import gameData.StrategyCard;
 
 /**
@@ -226,9 +222,9 @@ public class HitterData extends PlayerData {
 			int val = this.positions[i];
 			if (val != 0) {
 				if (val > 0) {
-					card += translatePosition(i) + " = " + val + "\n\t";
+					card += Position.abbrFromInt(i) + " = " + val + "\n\t";
 				} else {
-					card += translatePosition(i) + " = " + 0 + "\n\t";
+					card += Position.abbrFromInt(i) + " = " + 0 + "\n\t";
 				}
 			}
 		}

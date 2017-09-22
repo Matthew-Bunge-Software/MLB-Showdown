@@ -4,14 +4,7 @@ package players;
  * A range represents the numbers from a roll plus an adjustment that will produce
  * a certain outcome in MLB Showdown. Since MLB Showdown involves a lot of dice rolling,
  * this class exists to expedite the process of generating those results and simplifying
- * the construction of virtual player card result boxes.
- * 
- * Updates:
- * 
- * .2:
- * -In conjunction with using textual input straight from the web, created a new
- * 		static factory method to generate Ranges for player creation
- * 
+ * the construction of virtual player card result boxes.* 
  * 
  * @author Matthew Bunge
  * @version .2
@@ -72,6 +65,7 @@ public class Range {
    }
    
    /**
+    * Takes a string representation of a Range and creates a corresponding Range object
     * 
     * @param 	s	The String input from the players text file
     * @return	A Range representing the valid results for some play

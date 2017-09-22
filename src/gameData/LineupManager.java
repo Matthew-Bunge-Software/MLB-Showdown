@@ -33,6 +33,24 @@ public class LineupManager {
 		return team;
 	}
 	
+	public int playerInField(String s) {
+		for (int i = 0; i < field.length; i++) {
+			if (field[i] != null && field[i].equals(team.get(s))) {
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	public int playerInLineup(String s) {
+		for (int i = 0; i < lineup.length; i++) {
+			if (lineup[i] != null && lineup[i].equals(team.get(s))) {
+				return i;
+			}
+		}
+		return 10;
+	}
+	
 	public int getFielding(int i) {
 		return field[i].getFielding(i);
 	}
@@ -52,18 +70,28 @@ public class LineupManager {
 		field[1] = currentPitcher;
 	}
 	
-	public void insertPlayer(String h, int field, int lineup) {
-		if (team.get(h).getClass() != HitterData.class) {
-			throw new IllegalArgumentException("Passed player is not a hitter");
+	public PlayerData playTheField(String s, int field) {
+		if (field > 9 || field < 0) {
+			throw new IllegalArgumentException("Field position must be between 0 and 9");
 		}
-		if ((field > 9 || field < 0) || (lineup > 8 || lineup < 0)) {
-			throw new IllegalArgumentException("Position must be between 0 and 9");
+		PlayerData temp = this.field[field];
+		this.field[field] = team.get(s);
+		return temp;
+	}
+	
+	public PlayerData hitInOrder(String s, int lineup) {
+		lineup = lineup - 1;
+		if (lineup > 8 || lineup < 0) {
+			throw new IllegalArgumentException("Lineup position must be between 1 and 9");
 		}
-		if (this.field[field] != null) {
-			discarded.add(this.field[field]);
+		PlayerData temp = this.lineup[lineup];
+		PlayerData player = team.get(s);
+		if (player.isPitcher()) {
+			this.lineup[lineup] = new HitterData((PitcherData) player);
+		} else {
+			this.lineup[lineup] = (HitterData) team.get(s);
 		}
-		this.field[field] = team.get(h);
-		this.lineup[lineup] = (HitterData) team.get(h);
+		return temp;
 	}
 	
 	public HitterData getCurrentBatter() {
@@ -130,20 +158,20 @@ public class LineupManager {
 			FileWriter writer = new FileWriter("SaveData/K");
 			for (String s : team.keySet()) {
 				writer.write(s);
-				String field = "\t_";
-				String lineup = "\t_";
+				String field = "_";
+				String lineup = "_";
 				for (int i = 0; i < 10; i++) {
 					if (this.field[i] != null && this.field[i].equals(team.get(s))) {
 						field = Integer.toString(i);
 					}
 					if (i < 9) {
-						if (this.lineup[i] != null && this.lineup[i].equals(s)) {
+						if (this.lineup[i] != null && this.lineup[i].equals(team.get(s))) {
 							lineup = Integer.toString(i);
 						}
 					}
 				}
-				writer.write(field);
-				writer.write(lineup);
+				writer.write("\t" + field);
+				writer.write("\t" + lineup);
 				writer.write("\n");
 			}
 			for (PlayerData p : discarded) {

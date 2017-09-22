@@ -6,16 +6,6 @@ import java.util.*;
 import java.util.List;
 import java.util.regex.Pattern;
 
-/* Effects to be tracked:
- * 		Card Result				SO
- * 		IBB Result				IBB
- * 		Chart Used				P/B
- * 		Before Pitch			WAIT
- * 		Anytime
- * 		Before/After DoublePlayAttempt	DPA->DPS/DPF
- * 		Reroll					RR
- */
-
 public class StrategyCard {
 
 	private static List<String> tokens;
@@ -56,6 +46,14 @@ public class StrategyCard {
 	
 	public String getUID() {
 		return year + "#" + num;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public String getUsage() {
+		return offDefUtil;
 	}
 
 	public String getPre() {

@@ -21,11 +21,15 @@ public class EngineFunctionalTest {
 		}
 		for (int i = 0; i < 10; i++) {
 			if (i == 0) {
-				teamOne.insertPlayer(team1[i], i, 3);
-				teamTwo.insertPlayer(team2[i], i, 3);
+				teamOne.playTheField(team1[i], i);
+				teamOne.hitInOrder(team1[i], 4);
+				teamTwo.playTheField(team2[i], i);
+				teamTwo.hitInOrder(team2[i], 4);
 			} else if (i > 1) {
-				teamOne.insertPlayer(team1[i], i, (i + 2) % 9);
-				teamTwo.insertPlayer(team2[i], i, (i + 2) % 9);
+				teamOne.playTheField(team1[i], i);
+				teamOne.hitInOrder(team1[i], ((i + 2) % 9) + 1);
+				teamTwo.playTheField(team2[i], i);
+				teamTwo.hitInOrder(team2[i], ((i + 2) % 9) + 1);
 			}
 		}
 		teamOne.subPitcher(team1[1]);

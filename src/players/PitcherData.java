@@ -1,10 +1,6 @@
 package players;
 
 import java.util.*;
-
-import gameData.Field;
-import gameData.GameStat;
-import gameData.LineupManager;
 import gameData.StrategyCard;
 
 public class PitcherData extends PlayerData {

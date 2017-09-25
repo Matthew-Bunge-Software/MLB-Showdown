@@ -7,21 +7,14 @@ import gameData.StrategyCard;
  * PlayerData is the representation of player data common to both pitchers and
  * position players in MLB Showdown. Instances of PlayerData are not intended to
  * be created, within the scope of MLB Showdown, it simply provides a baseline
- * set of methods usefull for both HitterData and PitcherData, which are the
+ * set of methods useful for both HitterData and PitcherData, which are the
  * actual classes that should be used for the creation of Hitters and Pitchers
  * respectively.
  * 
- * Updates:
- * 
- * .2: -Now implements an overwritable method to create a string representation
- * of a player card -Also converts the int value of a position into a String
- * representation
- * 
  * @author Matthew Bunge
- * @version .2
  */
 
-public class PlayerData implements Comparable<PlayerData> {
+public abstract class PlayerData implements Comparable<PlayerData> {
 
 	protected int setNum;
 	protected String edition;
@@ -40,7 +33,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	protected int[] positions = new int[10]; // Follow scorecard format, 1=P,
 												// 2=C, 3=1B, etc, 0=DH
 	protected int baseMod; // On-Base/Control
-	
+
 	/**
 	 * Returns the value of the base at-bat/pitching value of a given player
 	 * 
@@ -50,6 +43,11 @@ public class PlayerData implements Comparable<PlayerData> {
 		return baseMod;
 	}
 
+	/**
+	 * Returns the number of the card in its respective release set
+	 * 
+	 * @return The set number of the card
+	 */
 	public int getSetNum() {
 		return setNum;
 	}
@@ -123,7 +121,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param s
 	 *            The player's new name
 	 */
-	public void setName(String s) {
+	protected void setName(String s) {
 		name = s;
 	}
 
@@ -133,7 +131,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param r
 	 *            The player's new strikeout range
 	 */
-	public void setStrikeout(Range r) {
+	protected void setStrikeout(Range r) {
 		strikeout = r;
 	}
 
@@ -143,7 +141,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param r
 	 *            The player's new groundout range
 	 */
-	public void setGroundout(Range r) {
+	protected void setGroundout(Range r) {
 		groundout = r;
 	}
 
@@ -153,7 +151,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param r
 	 *            The player's new flyout range
 	 */
-	public void setFlyout(Range r) {
+	protected void setFlyout(Range r) {
 		flyout = r;
 	}
 
@@ -163,7 +161,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param r
 	 *            The player's new walk range
 	 */
-	public void setWalk(Range r) {
+	protected void setWalk(Range r) {
 		walk = r;
 	}
 
@@ -173,7 +171,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param r
 	 *            The player's new single range
 	 */
-	public void setSingle(Range r) {
+	protected void setSingle(Range r) {
 		single = r;
 	}
 
@@ -183,7 +181,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param r
 	 *            The player's new double range
 	 */
-	public void setDouble(Range r) {
+	protected void setDouble(Range r) {
 		twobase = r;
 	}
 
@@ -193,7 +191,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param r
 	 *            The player's new homer range
 	 */
-	public void setHomer(Range r) {
+	protected void setHomer(Range r) {
 		homer = r;
 	}
 
@@ -205,7 +203,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param index
 	 *            The position whose fielding value is being adjusted
 	 */
-	public void setPosition(int val, int index) {
+	protected void setPosition(int val, int index) {
 		positions[index] = val;
 	}
 
@@ -215,7 +213,7 @@ public class PlayerData implements Comparable<PlayerData> {
 	 * @param i
 	 *            The player's new at-bat/pitching value
 	 */
-	void setBaseMod(int i) {
+	protected void setBaseMod(int i) {
 		baseMod = i;
 	}
 
@@ -315,16 +313,24 @@ public class PlayerData implements Comparable<PlayerData> {
 		throw new UnsupportedOperationException();
 	}
 
-	public boolean isPitcher() {
-		return false;
-	}
+	/**
+	 * Returns whether the given card is a Pitcher
+	 */
+	public abstract boolean isPitcher();
 
+	/**
+	 * Comapres two PlayerDats based on their Set Numbers
+	 */
 	public int compareTo(PlayerData p) {
 		return this.setNum - p.setNum;
 	}
 
 	@Override
 	// Format used in Effective Java
+	/**
+	 * Overrides the generic Equals method
+	 * Two PlayerDatas are equal if they have the same set number and the same name
+	 */
 	public boolean equals(Object o) {
 		if (o == this)
 			return true;
@@ -334,7 +340,7 @@ public class PlayerData implements Comparable<PlayerData> {
 
 		PlayerData p = (PlayerData) o;
 
-		return p.getSetNum() == setNum && p.toString() == name;
+		return p.getSetNum() == setNum && p.toString().equals(name);
 	}
 
 }

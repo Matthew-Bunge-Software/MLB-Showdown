@@ -7,7 +7,6 @@ package players;
  * the construction of virtual player card result boxes.* 
  * 
  * @author Matthew Bunge
- * @version .2
  */
 
 public class Range {

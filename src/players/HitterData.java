@@ -7,7 +7,6 @@ import gameData.StrategyCard;
  * Implementation of the Hitter type in MLB Showdown
  * 
  * @author Matthew Bunge
- * @version .1
  */
 
 public class HitterData extends PlayerData {
@@ -18,7 +17,7 @@ public class HitterData extends PlayerData {
 	private String battingSide;
 
 	/**
-	 * Constructor for a Hitter
+	 * Main Constructor for a Hitter
 	 * 
 	 * @param input
 	 *            Scanner containing a single line that needs to be parsed to
@@ -72,14 +71,26 @@ public class HitterData extends PlayerData {
 			input.nextLine();
 		}
 	}
-	
+
+	/**
+	 * Constructor for a "Dummy" Hitter that actually represents a pitcher This
+	 * class has a baseline of information needed to functionally operate as a
+	 * hitter using MLB Showdown rules for pitchers hitting
+	 * 
+	 * @param p
+	 *            The PitcherData used to make the dummy hitter
+	 */
 	public HitterData(PitcherData p) {
 		name = p.toString();
 		setNum = p.getSetNum();
 		baseMod = Integer.MIN_VALUE;
 		battingSide = p.getHand();
 	}
-	
+
+	/**
+	 * Returns whether or not the HitterData is in fact a dummy card for a
+	 * pitcher
+	 */
 	public boolean isPitcher() {
 		return (baseMod == Integer.MIN_VALUE);
 	}
@@ -121,24 +132,12 @@ public class HitterData extends PlayerData {
 		return battingSide;
 	}
 
-	// Temporary to make lineup manager work
-	public void query() {
-
-	}
-
 	/**
-	 * Verifies what result comes from a diceroll and updates the field and
-	 * gametrack accordingly
+	 * Verifies what result comes from a diceroll and emit the proper outcome to
+	 * the token handler
 	 * 
-	 * @param grass
-	 *            The status of the field that the game is being played on
 	 * @param dice
 	 *            The value of the diceroll being compared against the card
-	 * @param track
-	 *            The GameStat of the game currently being played
-	 * @param enemy
-	 *            The lineup of the team currently on the field
-	 * @return The updated GameStat from the selected card result
 	 */
 	public void checkCard(int dice) {
 		super.checkCard(dice);
@@ -149,11 +148,20 @@ public class HitterData extends PlayerData {
 		}
 	}
 
+	/**
+	 * Parses out positions and fielding values from a passed in string
+	 * 
+	 * @param s The string representing a player position
+	 */
 	private void modifyPositions(String s) {
-		if (s.equals("DH")) { return; }
+		if (s.equals("DH")) {
+			return;
+		}
 		String[] split = s.split("\\+");
-	    int setVal = Integer.parseInt(split[1]);
-	    if (setVal == 0) { setVal = -1; }
+		int setVal = Integer.parseInt(split[1]);
+		if (setVal == 0) {
+			setVal = -1;
+		}
 		switch (split[0]) {
 		case "C":
 			positions[2] = setVal;
@@ -192,6 +200,15 @@ public class HitterData extends PlayerData {
 		}
 	}
 
+	/**
+	 * Parses the speed token to come up with a numeric value The reason for
+	 * this method exisiting is that older cards may represent speed as a letter
+	 * rather than a number
+	 * 
+	 * @param speed
+	 *            A string representing the speed, either an int or A,B, or C
+	 * @return The numeric value of speed
+	 */
 	private int parseSpeed(String speed) {
 		switch (speed) {
 		case "A":
@@ -207,9 +224,10 @@ public class HitterData extends PlayerData {
 	}
 
 	/**
-	 * Creates a String representation of the Hitter, mirroring what a card looks like in real life
+	 * Creates a String representation of the Hitter, mirroring what a card
+	 * looks like in real life
 	 * 
-	 * @return	A String representing the stats of the Hitter Card
+	 * @return A String representing the stats of the Hitter Card
 	 */
 	public String getCard() {
 		String card = "";

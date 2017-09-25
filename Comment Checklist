@@ -16,11 +16,11 @@ MainRunner:				|						|							|
 ----------------------------------------------------------------------------|
 players:																	|
 ----------------------------------------------------------------------------|
-HitterData:				|						|							|
+HitterData:				|						|				X			|
 PitcherData:			|						|							|
-PlayerComparator:		|						|							|
-PlayerData:				|						|							|
-Position:				|						|							|
+PlayerComparator:		|			X			|				X			|
+PlayerData:				|			X			|				X			|
+Position:				|			X			|				X			|
 Range:					|			X			|				X			|
 ----------------------------------------------------------------------------|
 testCase:																	|

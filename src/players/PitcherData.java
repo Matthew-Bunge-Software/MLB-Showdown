@@ -10,6 +10,14 @@ public class PitcherData extends PlayerData {
 	private String role;
 	private String hand;
 
+	/**
+	 * Main Constructor for a Pitcher
+	 * 
+	 * @param input
+	 *            Scanner containing a single line that needs to be parsed to
+	 *            produce the various pitcher data points input is assumed to
+	 *            have the tab character and newline character as a delimiter
+	 */
 	public PitcherData(Scanner input) {
 		String num = input.next().trim();
 		if (num.isEmpty()) {
@@ -57,16 +65,31 @@ public class PitcherData extends PlayerData {
 		}
 	}
 
-	// Generic getter methods
+	/**
+	 * Returns the role a pitcher holds
+	 * 
+	 * @return String representing the pitcher's role
+	 */
 	public String getRole() {
 		return role;
 	}
 
+	/**
+	 * Returns the hand the pitcher throws with
+	 * 
+	 * @return String, either "R" or "L", representing the hand the pitcher throws with
+	 */
 	public String getHand() {
 		return hand;
 	}
 
-	// check card with specific updates related to pitchers
+	/**
+	 * Verifies what result comes from a diceroll and emit the proper outcome to
+	 * the token handler
+	 * 
+	 * @param dice
+	 *            The value of the diceroll being compared against the card
+	 */
 	public void checkCard(int dice) {
 		super.checkCard(dice);
 		if (popout.inRange(dice)) {
@@ -74,8 +97,7 @@ public class PitcherData extends PlayerData {
 		}
 	}
 
-	// Takes the number of pitches a pitcher has thrown
-	// Returns the number of innings remaining until a pitcher is tired
+	// Will probably need to find a new way to track innings pitched so far
 	public int checkInnings(int soFar) {
 		if (soFar > innings) {
 			return innings - soFar;
@@ -83,20 +105,26 @@ public class PitcherData extends PlayerData {
 		return 0;
 	}
 	
+	/**
+	 * Implements the abstract method isPitcher from PlayerData
+	 * 
+	 * This method always returns true for PitcherData
+	 */
 	public boolean isPitcher() {
 		return true;
 	}
 
+	/**
+	 * Creates a String representation of the Pitcher, mirroring what a card
+	 * looks like in real life
+	 * 
+	 * @return A String representing the stats of the Hitter Card
+	 */
 	public String getCard() {
 		String card = "";
 		card += "Name:\t" + this + "\n";
 		card += "Control:\t" + this.baseMod + "\n";
 		card += "Role:\t" + this.role + "\n";
-		/*
-		 * old if (this.role.equals("S")) { card += "Starter"; } else if
-		 * (this.role.equals("R")) { card += "Reliever"; } else { // C card +=
-		 * "Closer"; } card += "\n";
-		 */
 		card += "Throws:\t" + this.hand + "\n";
 		card += "Innings:\t" + this.innings + "\n";
 		card += "Positions:\tPitcher\n\n";

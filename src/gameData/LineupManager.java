@@ -114,6 +114,18 @@ public class LineupManager {
 		return false;
 	}
 	
+	public void clearField() {
+		for (int i = 0; i < field.length; i++) {
+			field[i] = null;
+		}
+	}
+	
+	public void clearLineup() {
+		for (int i = 0; i < lineup.length; i++) {
+			lineup[i] = null;
+		}
+	}
+	
 	public boolean drawCard() {
 		sCards.add(StrategyCard.getRandomCard());
 		return true;
@@ -155,7 +167,7 @@ public class LineupManager {
 	
 	public void export(String fileName) {
 		try {
-			FileWriter writer = new FileWriter("SaveData/K");
+			FileWriter writer = new FileWriter("SaveData/" + fileName);
 			for (String s : team.keySet()) {
 				writer.write(s);
 				String field = "_";

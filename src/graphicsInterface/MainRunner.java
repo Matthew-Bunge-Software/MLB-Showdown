@@ -17,6 +17,9 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.event.TableModelEvent;
 import javax.swing.event.TableModelListener;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
+import javax.swing.table.TableModel;
 
 import org.jdesktop.swingx.JXList;
 
@@ -80,8 +83,7 @@ public class MainRunner {
 	}
 
 	/**
-	 * Creates the overall bottom level container uses in the rest of the
-	 * interface
+	 * Creates the overall top level container uses in the rest of the interface
 	 * 
 	 * @return The JFrame containing the overall base of the interface
 	 */
@@ -93,6 +95,15 @@ public class MainRunner {
 		return mainWindow;
 	}
 
+	/**
+	 * Creates the JFrame used to draft 2 separate teams
+	 * 
+	 * @param pool
+	 *            The DraftManager for the particular pool of players being used
+	 * @param f
+	 *            The standard font being used across the project
+	 * @return A JFrame composed of all the parts needed to draft players
+	 */
 	private static JFrame createDraftFrame(DraftManager pool, Font f) {
 		teamOne = new LineupManager();
 		teamTwo = new LineupManager();
@@ -114,14 +125,28 @@ public class MainRunner {
 		return draftWindow;
 	}
 
+	/**
+	 * Creates an uneditable JTextArea. In partciular, this will be used to
+	 * display card text
+	 * 
+	 * @param f
+	 *            The standard font being used across the project
+	 * @return an uneditable JTextArea
+	 */
 	private static JTextArea generateCardInfo(Font f) {
 		JTextArea cardInfo = new JTextArea();
-		cardInfo = new JTextArea();
 		cardInfo.setFont(f);
 		cardInfo.setEditable(false);
 		return cardInfo;
 	}
 
+	/**
+	 * Creates a JXList of all players in a given Map of players
+	 * 
+	 * @param pool	A map of Strings of names to PlayerData of players who have said names
+	 * @param f	The standard font being used across the project
+	 * @return	A JXList of all players in pool
+	 */
 	private static JXList generatePoolList(Map<String, PlayerData> pool, Font f) {
 		JXList poolList = new JXList();
 		poolList.setSize(500, 500);
@@ -158,6 +183,8 @@ public class MainRunner {
 		JPanel draftPanel = new JPanel();
 		JPanel buttonPanel = new JPanel();
 		JXList myTeamStuff = new JXList();
+		JFileChooser fileName = new JFileChooser();
+		fileName.setCurrentDirectory(new File(System.getProperty("user.dir")));
 		myTeamStuff.setComparator(new PlayerComparator());
 		myTeamStuff.setAutoCreateRowSorter(true);
 		myTeamStuff.setSortOrder(SortOrder.ASCENDING);
@@ -174,7 +201,7 @@ public class MainRunner {
 		poolScroller.setViewportView(myTeamStuff);
 		JButton draftButton = makeDraftButton(f, pool, poolList, myTeamStuff, myTeam);
 		JButton otherButton = new JButton("Export Team");
-		otherButton.addActionListener(makeDraftLineupExport(myTeamStuff, cloned));
+		otherButton.addActionListener(makeDraftLineupExport(myTeamStuff, cloned, fileName));
 		otherButton.setFont(f);
 		myTeamStuff.setFont(f);
 		buttonPanel.add(draftButton, BorderLayout.SOUTH);
@@ -201,9 +228,142 @@ public class MainRunner {
 	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
 		JPanel panel = new JPanel();
+		JTable table = new JTable();
+		JTextArea cardInfo = generateCardInfo(f);
+		JTextArea fileInfo = new JTextArea();
+		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
+			public void valueChanged(ListSelectionEvent event) {
+				if (table.getSelectedColumn() == 1) {
+					cardInfo.setText(
+							pool.get(table.getValueAt(table.getSelectedRow(), table.getSelectedColumn())).getCard());
+				}
+			}
+		});
+		table.setRowHeight(f.getSize());
+		JButton export = new JButton("Export");
+		JButton importer = new JButton("Import");
+		export.addActionListener(makeTableLineupExport(table, pool));
+		importer.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				LineupManager lm = null;
+				JFileChooser fileName = new JFileChooser();
+				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")));
+				int returnValue = fileName.showOpenDialog(null);
+				if (returnValue == JFileChooser.APPROVE_OPTION) {
+					lm = LineupManager.teamImport(fileName.getSelectedFile().getName(), pool);
+				}
+				TableModel t = makeLineupTableModel(pool, lm);
+				table.setModel(t);
+				table.getModel().addTableModelListener(makeLineupEditorListener(table));
+			}
+		});
+		table.setFont(f);
+		JScrollPane scrollPane = new JScrollPane(table);
+		table.setFillsViewportHeight(true);
+		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mainWindow.setSize(1000, 1000);
+		panel.add(scrollPane);
+		panel.add(importer);
+		panel.add(export);
+		panel.add(cardInfo, BorderLayout.EAST);
+		panel.add(fileInfo, BorderLayout.SOUTH);
+		mainWindow.add(panel);
+		return mainWindow;
+	}
+
+	private static TableModelListener makeLineupEditorListener(JTable table) {
+		return new TableModelListener() {
+			@Override
+			public void tableChanged(TableModelEvent e) {
+				table.getModel().removeTableModelListener(this);
+				int column = table.getSelectedColumn();
+				int row = table.getSelectedRow();
+				if (column == 0) {
+					columnZeroModified(row, column, table);
+				} else if (column == 2) {
+					String s = (String) table.getValueAt(row, column);
+					if (isInteger(s)) {
+						table.setValueAt(Position.abbrFromInt(Integer.parseInt(s)), row, column);
+					} else {
+						if (Position.intFromAbbr(s) == 10) {
+							table.setValueAt(null, row, column);
+						}
+					}
+				}
+				table.getModel().addTableModelListener(this);
+			}
+		};
+	}
+
+	private static ActionListener makeTableLineupExport(JTable table, Map<String, PlayerData> pool) {
+		return new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				LineupManager lm = new LineupManager();
+				for (int i = 0; i < table.getRowCount(); i++) {
+					PlayerData p = (PlayerData) pool.get(table.getValueAt(i, 1));
+					if (i < 9) {
+						lm.hitInOrder(p.toString(), i + 1);
+					}
+					int f = Position.intFromAbbr((String) table.getValueAt(i, 2));
+					if (f != 10) {
+						lm.playTheField(p.toString(), f);
+					}
+				}
+				JFileChooser fileName = new JFileChooser();
+				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")));
+				int returnValue = fileName.showSaveDialog(null);
+				if (returnValue == JFileChooser.APPROVE_OPTION) {
+					lm.export(fileName.getSelectedFile().getName());
+				}
+			}
+		};
+	}
+
+	private static ActionListener makeDraftLineupExport(JXList myTeamStuff, Map<String, PlayerData> cloned,
+			JFileChooser fileName) {
+		return new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Map<String, PlayerData> teamPool = new HashMap<String, PlayerData>();
+				int len = myTeamStuff.getModel().getSize();
+				for (int i = 0; i < len; i++) {
+					String s = (String) myTeamStuff.getModel().getElementAt(i);
+					if (s != null) {
+						teamPool.put(s, cloned.get(s));
+					}
+				}
+				LineupManager lm = new LineupManager(teamPool);
+				int returnValue = fileName.showSaveDialog(null);
+				if (returnValue == JFileChooser.APPROVE_OPTION) {
+					lm.export(fileName.getSelectedFile().getName());
+				}
+				throw new IllegalArgumentException("No file given");
+			}
+		};
+	}
+
+	private static JTable makeLineupTable(TableModel t) {
+		JTable table = new JTable(t) {
+			public boolean isCellEditable(int row, int column) {
+				if (column != 1) {
+					return true;
+				}
+				return false;
+			}
+		};
+		TableColumn c;
+		for (int i = 0; i < 3; i++) {
+			c = table.getColumnModel().getColumn(i);
+			if (i == 1) {
+				c.setPreferredWidth(300);
+			}
+		}
+		table.setRowSelectionAllowed(false);
+		return table;
+	}
+
+	private static DefaultTableModel makeLineupTableModel(Map<String, PlayerData> pool, LineupManager lm) {
 		String[] columns = { "Lineup Position", "Name", "Field Position" };
 		List<Object[]> playersL = new ArrayList<Object[]>();
-		LineupManager lm = LineupManager.teamImport("K", pool);
 		for (String s : lm.getTeam().keySet()) {
 			System.out.println(s);
 			Object[] player = { lm.playerInLineup(s), s, Position.abbrFromInt(lm.playerInField(s)) };
@@ -226,121 +386,12 @@ public class MainRunner {
 				players[i][2] = null;
 			}
 		}
-		JTable table = new JTable(players, columns) {
-			public boolean isCellEditable(int row, int column) {
-				if (column != 1) {
-					return true;
-				}
-				return true;
-			}
-		};
-		table.setRowSelectionAllowed(false);
-		JTextArea cardInfo = generateCardInfo(f);
-		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
-			public void valueChanged(ListSelectionEvent event) {
-				if (table.getSelectedColumn() == 1) {
-					cardInfo.setText(
-							pool.get(table.getValueAt(table.getSelectedRow(), table.getSelectedColumn())).getCard());
-				}
-			}
-		});
-		table.getModel().addTableModelListener(makeLineupEditorListener(table));
-		table.setRowHeight(f.getSize());
-		JButton export = new JButton("Export");
-		export.addActionListener(makeTableLineupExport(table, pool, lm));
-		table.setFont(f);
-		JScrollPane scrollPane = new JScrollPane(table);
-		table.setFillsViewportHeight(true);
-		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		mainWindow.setSize(1000, 1000);
-		panel.add(scrollPane);
-		panel.add(export);
-		panel.add(cardInfo, BorderLayout.EAST);
-		mainWindow.add(panel);
-		return mainWindow;
+		return new DefaultTableModel(players, columns);
+
 	}
 
-	private static TableModelListener makeLineupEditorListener(JTable table) {
-		return new TableModelListener() {
-			@Override
-			public void tableChanged(TableModelEvent e) {
-				table.getModel().removeTableModelListener(this);
-				int column = table.getSelectedColumn();
-				int row = table.getSelectedRow();
-				int cellValue;
-				if (column == 0) {
-					String s = (String) table.getValueAt(row, column);
-					if (isInteger(s)) {
-						cellValue = Integer.parseInt(s);
-					} else {
-						cellValue = -1;
-					}
-					if (cellValue > 0 && cellValue < 10) {
-						if (cellValue != row + 1) {
-							Object temp = table.getValueAt(cellValue - 1, 1);
-							Object temp2 = table.getValueAt(cellValue - 1, 2);
-							table.setValueAt(table.getValueAt(row, 1), cellValue - 1, 1);
-							table.setValueAt(table.getValueAt(row, 2), cellValue - 1, 2);
-							table.setValueAt(temp, row, 1);
-							table.setValueAt(temp2, row, 2);
-						}
-					}
-					if (row < 9) {
-						table.setValueAt("" + (row + 1), row, column);
-					} else {
-						table.setValueAt("", row, column);
-					}
-				} else if (column == 2) {
-					String s = (String) table.getValueAt(row, column);
-					if (isInteger(s)) {
-						table.setValueAt(Position.abbrFromInt(Integer.parseInt(s)), row, column);
-					} else {
-						if (Position.intFromAbbr(s) == 10) {
-							table.setValueAt(null, row, column);
-						}
-					}
-				}
-				table.getModel().addTableModelListener(this);
-			}
-		};
-	}
-
-	private static ActionListener makeTableLineupExport(JTable table, Map<String, PlayerData> pool, LineupManager lm) {
-		return new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				for (int i = 0; i < table.getRowCount(); i++) {
-					PlayerData p = (PlayerData) pool.get(table.getValueAt(i, 1));
-					if (i < 9) {
-						lm.hitInOrder(p.toString(), i + 1);
-					}
-					int f = Position.intFromAbbr((String) table.getValueAt(i, 2));
-					if (f != -1) {
-						lm.playTheField(p.toString(), f);
-					}
-				}
-				lm.export("J");
-			}
-		};
-	}
-	
-	private static ActionListener makeDraftLineupExport(JXList myTeamStuff, Map<String, PlayerData> cloned) {
-		return new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				Map<String, PlayerData> teamPool = new HashMap<String, PlayerData>();
-				int len = myTeamStuff.getModel().getSize();
-				for (int i = 0; i < len; i++) {
-					String s = (String) myTeamStuff.getModel().getElementAt(i);
-					if (s != null) {
-						teamPool.put(s, cloned.get(s));
-					}
-				}
-				LineupManager lm = new LineupManager(teamPool);
-				lm.export("Text area entry");
-			}
-		};
-	}
-	
-	private static JButton makeDraftButton(Font f, DraftManager pool, JXList poolList, JXList myTeamStuff, LineupManager myTeam) {
+	private static JButton makeDraftButton(Font f, DraftManager pool, JXList poolList, JXList myTeamStuff,
+			LineupManager myTeam) {
 		JButton draftButton = new JButton("Draft Player");
 		draftButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -369,5 +420,30 @@ public class MainRunner {
 			}
 		}
 		return true;
+	}
+
+	private static void columnZeroModified(int row, int column, JTable table) {
+		int cellValue;
+		String s = (String) table.getValueAt(row, column);
+		if (isInteger(s)) {
+			cellValue = Integer.parseInt(s);
+		} else {
+			cellValue = -1;
+		}
+		if (cellValue > 0 && cellValue < 10) {
+			if (cellValue != row + 1) {
+				Object temp = table.getValueAt(cellValue - 1, 1);
+				Object temp2 = table.getValueAt(cellValue - 1, 2);
+				table.setValueAt(table.getValueAt(row, 1), cellValue - 1, 1);
+				table.setValueAt(table.getValueAt(row, 2), cellValue - 1, 2);
+				table.setValueAt(temp, row, 1);
+				table.setValueAt(temp2, row, 2);
+			}
+		}
+		if (row < 9) {
+			table.setValueAt("" + (row + 1), row, column);
+		} else {
+			table.setValueAt("", row, column);
+		}
 	}
 }

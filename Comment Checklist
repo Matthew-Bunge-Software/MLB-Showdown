@@ -3,11 +3,11 @@ ____________________________________________________________________________
 ----------------------------------------------------------------------------|
 gameData																	|						
 ----------------------------------------------------------------------------|
-DraftManager:			|						|							|
-Field:					|						|							|
+DraftManager:			|						|				X			|
+Field:					|						|				X			|
 GameManager:			|						|							|
-GameStat:				|						|							|
-LineupManager:			|						|							|
+GameStat:				|			X			|				X			|
+LineupManager:			|						|				X			|
 StrategyCard:			|						|							|
 ----------------------------------------------------------------------------|
 graphicsInterface:															|
@@ -17,7 +17,7 @@ MainRunner:				|						|							|
 players:																	|
 ----------------------------------------------------------------------------|
 HitterData:				|						|				X			|
-PitcherData:			|						|							|
+PitcherData:			|			X			|				X			|
 PlayerComparator:		|			X			|				X			|
 PlayerData:				|			X			|				X			|
 Position:				|			X			|				X			|

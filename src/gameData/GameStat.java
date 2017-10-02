@@ -1,22 +1,10 @@
 package gameData;
 
 /**
- * Maintains both totals of outs and runs scored in a game of MLB Showdown.
+ * General summary stats of where the game is at the current point, primary score and inning.
+ * In the future is liable to include other important information like innings charged to a current pitcher.
  * 
- * The current version is only a barebones implementation of a single team coming to bat an
- * infinite number of times for the purposes of the testing interface as it exists as of 
- * version .1. This is certain to be expanded in the future to contain game status in respect
- * to 2 separate teams.
- * 
- * Updates:
- * 
- * .2:
- * -Reworked the class to track runs individually for both teams
- * -Also tracks the current inning frame, and which team is up to bat
- * -Has method calls to internally flip over the inning
- * 
- * @author Matthew
- * @version .1
+ * @author Matthew Bunge
  */
 
 public class GameStat {
@@ -28,6 +16,9 @@ public class GameStat {
    private boolean inningEnd;
    public int inning;
    
+   /**
+    * Creates a GameStat representing a brand new game instance.
+    */
    public GameStat() {
       outs = 0;
       homeRuns = 0;
@@ -37,23 +28,23 @@ public class GameStat {
    }
    
    /**
-    * Gets the number of outs in the current frame
+    * Gets the number of outs in the current frame.
     * 
-    * @return The number of outs in the current frame
+    * @return The number of outs in the current frame.
     */
    public int getOuts() {
 	   return outs;
    }
    
    /**
-    * Increments the number of outs
+    * Increments the number of outs.
     */
    public void yerOut() {
 	   outs++;
    }
    
    /**
-    * Flips over the inning if a third out has been recorded
+    * Flips over the inning if a third out has been recorded.
     */
    public void update() {
 	   if (outs == 3) {
@@ -69,7 +60,7 @@ public class GameStat {
    }
    
    /**
-    * Increments runs of the current team batting
+    * Increments runs of the current team batting.
     */
    public void score() {
 	   if (top) {
@@ -80,10 +71,10 @@ public class GameStat {
    }
    
    /**
-    * Indcates whether it's time to turn over the ending
-    * Turns over the inning internally if it is time
+    * Indicates whether it's time to turn over the ending.
+    * Turns over the inning internally if it is time.
     * 
-    * @return True if the ending is over, False otherwise
+    * @return true if the inning is over, false otherwise.
     */
    public boolean inningEnd() {
 	   if (inningEnd) {

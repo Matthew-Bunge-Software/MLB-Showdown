@@ -5,21 +5,11 @@ import java.util.*;
 import players.HitterData;
 
 /**
- * The Field class stores the status of the base paths at any given time in a
- * game of MLB Showdown. Additionally, Field updates the status of the basepaths
- * given a card result and returns GameStat tracking information based on these
- * results.
- * 
- * Ideally in the future, it will also process strategy cards, and basically be
- * the main engine of strategy on the field.
- * 
- * Updates:
- * 
- * .2:
- * -Now contains a List of Tokens to be processed if a strategy card halts play on the field 
+ * A representation of the basepaths, IE who is on which base. Contains all the
+ * methods to do the final processing of the field after a card result is
+ * finalized.
  * 
  * @author Matthew Bunge
- * @version .2
  */
 
 public class Field {
@@ -40,7 +30,7 @@ public class Field {
 		r = new Random();
 		problems = new ArrayList<String>();
 	}
-	
+
 	/**
 	 * Returns a list of problems resulting from a strategy card interrupt
 	 * 
@@ -49,9 +39,10 @@ public class Field {
 	public List<String> getProblems() {
 		return problems;
 	}
-	
+
 	/**
-	 * Informs on whether there are existing problems that halted execution of Field methods
+	 * Informs on whether there are existing problems that halted execution of
+	 * Field methods
 	 * 
 	 * @return True if there are any existing problems, False otherwise
 	 */
@@ -251,9 +242,6 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat strikeout(GameStat track) {
-		/*
-		 * emit SO if card used return card used throw error?
-		 */
 		track.yerOut();
 		return track;
 	}
@@ -281,7 +269,7 @@ public class Field {
 		track.yerOut();
 		return track;
 	}
-	
+
 	/**
 	 * Gets number of runners on the basepaths
 	 * 
@@ -303,7 +291,7 @@ public class Field {
 
 	/**
 	 * Empties the bases. Example usage: people are on 2nd and 3rd base but
-	 * according to a gamestat there are 3 outs
+	 * according to a GameStat there are 3 outs
 	 */
 	public void clear() {
 		first.onBase = null;
@@ -315,20 +303,14 @@ public class Field {
 	 * Private class for the purpose of representing a single base, may be
 	 * modified in the future
 	 * 
-	 * At the moment nextBase is unused and may be completely redundent based on
-	 * the current implementation
-	 * 
 	 * @author Matthew Bunge
-	 * @version .1
 	 */
 	private class BaseSlot {
 
 		public HitterData onBase;
-		// private BaseSlot nextBase;
 
 		private BaseSlot(BaseSlot nextBase) {
 			onBase = null;
-			// this.nextBase = nextBase;
 		}
 
 		private boolean isEmpty() {
@@ -352,7 +334,7 @@ public class Field {
 	 * @param runner
 	 *            The lead runner who the fielding team is attempting to throw
 	 *            out
-	 * @return True in the case that the infield check passed, false otherwise
+	 * @return true in the case that the infield check passed, false otherwise
 	 */
 	private boolean infieldCheck(LineupManager teamOne, HitterData runner) {
 		int total = r.nextInt(20) + 1;
@@ -363,7 +345,7 @@ public class Field {
 	}
 
 	/**
-	 * Returns whether or not there are 3 outs in the inning or not. Useful for
+	 * Returns whether or not there are 3 outs in the inning. Useful for
 	 * verifying whether a complex procedure like double play is even necessary
 	 * 
 	 * @param track

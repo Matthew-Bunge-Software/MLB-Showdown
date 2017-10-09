@@ -3,6 +3,7 @@
 package graphicsInterface;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Toolkit;
@@ -37,8 +38,9 @@ public class MainRunner {
 		DraftManager mainPool = DraftManager.initializePool(new File("2004 pitchers.txt"),
 				new File("2004 hitters.txt"));
 		Map<String, PlayerData> pool = mainPool.getPool();
-		JFrame mainWindow = createMainFrame();
-		Font standardF = new Font(Font.SANS_SERIF, Font.PLAIN, (mainWindow.getWidth() + mainWindow.getHeight()) / 200); // Arbitrary
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		Font standardF = new Font(Font.SANS_SERIF, Font.PLAIN, (screenSize.width + screenSize.height) / 200); // Arbitrary
+		JFrame mainWindow = createMainFrame(pool, standardF, screenSize);
 		JFrame draftWindow = createDraftFrame(mainPool, standardF);
 		JFrame poolWindow = createListFrame(pool, standardF);
 		JFrame lineupWindow = createLineupFrame(pool, standardF);
@@ -83,14 +85,25 @@ public class MainRunner {
 	}
 
 	/**
-	 * Creates the overall top level container uses in the rest of the interface
+	 * Creates the overall top level container used in the rest of the interface
+	 * Additionally sets up a blank game screen
 	 * 
 	 * @return The JFrame containing the overall base of the interface
 	 */
-	private static JFrame createMainFrame() {
+	private static JFrame createMainFrame(Map<String, PlayerData> pool, Font f, Dimension screenSize) {	
 		JFrame mainWindow = new JFrame("MLB Showdown");
+		JPanel panelHome = new JPanel();
+		JPanel panelAway = new JPanel();
+		JPanel panelHomeLineup = makeLineupPanel(pool, f);
+		JPanel panelAwayLineup = makeLineupPanel(pool, f);
+		JPanel mainPanel = new JPanel();
+		mainPanel.setBackground(Color.RED);
 		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		panelHome.add(panelHomeLineup, BorderLayout.NORTH);
+		panelAway.add(panelAwayLineup, BorderLayout.NORTH);
+		mainWindow.add(panelAway, BorderLayout.WEST);
+		mainWindow.add(panelHome, BorderLayout.EAST);
+		mainWindow.add(mainPanel);
 		mainWindow.setSize(screenSize);
 		return mainWindow;
 	}
@@ -227,10 +240,17 @@ public class MainRunner {
 
 	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
+		JPanel panel = makeLineupPanel(pool, f);
+		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mainWindow.setSize(1000, 1000);
+		mainWindow.add(panel);
+		return mainWindow;
+	}
+	
+	private static JPanel makeLineupPanel(Map<String, PlayerData> pool, Font f) {
 		JPanel panel = new JPanel();
 		JTable table = new JTable();
 		JTextArea cardInfo = generateCardInfo(f);
-		JTextArea fileInfo = new JTextArea();
 		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent event) {
 				if (table.getSelectedColumn() == 1) {
@@ -260,15 +280,12 @@ public class MainRunner {
 		table.setFont(f);
 		JScrollPane scrollPane = new JScrollPane(table);
 		table.setFillsViewportHeight(true);
-		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		mainWindow.setSize(1000, 1000);
+		table.setRowHeight(f.getSize());
 		panel.add(scrollPane);
 		panel.add(importer);
 		panel.add(export);
 		panel.add(cardInfo, BorderLayout.EAST);
-		panel.add(fileInfo, BorderLayout.SOUTH);
-		mainWindow.add(panel);
-		return mainWindow;
+		return panel;
 	}
 
 	private static TableModelListener makeLineupEditorListener(JTable table) {

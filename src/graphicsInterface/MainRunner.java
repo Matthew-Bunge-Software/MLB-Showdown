@@ -39,11 +39,17 @@ public class MainRunner {
 	private static LineupManager teamTwo;
 	private static Image background;
 	private static Dimension screenSize;
+	private static GameStartListener start;
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, FileNotFoundException {
+		StrategyCard scMan = new StrategyCard();
+		teamOne = new LineupManager();
+		teamTwo = new LineupManager();
 		background = ImageIO.read(new File("src/graphicsInterface/BaseballField.jpg"));
 		DraftManager mainPool = DraftManager.initializePool(new File("2004 pitchers.txt"),
 				new File("2004 hitters.txt"));
+		start = new GameStartListener();
+		start.registerItem(teamOne); start.registerItem(teamTwo);
 		Map<String, PlayerData> pool = mainPool.getPool();
 		screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		Font standardF = new Font(Font.SANS_SERIF, Font.PLAIN, (screenSize.width + screenSize.height) / 200); // Arbitrary
@@ -78,16 +84,24 @@ public class MainRunner {
 				mainWindow.dispose();
 			}
 		});
+		JMenu gameMenu = new JMenu("Game");
+		JMenuItem gameStart = new JMenuItem("Start");
+		gameStart.addActionListener(start);
 		newGame.setFont(standardF);
-		mainMenu.add(newGame);
+		gameMenu.setFont(standardF);
 		load.setFont(standardF);
-		mainMenu.add(load);
 		poolButton.setFont(standardF);
-		mainMenu.add(poolButton);
 		exit.setFont(standardF);
+		gameStart.setFont(standardF);
+		start.registerItem(gameStart);
+		mainMenu.add(newGame);
+		mainMenu.add(load);
+		mainMenu.add(poolButton);
 		mainMenu.add(exit);
+		gameMenu.add(gameStart);
 		mainMenu.setFont(standardF);
 		menuBar.add(mainMenu);
+		menuBar.add(gameMenu);
 		mainWindow.setJMenuBar(menuBar);
 		mainWindow.setVisible(true);
 	}
@@ -104,8 +118,8 @@ public class MainRunner {
 		JPanel panelAway = new JPanel(new BorderLayout());
 		JPanel panelHomeStrat = makeStrategyPanel(f);
 		JPanel panelAwayStrat = makeStrategyPanel(f);
-		JPanel panelHomeLineup = makeLineupPanel(pool, f);
-		JPanel panelAwayLineup = makeLineupPanel(pool, f);
+		JPanel panelHomeLineup = makeLineupPanel(pool, f, true);
+		JPanel panelAwayLineup = makeLineupPanel(pool, f, true);
 		JPanel mainPanel = new JPanel(new BorderLayout()) {
 			@Override
 			public void paintComponent(Graphics g) {
@@ -131,17 +145,12 @@ public class MainRunner {
 		JPanel panelStrat = new JPanel(new BorderLayout());
 		JTextArea cardInfo = generateCardInfo(f);
 		JXList cards = new JXList();
-		DefaultListModel<Integer> lm = new DefaultListModel<>();
-		for (int i = 0; i < 10; i++) {
-			lm.addElement(i);
-		}
 		cards.addListSelectionListener(new ListSelectionListener() {
 			@Override
 			public void valueChanged(ListSelectionEvent arg0) {
-				cardInfo.setText("SELECTED");
+				cardInfo.setText(cards.getSelectedValue().toString());
 			}
 		});
-		cards.setModel(lm);
 		cards.setFont(f);
 		JScrollPane scroller = new JScrollPane(cards);
 		scroller.setViewportView(cards);
@@ -150,6 +159,7 @@ public class MainRunner {
 		panelStrat.add(scroller, BorderLayout.WEST);
 		panelStrat.add(cardInfo, BorderLayout.EAST);
 		panelStrat.setSize(500, 500);
+		start.registerItem(cards);
 		return panelStrat;
 	}
 
@@ -163,8 +173,6 @@ public class MainRunner {
 	 * @return A JFrame composed of all the parts needed to draft players
 	 */
 	private static JFrame createDraftFrame(DraftManager pool, Font f) {
-		teamOne = new LineupManager();
-		teamTwo = new LineupManager();
 		JFrame draftWindow = new JFrame("Draft");
 		JTextArea cardInfo = generateCardInfo(f);
 		JXList poolList = generatePoolList(pool.getPool(), f);
@@ -285,16 +293,16 @@ public class MainRunner {
 
 	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
-		JPanel panel = makeLineupPanel(pool, f);
+		JPanel panel = makeLineupPanel(pool, f, false);
 		mainWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		mainWindow.setSize(1000, 1000);
 		mainWindow.add(panel);
 		return mainWindow;
 	}
 	
-	private static JPanel makeLineupPanel(Map<String, PlayerData> pool, Font f) {
+	private static JPanel makeLineupPanel(Map<String, PlayerData> pool, Font f, boolean main) {
 		JPanel panel = new JPanel(new BorderLayout());
-		JTable table = new JTable();
+		JTable table = makeLineupTable();
 		JTextArea cardInfo = generateCardInfo(f);
 		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent event) {
@@ -339,6 +347,9 @@ public class MainRunner {
 		panel.add(scrollPane, BorderLayout.WEST);
 		panel.add(cardInfoPane, BorderLayout.EAST);
 		panel.add(buttonPanel, BorderLayout.SOUTH);
+		if (main) {
+			start.registerItem(table); start.registerItem(export); start.registerItem(importer);
+		}
 		return panel;
 	}
 
@@ -407,28 +418,15 @@ public class MainRunner {
 				int returnValue = fileName.showSaveDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					lm.export(fileName.getSelectedFile().getName());
+				} else {
+					throw new IllegalArgumentException("No file given");
 				}
-				throw new IllegalArgumentException("No file given");
 			}
 		};
 	}
 
-	private static JTable makeLineupTable(TableModel t) {
-		JTable table = new JTable(t) {
-			public boolean isCellEditable(int row, int column) {
-				if (column != 1) {
-					return true;
-				}
-				return false;
-			}
-		};
-		TableColumn c;
-		for (int i = 0; i < 3; i++) {
-			c = table.getColumnModel().getColumn(i);
-			if (i == 1) {
-				c.setPreferredWidth(300);
-			}
-		}
+	private static JTable makeLineupTable() {
+		JTable table = new LineupTable();
 		table.setRowSelectionAllowed(false);
 		return table;
 	}

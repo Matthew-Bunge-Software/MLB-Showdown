@@ -146,4 +146,9 @@ public class StrategyCard {
 	public static void printLog() {
 		System.out.println(tokens);
 	}
+	
+	@Override
+	public String toString() {
+		return name;
+	}
 }

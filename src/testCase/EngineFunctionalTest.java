@@ -34,7 +34,8 @@ public class EngineFunctionalTest {
 		}
 		teamOne.subPitcher(team1[1]);
 		teamTwo.subPitcher(team2[1]);
-		GameManager gm = new GameManager(teamOne, teamTwo);
+		StrategyCard scMan = new StrategyCard();
+		GameManager gm = new GameManager(teamOne, teamTwo, scMan);
 		int i = 0;
 		List<Integer> scores = new ArrayList<Integer>();
 		teamOne.populateSCards();

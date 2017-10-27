@@ -268,13 +268,11 @@ public class LineupManager {
 	}
 
 	/**
-	 * Testing method don't use. Adds a random card to the hand a whole bunch of
-	 * dummy cards.
+	 * Sets up initial hand of 4 cards
 	 */
 	public void populateSCards() {
-		sCards.add(0, StrategyCard.getRandomCard());
-		for (int i = sCards.size(); i < 100; i++) {
-			sCards.add(StrategyCard.maker(-1, null, null, null, null, null)); // dummy
+		for (int i = 0; i < 4; i++) {
+			sCards.add(i, StrategyCard.getRandomCard());
 		}
 	}
 
@@ -320,6 +318,15 @@ public class LineupManager {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	/**
+	 * Gets an instance of the list of all StrategyCards in the LineupManager
+	 * 
+	 * @return List of all StrategyCards
+	 */
+	public List<StrategyCard> getSCards() {
+		return sCards;
 	}
 
 	/**

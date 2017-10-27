@@ -120,23 +120,30 @@ public class MainRunner {
 		JPanel panelAwayStrat = makeStrategyPanel(f);
 		JPanel panelHomeLineup = makeLineupPanel(pool, f, true);
 		JPanel panelAwayLineup = makeLineupPanel(pool, f, true);
-		JPanel mainPanel = new JPanel(new BorderLayout()) {
+		JPanel centerPanel = new JPanel(new BorderLayout());
+		JPanel mainPanel = new JPanel() {
 			@Override
 			public void paintComponent(Graphics g) {
 				super.paintComponent(g);
-				g.drawImage(background, 0, 0, (int) (this.getWidth()), (int) (this.getHeight() * .5), this);
+				g.drawImage(background, 0, 0, (int) (this.getWidth()), (int) (this.getHeight()), this);
 			}
 		};
+		JTextArea belowMain = new JTextArea();
 		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		panelHomeLineup.setPreferredSize(new Dimension(0, (int) (screenSize.height *.7)));
 		panelAwayLineup.setPreferredSize(new Dimension(0, (int) (screenSize.height * .7)));
+		mainPanel.setPreferredSize(new Dimension(0, (int) (screenSize.height * .65)));
+		belowMain.setPreferredSize(new Dimension(0, (int) (screenSize.height * .25)));
+		belowMain.setFont(f);
 		panelHome.add(panelHomeLineup, BorderLayout.NORTH);
 		panelHome.add(panelHomeStrat, BorderLayout.SOUTH);
 		panelAway.add(panelAwayLineup, BorderLayout.NORTH);
 		panelAway.add(panelAwayStrat, BorderLayout.SOUTH);
+		centerPanel.add(mainPanel, BorderLayout.NORTH);
+		centerPanel.add(belowMain, BorderLayout.SOUTH);
 		mainWindow.add(panelAway, BorderLayout.WEST);
 		mainWindow.add(panelHome, BorderLayout.EAST);
-		mainWindow.add(mainPanel);
+		mainWindow.add(centerPanel, BorderLayout.CENTER);
 		mainWindow.setSize(screenSize);
 		return mainWindow;
 	}
@@ -148,7 +155,7 @@ public class MainRunner {
 		cards.addListSelectionListener(new ListSelectionListener() {
 			@Override
 			public void valueChanged(ListSelectionEvent arg0) {
-				cardInfo.setText(cards.getSelectedValue().toString());
+				cardInfo.setText(((StrategyCard) (cards.getSelectedValue())).getDescription());
 			}
 		});
 		cards.setFont(f);
@@ -156,6 +163,8 @@ public class MainRunner {
 		scroller.setViewportView(cards);
 		scroller.setPreferredSize(new Dimension((int) (screenSize.width * .18), 250));
 		cardInfo.setPreferredSize(new Dimension((int) (screenSize.width * .12), 250));
+		cardInfo.setLineWrap(true);
+		cardInfo.setWrapStyleWord(true);
 		panelStrat.add(scroller, BorderLayout.WEST);
 		panelStrat.add(cardInfo, BorderLayout.EAST);
 		panelStrat.setSize(500, 500);

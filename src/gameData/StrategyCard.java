@@ -17,6 +17,7 @@ public class StrategyCard {
 	private String offDefUtil;
 	private String preCondition;
 	private String postEffect;
+	private String description;
 
 	public StrategyCard() throws FileNotFoundException {
 		this("04 Special Custom");
@@ -39,7 +40,7 @@ public class StrategyCard {
 		file.useDelimiter(Pattern.compile("\\t|\\r\\n"));
 		while (file.hasNext()) {
 			allCards.add(StrategyCard.maker(file.nextInt(), file.next(), file.next(), file.next(), file.next(),
-					file.next()));
+					file.next(), file.next()));
 		}
 		file.close();
 	}
@@ -64,21 +65,22 @@ public class StrategyCard {
 		return postEffect;
 	}
 
-	private StrategyCard(int num, String name, String odu, String year, String pre, String post) {
+	private StrategyCard(int num, String name, String odu, String year, String pre, String post, String desc) {
 		this.name = name;
 		this.num = num;
 		offDefUtil = odu;
 		this.year = year;
 		preCondition = pre;
 		postEffect = post;
+		this.description = desc;
 	}
 
 	public static void emit(String s) {
 		tokens.add(s);
 	}
 
-	public static StrategyCard maker(int num, String name, String odu, String year, String pre, String post) {
-		return new StrategyCard(num, name, odu, year, pre, post);
+	public static StrategyCard maker(int num, String name, String odu, String year, String pre, String post, String desc) {
+		return new StrategyCard(num, name, odu, year, pre, post, desc);
 	}
 
 	public static boolean parsePrecondition(String s) {
@@ -145,6 +147,10 @@ public class StrategyCard {
 
 	public static void printLog() {
 		System.out.println(tokens);
+	}
+	
+	public String getDescription() {
+		return description;
 	}
 	
 	@Override

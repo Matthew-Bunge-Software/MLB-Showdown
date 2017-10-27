@@ -6,13 +6,17 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
+import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
@@ -33,14 +37,18 @@ public class MainRunner {
 
 	private static LineupManager teamOne;
 	private static LineupManager teamTwo;
+	private static Image background;
+	private static Dimension screenSize;
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) throws IOException {
+		background = ImageIO.read(new File("src/graphicsInterface/BaseballField.jpg"));
 		DraftManager mainPool = DraftManager.initializePool(new File("2004 pitchers.txt"),
 				new File("2004 hitters.txt"));
 		Map<String, PlayerData> pool = mainPool.getPool();
-		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		Font standardF = new Font(Font.SANS_SERIF, Font.PLAIN, (screenSize.width + screenSize.height) / 200); // Arbitrary
 		JFrame mainWindow = createMainFrame(pool, standardF, screenSize);
+		mainWindow.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		JFrame draftWindow = createDraftFrame(mainPool, standardF);
 		JFrame poolWindow = createListFrame(pool, standardF);
 		JFrame lineupWindow = createLineupFrame(pool, standardF);
@@ -92,20 +100,57 @@ public class MainRunner {
 	 */
 	private static JFrame createMainFrame(Map<String, PlayerData> pool, Font f, Dimension screenSize) {	
 		JFrame mainWindow = new JFrame("MLB Showdown");
-		JPanel panelHome = new JPanel();
-		JPanel panelAway = new JPanel();
+		JPanel panelHome = new JPanel(new BorderLayout());
+		JPanel panelAway = new JPanel(new BorderLayout());
+		JPanel panelHomeStrat = makeStrategyPanel(f);
+		JPanel panelAwayStrat = makeStrategyPanel(f);
 		JPanel panelHomeLineup = makeLineupPanel(pool, f);
 		JPanel panelAwayLineup = makeLineupPanel(pool, f);
-		JPanel mainPanel = new JPanel();
-		mainPanel.setBackground(Color.RED);
+		JPanel mainPanel = new JPanel(new BorderLayout()) {
+			@Override
+			public void paintComponent(Graphics g) {
+				super.paintComponent(g);
+				g.drawImage(background, 0, 0, (int) (this.getWidth()), (int) (this.getHeight() * .5), this);
+			}
+		};
 		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		panelHomeLineup.setPreferredSize(new Dimension(0, (int) (screenSize.height *.7)));
+		panelAwayLineup.setPreferredSize(new Dimension(0, (int) (screenSize.height * .7)));
 		panelHome.add(panelHomeLineup, BorderLayout.NORTH);
+		panelHome.add(panelHomeStrat, BorderLayout.SOUTH);
 		panelAway.add(panelAwayLineup, BorderLayout.NORTH);
+		panelAway.add(panelAwayStrat, BorderLayout.SOUTH);
 		mainWindow.add(panelAway, BorderLayout.WEST);
 		mainWindow.add(panelHome, BorderLayout.EAST);
 		mainWindow.add(mainPanel);
 		mainWindow.setSize(screenSize);
 		return mainWindow;
+	}
+	
+	private static JPanel makeStrategyPanel(Font f) {
+		JPanel panelStrat = new JPanel(new BorderLayout());
+		JTextArea cardInfo = generateCardInfo(f);
+		JXList cards = new JXList();
+		DefaultListModel<Integer> lm = new DefaultListModel<>();
+		for (int i = 0; i < 10; i++) {
+			lm.addElement(i);
+		}
+		cards.addListSelectionListener(new ListSelectionListener() {
+			@Override
+			public void valueChanged(ListSelectionEvent arg0) {
+				cardInfo.setText("SELECTED");
+			}
+		});
+		cards.setModel(lm);
+		cards.setFont(f);
+		JScrollPane scroller = new JScrollPane(cards);
+		scroller.setViewportView(cards);
+		scroller.setPreferredSize(new Dimension((int) (screenSize.width * .18), 250));
+		cardInfo.setPreferredSize(new Dimension((int) (screenSize.width * .12), 250));
+		panelStrat.add(scroller, BorderLayout.WEST);
+		panelStrat.add(cardInfo, BorderLayout.EAST);
+		panelStrat.setSize(500, 500);
+		return panelStrat;
 	}
 
 	/**
@@ -173,7 +218,7 @@ public class MainRunner {
 	}
 
 	private static JPanel createDraftPanel(Map<String, PlayerData> pool, Font f, JTextArea cardInfo, JXList poolList) {
-		JPanel draftPanel = new JPanel();
+		JPanel draftPanel = new JPanel(new BorderLayout());
 		poolList.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent arg0) {
 				try {
@@ -193,11 +238,11 @@ public class MainRunner {
 	private static JPanel createDraftTeamPanel(DraftManager pool, LineupManager myTeam, Font f, JTextArea cardInfo,
 			JXList poolList) {
 		Map<String, PlayerData> cloned = pool.getPool();
-		JPanel draftPanel = new JPanel();
-		JPanel buttonPanel = new JPanel();
+		JPanel draftPanel = new JPanel(new BorderLayout());
+		JPanel buttonPanel = new JPanel(new BorderLayout());
 		JXList myTeamStuff = new JXList();
 		JFileChooser fileName = new JFileChooser();
-		fileName.setCurrentDirectory(new File(System.getProperty("user.dir")));
+		fileName.setCurrentDirectory(new File(System.getProperty("user.dir")+"/SaveData"));
 		myTeamStuff.setComparator(new PlayerComparator());
 		myTeamStuff.setAutoCreateRowSorter(true);
 		myTeamStuff.setSortOrder(SortOrder.ASCENDING);
@@ -241,14 +286,14 @@ public class MainRunner {
 	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
 		JPanel panel = makeLineupPanel(pool, f);
-		mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mainWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		mainWindow.setSize(1000, 1000);
 		mainWindow.add(panel);
 		return mainWindow;
 	}
 	
 	private static JPanel makeLineupPanel(Map<String, PlayerData> pool, Font f) {
-		JPanel panel = new JPanel();
+		JPanel panel = new JPanel(new BorderLayout());
 		JTable table = new JTable();
 		JTextArea cardInfo = generateCardInfo(f);
 		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
@@ -267,7 +312,7 @@ public class MainRunner {
 			public void actionPerformed(ActionEvent arg0) {
 				LineupManager lm = null;
 				JFileChooser fileName = new JFileChooser();
-				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")));
+				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")+"/SaveData"));
 				int returnValue = fileName.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					lm = LineupManager.teamImport(fileName.getSelectedFile().getName(), pool);
@@ -277,14 +322,23 @@ public class MainRunner {
 				table.getModel().addTableModelListener(makeLineupEditorListener(table));
 			}
 		});
+		table.getTableHeader().setFont(f);
 		table.setFont(f);
+		importer.setFont(f);
+		export.setFont(f);
 		JScrollPane scrollPane = new JScrollPane(table);
+		JScrollPane cardInfoPane = new JScrollPane(cardInfo);
+		panel.setPreferredSize(new Dimension((int) (screenSize.width * .3), (int) (screenSize.height * .3)));
+		scrollPane.setPreferredSize(new Dimension((int) (screenSize.width * .18), (int) (screenSize.height)));
+		cardInfoPane.setPreferredSize(new Dimension((int) (screenSize.width * .12), (int) (screenSize.height)));
+		JPanel buttonPanel = new JPanel();
+		buttonPanel.add(importer, BorderLayout.WEST);
+		buttonPanel.add(export, BorderLayout.EAST);
 		table.setFillsViewportHeight(true);
 		table.setRowHeight(f.getSize());
-		panel.add(scrollPane);
-		panel.add(importer);
-		panel.add(export);
-		panel.add(cardInfo, BorderLayout.EAST);
+		panel.add(scrollPane, BorderLayout.WEST);
+		panel.add(cardInfoPane, BorderLayout.EAST);
+		panel.add(buttonPanel, BorderLayout.SOUTH);
 		return panel;
 	}
 
@@ -318,6 +372,7 @@ public class MainRunner {
 				LineupManager lm = new LineupManager();
 				for (int i = 0; i < table.getRowCount(); i++) {
 					PlayerData p = (PlayerData) pool.get(table.getValueAt(i, 1));
+					lm.addPlayer(p);
 					if (i < 9) {
 						lm.hitInOrder(p.toString(), i + 1);
 					}
@@ -327,7 +382,7 @@ public class MainRunner {
 					}
 				}
 				JFileChooser fileName = new JFileChooser();
-				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")));
+				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")+"/SaveData"));
 				int returnValue = fileName.showSaveDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
 					lm.export(fileName.getSelectedFile().getName());
@@ -382,7 +437,6 @@ public class MainRunner {
 		String[] columns = { "Lineup Position", "Name", "Field Position" };
 		List<Object[]> playersL = new ArrayList<Object[]>();
 		for (String s : lm.getTeam().keySet()) {
-			System.out.println(s);
 			Object[] player = { lm.playerInLineup(s), s, Position.abbrFromInt(lm.playerInField(s)) };
 			playersL.add(player);
 		}

@@ -58,7 +58,7 @@ public class MainRunner {
 		StrategyCard scMan = new StrategyCard();
 		teamOne = new LineupManager();
 		teamTwo = new LineupManager();
-		background = ImageIO.read(new File("src/graphicsInterface/BaseballField.jpg"));
+		background = ImageIO.read(new File("DataFiles/BaseballField.jpg"));
 		DraftManager mainPool = DraftManager.initializePool(new File("DataFiles/2004 pitchers.txt"),
 				new File("DataFiles/2004 hitters.txt"));
 		start = new GameStartListener() {

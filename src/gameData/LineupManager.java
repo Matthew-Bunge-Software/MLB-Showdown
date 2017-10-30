@@ -14,7 +14,7 @@ public class LineupManager {
 	private PitcherData currentPitcher;
 	private Set<PlayerData> discarded;
 	private int currentSpot;
-	private List<StrategyCard> sCards;
+	private Map<StrategyCard, Integer> sCards;
 
 	/**
 	 * Creates new empty LineupManager.
@@ -25,7 +25,7 @@ public class LineupManager {
 		lineup = new HitterData[9];
 		currentPitcher = null;
 		discarded = new HashSet<PlayerData>();
-		sCards = new ArrayList<StrategyCard>();
+		sCards = new HashMap<>();
 	}
 
 	/**
@@ -181,6 +181,20 @@ public class LineupManager {
 	public PitcherData getCurrentPitcher() {
 		return currentPitcher;
 	}
+	
+	/**
+	 * Sets the current pitcher to the pitcher in the field
+	 * This call is mostly useful after constructing an initial lineup
+	 * 
+	 * @return True if there is a pitcher in the field, false otherwise
+	 */
+	public boolean setPitcher() {
+		if (field[1] != null) {
+			currentPitcher = (PitcherData) field[1];
+			return true;
+		}
+		return false;
+	}
 
 	/**
 	 * Advances current batter to next person in order.
@@ -228,7 +242,12 @@ public class LineupManager {
 	 * @return true if card successfully drawn.
 	 */
 	public boolean drawCard() {
-		sCards.add(StrategyCard.getRandomCard());
+		StrategyCard s = StrategyCard.getRandomCard();
+		if (sCards.containsKey(s)) {
+			sCards.put(s, sCards.get(s) + 1);
+		} else {
+			sCards.put(s,  1);
+		}
 		return true;
 	}
 
@@ -243,45 +262,26 @@ public class LineupManager {
 	}
 
 	/**
-	 * Gets the strategy card at a certain hand position.
-	 * 
-	 * @param i
-	 *            int representing the hand position.
-	 * @return The selected strategy card at said position.
-	 */
-	private StrategyCard selectCard(int i) {
-		return sCards.get(i);
-	}
-
-	/**
 	 * This method is using the strategy card at position 0. I don't really know
 	 * if I need it or why it's returning String.
 	 */
 	// TODO: Maybe delete this.
-	public String useCard() {
+	/* public String useCard() {
 		StrategyCard s = selectCard(0);
 		if (StrategyCard.parsePrecondition(s.getPre())) {
 			StrategyCard.emit(s.getUID());
 			return s.getPost();
 		}
 		return null;
-	}
+	} */
 
 	/**
 	 * Sets up initial hand of 4 cards
 	 */
 	public void populateSCards() {
 		for (int i = 0; i < 4; i++) {
-			sCards.add(i, StrategyCard.getRandomCard());
+			drawCard();
 		}
-	}
-
-	/**
-	 * Testing Method don't use. Gets the randomly selected card from
-	 * populateSCards()
-	 */
-	public StrategyCard getSCard() {
-		return sCards.get(0);
 	}
 
 	/**
@@ -326,7 +326,13 @@ public class LineupManager {
 	 * @return List of all StrategyCards
 	 */
 	public List<StrategyCard> getSCards() {
-		return sCards;
+		List<StrategyCard> listCards = new ArrayList<>();
+		for (StrategyCard s : sCards.keySet()) {
+			for (int i = 0; i < sCards.get(s); i++) {
+				listCards.add(s);
+			}
+		}
+		return listCards;
 	}
 
 	/**

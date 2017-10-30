@@ -1,27 +1,31 @@
 package gameData;
 
-import java.io.FileNotFoundException;
 import java.util.*;
 import players.*;
 
 public class GameManager {
+	
+	public enum ProgramState {
+		BeforePitch, AfterSwing, BeforeReroll, AfterReroll, BatterResolved;
+	}
+	
 	Field grass;
 	LineupManager homeTeam;
 	LineupManager awayTeam;
 	LineupManager defense;
 	LineupManager offense;
-	GameStat gamestat;
+	private GameStat gamestat;
 	StrategyCard scMan;
 	Random dice;
 	private int swingMod;
 	private int pitchMod;
+	private ProgramState state;
+	private HitterData hitter;
+	private PitcherData pitcher;
+	private int pitch;
 
-	public GameManager(LineupManager home, LineupManager away) {
-		try {
-			scMan = new StrategyCard();
-		} catch (FileNotFoundException e) {
-			throw new IllegalArgumentException("Specified file does not exist");
-		}
+	public GameManager(LineupManager home, LineupManager away, StrategyCard scMan) {
+		this.scMan = scMan;
 		grass = new Field();
 		dice = new Random();
 		gamestat = new GameStat();
@@ -31,40 +35,70 @@ public class GameManager {
 		defense = home;
 		swingMod = 0;
 		pitchMod = 0;
+		state = ProgramState.BeforePitch;
+		StrategyCard.emit("BP");
+	}
+	
+	public void advanceProgram() {
+		switch (state) {
+		case BeforePitch:
+			pitcher = defense.getCurrentPitcher();
+			hitter = offense.getCurrentBatter();
+			pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
+			swing(pitch, hitter, pitcher);
+			state = ProgramState.AfterSwing;
+			break;
+		case AfterSwing:
+			List<String> tokens = StrategyCard.getTokens();
+			if (tokens.get(tokens.size() - 1).equals("RRS")) {
+				state = ProgramState.BeforeReroll;
+			} else {
+				state = ProgramState.BatterResolved;
+				advanceProgram();
+			}
+			break;
+		case BeforeReroll:
+			break;
+		case AfterReroll:
+			break;	
+		case BatterResolved:
+			processResult();
+			offense.nextBatter();
+			gamestat.update();
+			swingMod = 0;
+			pitchMod = 0;
+			if (gamestat.inningEnd()) {
+				StrategyCard.emit("IO");
+				grass.clear();
+				LineupManager temp = offense;
+				offense = defense;
+				defense = temp;
+			}
+			state = ProgramState.BeforePitch;
+			StrategyCard.emit("BP");
+			break;
+		}
 	}
 
-	public void pitch() {
-		swingMod = 0;
-		pitchMod = 0;
+	/* public void pitch() {
 		StrategyCard.emit("BP");
+		//Prior to pitch
 		useStrategy(offense, "offense");
 		useStrategy(defense, "defense");
-		PitcherData pitcher = defense.getCurrentPitcher();
-		HitterData hitter = offense.getCurrentBatter();
-		int pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
-		swing(pitch, hitter, pitcher);
+		//After swing
 		useStrategy(offense, "offense");
 		useStrategy(defense, "defense");
 		List<String> tokens = StrategyCard.getTokens();
 		while (tokens.get(tokens.size() - 1).equals("RRS")) {
+			//Prior to reroll
 			useStrategy(offense, "offense");
 			useStrategy(defense, "defense");
 			swing(pitch, hitter, pitcher);
+			//After reroll
 			useStrategy(offense, "offense");
 			useStrategy(defense, "defense");
 		}
-		processResult();
-		offense.nextBatter();
-		gamestat.update();
-		if (gamestat.inningEnd()) {
-			StrategyCard.emit("IO");
-			grass.clear();
-			LineupManager temp = offense;
-			offense = defense;
-			defense = temp;
-		}
-
-	}
+	} */
 	
 	public void swing(int pitch, HitterData hitter, PitcherData pitcher) {
 		if (pitch >= hitter.getBaseMod()) {
@@ -77,11 +111,11 @@ public class GameManager {
 		swingMod = 0;
 	}
 	
-	public void useStrategy(LineupManager user, String team) {
-		String s = user.useCard();
-		if (s != null) {
-			this.parsePostcondition(s, offense, defense, team);
+	public void useStrategy(LineupManager user, String team, StrategyCard s) {
+		if (user.getSCards().contains(s)) {
+			this.parsePostcondition(s.getPost(), offense, defense, team);
 		}
+		
 	}
 
 	private int roll() {
@@ -237,5 +271,21 @@ public class GameManager {
 
 	public int getTotalRuns() {
 		return gamestat.awayRuns + gamestat.homeRuns;
+	}
+	
+	public ProgramState getProgramState() {
+		return state;
+	}
+	
+	public HitterData getHitter() {
+		return hitter;
+	}
+	
+	public PitcherData getPitcher() {
+		return pitcher;
+	}
+	
+	public GameStat getGameStat() {
+		return gamestat;
 	}
 }

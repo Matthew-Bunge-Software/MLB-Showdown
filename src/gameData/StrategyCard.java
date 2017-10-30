@@ -20,7 +20,7 @@ public class StrategyCard {
 	private String description;
 
 	public StrategyCard() throws FileNotFoundException {
-		this("04 Special Custom");
+		this("DataFiles/04 Special Custom");
 	}
 
 	public static StrategyCard getRandomCard() {

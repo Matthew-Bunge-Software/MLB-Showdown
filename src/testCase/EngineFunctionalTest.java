@@ -10,8 +10,8 @@ public class EngineFunctionalTest {
 	public static void main(String[] args) throws FileNotFoundException {
 		String[] team1 = {"Frank Thomas", "Tim Hudson", "Jorge Posada", "Todd Helton", "Jose Vidro", "Morgan Ensberg", "Nomar Garciaparra", "Manny Ramirez", "Scott Podsednik", "Reggie Sanders"};
 		String[] team2 = {"Edgar Martinez", "Roy Halladay", "Mike Piazza", "Albert Pujols", "Bret Boone", "Bill Mueller", "Alex Rodriguez", "Vladimir Guerrero", "Carlos Beltran", "Aubrey Huff"};
-		File hitters = new File("2004 hitters.txt");
-		File pitchers = new File("2004 pitchers.txt");
+		File hitters = new File("DataFiles/2004 hitters.txt");
+		File pitchers = new File("DataFiles/2004 pitchers.txt");
 		DraftManager dm = DraftManager.initializePool(pitchers, hitters);
 		LineupManager teamOne = new LineupManager();
 		LineupManager teamTwo = new LineupManager();
@@ -39,11 +39,9 @@ public class EngineFunctionalTest {
 		int i = 0;
 		List<Integer> scores = new ArrayList<Integer>();
 		teamOne.populateSCards();
-		System.out.println(teamOne.getSCard().getUID());
 		teamTwo.populateSCards();
-		System.out.println(teamTwo.getSCard().getUID());
 		while (i < 1) {
-			gm.pitch();
+			gm.advanceProgram();
 			if (gm.getInning() % 10 == 0) {
 				scores.add(gm.getTotalRuns());
 				gm.resetGameTrack();

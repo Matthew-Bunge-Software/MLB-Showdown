@@ -41,8 +41,13 @@ import javax.swing.table.TableModel;
 
 import org.jdesktop.swingx.JXList;
 
-import gameData.*;
-import players.*;
+import gameData.DraftManager;
+import gameData.GameManager;
+import gameData.LineupManager;
+import gameData.StrategyCard;
+import players.PlayerComparator;
+import players.PlayerData;
+import players.Position;
 
 public class MainRunner {
 
@@ -53,6 +58,7 @@ public class MainRunner {
 	private static GameStartListener start;
 	private static GameContinueListener gameContinue;
 	private static GameManager game;
+	private static Font f;
 
 	public static void main(String[] args) throws IOException, FileNotFoundException {
 		StrategyCard scMan = new StrategyCard();
@@ -73,12 +79,12 @@ public class MainRunner {
 		Map<String, PlayerData> pool = mainPool.getPool();
 		start.registerItem(pool);
 		screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		Font standardF = new Font(Font.SANS_SERIF, Font.PLAIN, (screenSize.width + screenSize.height) / 200); // Arbitrary
-		JFrame mainWindow = createMainFrame(pool, standardF, screenSize, scMan);
+		f = new Font(Font.SANS_SERIF, Font.PLAIN, (screenSize.width + screenSize.height) / 200); // Arbitrary
+		JFrame mainWindow = createMainFrame(pool, screenSize, scMan);
 		mainWindow.setExtendedState(JFrame.MAXIMIZED_BOTH);
-		JFrame draftWindow = createDraftFrame(mainPool, standardF);
-		JFrame poolWindow = createListFrame(pool, standardF);
-		JFrame lineupWindow = createLineupFrame(pool, standardF);
+		JFrame draftWindow = createDraftFrame(mainPool);
+		JFrame poolWindow = createListFrame(pool);
+		JFrame lineupWindow = createLineupFrame(pool);
 		JMenuBar menuBar = new JMenuBar();
 		JMenu mainMenu = new JMenu("Main");
 		JMenuItem newGame = new JMenuItem("New Game");
@@ -105,15 +111,15 @@ public class MainRunner {
 				mainWindow.dispose();
 			}
 		});
-		newGame.setFont(standardF);
-		load.setFont(standardF);
-		poolButton.setFont(standardF);
-		exit.setFont(standardF);
+		newGame.setFont(f);
+		load.setFont(f);
+		poolButton.setFont(f);
+		exit.setFont(f);
 		mainMenu.add(newGame);
 		mainMenu.add(load);
 		mainMenu.add(poolButton);
 		mainMenu.add(exit);
-		mainMenu.setFont(standardF);
+		mainMenu.setFont(f);
 		menuBar.add(mainMenu);
 		mainWindow.setJMenuBar(menuBar);
 		mainWindow.setVisible(true);
@@ -125,14 +131,14 @@ public class MainRunner {
 	 * 
 	 * @return The JFrame containing the overall base of the interface
 	 */
-	private static JFrame createMainFrame(Map<String, PlayerData> pool, Font f, Dimension screenSize, StrategyCard scMan) {	
+	private static JFrame createMainFrame(Map<String, PlayerData> pool, Dimension screenSize, StrategyCard scMan) {	
 		JFrame mainWindow = new JFrame("MLB Showdown");
 		JPanel panelHome = new JPanel(new BorderLayout());
 		JPanel panelAway = new JPanel(new BorderLayout());
-		JPanel panelHomeStrat = makeStrategyPanel(f, teamOne);
-		JPanel panelAwayStrat = makeStrategyPanel(f, teamTwo);
-		JPanel panelHomeLineup = makeLineupPanel(pool, f, true);
-		JPanel panelAwayLineup = makeLineupPanel(pool, f, true);
+		JPanel panelHomeStrat = makeStrategyPanel(teamOne);
+		JPanel panelAwayStrat = makeStrategyPanel(teamTwo);
+		JPanel panelHomeLineup = makeLineupPanel(pool, true);
+		JPanel panelAwayLineup = makeLineupPanel(pool, true);
 		JPanel centerPanel = new JPanel(new BorderLayout());
 		JButton next = new JButton("Start");
 		next.setFont(f);
@@ -177,16 +183,25 @@ public class MainRunner {
 		return mainWindow;
 	}
 	
-	private static JPanel makeStrategyPanel(Font f, LineupManager team) {
+	private static JPanel makeStrategyPanel(LineupManager team) {
 		JPanel panelStrat = new JPanel(new BorderLayout());
-		JTextArea cardInfo = generateCardInfo(f);
+		JTextArea cardInfo = generateCardInfo();
 		JXList cards = new JXList();
 		JButton use = new JButton("Use");
+		use.setEnabled(false);
 		use.setFont(f);
 		cards.addListSelectionListener(new ListSelectionListener() {
 			@Override
 			public void valueChanged(ListSelectionEvent arg0) {
-				cardInfo.setText(((StrategyCard) (cards.getSelectedValue())).getDescription());
+				StrategyCard sc = (StrategyCard) cards.getSelectedValue();
+				if (!cards.isSelectionEmpty()) {
+					cardInfo.setText(((StrategyCard) (cards.getSelectedValue())).getDescription());
+					if (!StrategyCard.parsePrecondition(sc.getPre()) && use.getText() != "Discard") {
+						use.setEnabled(false);
+					} else {
+						use.setEnabled(true);
+					}
+				}
 			}
 		});
 		cards.setFont(f);
@@ -197,15 +212,49 @@ public class MainRunner {
 		cardInfo.setLineWrap(true);
 		cardInfo.setWrapStyleWord(true);
 		use.addActionListener(new ActionListener() {
+			boolean discarding = false;
+			int remaining;
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println(team.getSCards().contains(cards.getSelectedValue()));
-				for (String s : team.getTeam().keySet()) {
-					System.out.println(s);
-				}
-				for (int i = 0; i < 9; i++) {
-					System.out.println("The current batter is " + team.getCurrentBatter());
-					team.nextBatter();
+				DefaultListModel<StrategyCard> model = (DefaultListModel<StrategyCard>) cards.getModel();
+				if (!discarding) {
+					StrategyCard s = (StrategyCard) cards.getSelectedValue();
+					String postCon = s.getPost();
+					if (postCon.contains("DI+")) {
+						String[] discard = postCon.split(" ");
+						int discards = -1;
+						for (String d : discard) {
+							if (d.startsWith("DI")) {
+								discards = Character.getNumericValue((d.charAt(d.length() - 1)));
+							}
+						}
+						if (model.getSize() - 1 >= discards) {
+							remaining = discards;
+							discarding = true;
+							use.setText("Discard");
+						} else {
+							cardInfo.setText("Not enough cards to discard");
+							return;
+						}
+					}
+					int index = cards.getSelectedIndex();
+					cards.clearSelection();
+					StrategyCard sc = model.remove(index);
+					team.readyUse(sc);
+					cards.setModel(model);
+				} else {
+					if (!cards.isSelectionEmpty()) {
+						int index = cards.getSelectedIndex();
+						cards.clearSelection();
+						StrategyCard sc = model.remove(index);
+						team.readyDiscard(sc);
+						cards.setModel(model);
+						remaining--;
+						if (remaining == 0) {
+							discarding = false;
+							use.setText("Use");
+						}
+					}
 				}
 			}
 			
@@ -215,6 +264,7 @@ public class MainRunner {
 		panelStrat.add(cardInfo, BorderLayout.EAST);
 		panelStrat.setSize(500, 500);
 		start.registerItem(cards);
+		gameContinue.registerItem(cards);
 		return panelStrat;
 	}
 
@@ -227,16 +277,16 @@ public class MainRunner {
 	 *            The standard font being used across the project
 	 * @return A JFrame composed of all the parts needed to draft players
 	 */
-	private static JFrame createDraftFrame(DraftManager pool, Font f) {
+	private static JFrame createDraftFrame(DraftManager pool) {
 		JFrame draftWindow = new JFrame("Draft");
-		JTextArea cardInfo = generateCardInfo(f);
-		JXList poolList = generatePoolList(pool.getPool(), f);
+		JTextArea cardInfo = generateCardInfo();
+		JXList poolList = generatePoolList(pool.getPool());
 		poolList.setComparator(new PlayerComparator());
 		poolList.setAutoCreateRowSorter(true);
 		poolList.setSortOrder(SortOrder.ASCENDING);
-		JPanel draftPanel = createDraftPanel(pool.getPool(), f, cardInfo, poolList);
-		JPanel homeTeam = createDraftTeamPanel(pool, teamOne, f, cardInfo, poolList);
-		JPanel awayTeam = createDraftTeamPanel(pool, teamTwo, f, cardInfo, poolList);
+		JPanel draftPanel = createDraftPanel(pool.getPool(), cardInfo, poolList);
+		JPanel homeTeam = createDraftTeamPanel(pool, teamOne, cardInfo, poolList);
+		JPanel awayTeam = createDraftTeamPanel(pool, teamTwo, cardInfo, poolList);
 		homeTeam.setFont(f);
 		awayTeam.setFont(f);
 		draftWindow.add(draftPanel, BorderLayout.CENTER);
@@ -254,7 +304,7 @@ public class MainRunner {
 	 *            The standard font being used across the project
 	 * @return an uneditable JTextArea
 	 */
-	private static JTextArea generateCardInfo(Font f) {
+	private static JTextArea generateCardInfo() {
 		JTextArea cardInfo = new JTextArea();
 		cardInfo.setFont(f);
 		cardInfo.setEditable(false);
@@ -268,7 +318,7 @@ public class MainRunner {
 	 * @param f	The standard font being used across the project
 	 * @return	A JXList of all players in pool
 	 */
-	private static JXList generatePoolList(Map<String, PlayerData> pool, Font f) {
+	private static JXList generatePoolList(Map<String, PlayerData> pool) {
 		JXList poolList = new JXList();
 		poolList.setSize(500, 500);
 		DefaultListModel<PlayerData> lm = new DefaultListModel<PlayerData>();
@@ -280,7 +330,7 @@ public class MainRunner {
 		return poolList;
 	}
 
-	private static JPanel createDraftPanel(Map<String, PlayerData> pool, Font f, JTextArea cardInfo, JXList poolList) {
+	private static JPanel createDraftPanel(Map<String, PlayerData> pool, JTextArea cardInfo, JXList poolList) {
 		JPanel draftPanel = new JPanel(new BorderLayout());
 		poolList.addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent arg0) {
@@ -298,7 +348,7 @@ public class MainRunner {
 		return draftPanel;
 	}
 
-	private static JPanel createDraftTeamPanel(DraftManager pool, LineupManager myTeam, Font f, JTextArea cardInfo,
+	private static JPanel createDraftTeamPanel(DraftManager pool, LineupManager myTeam, JTextArea cardInfo,
 			JXList poolList) {
 		Map<String, PlayerData> cloned = pool.getPool();
 		JPanel draftPanel = new JPanel(new BorderLayout());
@@ -320,11 +370,12 @@ public class MainRunner {
 		});
 		JScrollPane poolScroller = new JScrollPane(myTeamStuff);
 		poolScroller.setViewportView(myTeamStuff);
-		JButton draftButton = makeDraftButton(f, pool, poolList, myTeamStuff, myTeam);
+		JButton draftButton = makeDraftButton(pool, poolList, myTeamStuff, myTeam);
 		JButton otherButton = new JButton("Export Team");
 		otherButton.addActionListener(makeDraftLineupExport(myTeamStuff, cloned, fileName));
 		otherButton.setFont(f);
 		myTeamStuff.setFont(f);
+		fileName.setFont(f);
 		buttonPanel.add(draftButton, BorderLayout.SOUTH);
 		buttonPanel.add(otherButton, BorderLayout.NORTH);
 		draftPanel.add(poolScroller, BorderLayout.NORTH);
@@ -332,33 +383,33 @@ public class MainRunner {
 		return draftPanel;
 	}
 
-	private static JFrame createListFrame(Map<String, PlayerData> pool, Font f) {
+	private static JFrame createListFrame(Map<String, PlayerData> pool) {
 		JFrame poolWindow = new JFrame("Draft Pool");
-		JTextArea cardInfo = generateCardInfo(f);
-		JXList poolList = generatePoolList(pool, f);
+		JTextArea cardInfo = generateCardInfo();
+		JXList poolList = generatePoolList(pool);
 		poolList.setComparator(new PlayerComparator());
 		poolList.setAutoCreateRowSorter(true);
 		poolList.setSortOrder(SortOrder.ASCENDING);
-		JPanel draftPanel = createDraftPanel(pool, f, cardInfo, poolList);
+		JPanel draftPanel = createDraftPanel(pool, cardInfo, poolList);
 		poolWindow.add(draftPanel);
 		draftPanel.setVisible(true);
 		poolWindow.setSize(1000, 1000); // Arbitrary
 		return poolWindow;
 	}
 
-	private static JFrame createLineupFrame(Map<String, PlayerData> pool, Font f) {
+	private static JFrame createLineupFrame(Map<String, PlayerData> pool) {
 		JFrame mainWindow = new JFrame("Lineup Editor");
-		JPanel panel = makeLineupPanel(pool, f, false);
+		JPanel panel = makeLineupPanel(pool, false);
 		mainWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		mainWindow.setSize(1000, 1000);
 		mainWindow.add(panel);
 		return mainWindow;
 	}
 	
-	private static JPanel makeLineupPanel(Map<String, PlayerData> pool, Font f, boolean main) {
+	private static JPanel makeLineupPanel(Map<String, PlayerData> pool, boolean main) {
 		JPanel panel = new JPanel(new BorderLayout());
 		JTable table = makeLineupTable();
-		JTextArea cardInfo = generateCardInfo(f);
+		JTextArea cardInfo = generateCardInfo();
 		table.getSelectionModel().addListSelectionListener(new ListSelectionListener() {
 			public void valueChanged(ListSelectionEvent event) {
 				if (table.getSelectedColumn() == 1) {
@@ -375,6 +426,7 @@ public class MainRunner {
 			public void actionPerformed(ActionEvent arg0) {
 				LineupManager lm = null;
 				JFileChooser fileName = new JFileChooser();
+				fileName.setFont(f);
 				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")+"/SaveData"));
 				int returnValue = fileName.showOpenDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
@@ -448,6 +500,7 @@ public class MainRunner {
 					}
 				}
 				JFileChooser fileName = new JFileChooser();
+				fileName.setFont(f);
 				fileName.setCurrentDirectory(new File(System.getProperty("user.dir")+"/SaveData"));
 				int returnValue = fileName.showSaveDialog(null);
 				if (returnValue == JFileChooser.APPROVE_OPTION) {
@@ -514,7 +567,7 @@ public class MainRunner {
 
 	}
 
-	private static JButton makeDraftButton(Font f, DraftManager pool, JXList poolList, JXList myTeamStuff,
+	private static JButton makeDraftButton(DraftManager pool, JXList poolList, JXList myTeamStuff,
 			LineupManager myTeam) {
 		JButton draftButton = new JButton("Draft Player");
 		draftButton.addActionListener(new ActionListener() {

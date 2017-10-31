@@ -15,17 +15,21 @@ public class LineupManager {
 	private Set<PlayerData> discarded;
 	private int currentSpot;
 	private Map<StrategyCard, Integer> sCards;
+	private List<StrategyCard> discardMe;
+	private List<StrategyCard> useMe;
 
 	/**
 	 * Creates new empty LineupManager.
 	 */
 	public LineupManager() {
-		team = new HashMap<String, PlayerData>();
+		team = new HashMap<>();
 		field = new PlayerData[10];
 		lineup = new HitterData[9];
 		currentPitcher = null;
-		discarded = new HashSet<PlayerData>();
+		discarded = new HashSet<>();
 		sCards = new HashMap<>();
+		discardMe = new ArrayList<>();
+		useMe = new ArrayList<>();
 	}
 
 	/**
@@ -204,15 +208,19 @@ public class LineupManager {
 	}
 
 	/**
-	 * Discards strategy card at certain spot.
+	 * Discards a certain strategy card
 	 * 
 	 * @param i
-	 *            int representing the hand spot being discarded from.
+	 *            The card being discarded
 	 * @return true is card successfully discarded, false otherwise.
 	 */
-	public boolean discardCard(int i) {
-		if (i < sCards.size()) {
-			sCards.remove(i);
+	public boolean discardCard(StrategyCard sc) {
+		if (sCards.containsKey(sc)) {
+			if (sCards.get(sc) == 1) {
+				sCards.remove(sc);
+			} else {
+				sCards.put(sc, sCards.get(sc) - 1);
+			}
 			return true;
 		}
 		return false;
@@ -333,6 +341,46 @@ public class LineupManager {
 			}
 		}
 		return listCards;
+	}
+	
+	public void readyDiscard(StrategyCard sc) {
+		discardMe.add(sc);
+	}
+	
+	public void readyUse(StrategyCard sc) {
+		useMe.add(sc);
+	}
+	
+	public List<StrategyCard> getUseCards() {
+		return useMe;
+	}
+	
+	public List<StrategyCard> undoDiscard() {
+		List<StrategyCard> undo = new ArrayList<>();
+		undo.addAll(discardMe);
+		discardMe.clear();
+		return undo;
+	}
+	
+	public List<StrategyCard> undoUse() {
+		List<StrategyCard> undo = new ArrayList<>();
+		undo.addAll(useMe);
+		useMe.clear();
+		return undo;
+	}
+	
+	public void processDiscard() {
+		for (StrategyCard sc : discardMe) {
+			discardCard(sc);
+		}
+		discardMe.clear();
+	}
+	
+	public void processUse() {
+		for (StrategyCard sc : useMe) {
+			discardCard(sc);
+		}
+		useMe.clear();
 	}
 
 	/**

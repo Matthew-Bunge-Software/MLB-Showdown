@@ -9,11 +9,11 @@ public class GameManager {
 		BeforePitch, AfterSwing, BeforeReroll, AfterReroll, BatterResolved;
 	}
 	
-	Field grass;
-	LineupManager homeTeam;
-	LineupManager awayTeam;
-	LineupManager defense;
-	LineupManager offense;
+	private Field grass;
+	private LineupManager homeTeam;
+	private LineupManager awayTeam;
+	private LineupManager defense;
+	private LineupManager offense;
 	private GameStat gamestat;
 	StrategyCard scMan;
 	Random dice;
@@ -23,6 +23,7 @@ public class GameManager {
 	private HitterData hitter;
 	private PitcherData pitcher;
 	private int pitch;
+	private String adv;
 
 	public GameManager(LineupManager home, LineupManager away, StrategyCard scMan) {
 		this.scMan = scMan;
@@ -40,12 +41,20 @@ public class GameManager {
 	}
 	
 	public void advanceProgram() {
+		for (StrategyCard sc : offense.getUseCards()) {
+			useStrategy(offense, "offense", sc);
+		}
+		for (StrategyCard sc : defense.getUseCards()) {
+			useStrategy(defense, "defense", sc);
+		}
+		offense.processDiscard(); offense.processUse();
+		defense.processDiscard(); defense.processUse();
 		switch (state) {
 		case BeforePitch:
 			pitcher = defense.getCurrentPitcher();
 			hitter = offense.getCurrentBatter();
 			pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
-			swing(pitch, hitter, pitcher);
+			adv = swing(pitch, hitter, pitcher);
 			state = ProgramState.AfterSwing;
 			break;
 		case AfterSwing:
@@ -58,8 +67,17 @@ public class GameManager {
 			}
 			break;
 		case BeforeReroll:
+			adv = swing(pitch, hitter, pitcher);
+			state = ProgramState.AfterReroll;
 			break;
 		case AfterReroll:
+			tokens = StrategyCard.getTokens();
+			if (tokens.get(tokens.size() - 1).equals("RRS")) {
+				state = ProgramState.BeforeReroll;
+			} else {
+				state = ProgramState.BatterResolved;
+				advanceProgram();
+			}
 			break;	
 		case BatterResolved:
 			processResult();
@@ -73,6 +91,8 @@ public class GameManager {
 				LineupManager temp = offense;
 				offense = defense;
 				defense = temp;
+				offense.drawCard();
+				defense.drawCard();
 			}
 			state = ProgramState.BeforePitch;
 			StrategyCard.emit("BP");
@@ -100,15 +120,19 @@ public class GameManager {
 		}
 	} */
 	
-	public void swing(int pitch, HitterData hitter, PitcherData pitcher) {
+	public String swing(int pitch, HitterData hitter, PitcherData pitcher) {
+		String adv;
 		if (pitch >= hitter.getBaseMod()) {
 			StrategyCard.emit("PC");
 			pitcher.checkCard(roll() + swingMod);
+			adv = "Pitcher";
 		} else {
 			StrategyCard.emit("HC");
 			hitter.checkCard(roll() + swingMod);
+			adv = "Hitter";
 		}
 		swingMod = 0;
+		return adv;
 	}
 	
 	public void useStrategy(LineupManager user, String team, StrategyCard s) {
@@ -221,9 +245,9 @@ public class GameManager {
 			case "DI": // Discard a card
 				for (int j = 0; j < Integer.parseInt(pre[2]); j++) {
 					if (pre[1].equals("SE")) {
-						user.discardCard(1);
+						user.processDiscard();
 					} else {
-						enemy.discardCard(1);
+						enemy.processDiscard();
 					}
 				}
 				break;
@@ -287,5 +311,21 @@ public class GameManager {
 	
 	public GameStat getGameStat() {
 		return gamestat;
+	}
+	
+	public boolean inningSwitched() {
+		return StrategyCard.getTokens().get(StrategyCard.getTokens().size() - 2).equals("IO");
+	}
+	
+	public LineupManager getAway() {
+		return awayTeam;
+	}
+	
+	public LineupManager getHome() {
+		return homeTeam;
+	}
+	
+	public String getPrevAdv() {
+		return adv;
 	}
 }

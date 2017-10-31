@@ -2,17 +2,16 @@ package graphicsInterface;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-import javax.swing.DefaultListModel;
 import javax.swing.JButton;
 import javax.swing.JTable;
 
 import org.jdesktop.swingx.JXList;
 
 import gameData.LineupManager;
-import gameData.StrategyCard;
-
 import players.PlayerData;
 import players.Position;
 
@@ -59,16 +58,8 @@ public class GameStartListener implements ActionListener {
 		}
 		lineup1.setPitcher();
 		lineup2.setPitcher();
-		DefaultListModel<StrategyCard> tm = new DefaultListModel<>();
-		for (StrategyCard s : lineup1.getSCards()) {
-			tm.addElement(s);
-		}
-		strat1.setModel(tm);
-		tm = new DefaultListModel<>();
-		for (StrategyCard s : lineup2.getSCards()) {
-			tm.addElement(s);
-		}
-		strat2.setModel(tm);
+		InterfaceUtility.populateList(strat1, lineup1);
+		InterfaceUtility.populateList(strat2, lineup2);
 	}
 	
 	public boolean registerItem(Object c, String...s) {

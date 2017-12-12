@@ -3,10 +3,13 @@
 package graphicsInterface;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
+import java.awt.GridBagLayout;
 import java.awt.Image;
+import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -59,6 +62,7 @@ public class MainRunner {
 	private static GameContinueListener gameContinue;
 	private static GameManager game;
 	private static Font f;
+	private static JButton next;
 
 	public static void main(String[] args) throws IOException, FileNotFoundException {
 		StrategyCard scMan = new StrategyCard();
@@ -140,8 +144,24 @@ public class MainRunner {
 		JPanel panelHomeLineup = makeLineupPanel(pool, true);
 		JPanel panelAwayLineup = makeLineupPanel(pool, true);
 		JPanel centerPanel = new JPanel(new BorderLayout());
-		JButton next = new JButton("Start");
+		next = new JButton("Start");
 		next.setFont(f);
+		start.registerItem(next, "next");
+		JPanel mainPanel = new JPanel() {
+			@Override
+			public void paintComponent(Graphics g) {
+				super.paintComponent(g);
+				g.drawImage(background, 0, 0, (int) (this.getWidth()), (int) (this.getHeight()), this);
+				if (!next.getText().equals("Start")) {
+					g.setColor(Color.BLACK);
+					g.setFont(f);
+					g.drawString(Integer.toString(game.getGameStat().awayRuns), (int) (this.getWidth() * .825),
+							(int) (this.getHeight() * .18));
+					g.drawString(Integer.toString(game.getGameStat().homeRuns), (int) (this.getWidth() * .825),
+							(int) (this.getHeight() * .2225));
+				}
+			}
+		};
 		next.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -150,16 +170,9 @@ public class MainRunner {
 				} else {
 					gameContinue.actionPerformed(e);
 				}
+				mainPanel.repaint();
 			}	
 		});
-		start.registerItem(next, "next");
-		JPanel mainPanel = new JPanel() {
-			@Override
-			public void paintComponent(Graphics g) {
-				super.paintComponent(g);
-				g.drawImage(background, 0, 0, (int) (this.getWidth()), (int) (this.getHeight()), this);
-			}
-		};
 		JTextArea belowMain = new JTextArea();
 		gameContinue.registerItem(belowMain);
 		JScrollPane belowMainPane = new JScrollPane(belowMain);
@@ -232,6 +245,7 @@ public class MainRunner {
 							remaining = discards;
 							discarding = true;
 							use.setText("Discard");
+							next.setEnabled(false);
 						} else {
 							cardInfo.setText("Not enough cards to discard");
 							return;
@@ -253,6 +267,7 @@ public class MainRunner {
 						if (remaining == 0) {
 							discarding = false;
 							use.setText("Use");
+							next.setEnabled(true);
 						}
 					}
 				}
@@ -401,8 +416,9 @@ public class MainRunner {
 		JFrame mainWindow = new JFrame("Lineup Editor");
 		JPanel panel = makeLineupPanel(pool, false);
 		mainWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		mainWindow.setSize(1000, 1000);
+		//mainWindow.setSize((int) (screenSize.getWidth() * .3), (int) (screenSize.getHeight() * .5));
 		mainWindow.add(panel);
+		mainWindow.pack();
 		return mainWindow;
 	}
 	

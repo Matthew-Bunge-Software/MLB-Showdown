@@ -128,7 +128,7 @@ public class PitcherData extends PlayerData {
 		card += "Throws:\t" + this.hand + "\n";
 		card += "Innings:\t" + this.innings + "\n";
 		card += "Positions:\tPitcher\n\n";
-		card += "PU\t" + this.popout + "\n";
+		card += "PU:\t" + this.popout + "\n";
 		card += "K:\t" + this.strikeout + "\n";
 		card += "GB:\t" + this.groundout + "\n";
 		card += "FB:\t" + this.flyout + "\n";

@@ -62,6 +62,7 @@ public class MainRunner {
 	private static GameContinueListener gameContinue;
 	private static GameManager game;
 	private static Font f;
+	private static Font boldF;
 	private static JButton next;
 
 	public static void main(String[] args) throws IOException, FileNotFoundException {
@@ -84,6 +85,7 @@ public class MainRunner {
 		start.registerItem(pool);
 		screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		f = new Font(Font.SANS_SERIF, Font.PLAIN, (screenSize.width + screenSize.height) / 200); // Arbitrary
+		boldF = new Font(Font.SANS_SERIF, Font.BOLD, (screenSize.width + screenSize.height) / 200); // Arbitrary
 		JFrame mainWindow = createMainFrame(pool, screenSize, scMan);
 		mainWindow.setExtendedState(JFrame.MAXIMIZED_BOTH);
 		JFrame draftWindow = createDraftFrame(mainPool);
@@ -154,7 +156,19 @@ public class MainRunner {
 				g.drawImage(background, 0, 0, (int) (this.getWidth()), (int) (this.getHeight()), this);
 				if (!next.getText().equals("Start")) {
 					g.setColor(Color.BLACK);
-					g.setFont(f);
+					g.setFont(boldF);
+					for (int i = 0; i < 10; i++) {
+						if (i >= game.getGameStat().getAwaySpread().size()) {
+							break;
+						}
+						g.drawString(Integer.toString(game.getGameStat().getAwaySpread().get(i)), (int) (this.getWidth() * (.26875 + i * .05375)), 
+								(int) (this.getHeight() * .18));
+						if (i >= game.getGameStat().getHomeSpread().size()) {
+							break;
+						}
+						g.drawString(Integer.toString(game.getGameStat().getHomeSpread().get(i)), (int) (this.getWidth() * (.26875 + i * .05375)), 
+								(int) (this.getHeight() * .2225));
+					}
 					g.drawString(Integer.toString(game.getGameStat().awayRuns), (int) (this.getWidth() * .825),
 							(int) (this.getHeight() * .18));
 					g.drawString(Integer.toString(game.getGameStat().homeRuns), (int) (this.getWidth() * .825),

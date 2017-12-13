@@ -1,5 +1,7 @@
 package gameData;
 
+import java.util.ArrayList;
+
 /**
  * General summary stats of where the game is at the current point, primary score and inning.
  * In the future is liable to include other important information like innings charged to a current pitcher.
@@ -15,6 +17,8 @@ public class GameStat {
    public boolean top;
    private boolean inningEnd;
    public int inning;
+   public ArrayList<Integer> homeSpread;
+   public ArrayList<Integer> awaySpread;
    
    /**
     * Creates a GameStat representing a brand new game instance.
@@ -25,6 +29,9 @@ public class GameStat {
       awayRuns = 0;
       top = true;
       inning = 1;
+      homeSpread = new ArrayList<>();
+      awaySpread = new ArrayList<>();
+      awaySpread.add(0);
    }
    
    /**
@@ -50,9 +57,11 @@ public class GameStat {
 	   if (outs == 3) {
 		   if (top) {
 			   top = false;
+			   homeSpread.add(0);
 		   } else {
 			   inning++;
 			   top = true;
+			   awaySpread.add(0);
 		   }
 		   inningEnd = true;
 		   outs = 0;
@@ -65,8 +74,10 @@ public class GameStat {
    public void score() {
 	   if (top) {
 		   awayRuns++;
+		   awaySpread.add(inning - 1, awaySpread.remove(inning - 1) + 1);
 	   } else {
 		   homeRuns++;
+		   homeSpread.add(inning - 1, homeSpread.remove(inning - 1) + 1);
 	   }
    }
    
@@ -82,5 +93,19 @@ public class GameStat {
 		   return true;
 	   }
 	   return false;
+   }
+   
+   /**
+    * 
+    */
+   public ArrayList<Integer> getHomeSpread() {
+	   return homeSpread;
+   }
+   
+   /**
+    * 
+    */
+   public ArrayList<Integer> getAwaySpread() {
+	   return awaySpread;
    }
 }

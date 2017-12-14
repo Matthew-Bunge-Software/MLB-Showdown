@@ -39,7 +39,7 @@ public class HitterData extends PlayerData {
 		year = input.next().trim();
 		baseMod = Integer.parseInt(input.next().trim());
 		speed = parseSpeed(input.next().trim());
-		positions = new int[10];
+		Arrays.fill(positions, -1);
 		modifyPositions(input.next().trim());
 		input.nextLine();
 		String contested = input.next().trim();
@@ -159,9 +159,6 @@ public class HitterData extends PlayerData {
 		}
 		String[] split = s.split("\\+");
 		int setVal = Integer.parseInt(split[1]);
-		if (setVal == 0) {
-			setVal = -1;
-		}
 		switch (split[0]) {
 		case "C":
 			positions[2] = setVal;
@@ -238,12 +235,8 @@ public class HitterData extends PlayerData {
 		card += "Positions:\t";
 		for (int i = 0; i < this.positions.length; i++) {
 			int val = this.positions[i];
-			if (val != 0) {
-				if (val > 0) {
-					card += Position.abbrFromInt(i) + " = " + val + "\n\t";
-				} else {
-					card += Position.abbrFromInt(i) + " = " + 0 + "\n\t";
-				}
+			if (val >= 0) {
+				card += Position.abbrFromInt(i) + " = " + val + "\n\t";
 			}
 		}
 		if (card.endsWith("\t")) {

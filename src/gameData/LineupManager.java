@@ -343,6 +343,10 @@ public class LineupManager {
 		return listCards;
 	}
 	
+	public PlayerData getPlayerAtPosition(int i) {
+		return field[i];
+	}
+	
 	public void readyDiscard(StrategyCard sc) {
 		discardMe.add(sc);
 	}

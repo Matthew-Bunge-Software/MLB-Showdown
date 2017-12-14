@@ -1,5 +1,6 @@
 package players;
 
+import java.util.Arrays;
 import java.util.Set;
 import gameData.StrategyCard;
 
@@ -240,7 +241,7 @@ public abstract class PlayerData implements Comparable<PlayerData> {
 		if (i == 0 && positions[1] == 0) {
 			return true;
 		}
-		return positions[i] != 0;
+		return positions[i] >= 0;
 	}
 
 	/**
@@ -253,7 +254,7 @@ public abstract class PlayerData implements Comparable<PlayerData> {
 	public String queryPosition() {
 		String plays = "";
 		for (int i = 0; i <= 9; i++) {
-			if (positions[i] != 0) {
+			if (positions[i] >= 0) {
 				if (plays.isEmpty()) {
 					plays += i;
 				} else {
@@ -328,8 +329,8 @@ public abstract class PlayerData implements Comparable<PlayerData> {
 	@Override
 	// Format used in Effective Java
 	/**
-	 * Overrides the generic Equals method
-	 * Two PlayerDatas are equal if they have the same set number and the same name
+	 * Overrides the generic Equals method Two PlayerDatas are equal if they
+	 * have the same set number and the same name
 	 */
 	public boolean equals(Object o) {
 		if (o == this)
@@ -342,5 +343,4 @@ public abstract class PlayerData implements Comparable<PlayerData> {
 
 		return p.getSetNum() == setNum && p.toString().equals(name);
 	}
-
 }

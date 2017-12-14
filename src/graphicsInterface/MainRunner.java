@@ -46,8 +46,10 @@ import org.jdesktop.swingx.JXList;
 
 import gameData.DraftManager;
 import gameData.GameManager;
+import gameData.GameStat;
 import gameData.LineupManager;
 import gameData.StrategyCard;
+import players.HitterData;
 import players.PlayerComparator;
 import players.PlayerData;
 import players.Position;
@@ -153,26 +155,45 @@ public class MainRunner {
 			@Override
 			public void paintComponent(Graphics g) {
 				super.paintComponent(g);
-				g.drawImage(background, 0, 0, (int) (this.getWidth()), (int) (this.getHeight()), this);
+				int width = this.getWidth();
+				int height = this.getHeight();
+				g.drawImage(background, 0, 0, width, height, this);
 				if (!next.getText().equals("Start")) {
 					g.setColor(Color.BLACK);
 					g.setFont(boldF);
+					GameStat gs = game.getGameStat();
 					for (int i = 0; i < 10; i++) {
-						if (i >= game.getGameStat().getAwaySpread().size()) {
+						if (i >= gs.getAwaySpread().size()) {
 							break;
 						}
-						g.drawString(Integer.toString(game.getGameStat().getAwaySpread().get(i)), (int) (this.getWidth() * (.26875 + i * .05375)), 
-								(int) (this.getHeight() * .18));
-						if (i >= game.getGameStat().getHomeSpread().size()) {
+						g.drawString(Integer.toString(gs.getAwaySpread().get(i)), (int) (width * (.26875 + i * .05375)), 
+								(int) (height * .18));
+						if (i >= gs.getHomeSpread().size()) {
 							break;
 						}
-						g.drawString(Integer.toString(game.getGameStat().getHomeSpread().get(i)), (int) (this.getWidth() * (.26875 + i * .05375)), 
-								(int) (this.getHeight() * .2225));
+						g.drawString(Integer.toString(gs.getHomeSpread().get(i)), (int) (width * (.26875 + i * .05375)), 
+								(int) (height * .2225));
 					}
-					g.drawString(Integer.toString(game.getGameStat().awayRuns), (int) (this.getWidth() * .825),
-							(int) (this.getHeight() * .18));
-					g.drawString(Integer.toString(game.getGameStat().homeRuns), (int) (this.getWidth() * .825),
-							(int) (this.getHeight() * .2225));
+					g.drawString(Integer.toString(gs.awayRuns), (int) (width * .825),
+							(int) (height * .18));
+					g.drawString(Integer.toString(gs.awayHits), (int) (width * .89375),
+							(int) (height * .18));
+					g.drawString(Integer.toString(gs.homeRuns), (int) (width * .825),
+							(int) (height * .2225));
+					g.drawString(Integer.toString(gs.homeHits), (int) (width * .89375),
+							(int) (height * .2225));
+					drawPositions(g, .45, .75, 1, width, height);
+					drawPositions(g, .45, .9, 2, width, height);
+					drawPositions(g, .675, .7, 3, width, height);
+					drawPositions(g, .575, .6, 4, width, height);
+					drawPositions(g, .25, .7, 5, width, height);
+					drawPositions(g, .35, .6, 6, width, height);
+					drawPositions(g, .15, .5, 7, width, height);
+					drawPositions(g, .45, .375, 8, width, height);
+					drawPositions(g, .75, .5, 9, width, height);
+					drawRunners(g, .8, .75, 1, width, height);
+					drawRunners(g, .45, .5, 2, width, height);
+					drawRunners(g, .15, .75, 3, width, height);
 				}
 			}
 		};
@@ -651,6 +672,26 @@ public class MainRunner {
 			table.setValueAt("" + (row + 1), row, column);
 		} else {
 			table.setValueAt("", row, column);
+		}
+	}
+	
+	private static void drawPositions(Graphics g, double x, double y, int pos, int width, int height) {
+		PlayerData p = game.getDefense().getPlayerAtPosition(pos);
+		String name = p.toString().split(" ")[1];
+		g.drawString(name, (int) (width * x),
+				(int) (height * y));
+		g.drawString(Position.abbrFromInt(pos) + ": " + p.getFielding(pos), (int) (width * x),
+				(int) (height * (y + .025)));
+	}
+	
+	private static void drawRunners(Graphics g, double x, double y, int base, int width, int height) {
+		HitterData p = (HitterData) game.getRunnerOn(base);
+		if (p != null) {
+			String name = p.toString().split(" ")[1];
+			g.drawString(name, (int) (width * x), 
+					(int) (height * y));
+			g.drawString("Speed: " + p.getSpeed(), (int) (width * x),
+					(int) (height * (y + .025)));
 		}
 	}
 }

@@ -19,6 +19,8 @@ public class PitcherData extends PlayerData {
 	 *            have the tab character and newline character as a delimiter
 	 */
 	public PitcherData(Scanner input) {
+		Arrays.fill(positions, -1);
+		positions[1] = 0;
 		String num = input.next().trim();
 		if (num.isEmpty()) {
 			setNum = Integer.parseInt(input.next().trim());

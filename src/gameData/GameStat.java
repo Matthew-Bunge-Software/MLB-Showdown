@@ -14,6 +14,8 @@ public class GameStat {
    private int outs;
    public int homeRuns;
    public int awayRuns;
+   public int homeHits;
+   public int awayHits;
    public boolean top;
    private boolean inningEnd;
    public int inning;
@@ -25,8 +27,7 @@ public class GameStat {
     */
    public GameStat() {
       outs = 0;
-      homeRuns = 0;
-      awayRuns = 0;
+      homeRuns = awayRuns = homeHits = awayHits = 0;
       top = true;
       inning = 1;
       homeSpread = new ArrayList<>();
@@ -78,6 +79,14 @@ public class GameStat {
 	   } else {
 		   homeRuns++;
 		   homeSpread.add(inning - 1, homeSpread.remove(inning - 1) + 1);
+	   }
+   }
+   
+   public void hit() {
+	   if (top) {
+		   awayHits++;
+	   } else {
+		   homeHits++;
 	   }
    }
    

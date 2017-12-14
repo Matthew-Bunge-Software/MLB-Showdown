@@ -39,6 +39,23 @@ public class Field {
 	public List<String> getProblems() {
 		return problems;
 	}
+	
+	/**
+	 * Gets the playerdata of the runner on some given base
+	 * 
+	 * @param base The base the runner is being requested for
+	 * @return The runner on that base, null if no runner on base
+	 */
+	public HitterData getRunner(int base) {
+		if (base == 1) {
+			return first.getRunner();
+		} else if (base == 2) {
+			return second.getRunner();
+		} else if (base == 3) {
+			return third.getRunner();
+		}
+		throw new IllegalArgumentException("Valid base argument not passed");
+	}
 
 	/**
 	 * Informs on whether there are existing problems that halted execution of
@@ -60,6 +77,7 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat single(HitterData onCard, GameStat track) {
+		track.hit();
 		if (!third.isEmpty()) {
 			third.onBase = null;
 			track.score();
@@ -85,6 +103,7 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat twoBase(HitterData onCard, GameStat track) {
+		track.hit();
 		if (!third.isEmpty()) {
 			third.onBase = null;
 			track.score();
@@ -111,6 +130,7 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat triple(HitterData onCard, GameStat track) {
+		track.hit();
 		if (!third.isEmpty()) {
 			third.onBase = null;
 			track.score();
@@ -135,6 +155,7 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat homer(GameStat track) {
+		track.hit();
 		track.score();
 		if (!third.isEmpty()) {
 			third.onBase = null;
@@ -184,6 +205,7 @@ public class Field {
 	 * @return The updated GameStat
 	 */
 	public GameStat singlePlus(HitterData onCard, GameStat track) {
+		track.hit();
 		track = single(onCard, track);
 		if (second.isEmpty()) {
 			second.onBase = first.onBase;
@@ -315,6 +337,10 @@ public class Field {
 
 		private boolean isEmpty() {
 			return onBase == null;
+		}
+		
+		private HitterData getRunner() {
+			return onBase;
 		}
 	}
 

@@ -325,7 +325,15 @@ public class GameManager {
 		return homeTeam;
 	}
 	
+	public LineupManager getDefense() {
+		return defense;
+	}
+	
 	public String getPrevAdv() {
 		return adv;
+	}
+	
+	public PlayerData getRunnerOn(int base) {
+		return grass.getRunner(base);
 	}
 }

@@ -6,7 +6,8 @@ import players.*;
 public class GameManager {
 	
 	public enum ProgramState {
-		BeforePitch, AfterSwing, BeforeReroll, AfterReroll, BatterResolved;
+		BeforePitch, AfterSwing, BeforeReroll, AfterReroll, BatterResolved, 
+		ProcessResult, BeforeDoublePlay, AfterDoublePlay;
 	}
 	
 	private Field grass;
@@ -19,11 +20,13 @@ public class GameManager {
 	Random dice;
 	private int swingMod;
 	private int pitchMod;
+	private int fieldMod;
 	private ProgramState state;
 	private HitterData hitter;
 	private PitcherData pitcher;
 	private int pitch;
 	private String adv;
+	private boolean checkPassed;
 
 	public GameManager(LineupManager home, LineupManager away, StrategyCard scMan) {
 		this.scMan = scMan;
@@ -49,6 +52,7 @@ public class GameManager {
 		}
 		offense.processDiscard(); offense.processUse();
 		defense.processDiscard(); defense.processUse();
+		List<String> tokens = StrategyCard.getTokens();
 		switch (state) {
 		case BeforePitch:
 			pitcher = defense.getCurrentPitcher();
@@ -58,11 +62,10 @@ public class GameManager {
 			state = ProgramState.AfterSwing;
 			break;
 		case AfterSwing:
-			List<String> tokens = StrategyCard.getTokens();
 			if (tokens.get(tokens.size() - 1).equals("RRS")) {
 				state = ProgramState.BeforeReroll;
 			} else {
-				state = ProgramState.BatterResolved;
+				state = ProgramState.ProcessResult;
 				advanceProgram();
 			}
 			break;
@@ -71,16 +74,38 @@ public class GameManager {
 			state = ProgramState.AfterReroll;
 			break;
 		case AfterReroll:
-			tokens = StrategyCard.getTokens();
 			if (tokens.get(tokens.size() - 1).equals("RRS")) {
 				state = ProgramState.BeforeReroll;
+			} else {
+				state = ProgramState.ProcessResult;
+				advanceProgram();
+			}
+			break;	
+		case ProcessResult:
+			processResult();
+			if (tokens.get(tokens.size() - 1).equals("BDP")) {
+				state = ProgramState.BeforeDoublePlay;
+			} else if (tokens.get(tokens.size() - 1).equals("ADP")) {
+				state = ProgramState.AfterDoublePlay;
 			} else {
 				state = ProgramState.BatterResolved;
 				advanceProgram();
 			}
-			break;	
+			break;
+		case BeforeDoublePlay:
+			state = ProgramState.ProcessResult;
+			advanceProgram();
+			break;
+		case AfterDoublePlay:
+			if (tokens.get(tokens.size() - 1).equals("RRDP")) {
+				state = ProgramState.BeforeDoublePlay;
+				advanceProgram();
+				break;
+			}
+			state = ProgramState.ProcessResult;
+			advanceProgram();
+			break;
 		case BatterResolved:
-			processResult();
 			offense.nextBatter();
 			gamestat.update();
 			swingMod = 0;
@@ -184,6 +209,14 @@ public class GameManager {
 			return grass.triple(offense.getCurrentBatter(), gamestat);
 		case "HR":
 			return grass.homer(gamestat);
+		case "RRDP":
+		case "BDP":
+			checkPassed = infieldCheck(defense, offense.getCurrentBatter());
+			StrategyCard.emit("ADP");
+			return gamestat;
+		case "ADP":
+			fieldMod = 0;
+			return grass.doublePlay(offense.getCurrentBatter(), gamestat, checkPassed);
 		default:
 			StrategyCard.printLog();
 			throw new IllegalArgumentException("This method was called at a bad time");
@@ -219,6 +252,9 @@ public class GameManager {
 				break;
 			case "PI": // Change pitchMod
 				pitchMod += parseIntCondition(pre[1]);
+				break;
+			case "D": // Change fieldMod
+				fieldMod += parseIntCondition(pre[1]);
 				break;
 			case "P": // Status related to the pitcher
 				PitcherData pitcher = defense.getCurrentPitcher();
@@ -268,6 +304,9 @@ public class GameManager {
 				break;
 			case "RRS": // Reroll a swing
 				StrategyCard.emit("RRS");
+				break;
+			case "RRDP": // Reroll a doubleplay
+				StrategyCard.emit("RRDP");
 				break;
 			default:
 				throw new IllegalArgumentException(pre[0] + ": not a valid postcondition");
@@ -335,5 +374,28 @@ public class GameManager {
 	
 	public PlayerData getRunnerOn(int base) {
 		return grass.getRunner(base);
+	}
+	
+	public boolean checkPassed() {
+		return checkPassed;
+	}
+	
+	/**
+	 * Executes an infield check, for example in the case of attempting a double
+	 * play
+	 * 
+	 * @param teamOne
+	 *            The lineup of the team currently in the field
+	 * @param runner
+	 *            The lead runner who the fielding team is attempting to throw
+	 *            out
+	 * @return true in the case that the infield check passed, false otherwise
+	 */
+	private boolean infieldCheck(LineupManager teamOne, HitterData runner) {
+		int total = dice.nextInt(20) + 1 + fieldMod;
+		for (int i = 3; i <= 6; i++) {
+			total += teamOne.getFielding(i);
+		}
+		return total > runner.getSpeed();
 	}
 }

@@ -54,6 +54,15 @@ Year:	'04
 Pre:	BP
 Post:	DI+SE+1 SW+AR
 
+8 	Hard Slide 					Off 	'04 	Play after a double-play attempt. 	Discard a card. The defense rerolls the double-play attempt.
+
+Num:	8
+Name:	Hard Slide
+Use:	O
+Year:	'04
+Pre:	ADP
+Post:	DI+SE+1 RRDP
+
 12 	Play the Percentages 	Off 	'04 	Play before the pitch. 	If the pitcher is LHP and your batter bats R or S add +2 to the swing.  
 
 Num:	12
@@ -79,6 +88,15 @@ Use:	O
 Year:	'04
 Pre:	AO
 Post:	P+R B+L^S RRS
+
+17 	Slow Roller 				Off 	'04 	Play before a double-play attempt. 	Subtract 3 from the defense’s roll.  
+
+Num:	17
+Name:	Slow Roller
+Use:	O
+Year:	'04
+Pre:	BDP
+Post:	D+-3
 
 19 	Sweet Swing 				Off 	'04 	Play before the pitch. 	If the pitcher is RHP and your batter bats L or S add +2 to the swing.  
 
@@ -162,3 +180,12 @@ Use:	U
 Year:	'04
 Pre:	BB
 Post:	RRS
+
+50 	Think Twice 				Util 	'04 	Play on a reroll of a pitch or a swing. 	Draw 2 cards.
+
+Num:	50
+Name:	Swing at Anything
+Use:	U
+Year:	'04
+Pre:	RRS^RRP
+Post:	DR+SE+2

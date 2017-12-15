@@ -17,7 +17,6 @@ public class Field {
 	private BaseSlot first;
 	private BaseSlot second;
 	private BaseSlot third;
-	private Random r;
 	private List<String> problems;
 
 	/**
@@ -27,7 +26,6 @@ public class Field {
 		third = new BaseSlot(null);
 		second = new BaseSlot(third);
 		first = new BaseSlot(second);
-		r = new Random();
 		problems = new ArrayList<String>();
 	}
 
@@ -233,18 +231,26 @@ public class Field {
 		}
 		if (first.onBase != null) {
 			StrategyCard.emit("BDP");
-			boolean iC = infieldCheck(fielder, atBat);
-			StrategyCard.emit("ADP");
-			if (iC) {
-				track.yerOut();
-				if (checkOuts(track)) {
-					return track;
-				}
-				first.onBase = null;
-			} else {
-				first.onBase = atBat;
-			}
+			return track;
 		}
+		return finalizeGroundout(track);
+	}
+	
+	public GameStat doublePlay(HitterData atBat, GameStat track, boolean iC) {
+		StrategyCard.emit("DPC");
+		if (iC) {
+			track.yerOut();
+			if (checkOuts(track)) {
+				return track;
+			}
+			first.onBase = null;
+		} else {
+			first.onBase = atBat;
+		}
+		return finalizeGroundout(track);
+	}
+	
+	private GameStat finalizeGroundout(GameStat track) {
 		if (third.onBase != null) {
 			track.score();
 			third.onBase = null;
@@ -350,25 +356,6 @@ public class Field {
 	 * int total = r.nextInt(20) + 1; total += teamOne.getFielding(2); return
 	 * total > runner.getSpeed(); }
 	 */
-
-	/**
-	 * Executes an infield check, for example in the case of attempting a double
-	 * play
-	 * 
-	 * @param teamOne
-	 *            The lineup of the team currently in the field
-	 * @param runner
-	 *            The lead runner who the fielding team is attempting to throw
-	 *            out
-	 * @return true in the case that the infield check passed, false otherwise
-	 */
-	private boolean infieldCheck(LineupManager teamOne, HitterData runner) {
-		int total = r.nextInt(20) + 1;
-		for (int i = 3; i <= 6; i++) {
-			total += teamOne.getFielding(i);
-		}
-		return total > runner.getSpeed();
-	}
 
 	/**
 	 * Returns whether or not there are 3 outs in the inning. Useful for

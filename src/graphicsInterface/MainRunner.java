@@ -7,9 +7,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
-import java.awt.GridBagLayout;
 import java.awt.Image;
-import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -174,6 +172,8 @@ public class MainRunner {
 						g.drawString(Integer.toString(gs.getHomeSpread().get(i)), (int) (width * (.26875 + i * .05375)), 
 								(int) (height * .2225));
 					}
+					g.drawString(Integer.toString(gs.getOuts()), (int) (width * .6875),
+							(int) (height * .0825));
 					g.drawString(Integer.toString(gs.awayRuns), (int) (width * .825),
 							(int) (height * .18));
 					g.drawString(Integer.toString(gs.awayHits), (int) (width * .89375),

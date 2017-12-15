@@ -31,6 +31,16 @@ public class GameContinueListener implements ActionListener {
 			text1.append("A reconsideration incoming\n");
 		} else if (ps == GameManager.ProgramState.AfterReroll) {
 			text1.append("The new result is " + StrategyCard.getTokens().get(StrategyCard.getTokens().size() - 1) + "\n");
+		} else if (ps == GameManager.ProgramState.BeforeDoublePlay) {
+			text1.append("Runner is out at 2nd, they're going for two\n");
+		} else if (ps == GameManager.ProgramState.AfterDoublePlay) {
+			String s;
+			if (game.checkPassed()) {
+				s = "out";
+			} else {
+				s = "safe";
+			}
+			text1.append("It looks like the runner at first is " + s + "!\n");
 		}
 		if (game.inningSwitched()) {
 			text1.append("The inning is over.\n");

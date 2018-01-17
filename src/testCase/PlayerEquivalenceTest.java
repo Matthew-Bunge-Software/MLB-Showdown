@@ -16,12 +16,12 @@ import players.PlayerData;
 
 public class PlayerEquivalenceTest {
 	
-	static Map<String, PlayerData> mainPool;
+	private static Map<String, PlayerData> mainPool;
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws FileNotFoundException {
-		mainPool = DraftManager.initializePool(new File("2004 pitchers.txt"),
-				new File("2004 hitters.txt")).getPool();
+		mainPool = DraftManager.initializePool(new File("DataFiles/2004 pitchers.txt"),
+				new File("DataFiles/2004 hitters.txt")).getPool();
 	}
 	
 	@Test

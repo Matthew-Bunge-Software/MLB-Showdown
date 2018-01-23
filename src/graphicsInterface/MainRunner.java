@@ -139,6 +139,7 @@ public class MainRunner {
 	 */
 	private static JFrame createMainFrame(Map<String, PlayerData> pool, Dimension screenSize, StrategyCard scMan) {	
 		JFrame mainWindow = new JFrame("MLB Showdown");
+		mainWindow.setUndecorated(true);
 		JPanel panelHome = new JPanel(new BorderLayout());
 		JPanel panelAway = new JPanel(new BorderLayout());
 		JPanel panelHomeStrat = makeStrategyPanel(teamOne);
@@ -174,13 +175,13 @@ public class MainRunner {
 					}
 					g.drawString(Integer.toString(gs.getOuts()), (int) (width * .6875),
 							(int) (height * .0825));
-					g.drawString(Integer.toString(gs.awayRuns), (int) (width * .825),
+					g.drawString(Integer.toString(gs.getAwayRuns()), (int) (width * .825),
 							(int) (height * .18));
-					g.drawString(Integer.toString(gs.awayHits), (int) (width * .89375),
+					g.drawString(Integer.toString(gs.getAwayHits()), (int) (width * .89375),
 							(int) (height * .18));
-					g.drawString(Integer.toString(gs.homeRuns), (int) (width * .825),
+					g.drawString(Integer.toString(gs.getHomeRuns()), (int) (width * .825),
 							(int) (height * .2225));
-					g.drawString(Integer.toString(gs.homeHits), (int) (width * .89375),
+					g.drawString(Integer.toString(gs.getHomeHits()), (int) (width * .89375),
 							(int) (height * .2225));
 					drawPositions(g, .45, .75, 1, width, height);
 					drawPositions(g, .45, .9, 2, width, height);
@@ -669,7 +670,7 @@ public class MainRunner {
 			}
 		}
 		if (row < 9) {
-			table.setValueAt("" + (row + 1), row, column);
+			table.setValueAt(row + 1, row, column);
 		} else {
 			table.setValueAt("", row, column);
 		}

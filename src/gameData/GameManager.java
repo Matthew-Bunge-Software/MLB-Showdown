@@ -57,7 +57,7 @@ public class GameManager {
 		case BeforePitch:
 			pitcher = defense.getCurrentPitcher();
 			hitter = offense.getCurrentBatter();
-			pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.inning) + pitchMod;
+			pitch = pitcher.getBaseMod() + roll() + pitcher.checkInnings(gamestat.getInning()) + pitchMod;
 			adv = swing(pitch, hitter, pitcher);
 			state = ProgramState.AfterSwing;
 			break;
@@ -172,12 +172,12 @@ public class GameManager {
 	}
 
 	public int getInning() {
-		return gamestat.inning;
+		return gamestat.getInning();
 	}
 
 	public void printScore() {
-		System.out.println("Home: " + gamestat.homeRuns);
-		System.out.println("Away: " + gamestat.awayRuns);
+		System.out.println("Home: " + gamestat.getHomeRuns());
+		System.out.println("Away: " + gamestat.getAwayRuns());
 	}
 	
 	public GameStat processResult() {
@@ -333,7 +333,7 @@ public class GameManager {
 	}
 
 	public int getTotalRuns() {
-		return gamestat.awayRuns + gamestat.homeRuns;
+		return gamestat.getAwayRuns() + gamestat.getHomeRuns();
 	}
 	
 	public ProgramState getProgramState() {

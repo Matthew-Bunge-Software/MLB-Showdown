@@ -1,6 +1,7 @@
 package gameData;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * General summary stats of where the game is at the current point, primary
@@ -16,13 +17,13 @@ import java.util.ArrayList;
 public class GameStat {
 
 	private int outs;
-	public int homeRuns;
-	public int awayRuns;
-	public int homeHits;
-	public int awayHits;
-	public boolean top;
+	private int homeRuns;
+	private int awayRuns;
+	private int homeHits;
+	private int awayHits;
+	private boolean top;
 	private boolean inningEnd;
-	public int inning;
+	private int inning;
 	private ArrayList<Integer> homeSpread;
 	private ArrayList<Integer> awaySpread;
 
@@ -40,9 +41,9 @@ public class GameStat {
 	}
 
 	/**
-	 * Gets the number of outs in the current frame.
+	 * Returns the number of outs in the current frame.
 	 * 
-	 * @return The number of outs in the current frame.
+	 * @return the number of outs in the current frame.
 	 */
 	public int getOuts() {
 		return outs;
@@ -115,20 +116,77 @@ public class GameStat {
 	}
 
 	/**
-	 * Gets the runs scored by the home team.
+	 * Returns the inning by inning list of the runs scored by the home team.
+	 * If a frame has not been reaching the spread will have no value for it.
 	 * 
-	 * @return ArrayList<Integer> of runs scored by the home team.
+	 * @return the list of runs scored by inning by the home team.
 	 */
-	public ArrayList<Integer> getHomeSpread() {
+	public List<Integer> getHomeSpread() {
 		return homeSpread;
 	}
 
 	/**
-	 * Gets the runs scored by the away team.
+	 * Returns the inning by inning list of the runs scored by the away team.
+	 * If a frame has not been reached the spread will have no value for it.
 	 * 
-	 * @return ArrayList<Integer> of runs scored by the away team.
+	 * @return the list of runs scored by inning by the away team.
 	 */
-	public ArrayList<Integer> getAwaySpread() {
+	public List<Integer> getAwaySpread() {
 		return awaySpread;
+	}
+	
+	/**
+	 * Gets the total number of runs scored by the home team.
+	 * 
+	 * @return the runs scored by the home team.
+	 */
+	public int getHomeRuns() {
+		return homeRuns;
+	}
+	
+	/**
+	 * Gets the total number of runs scored by the away team.
+	 * 
+	 * @return the runs scored by the away team.
+	 */
+	public int getAwayRuns() {
+		return awayRuns;
+	}
+	
+	/**
+	 * Gets the total number of hits scored by the home team.
+	 * 
+	 * @return the hits scored by the home team.
+	 */
+	public int getHomeHits() {
+		return homeHits;
+	}
+	
+	/**
+	 * Gets the total number of hits scored by the away team.
+	 * 
+	 * @return the hits scored by the away team.
+	 */
+	public int getAwayHits() {
+		return awayHits;
+	}
+	
+	/**
+	 * Returns the inning of the current game. 
+	 * For example, top of the first or bottom of the first will return a 1.
+	 * 
+	 * @return the number of the current inning.
+	 */
+	public int getInning() {
+		return inning;
+	}
+	
+	/**
+	 * Returns the current half of the inning.
+	 * 
+	 * @return true if top half of the inning, false if the bottom half.
+	 */
+	public boolean getHalf() {
+		return top;
 	}
 }

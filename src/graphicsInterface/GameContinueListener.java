@@ -26,7 +26,7 @@ public class GameContinueListener implements ActionListener {
 			text1.append("Advantage is with the " + game.getPrevAdv() + "\n");
 			text1.append("The result is " + StrategyCard.getTokens().get(StrategyCard.getTokens().size() - 1) + "\n");
 		} else if (ps == GameManager.ProgramState.BeforePitch) {
-			text1.append("The score is " + game.getGameStat().awayRuns + " to " + game.getGameStat().homeRuns + "\n");
+			text1.append("The score is " + game.getGameStat().getAwayRuns() + " to " + game.getGameStat().getHomeRuns() + "\n");
 		} else if (ps == GameManager.ProgramState.BeforeReroll) {
 			text1.append("A reconsideration incoming\n");
 		} else if (ps == GameManager.ProgramState.AfterReroll) {

@@ -1,4 +1,4 @@
-package com.cook.showdown.testcase;
+package com.cook.showdown;
 
 import java.io.*;
 import java.util.ArrayList;

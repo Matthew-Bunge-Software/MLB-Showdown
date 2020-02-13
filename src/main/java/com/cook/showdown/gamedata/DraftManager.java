@@ -58,18 +58,13 @@ public class DraftManager {
 		if (pitchers != null) {
 			processor = new Scanner(pitchers);
 			processor.useDelimiter("\\n|\\t");
-			int i = 1;
 			while (processor.hasNext()) {
-				if (i == 78) {
-					i = 0;
-				}
 				try {
 					player = new PitcherData(processor);
 					pool.put(player.toString(), player);
 				} catch (Exception e) {
 					throw new IllegalArgumentException("Input error in the Pitcher file");
 				}
-				i++;
 			}
 		}
 		if (hitters != null) {

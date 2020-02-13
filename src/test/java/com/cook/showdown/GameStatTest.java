@@ -1,4 +1,4 @@
-package com.cook.showdown.testcase;
+package com.cook.showdown;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

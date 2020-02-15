@@ -1,14 +1,16 @@
-package com.cook.showdown.gamedata;
+package com.cook.showdown.services;
 
 import java.io.*;
 import java.io.IOException;
 import java.util.*;
 
-import com.cook.showdown.players.HitterData;
-import com.cook.showdown.players.PitcherData;
-import com.cook.showdown.players.PlayerData;
+import com.cook.showdown.models.players.HitterData;
+import com.cook.showdown.models.players.PitcherData;
+import com.cook.showdown.models.players.PlayerData;
+import com.cook.showdown.models.strategy.StrategyCard;
 
-public class LineupManager {
+
+public class LineupService {
 
 	private Map<String, PlayerData> team;
 	private PlayerData[] field;
@@ -23,7 +25,7 @@ public class LineupManager {
 	/**
 	 * Creates new empty LineupManager.
 	 */
-	public LineupManager() {
+	public LineupService() {
 		team = new HashMap<>();
 		field = new PlayerData[10];
 		lineup = new HitterData[9];
@@ -40,7 +42,7 @@ public class LineupManager {
 	 * @param team
 	 *            Map<String, PlayerData> of initial players in LineupManager.
 	 */
-	public LineupManager(Map<String, PlayerData> team) {
+	public LineupService(Map<String, PlayerData> team) {
 		this();
 		this.team = team;
 	}
@@ -400,10 +402,10 @@ public class LineupManager {
 	 * @return a new LineupManager with all attributes as specified in the save
 	 *         file.
 	 */
-	public static LineupManager teamImport(String fileName, Map<String, PlayerData> pool) {
+	public static LineupService teamImport(String fileName, Map<String, PlayerData> pool) {
 		try {
 			Scanner s = new Scanner(new File("SaveData/" + fileName));
-			LineupManager loaded = new LineupManager(new HashMap<String, PlayerData>());
+			LineupService loaded = new LineupService(new HashMap<String, PlayerData>());
 			s.useDelimiter("\\n|\\r\\n|\\t");
 			while (s.hasNext()) {
 				String player = s.next();

@@ -2,8 +2,8 @@ package com.cook.showdown.models.players;
 
 import java.util.*;
 
-import com.cook.showdown.gamedata.StrategyCard;
-import com.cook.showdown.models.Range;
+import com.cook.showdown.models.strategy.StrategyCard;
+
 
 /**
  * Implementation of the Hitter type in MLB Showdown

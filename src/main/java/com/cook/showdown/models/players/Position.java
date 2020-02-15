@@ -1,4 +1,4 @@
-package com.cook.showdown.models;
+package com.cook.showdown.models.players;
 
 /**
  * An enumeration of all positions in a baseball lineup / on a baseball field.

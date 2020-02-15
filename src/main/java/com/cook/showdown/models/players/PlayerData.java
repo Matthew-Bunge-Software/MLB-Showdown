@@ -2,7 +2,7 @@ package com.cook.showdown.models.players;
 
 import java.util.Set;
 
-import com.cook.showdown.gamedata.StrategyCard;
+import com.cook.showdown.models.strategy.StrategyCard;
 
 
 /**

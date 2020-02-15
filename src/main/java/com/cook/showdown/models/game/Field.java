@@ -1,7 +1,10 @@
-package com.cook.showdown.gamedata;
+package com.cook.showdown.models.game;
 
 import java.util.*;
-import com.cook.showdown.players.*;
+
+import com.cook.showdown.models.players.HitterData;
+import com.cook.showdown.models.strategy.StrategyCard;
+import com.cook.showdown.services.LineupService;
 
 /**
  * A representation of the basepaths, IE who is on which base. Contains all the
@@ -223,7 +226,7 @@ public class Field {
 	 *            GameStat of the current game
 	 * @return The updated GameStat
 	 */
-	public GameStat groundout(LineupManager fielder, HitterData atBat, GameStat track) {
+	public GameStat groundout(LineupService fielder, HitterData atBat, GameStat track) {
 		track.yerOut();
 		if (checkOuts(track)) {
 			return track;

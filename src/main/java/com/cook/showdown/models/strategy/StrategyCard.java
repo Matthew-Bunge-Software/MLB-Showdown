@@ -1,4 +1,4 @@
-package com.cook.showdown.gamedata;
+package com.cook.showdown.models.strategy;
 
 import java.util.ArrayList;
 import java.io.*;

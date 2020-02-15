@@ -1,12 +1,12 @@
-package com.cook.showdown.gamedata;
+package com.cook.showdown.services;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-import com.cook.showdown.players.HitterData;
-import com.cook.showdown.players.PitcherData;
-import com.cook.showdown.players.PlayerData;
+import com.cook.showdown.models.players.HitterData;
+import com.cook.showdown.models.players.PitcherData;
+import com.cook.showdown.models.players.PlayerData;
 
 
 /**
@@ -18,7 +18,7 @@ import com.cook.showdown.players.PlayerData;
  *
  */
 
-public class DraftManager {
+public class DraftService {
 
 	private Map<String, PlayerData> pool;
 	private Map<String, PlayerData> drafted;
@@ -30,7 +30,7 @@ public class DraftManager {
 	 *            Map<String, PlayerData> containing playernames connected to
 	 *            players
 	 */
-	public DraftManager(Map<String, PlayerData> pool) {
+	public DraftService(Map<String, PlayerData> pool) {
 		this.pool = pool;
 		this.drafted = new TreeMap<String, PlayerData>();
 	}
@@ -51,7 +51,7 @@ public class DraftManager {
 	 *             if a bad file name is passed or if there is an formatting
 	 *             error in an input file
 	 */
-	public static DraftManager initializePool(File pitchers, File hitters) throws FileNotFoundException {
+	public static DraftService initializePool(File pitchers, File hitters) throws FileNotFoundException {
 		Map<String, PlayerData> pool = new TreeMap<String, PlayerData>();
 		Scanner processor = null;
 		PlayerData player;
@@ -83,7 +83,7 @@ public class DraftManager {
 			throw new IllegalArgumentException("You need at least 1 file in input");
 		}
 		processor.close();
-		return new DraftManager(pool);
+		return new DraftService(pool);
 	}
 
 	/**
@@ -95,7 +95,7 @@ public class DraftManager {
 	 *            The name of the player being drafted
 	 * @return The modified LineupManager including the newly drafted player
 	 */
-	public LineupManager draftPlayer(LineupManager soFar, String playerName) {
+	public LineupService draftPlayer(LineupService soFar, String playerName) {
 		if (!pool.containsKey(playerName)) {
 			throw new IllegalArgumentException("Player not in pool");
 		}

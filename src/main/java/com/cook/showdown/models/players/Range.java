@@ -1,4 +1,4 @@
-package com.cook.showdown.models;
+package com.cook.showdown.models.players;
 
 /**
  * A range represents the numbers from a roll plus an adjustment that will produce

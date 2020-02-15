@@ -1,12 +1,16 @@
-package com.cook.showdown.gamedata;
+package com.cook.showdown.services;
 
 import java.util.*;
 
-import com.cook.showdown.players.HitterData;
-import com.cook.showdown.players.PitcherData;
-import com.cook.showdown.players.PlayerData;
+import com.cook.showdown.models.game.Field;
+import com.cook.showdown.models.game.GameStat;
+import com.cook.showdown.models.players.HitterData;
+import com.cook.showdown.models.players.PitcherData;
+import com.cook.showdown.models.players.PlayerData;
+import com.cook.showdown.models.strategy.StrategyCard;
 
-public class GameManager {
+
+public class GameService {
 	
 	public enum ProgramState {
 		BeforePitch, AfterSwing, BeforeReroll, AfterReroll, BatterResolved, 
@@ -14,10 +18,10 @@ public class GameManager {
 	}
 	
 	private Field grass;
-	private LineupManager homeTeam;
-	private LineupManager awayTeam;
-	private LineupManager defense;
-	private LineupManager offense;
+	private LineupService homeTeam;
+	private LineupService awayTeam;
+	private LineupService defense;
+	private LineupService offense;
 	private GameStat gamestat;
 	StrategyCard scMan;
 	Random dice;
@@ -31,7 +35,7 @@ public class GameManager {
 	private String adv;
 	private boolean checkPassed;
 
-	public GameManager(LineupManager home, LineupManager away, StrategyCard scMan) {
+	public GameService(LineupService home, LineupService away, StrategyCard scMan) {
 		this.scMan = scMan;
 		grass = new Field();
 		dice = new Random();
@@ -116,7 +120,7 @@ public class GameManager {
 			if (gamestat.inningEnd()) {
 				StrategyCard.emit("IO");
 				grass.clear();
-				LineupManager temp = offense;
+				LineupService temp = offense;
 				offense = defense;
 				defense = temp;
 				offense.drawCard();
@@ -163,7 +167,7 @@ public class GameManager {
 		return adv;
 	}
 	
-	public void useStrategy(LineupManager user, String team, StrategyCard s) {
+	public void useStrategy(LineupService user, String team, StrategyCard s) {
 		if (user.getSCards().contains(s)) {
 			this.parsePostcondition(s.getPost(), offense, defense, team);
 		}
@@ -226,9 +230,9 @@ public class GameManager {
 		}
 	}
 
-	public boolean parsePostcondition(String s, LineupManager offense, LineupManager defense, String team) {
-		LineupManager user;
-		LineupManager enemy;
+	public boolean parsePostcondition(String s, LineupService offense, LineupService defense, String team) {
+		LineupService user;
+		LineupService enemy;
 		if (team.equals("offense")) {
 			user = offense;
 			enemy = defense;
@@ -359,15 +363,15 @@ public class GameManager {
 		return StrategyCard.getTokens().get(StrategyCard.getTokens().size() - 2).equals("IO");
 	}
 	
-	public LineupManager getAway() {
+	public LineupService getAway() {
 		return awayTeam;
 	}
 	
-	public LineupManager getHome() {
+	public LineupService getHome() {
 		return homeTeam;
 	}
 	
-	public LineupManager getDefense() {
+	public LineupService getDefense() {
 		return defense;
 	}
 	
@@ -394,7 +398,7 @@ public class GameManager {
 	 *            out
 	 * @return true in the case that the infield check passed, false otherwise
 	 */
-	private boolean infieldCheck(LineupManager teamOne, HitterData runner) {
+	private boolean infieldCheck(LineupService teamOne, HitterData runner) {
 		int total = dice.nextInt(20) + 1 + fieldMod;
 		for (int i = 3; i <= 6; i++) {
 			total += teamOne.getFielding(i);

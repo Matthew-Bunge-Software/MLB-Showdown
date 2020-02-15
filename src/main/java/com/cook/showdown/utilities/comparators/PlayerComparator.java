@@ -2,7 +2,7 @@ package com.cook.showdown.utilities.comparators;
 
 import java.util.Comparator;
 
-import com.cook.showdown.models.PlayerData;
+import com.cook.showdown.models.players.PlayerData;
 
 /**
  * A simple player comparator for the purposes of sorting PlayerDatas by

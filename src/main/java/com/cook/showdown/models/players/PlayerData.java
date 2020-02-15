@@ -1,4 +1,4 @@
-package com.cook.showdown.players;
+package com.cook.showdown.models.players;
 
 import java.util.Set;
 

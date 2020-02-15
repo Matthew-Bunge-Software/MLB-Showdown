@@ -1,6 +1,8 @@
-package com.cook.showdown.players;
+package com.cook.showdown.utilities.comparators;
 
 import java.util.Comparator;
+
+import com.cook.showdown.models.PlayerData;
 
 /**
  * A simple player comparator for the purposes of sorting PlayerDatas by

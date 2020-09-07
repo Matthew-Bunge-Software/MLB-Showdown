@@ -1,4 +1,4 @@
-package com.cook.showdown.models.players;
+package org.bunge.showdown.player;
 
 /**
  * An enumeration of all positions in a baseball lineup / on a baseball field.
@@ -11,10 +11,16 @@ package com.cook.showdown.models.players;
 
 public enum Position {
 
-	DesignatedHitter("Designated Hitter", "DH", 0), Pitcher("Pitcher", "P", 1), Catcher("Catcher", "C", 2), FirstBase(
-			"1st Baseman", "1B", 3), SecondBase("2nd Baseman", "2B", 4), ThirdBase("3rd Baseman", "3B",
-					5), Shortstop("Shortstop", "SS", 6), LeftField("Left Fielder", "LF",
-							7), CenterField("Center Fielder", "CF", 8), RightField("Right Fielder", "RF", 9);
+	DESIGNATED_HITTER("Designated Hitter", "DH", 0), 
+	PITCHER("Pitcher", "P", 1), 
+	CATCHER("Catcher", "C", 2), 
+	FIRST_BASE("1st Baseman", "1B", 3), 
+	SECOND_BASE("2nd Baseman", "2B", 4), 
+	THIRD_BASE("3rd Baseman", "3B", 5), 
+	SHORTSTOP("Shortstop", "SS", 6), 
+	LEFT_FIELD("Left Fielder", "LF", 7), 
+	CENTER_FIELD("Center Fielder", "CF", 8), 
+	RIGHT_FIELD("Right Fielder", "RF", 9);
 
 	private final String full;
 	private final String abbr;

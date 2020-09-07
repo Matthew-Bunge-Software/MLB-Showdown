@@ -1,12 +1,13 @@
-package com.cook.showdown.services;
+package org.bunge.showdown.draft;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-import com.cook.showdown.models.players.HitterData;
-import com.cook.showdown.models.players.PitcherData;
-import com.cook.showdown.models.players.PlayerData;
+import org.bunge.showdown.lineup.LineupService;
+import org.bunge.showdown.player.HitterData;
+import org.bunge.showdown.player.PitcherData;
+import org.bunge.showdown.player.PlayerData;
 
 
 /**

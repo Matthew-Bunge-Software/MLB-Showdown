@@ -1,4 +1,4 @@
-package com.cook.showdown.models.strategy;
+package org.bunge.showdown.strategy;
 
 import java.util.ArrayList;
 import java.io.*;

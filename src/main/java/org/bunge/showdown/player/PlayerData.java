@@ -1,8 +1,8 @@
-package com.cook.showdown.models.players;
+package org.bunge.showdown.player;
 
 import java.util.Set;
 
-import com.cook.showdown.models.strategy.StrategyCard;
+import org.bunge.showdown.strategy.StrategyCard;
 
 
 /**

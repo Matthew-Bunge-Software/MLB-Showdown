@@ -1,13 +1,13 @@
-package com.cook.showdown.services;
+package org.bunge.showdown.lineup;
 
 import java.io.*;
 import java.io.IOException;
 import java.util.*;
 
-import com.cook.showdown.models.players.HitterData;
-import com.cook.showdown.models.players.PitcherData;
-import com.cook.showdown.models.players.PlayerData;
-import com.cook.showdown.models.strategy.StrategyCard;
+import org.bunge.showdown.player.HitterData;
+import org.bunge.showdown.player.PitcherData;
+import org.bunge.showdown.player.PlayerData;
+import org.bunge.showdown.strategy.StrategyCard;
 
 
 public class LineupService {

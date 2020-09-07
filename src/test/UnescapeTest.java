@@ -1,4 +1,4 @@
-package com.cook.showdown;
+package org.bunge.showdown;
 
 public class UnescapeTest {
 

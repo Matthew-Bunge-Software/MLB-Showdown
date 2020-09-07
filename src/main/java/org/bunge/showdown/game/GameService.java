@@ -1,13 +1,12 @@
-package com.cook.showdown.services;
+package org.bunge.showdown.game;
 
 import java.util.*;
 
-import com.cook.showdown.models.game.Field;
-import com.cook.showdown.models.game.GameStat;
-import com.cook.showdown.models.players.HitterData;
-import com.cook.showdown.models.players.PitcherData;
-import com.cook.showdown.models.players.PlayerData;
-import com.cook.showdown.models.strategy.StrategyCard;
+import org.bunge.showdown.lineup.LineupService;
+import org.bunge.showdown.player.HitterData;
+import org.bunge.showdown.player.PitcherData;
+import org.bunge.showdown.player.PlayerData;
+import org.bunge.showdown.strategy.StrategyCard;
 
 
 public class GameService {

@@ -1,8 +1,6 @@
-package com.cook.showdown.utilities.comparators;
+package org.bunge.showdown.player;
 
 import java.util.Comparator;
-
-import com.cook.showdown.models.players.PlayerData;
 
 /**
  * A simple player comparator for the purposes of sorting PlayerDatas by

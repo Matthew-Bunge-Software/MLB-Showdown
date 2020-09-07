@@ -1,4 +1,4 @@
-package com.cook.showdown;
+package org.bunge.showdown;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

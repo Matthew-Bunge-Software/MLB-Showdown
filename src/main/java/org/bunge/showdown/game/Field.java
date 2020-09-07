@@ -1,10 +1,10 @@
-package com.cook.showdown.models.game;
+package org.bunge.showdown.game;
 
 import java.util.*;
 
-import com.cook.showdown.models.players.HitterData;
-import com.cook.showdown.models.strategy.StrategyCard;
-import com.cook.showdown.services.LineupService;
+import org.bunge.showdown.lineup.LineupService;
+import org.bunge.showdown.player.HitterData;
+import org.bunge.showdown.strategy.StrategyCard;
 
 /**
  * A representation of the basepaths, IE who is on which base. Contains all the
